@@ -1,0 +1,1683 @@
+2012-09-28 13:23:44 Error: [MissingControllerException] Controller class ~PuciController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-28 18:33:49 Error: [MissingControllerException] Controller class ~PuciController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-28 18:52:30 Error: [MissingControllerException] Controller class ~PuciController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-28 18:59:10 Error: [MissingControllerException] Controller class ~PuciController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-28 19:00:36 Error: [MissingControllerException] Controller class ~PuciController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-28 19:00:59 Error: [MissingControllerException] Controller class ~PuciController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-28 19:19:52 Error: [MissingControllerException] Controller class ~PuciController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-28 19:20:53 Error: [MissingControllerException] Controller class ~PuciController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-28 19:25:03 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-28 19:25:07 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-28 19:25:23 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-28 19:25:49 Error: [MissingViewException] View file "/Users/Puci/Sites/omast/app/View/Posts/index.ctp" is missing.
+#0 /Users/Puci/Sites/omast/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-28 19:26:20 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-01 11:45:21 Error: [MissingViewException] View file "/Users/Puci/Sites/omast/app/View/Posts/view.ctp" is missing.
+#0 /Users/Puci/Sites/omast/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-01 11:54:24 Error: [MissingActionException] Action PostsController::edit() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-01 17:14:17 Error: [MissingControllerException] Controller class StudentsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-01 17:14:30 Error: [MissingControllerException] Controller class StudentsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-01 17:14:45 Error: [MissingTableException] Table students for model Student was not found in datasource default.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1389): Model->schema()
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1375): Model->hasField('title', false)
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(863): Model->hasField(Array)
+#5 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(StudentsController), Object(CakeRequest))
+#7 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#8 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-10-02 14:53:11 Error: [MissingControllerException] Controller class AttendanceController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-02 14:53:23 Error: Fatal Error (4): parse error, expecting `T_STRING' in [/Users/Puci/Sites/omast/app/Model/Class.php, line 10]
+2012-10-02 14:53:23 Error: [FatalErrorException] parse error, expecting `T_STRING'
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 14:54:10 Error: Fatal Error (4): parse error, expecting `T_STRING' in [/Users/Puci/Sites/omast/app/Model/Class.php, line 10]
+2012-10-02 14:54:10 Error: [FatalErrorException] parse error, expecting `T_STRING'
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 14:57:00 Error: Fatal Error (4): parse error, expecting `T_STRING' in [/Users/Puci/Sites/omast/app/Model/Class.php, line 10]
+2012-10-02 14:57:00 Error: [FatalErrorException] parse error, expecting `T_STRING'
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 14:57:31 Error: Fatal Error (4): parse error, expecting `T_STRING' in [/Users/Puci/Sites/omast/app/Model/Class.php, line 10]
+2012-10-02 14:57:31 Error: [FatalErrorException] parse error, expecting `T_STRING'
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 14:57:39 Error: Fatal Error (4): parse error, expecting `T_STRING' in [/Users/Puci/Sites/omast/app/Model/Class.php, line 10]
+2012-10-02 14:57:39 Error: [FatalErrorException] parse error, expecting `T_STRING'
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 14:57:50 Error: Fatal Error (4): parse error, expecting `T_STRING' in [/Users/Puci/Sites/omast/app/Model/Class.php, line 10]
+2012-10-02 14:57:50 Error: [FatalErrorException] parse error, expecting `T_STRING'
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 14:58:47 Error: Fatal Error (4): parse error, expecting `T_STRING' in [/Users/Puci/Sites/omast/app/Model/Class.php, line 10]
+2012-10-02 14:58:47 Error: [FatalErrorException] parse error, expecting `T_STRING'
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 15:01:21 Error: [MissingControllerException] Controller class AddressController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-02 15:01:24 Error: [MissingViewException] View file "/Users/Puci/Sites/omast/app/View/Addresses/index.ctp" is missing.
+#0 /Users/Puci/Sites/omast/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AddressesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-02 15:02:14 Error: [MissingViewException] View file "/Users/Puci/Sites/omast/app/View/Addresses/index.ctp" is missing.
+#0 /Users/Puci/Sites/omast/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AddressesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-02 15:25:16 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-02 15:26:01 Error: Fatal Error (4): parse error, expecting `T_STRING' in [/Users/Puci/Sites/omast/app/Model/Class.php, line 10]
+2012-10-02 15:26:01 Error: [FatalErrorException] parse error, expecting `T_STRING'
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 15:26:21 Error: Fatal Error (4): parse error, expecting `T_STRING' in [/Users/Puci/Sites/omast/app/Model/Class.php, line 10]
+2012-10-02 15:26:21 Error: [FatalErrorException] parse error, expecting `T_STRING'
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 15:27:48 Error: Fatal Error (4): parse error, expecting `T_STRING' in [/Users/Puci/Sites/omast/app/Model/Class.php, line 10]
+2012-10-02 15:27:48 Error: [FatalErrorException] parse error, expecting `T_STRING'
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 15:33:54 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-02 15:35:18 Error: [MissingViewException] View file "/Users/Puci/Sites/omast/app/View/Attendances/index.ctp" is missing.
+#0 /Users/Puci/Sites/omast/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-02 16:19:14 Error: Fatal Error (4): parse error, expecting `','' or `';'' in [/Users/Puci/Sites/omast/app/Model/Student.php, line 20]
+2012-10-02 16:19:14 Error: [FatalErrorException] parse error, expecting `','' or `';''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 20, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 20, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:21:21 Error: Fatal Error (64): Cannot redeclare Attendance::$belongsTo in [/Users/Puci/Sites/omast/app/Model/Attendance.php, line 19]
+2012-10-02 16:21:21 Error: [FatalErrorException] Cannot redeclare Attendance::$belongsTo
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 19)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 19, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 19, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:27:55 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:27:55 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:28:36 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:28:36 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:28:40 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:28:40 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:33:40 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:33:40 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:38:42 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:38:42 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:38:47 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:38:47 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:38:52 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:38:52 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:39:01 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:39:01 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:39:08 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:39:08 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:39:13 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:39:13 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:39:16 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /Users/Puci/Sites/omast/app/Controller/PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-02 16:39:29 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:39:29 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:40:46 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:40:46 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:40:50 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /Users/Puci/Sites/omast/app/Controller/PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-02 16:45:33 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /Users/Puci/Sites/omast/app/Controller/PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-02 16:45:36 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#2 /Users/Puci/Sites/omast/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#3 /Users/Puci/Sites/omast/lib/Cake/View/Helper/FormHelper.php(438): FormHelper->_introspectModel('Post', 'fields')
+#4 /Users/Puci/Sites/omast/app/View/Posts/add.ctp(5): FormHelper->create('Post')
+#5 /Users/Puci/Sites/omast/lib/Cake/View/View.php(915): include('/Users/Puci/Sit...')
+#6 /Users/Puci/Sites/omast/lib/Cake/View/View.php(878): View->_evaluate('/Users/Puci/Sit...', Array)
+#7 /Users/Puci/Sites/omast/lib/Cake/View/View.php(470): View->_render('/Users/Puci/Sit...')
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-02 16:45:41 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:45:41 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:47:10 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:47:10 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:47:15 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:47:15 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 16:47:19 Error: Fatal Error (64): Cannot redeclare Grade::$hasMany in [/Users/Puci/Sites/omast/app/Model/Grade.php, line 17]
+2012-10-02 16:47:19 Error: [FatalErrorException] Cannot redeclare Grade::$hasMany
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 17:17:14 Error: [MissingActionException] Action PagesController::index() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-02 17:35:02 Error: [MissingActionException] Action Attendances::take() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(AttendancesController), Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-10-02 17:35:25 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/Puci/Sites/omast/app/Controller/AttendancesController.php, line 20]
+2012-10-02 17:35:25 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/Puci/Sit...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/Puci/Sit...', 20, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/Puci/Sit...', 20, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 17:35:59 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/Puci/Sites/omast/app/Controller/AttendancesController.php, line 23]
+2012-10-02 17:35:59 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/Puci/Sit...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/Puci/Sit...', 23, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/Puci/Sit...', 23, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 17:36:32 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/Puci/Sites/omast/app/Controller/AttendancesController.php, line 23]
+2012-10-02 17:36:32 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/Puci/Sit...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/Puci/Sit...', 23, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/Puci/Sit...', 23, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 19:28:24 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Attendances/take.ctp, line 27]
+2012-10-02 19:28:24 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 27, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 27, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 19:59:00 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/Controller/AttendancesController.php, line 34]
+2012-10-02 19:59:00 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 34, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 34, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 19:59:04 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/Controller/AttendancesController.php, line 34]
+2012-10-02 19:59:04 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 34, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 34, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-02 23:11:02 Error: Fatal Error (1): Call to undefined function now() in [/Users/Puci/Sites/omast/app/View/Attendances/take.ctp, line 29]
+2012-10-02 23:11:02 Error: [FatalErrorException] Call to undefined function now()
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/Puci/Sit...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/Puci/Sit...', 29, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/Puci/Sit...', 29, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 11:07:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-03 11:08:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-03 11:09:33 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/Puci/Sites/omast/app/View/Attendances/take.ctp, line 41]
+2012-10-03 11:09:33 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 41, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 41, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 11:10:05 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Attendances/take.ctp, line 41]
+2012-10-03 11:10:05 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 41, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 41, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 11:10:29 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-03 11:11:01 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Attendances/take.ctp, line 45]
+2012-10-03 11:11:01 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 45, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 45, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 11:11:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-03 11:12:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-03 11:13:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-03 11:13:33 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-03 11:17:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-03 11:18:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-03 11:18:29 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-03 12:33:21 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/Controller/AttendancesController.php, line 35]
+2012-10-03 12:33:21 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 35, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 35, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 13:31:48 Error: [MissingControllerException] Controller class AttendanceController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-03 14:41:41 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/Puci/Sites/omast/app/Model/Student.php, line 22]
+2012-10-03 14:41:41 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 14:42:38 Error: Fatal Error (4): parse error, expecting `T_VARIABLE' or `'$'' in [/Users/Puci/Sites/omast/app/View/Attendances/take.ctp, line 45]
+2012-10-03 14:42:38 Error: [FatalErrorException] parse error, expecting `T_VARIABLE' or `'$''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 45, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 45, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 14:43:37 Error: Fatal Error (4): parse error, expecting `T_VARIABLE' or `'$'' in [/Users/Puci/Sites/omast/app/View/Attendances/take.ctp, line 45]
+2012-10-03 14:43:37 Error: [FatalErrorException] parse error, expecting `T_VARIABLE' or `'$''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 45, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 45, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 14:46:51 Error: Fatal Error (4): parse error, expecting `T_VARIABLE' or `'$'' in [/Users/Puci/Sites/omast/app/Controller/AttendancesController.php, line 52]
+2012-10-03 14:46:51 Error: [FatalErrorException] parse error, expecting `T_VARIABLE' or `'$''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 52, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 52, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 14:47:54 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/Puci/Sites/omast/app/Model/Student.php, line 22]
+2012-10-03 14:47:54 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 14:48:40 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/Puci/Sites/omast/app/Model/Student.php, line 22]
+2012-10-03 14:48:40 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 14:50:57 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/Puci/Sites/omast/app/Model/Student.php, line 22]
+2012-10-03 14:50:57 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 14:50:59 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/Puci/Sites/omast/app/Model/Student.php, line 22]
+2012-10-03 14:50:59 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 15:00:36 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/Puci/Sites/omast/app/Model/Student.php, line 22]
+2012-10-03 15:00:36 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 22, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 15:03:04 Error: Fatal Error (4): parse error, expecting `','' or `';'' in [/Users/Puci/Sites/omast/app/View/Attendances/take.ctp, line 69]
+2012-10-03 15:03:04 Error: [FatalErrorException] parse error, expecting `','' or `';''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 69, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 69, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-03 15:03:13 Error: Fatal Error (4): parse error, expecting `','' or `';'' in [/Users/Puci/Sites/omast/app/View/Attendances/take.ctp, line 69]
+2012-10-03 15:03:13 Error: [FatalErrorException] parse error, expecting `','' or `';''
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/Puci/Sit...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/Puci/Sit...', 69, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/Puci/Sit...', 69, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-09 09:26:13 Error: [MissingControllerException] Controller class ~PuciController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 09:45:00 Error: [MissingControllerException] Controller class ~PuciController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-11 11:42:37 Error: [MissingActionException] Action HomeController::index() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-11 11:52:29 Error: [MissingActionException] Action HomeController::start() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-11 18:53:13 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Layouts/default.ctp, line 31]
+2012-10-11 18:53:13 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-11 18:53:58 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Layouts/default.ctp, line 31]
+2012-10-11 18:53:58 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-11 18:54:05 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Layouts/default.ctp, line 31]
+2012-10-11 18:54:05 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-11 18:54:49 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Layouts/default.ctp, line 31]
+2012-10-11 18:54:49 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-11 18:55:21 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Layouts/default.ctp, line 31]
+2012-10-11 18:55:21 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-11 18:56:13 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Layouts/default.ctp, line 31]
+2012-10-11 18:56:13 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 31, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 16:30:57 Error: [MissingActionException] Action Schools::classes() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-10-12 16:31:29 Error: [MissingActionException] Action Schools::classes() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-10-12 16:34:14 Error: [MissingActionException] Action Schools::classes() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-10-12 16:42:13 Error: [MissingActionException] Action Schools::classes() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-10-12 16:42:16 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:42:22 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-12 16:42:43 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-12 16:42:43 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Elements/topbar.ctp, line 17]
+2012-10-12 16:42:43 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 16:42:45 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:42:45 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Elements/topbar.ctp, line 17]
+2012-10-12 16:42:45 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 16:42:47 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:42:47 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Elements/topbar.ctp, line 17]
+2012-10-12 16:42:47 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 16:42:59 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:43:08 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:44:18 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:44:18 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Elements/topbar.ctp, line 17]
+2012-10-12 16:44:18 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 16:44:34 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:44:34 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Elements/topbar.ctp, line 17]
+2012-10-12 16:44:34 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 16:44:34 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:44:34 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Elements/topbar.ctp, line 17]
+2012-10-12 16:44:34 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 16:44:36 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:44:36 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/omast/app/View/Elements/topbar.ctp, line 17]
+2012-10-12 16:44:36 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/omast/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 17, Array)
+#3 /Users/Puci/Sites/omast/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 16:44:47 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:44:50 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:44:53 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-12 16:44:55 Error: [NotFoundException] Invalid Student
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(StudentsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:44:56 Error: [MissingControllerException] Controller class TeachersController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-12 16:44:57 Error: [NotFoundException] Invalid Student
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(StudentsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:45:01 Error: [MissingControllerException] Controller class TeachersController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-12 16:45:02 Error: [MissingControllerException] Controller class EducatorsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-12 16:45:03 Error: [NotFoundException] Invalid School
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(SchoolsController), Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-10-12 16:45:30 Error: [MissingControllerException] Controller class TeachersController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-13 09:07:06 Error: [MissingActionException] Action Attendances::index.html() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(AttendancesController), Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-10-16 17:18:44 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 17:18:47 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 17:22:03 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 17:24:59 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 17:25:45 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 17:27:12 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:22:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:23:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:23:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:23:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:24:37 Error: [MissingControllerException] Controller class TeachersController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:24:38 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:30:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:32:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:33:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:34:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:36:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:40:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:41:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:43:20 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:44:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:50:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:50:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:54:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:54:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:54:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:55:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:55:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-16 18:55:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-17 11:32:28 Error: [MissingActionException] Action Attendances::index.html() could not be found.
+#0 /Users/Puci/Sites/omast/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(AttendancesController), Object(CakeRequest))
+#2 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-10-17 13:33:14 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-17 15:54:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-17 17:18:11 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-17 20:53:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-17 22:03:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-17 23:25:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-18 08:31:10 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-18 12:44:21 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-18 13:58:34 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-18 15:31:54 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-18 16:43:10 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-18 18:11:04 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-18 19:45:29 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-18 21:40:56 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-19 09:21:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-19 10:32:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-19 11:46:52 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-19 14:27:25 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-20 02:12:56 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-20 08:53:10 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-21 20:41:18 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-21 22:57:52 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-22 09:26:56 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-22 10:53:54 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-22 11:55:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/app/Controller/AttendancesController.php(53): Model->find('all')
+#7 [internal function]: AttendancesController->take()
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AttendancesController), Array)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-25 12:31:40 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-25 12:31:41 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-25 12:32:08 Error: [MissingControllerException] Controller class EducatorsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-25 12:32:09 Error: [MissingControllerException] Controller class TeachersController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-06 12:12:21 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-06 12:12:37 Error: [MissingControllerException] Controller class EducatorsController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-06 12:12:38 Error: [MissingControllerException] Controller class TeachersController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-06 14:57:49 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-06 15:34:34 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-06 16:08:09 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 16:46:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#5 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#6 /Users/Puci/Sites/omast/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#7 /Users/Puci/Sites/omast/lib/Cake/View/Helper/FormHelper.php(438): FormHelper->_introspectModel('Post', 'fields')
+#8 /Users/Puci/Sites/omast/app/View/Posts/add.ctp(5): FormHelper->create('Post')
+#9 /Users/Puci/Sites/omast/lib/Cake/View/View.php(915): include('/Users/Puci/Sit...')
+#10 /Users/Puci/Sites/omast/lib/Cake/View/View.php(878): View->_evaluate('/Users/Puci/Sit...', Array)
+#11 /Users/Puci/Sites/omast/lib/Cake/View/View.php(470): View->_render('/Users/Puci/Sit...')
+#12 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#13 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#15 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-15 16:47:21 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#1 /Users/Puci/Sites/omast/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#2 /Users/Puci/Sites/omast/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#3 /Users/Puci/Sites/omast/lib/Cake/View/Helper/FormHelper.php(438): FormHelper->_introspectModel('Post', 'fields')
+#4 /Users/Puci/Sites/omast/app/View/Posts/add.ctp(5): FormHelper->create('Post')
+#5 /Users/Puci/Sites/omast/lib/Cake/View/View.php(915): include('/Users/Puci/Sit...')
+#6 /Users/Puci/Sites/omast/lib/Cake/View/View.php(878): View->_evaluate('/Users/Puci/Sit...', Array)
+#7 /Users/Puci/Sites/omast/lib/Cake/View/View.php(470): View->_render('/Users/Puci/Sit...')
+#8 /Users/Puci/Sites/omast/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#9 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/Puci/Sites/omast/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/omast/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-19 14:43:46 Error: [MissingControllerException] Controller class ClassController could not be found.
+#0 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-20 16:53:44 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(3179): Model->setSource('students')
+#5 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#6 /Users/Puci/Sites/educare/lib/Cake/Controller/Scaffold.php(136): Model->schema()
+#7 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(StudentsController), Object(CakeRequest))
+#8 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#9 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-20 16:53:48 Error: [MissingControllerException] Controller class TeachersController could not be found.
+#0 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 12:52:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Grade.descrizione' in 'field list'
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Grade`....', Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Grade`....', Array, Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Grade`....', false)
+#4 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Grade), Array)
+#5 /Users/Puci/Sites/educare/lib/Cake/Controller/Scaffold.php(273): Model->find('list')
+#6 /Users/Puci/Sites/educare/lib/Cake/Controller/Scaffold.php(395): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#7 /Users/Puci/Sites/educare/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#8 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(StudentsController), Object(CakeRequest))
+#9 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#10 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-11-22 12:54:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Grade.descrizione' in 'field list'
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Grade`....', Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Grade`....', Array, Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Grade`....', false)
+#4 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Grade), Array)
+#5 /Users/Puci/Sites/educare/lib/Cake/Controller/Scaffold.php(273): Model->find('list')
+#6 /Users/Puci/Sites/educare/lib/Cake/Controller/Scaffold.php(395): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#7 /Users/Puci/Sites/educare/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#8 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(StudentsController), Object(CakeRequest))
+#9 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#10 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-11-22 12:57:09 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 12:57:15 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 12:58:35 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 12:58:40 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 13:12:51 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/educare/app/Controller/StudentsController.php, line 10]
+2012-11-22 13:12:51 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/educare/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-22 13:12:58 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/educare/app/Controller/StudentsController.php, line 10]
+2012-11-22 13:12:58 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/educare/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-22 13:14:28 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/educare/app/Controller/StudentsController.php, line 10]
+2012-11-22 13:14:28 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/educare/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-22 13:14:41 Error: Fatal Error (4): parse error in [/Users/Puci/Sites/educare/app/Controller/StudentsController.php, line 10]
+2012-11-22 13:14:41 Error: [FatalErrorException] parse error
+#0 /Users/Puci/Sites/educare/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/Puci/Sit...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/Puci/Sit...', 10, Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/Puci/Sit...', 10, Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-22 15:28:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`educare`.`students`, CONSTRAINT `students_ibfk_1` FOREIGN KEY (`grade_id`) REFERENCES `grades` (`id`) ON DELETE NO ACTION)
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `ed...', Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `ed...')
+#3 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Student), Array, Array)
+#4 /Users/Puci/Sites/educare/app/Controller/StudentsController.php(9): Model->save(Array)
+#5 [internal function]: StudentsController->add()
+#6 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-22 15:53:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`educare`.`students`, CONSTRAINT `students_ibfk_1` FOREIGN KEY (`grade_id`) REFERENCES `grades` (`id`) ON DELETE NO ACTION)
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `ed...', Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `ed...')
+#3 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Student), Array, Array)
+#4 /Users/Puci/Sites/educare/app/Controller/StudentsController.php(16): Model->save(Array)
+#5 [internal function]: StudentsController->add()
+#6 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-27 16:31:21 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 16:35:52 Error: [MissingActionException] Action AppController::View() could not be found.
+#0 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-27 16:47:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/Puci/Sites/educare/app/Controller/SchoolsController.php, line 20]
+2012-11-27 16:47:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/Puci/Sites/educare/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/Puci/Sit...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/Puci/Sit...', 20, Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/Puci/Sit...', 20, Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 12:02:15 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 12:32:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'course_code' cannot be null
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `ed...', Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `ed...')
+#3 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Grade), Array, Array)
+#4 /Users/Puci/Sites/educare/app/Controller/GradesController.php(31): Model->save(Array)
+#5 [internal function]: GradesController->add()
+#6 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GradesController), Array)
+#7 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GradesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 12:32:12 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`educare`.`grades`, CONSTRAINT `grade_ibfk_1` FOREIGN KEY (`school_id`) REFERENCES `schools` (`id`) ON DELETE NO ACTION)
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `ed...', Array)
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `ed...')
+#3 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Grade), Array, Array)
+#4 /Users/Puci/Sites/educare/app/Controller/GradesController.php(31): Model->save(Array)
+#5 [internal function]: GradesController->add()
+#6 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GradesController), Array)
+#7 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GradesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 12:38:11 Error: [MissingTableException] Table contact1s for model Contact1 was not found in datasource default.
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(3179): Model->setSource('contact1s')
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1066): Model->getDataSource()
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Student), Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#4 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(1081): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /Users/Puci/Sites/educare/app/Controller/StudentsController.php(17): Controller->paginate()
+#6 [internal function]: StudentsController->index()
+#7 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#8 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-28 12:38:15 Error: [MissingTableException] Table contact1s for model Contact1 was not found in datasource default.
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(3179): Model->setSource('contact1s')
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1066): Model->getDataSource()
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Student), Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#4 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(1081): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /Users/Puci/Sites/educare/app/Controller/StudentsController.php(17): Controller->paginate()
+#6 [internal function]: StudentsController->index()
+#7 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#8 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-28 12:38:26 Error: [MissingControllerException] Controller class ClassesController could not be found.
+#0 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 12:39:05 Error: [MissingTableException] Table contact1s for model Contact1 was not found in datasource default.
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(3179): Model->setSource('contact1s')
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1066): Model->getDataSource()
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Student), Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#4 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(1081): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /Users/Puci/Sites/educare/app/Controller/StudentsController.php(17): Controller->paginate()
+#6 [internal function]: StudentsController->index()
+#7 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#8 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-12-03 14:35:32 Error: [MissingActionException] Action AttendancesController::take() could not be found.
+#0 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AttendancesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-03 14:40:04 Error: [MissingTableException] Table contact1s for model Contact1 was not found in datasource default.
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(3179): Model->setSource('contact1s')
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1066): Model->getDataSource()
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Student), Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#4 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(1081): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /Users/Puci/Sites/educare/app/Controller/StudentsController.php(17): Controller->paginate()
+#6 [internal function]: StudentsController->index()
+#7 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#8 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-12-03 15:14:25 Error: [MissingTableException] Table contact1s for model Contact1 was not found in datasource default.
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(3179): Model->setSource('contact1s')
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1066): Model->getDataSource()
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Student), Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#4 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(1081): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /Users/Puci/Sites/educare/app/Controller/StudentsController.php(17): Controller->paginate()
+#6 [internal function]: StudentsController->index()
+#7 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#8 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-12-03 15:15:56 Error: [MissingActionException] Action SchoolsController::contacts() could not be found.
+#0 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchoolsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-03 15:17:20 Error: [MissingTableException] Table contact1s for model Contact1 was not found in datasource default.
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(3179): Model->setSource('contact1s')
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1066): Model->getDataSource()
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Student), Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#4 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(1081): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /Users/Puci/Sites/educare/app/Controller/StudentsController.php(17): Controller->paginate()
+#6 [internal function]: StudentsController->index()
+#7 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#8 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-12-03 15:17:53 Error: [MissingActionException] Action StudentsController::inex() could not be found.
+#0 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-03 15:17:56 Error: [MissingTableException] Table contact1s for model Contact1 was not found in datasource default.
+#0 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(3179): Model->setSource('contact1s')
+#1 /Users/Puci/Sites/educare/lib/Cake/Model/Datasource/DboSource.php(1066): Model->getDataSource()
+#2 /Users/Puci/Sites/educare/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Student), Array)
+#3 /Users/Puci/Sites/educare/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#4 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(1081): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /Users/Puci/Sites/educare/app/Controller/StudentsController.php(17): Controller->paginate()
+#6 [internal function]: StudentsController->index()
+#7 /Users/Puci/Sites/educare/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#8 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/Puci/Sites/educare/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/Puci/Sites/educare/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

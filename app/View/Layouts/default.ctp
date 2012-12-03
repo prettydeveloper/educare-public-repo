@@ -60,10 +60,10 @@ $cakeDescription = __d('cake_dev', 'EduC@re');
 			<?php echo $this->Session->flash(); ?>
 			<div class="row-fluid">
 				<!-- SIDEBAR -->
-				<?php echo $this->element('sidebar', array('title' => $cakeDescription)); ?>
+				<!--?php echo $this->element('sidebar', array('title' => $cakeDescription)); ?-->
 				<!-- /SIDEBAR -->
 				<!-- MAIN CONTENT -->
-				<div class="span9">
+				<div class="span12">
 					<?php echo $this->fetch('content'); ?>
 				</div><!--/span9-->
 				<!-- /MAIN CONTENT -->

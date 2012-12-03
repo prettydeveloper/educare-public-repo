@@ -22,20 +22,20 @@
               </li>
               <li>
                 <?php echo $this->Html->link('Classi',
-    			array('controller' => 'classes', 'action' => ''));?>
+    			array('controller' => 'grades', 'action' => ''));?>
               </li>
               <li>
                 <?php echo $this->Html->link('Studenti',
     			array('controller' => 'students', 'action' => ''));?>
               </li>
-              <li>
+              <!--<li>
                 <?php echo $this->Html->link('Insegnanti',
     			array('controller' => 'teachers', 'action' => ''));?>
               </li>
               <li>
                 <?php echo $this->Html->link('Educatori',
     			array('controller' => 'educators', 'action' => ''));?>
-              </li>
+              </li>-->
               <li>
                 <?php echo $this->Html->link('Amministrazione',
     			array('controller' => 'admin', 'action' => ''));?>

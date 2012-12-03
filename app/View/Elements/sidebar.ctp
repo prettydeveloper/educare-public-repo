@@ -1,7 +1,7 @@
-<div class="span3">
+<div class="span2">
   <div class="well sidebar-nav">
     <ul class="nav nav-list">
-      <li class="nav-header">Sidebar</li>
+      <li class="nav-header">Menu</li>
       <li class="active"><a href="#">Link</a></li>
       <li>
         <ul>
