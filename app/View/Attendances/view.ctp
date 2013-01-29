@@ -6,9 +6,9 @@
 			<?php echo h($attendance['Attendance']['id']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Student Attendance'); ?></dt>
+		<dt><?php echo __('Student'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($attendance['StudentAttendance']['first_name'], array('controller' => 'students', 'action' => 'view', $attendance['StudentAttendance']['id'])); ?>
+			<?php echo $this->Html->link($attendance['Student']['id'], array('controller' => 'students', 'action' => 'view', $attendance['Student']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Attendance Date'); ?></dt>
@@ -16,9 +16,9 @@
 			<?php echo h($attendance['Attendance']['attendance_date']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Grade Attendance'); ?></dt>
+		<dt><?php echo __('Grade'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($attendance['GradeAttendance']['grade_code'], array('controller' => 'grades', 'action' => 'view', $attendance['GradeAttendance']['id'])); ?>
+			<?php echo $this->Html->link($attendance['Grade']['id'], array('controller' => 'grades', 'action' => 'view', $attendance['Grade']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Present'); ?></dt>
@@ -86,8 +86,8 @@
 		<li><?php echo $this->Html->link(__('List Attendances'), array('action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Attendance'), array('action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Students'), array('controller' => 'students', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Student Attendance'), array('controller' => 'students', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Student'), array('controller' => 'students', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Grades'), array('controller' => 'grades', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Grade Attendance'), array('controller' => 'grades', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Grade'), array('controller' => 'grades', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

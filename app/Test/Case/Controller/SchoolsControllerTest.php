@@ -15,8 +15,9 @@ class SchoolsControllerTest extends ControllerTestCase {
 	public $fixtures = array(
 		'app.school',
 		'app.grade',
+		'app.attendance',
 		'app.student',
-		'app.attendance'
+		'app.contact'
 	);
 
 /**

@@ -9,7 +9,7 @@
           <a class="brand" href="/"><?php echo $title; ?></a>
           <div class="nav-collapse collapse">
           	<p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
+              <?php echo $this->Session->read('Auth.User.username') ?> <i class="icon-off icon-white"></i> <?php echo $this->Html->link('Logout', array('controller' => 'users', 'action' => 'logout'));?>
             </p>
             <ul class="nav">
               <li class="active">

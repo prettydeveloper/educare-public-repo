@@ -8,10 +8,14 @@
 		echo $this->Form->input('middle_name');
 		echo $this->Form->input('last_name');
 		echo $this->Form->input('grade_id');
-		echo $this->Form->input('contact_id');
 		echo $this->Form->input('date_of_birth');
-		echo $this->Form->input('contact_1_id');
-		echo $this->Form->input('contact_2_id');
+		echo $this->Form->input('address');
+		echo $this->Form->input('zipcode');
+		echo $this->Form->input('city');
+		echo $this->Form->input('state');
+		echo $this->Form->input('phone_number_1');
+		echo $this->Form->input('phone_number_2');
+		echo $this->Form->input('phone_number_3');
 		echo $this->Form->input('trashed');
 		echo $this->Form->input('created_by');
 		echo $this->Form->input('modified_by');
@@ -30,6 +34,6 @@
 		<li><?php echo $this->Html->link(__('List Grades'), array('controller' => 'grades', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Grade'), array('controller' => 'grades', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Attendances'), array('controller' => 'attendances', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Today Attendance'), array('controller' => 'attendances', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Attendance'), array('controller' => 'attendances', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

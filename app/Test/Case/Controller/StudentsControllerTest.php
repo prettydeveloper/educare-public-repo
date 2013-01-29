@@ -16,7 +16,6 @@ class StudentsControllerTest extends ControllerTestCase {
 		'app.student',
 		'app.grade',
 		'app.school',
-		'app.contact',
 		'app.attendance'
 	);
 

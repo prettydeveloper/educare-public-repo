@@ -55,6 +55,7 @@
         //debug($[students]);
         $i = $j = 0; 
         foreach ($students as $student):
+
             // campi nascosti per salvare l'id dello studente e la data
             echo $this->Form->hidden('Attendance.'.$i.'.student_id', array('default' => $student['Student']['id'])); 
             echo $this->Form->hidden('Attendance.'.$i.'.grade_id', array('default' => $student['Student']['grade_id'])); 
@@ -65,7 +66,7 @@
             <tr <?php echo 'id=student'.$i?> >
                 <td><?php echo $student['Student']['first_name']; ?></td>
                 <td><?php echo $student['Student']['last_name']; ?></td>
-                <td><?php echo $student['Grade']['descrizione'].' '.$student['Grade']['numero'].$student['Grade']['sezione'] ; ?></td>
+                <td><?php echo $student['Grade']['grade_number'].$student['Grade']['grade_code'] ; ?></td>
                 <td class='absent'>
                     <?php echo $this->Form->checkbox('Attendance.'.$i.'.absent', 
                         array(  'onClick' => 'javascript:checkAbsence(\''.$i.'\')', 

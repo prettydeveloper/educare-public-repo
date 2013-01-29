@@ -47,9 +47,9 @@ class AttendancesController extends AppController {
 				$this->Session->setFlash(__('The attendance could not be saved. Please, try again.'));
 			}
 		}
-		$studentAttendances = $this->Attendance->StudentAttendance->find('list');
-		$gradeAttendances = $this->Attendance->GradeAttendance->find('list');
-		$this->set(compact('studentAttendances', 'gradeAttendances'));
+		$students = $this->Attendance->Student->find('list');
+		$grades = $this->Attendance->Grade->find('list');
+		$this->set(compact('students', 'grades'));
 	}
 
 /**
@@ -74,9 +74,9 @@ class AttendancesController extends AppController {
 		} else {
 			$this->request->data = $this->Attendance->read(null, $id);
 		}
-		$studentAttendances = $this->Attendance->StudentAttendance->find('list');
-		$gradeAttendances = $this->Attendance->GradeAttendance->find('list');
-		$this->set(compact('studentAttendances', 'gradeAttendances'));
+		$students = $this->Attendance->Student->find('list');
+		$grades = $this->Attendance->Grade->find('list');
+		$this->set(compact('students', 'grades'));
 	}
 
 /**
@@ -102,4 +102,41 @@ class AttendancesController extends AppController {
 		$this->Session->setFlash(__('Attendance was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
+
+	/**
+	 * take method
+	 *
+	 * @throws NotFoundException
+	 * @param string $id
+	 * @return void
+	 */
+
+	public function take() {
+			// Has any form data been POSTed?
+		    if ($this->request->is('post')) {
+		        // If the form data can be validated and saved...
+		        $this->Attendance->create();
+
+		        foreach ($this->request->data['Attendance'] as $attendance): 
+		        	if( $attendance['absent'] == true || $attendance['late'] == true)
+		        		$this->Attendance->save($attendance);
+		        	else if( $attendance['absent'] == false && $attendance['late'] == false )
+		        		$this->Attendance->delete($attendance);
+		        endforeach;
+
+		        //if ($this->Attendance->saveMany($this->request->data['Attendance'], array('Attendance.absent' => true))) {
+
+		            // Set a session flash message and redirect.
+		            // debug($this->request->data, true , true);
+		            $this->Session->setFlash('Presenze salvate!');
+		            //$this->redirect('/attendances/take');
+		        //}
+		    }
+
+		    // If no form data, find the students with attendance to be edited
+		    // and hand it to the view.
+		    $this->loadModel('Student');
+		    $this->set('students', $this->Student->find('all'));
+	}
+
 }

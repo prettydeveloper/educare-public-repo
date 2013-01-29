@@ -7,10 +7,14 @@
 			<th><?php echo $this->Paginator->sort('middle_name'); ?></th>
 			<th><?php echo $this->Paginator->sort('last_name'); ?></th>
 			<th><?php echo $this->Paginator->sort('grade_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('contact_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('date_of_birth'); ?></th>
-			<th><?php echo $this->Paginator->sort('contact_1_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('contact_2_id'); ?></th>
+			<th><?php echo $this->Paginator->sort('address'); ?></th>
+			<th><?php echo $this->Paginator->sort('zipcode'); ?></th>
+			<th><?php echo $this->Paginator->sort('city'); ?></th>
+			<th><?php echo $this->Paginator->sort('state'); ?></th>
+			<th><?php echo $this->Paginator->sort('phone_number_1'); ?></th>
+			<th><?php echo $this->Paginator->sort('phone_number_2'); ?></th>
+			<th><?php echo $this->Paginator->sort('phone_number_3'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
 			<th><?php echo $this->Paginator->sort('trashed'); ?></th>
@@ -30,10 +34,14 @@
 		<td>
 			<?php echo $this->Html->link($student['Grade']['id'], array('controller' => 'grades', 'action' => 'view', $student['Grade']['id'])); ?>
 		</td>
-		<td><?php echo h($student['Student']['contact_id']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['date_of_birth']); ?>&nbsp;</td>
-		<td><?php echo h($student['Student']['contact_1_id']); ?>&nbsp;</td>
-		<td><?php echo h($student['Student']['contact_2_id']); ?>&nbsp;</td>
+		<td><?php echo h($student['Student']['address']); ?>&nbsp;</td>
+		<td><?php echo h($student['Student']['zipcode']); ?>&nbsp;</td>
+		<td><?php echo h($student['Student']['city']); ?>&nbsp;</td>
+		<td><?php echo h($student['Student']['state']); ?>&nbsp;</td>
+		<td><?php echo h($student['Student']['phone_number_1']); ?>&nbsp;</td>
+		<td><?php echo h($student['Student']['phone_number_2']); ?>&nbsp;</td>
+		<td><?php echo h($student['Student']['phone_number_3']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['created']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['modified']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['trashed']); ?>&nbsp;</td>
@@ -71,6 +79,6 @@
 		<li><?php echo $this->Html->link(__('List Grades'), array('controller' => 'grades', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Grade'), array('controller' => 'grades', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Attendances'), array('controller' => 'attendances', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Today Attendance'), array('controller' => 'attendances', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Attendance'), array('controller' => 'attendances', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

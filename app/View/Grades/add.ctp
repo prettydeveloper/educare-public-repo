@@ -6,7 +6,7 @@
 		echo $this->Form->input('school_id');
 		echo $this->Form->input('grade_number');
 		echo $this->Form->input('grade_code');
-		echo $this->Form->input('course_code');
+		echo $this->Form->input('course_code_id');
 		echo $this->Form->input('trashed');
 		echo $this->Form->input('created_by');
 		echo $this->Form->input('modified_by');
@@ -23,6 +23,10 @@
 		<li><?php echo $this->Html->link(__('List Grades'), array('action' => 'index')); ?></li>
 		<li><?php echo $this->Html->link(__('List Schools'), array('controller' => 'schools', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New School'), array('controller' => 'schools', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Course Codes'), array('controller' => 'course_codes', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Course Code'), array('controller' => 'course_codes', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Attendances'), array('controller' => 'attendances', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Attendance'), array('controller' => 'attendances', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Students'), array('controller' => 'students', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Student'), array('controller' => 'students', 'action' => 'add')); ?> </li>
 	</ul>

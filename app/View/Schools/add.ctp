@@ -5,7 +5,12 @@
 	<?php
 		echo $this->Form->input('name');
 		echo $this->Form->input('school_code');
-		echo $this->Form->input('contact_id');
+		echo $this->Form->input('address');
+		echo $this->Form->input('zipcode');
+		echo $this->Form->input('city');
+		echo $this->Form->input('state');
+		echo $this->Form->input('phone_number_1');
+		echo $this->Form->input('phone_number_2');
 		echo $this->Form->input('trashed');
 		echo $this->Form->input('created_by');
 		echo $this->Form->input('modified_by');

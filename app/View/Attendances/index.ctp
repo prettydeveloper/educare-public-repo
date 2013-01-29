@@ -24,11 +24,11 @@
 	<tr>
 		<td><?php echo h($attendance['Attendance']['id']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($attendance['StudentAttendance']['first_name'], array('controller' => 'students', 'action' => 'view', $attendance['StudentAttendance']['id'])); ?>
+			<?php echo $this->Html->link($attendance['Student']['id'], array('controller' => 'students', 'action' => 'view', $attendance['Student']['id'])); ?>
 		</td>
 		<td><?php echo h($attendance['Attendance']['attendance_date']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($attendance['GradeAttendance']['grade_code'], array('controller' => 'grades', 'action' => 'view', $attendance['GradeAttendance']['id'])); ?>
+			<?php echo $this->Html->link($attendance['Grade']['id'], array('controller' => 'grades', 'action' => 'view', $attendance['Grade']['id'])); ?>
 		</td>
 		<td><?php echo h($attendance['Attendance']['present']); ?>&nbsp;</td>
 		<td><?php echo h($attendance['Attendance']['absent']); ?>&nbsp;</td>
@@ -69,8 +69,8 @@
 	<ul>
 		<li><?php echo $this->Html->link(__('New Attendance'), array('action' => 'add')); ?></li>
 		<li><?php echo $this->Html->link(__('List Students'), array('controller' => 'students', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Student Attendance'), array('controller' => 'students', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Student'), array('controller' => 'students', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Grades'), array('controller' => 'grades', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Grade Attendance'), array('controller' => 'grades', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Grade'), array('controller' => 'grades', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

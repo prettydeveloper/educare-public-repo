@@ -181,3 +181,7 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+/** ACL PLUGIN for authentication e access control list */
+CakePlugin::load('AclExtras');
+

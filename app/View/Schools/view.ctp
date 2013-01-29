@@ -16,9 +16,34 @@
 			<?php echo h($school['School']['school_code']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Contact Id'); ?></dt>
+		<dt><?php echo __('Address'); ?></dt>
 		<dd>
-			<?php echo h($school['School']['contact_id']); ?>
+			<?php echo h($school['School']['address']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Zipcode'); ?></dt>
+		<dd>
+			<?php echo h($school['School']['zipcode']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('City'); ?></dt>
+		<dd>
+			<?php echo h($school['School']['city']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('State'); ?></dt>
+		<dd>
+			<?php echo h($school['School']['state']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Phone Number 1'); ?></dt>
+		<dd>
+			<?php echo h($school['School']['phone_number_1']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Phone Number 2'); ?></dt>
+		<dd>
+			<?php echo h($school['School']['phone_number_2']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Created'); ?></dt>

@@ -4,58 +4,19 @@ App::uses('AppModel', 'Model');
  * Grade Model
  *
  * @property School $School
+ * @property CourseCode $CourseCode
  * @property Attendance $Attendance
  * @property Student $Student
  */
 class Grade extends AppModel {
 
 /**
- * Validation rules
+ * Display field
  *
- * @var array
+ * @var string
  */
-	public $validate = array(
-		'school_id' => array(
-			'numeric' => array(
-				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-		'grade_number' => array(
-			'numeric' => array(
-				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-		'grade_code' => array(
-			'notempty' => array(
-				'rule' => array('notempty'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-		'course_code' => array(
-			'numeric' => array(
-				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-	);
+	public $displayField = 'grade_number';
+
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
 
@@ -68,6 +29,13 @@ class Grade extends AppModel {
 		'School' => array(
 			'className' => 'School',
 			'foreignKey' => 'school_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'CourseCode' => array(
+			'className' => 'CourseCode',
+			'foreignKey' => 'course_code_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

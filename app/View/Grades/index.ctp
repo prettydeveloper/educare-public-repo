@@ -6,7 +6,7 @@
 			<th><?php echo $this->Paginator->sort('school_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('grade_number'); ?></th>
 			<th><?php echo $this->Paginator->sort('grade_code'); ?></th>
-			<th><?php echo $this->Paginator->sort('course_code'); ?></th>
+			<th><?php echo $this->Paginator->sort('course_code_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
 			<th><?php echo $this->Paginator->sort('trashed'); ?></th>
@@ -25,7 +25,9 @@
 		</td>
 		<td><?php echo h($grade['Grade']['grade_number']); ?>&nbsp;</td>
 		<td><?php echo h($grade['Grade']['grade_code']); ?>&nbsp;</td>
-		<td><?php echo h($grade['Grade']['course_code']); ?>&nbsp;</td>
+		<td>
+			<?php echo $this->Html->link($grade['CourseCode']['value'], array('controller' => 'course_codes', 'action' => 'view', $grade['CourseCode']['id'])); ?>
+		</td>
 		<td><?php echo h($grade['Grade']['created']); ?>&nbsp;</td>
 		<td><?php echo h($grade['Grade']['modified']); ?>&nbsp;</td>
 		<td><?php echo h($grade['Grade']['trashed']); ?>&nbsp;</td>
@@ -62,6 +64,10 @@
 		<li><?php echo $this->Html->link(__('New Grade'), array('action' => 'add')); ?></li>
 		<li><?php echo $this->Html->link(__('List Schools'), array('controller' => 'schools', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New School'), array('controller' => 'schools', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Course Codes'), array('controller' => 'course_codes', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Course Code'), array('controller' => 'course_codes', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Attendances'), array('controller' => 'attendances', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Attendance'), array('controller' => 'attendances', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Students'), array('controller' => 'students', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Student'), array('controller' => 'students', 'action' => 'add')); ?> </li>
 	</ul>
