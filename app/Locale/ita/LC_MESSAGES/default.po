@@ -1,42 +1,720 @@
 # LANGUAGE translation of CakePHP Application
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2012-11-19 13:04+0100\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Project-Id-Version: EduCare\n"
+"POT-Creation-Date: 2013-01-31 18:46+0100\n"
+"PO-Revision-Date: 2013-01-31 18:58+0100\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language-Team: EduCare <info@prettydeveloper.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: it_IT\n"
 
-#: Controller/PhonesController.php:30;62;90
-msgid "Invalid phone"
+#: Controller/AttendancesController.php:30;65;96
+msgid "Invalid attendance"
 msgstr ""
 
-#: Controller/PhonesController.php:44;66
-msgid "The phone has been saved"
+#: Controller/AttendancesController.php:44;69
+msgid "The attendance has been saved"
 msgstr ""
 
-#: Controller/PhonesController.php:47;69
-msgid "The phone could not be saved. Please, try again."
+#: Controller/AttendancesController.php:47;72
+msgid "The attendance could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/PhonesController.php:93
-msgid "Phone deleted"
+#: Controller/AttendancesController.php:99
+msgid "Attendance deleted"
 msgstr ""
 
-#: Controller/PhonesController.php:96
-msgid "Phone was not deleted"
+#: Controller/AttendancesController.php:102
+msgid "Attendance was not deleted"
+msgstr ""
+
+#: Controller/GradesController.php:30;65;96;126;161;192
+msgid "Invalid grade"
+msgstr ""
+
+#: Controller/GradesController.php:44;69;140;165
+msgid "The grade has been saved"
+msgstr ""
+
+#: Controller/GradesController.php:47;72;143;168
+msgid "The grade could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/GradesController.php:99;195
+msgid "Grade deleted"
+msgstr ""
+
+#: Controller/GradesController.php:102;198
+msgid "Grade was not deleted"
+msgstr ""
+
+#: Controller/GroupsController.php:40;72;100
+msgid "Invalid group"
+msgstr ""
+
+#: Controller/GroupsController.php:54;76
+msgid "The group has been saved"
+msgstr ""
+
+#: Controller/GroupsController.php:57;79
+msgid "The group could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/GroupsController.php:103
+msgid "Group deleted"
+msgstr ""
+
+#: Controller/GroupsController.php:106
+msgid "Group was not deleted"
+msgstr ""
+
+#: Controller/SchoolsController.php:30;62;90;120;152;180
+msgid "Invalid school"
+msgstr ""
+
+#: Controller/SchoolsController.php:44;66;134;156
+msgid "The school has been saved"
+msgstr ""
+
+#: Controller/SchoolsController.php:47;69;137;159
+msgid "The school could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SchoolsController.php:93;183
+msgid "School deleted"
+msgstr ""
+
+#: Controller/SchoolsController.php:96;186
+msgid "School was not deleted"
+msgstr ""
+
+#: Controller/StudentsController.php:30;64;94;124;158;188
+msgid "Invalid student"
+msgstr ""
+
+#: Controller/StudentsController.php:44;68;138;162
+msgid "The student has been saved"
+msgstr ""
+
+#: Controller/StudentsController.php:47;71;141;165
+msgid "The student could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/StudentsController.php:97;191
+msgid "Student deleted"
+msgstr ""
+
+#: Controller/StudentsController.php:100;194
+msgid "Student was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:45;79;109
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:59;83
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:62;86
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:112
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:115
+msgid "User was not deleted"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:111
+msgid "<success>Aco Update Complete</success>"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:156
+msgid "Deleted %s and all children"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:197
+msgid "Created Aco node: %s"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:232
+msgid "Deleted Aco node %s"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:242
+msgid "Better manage, and easily synchronize you application's ACO tree"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:244
+msgid ""
+"Add new ACOs for new controllers and actions. Does not remove nodes from the "
+"ACO table."
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:246
+msgid ""
+"Perform a full sync on the ACO table.Will create new ACOs or missing "
+"controllers and actions.Will also remove orphaned entries that no longer "
+"have a matching controller/action"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:250
+msgid "Verify the tree structure of either your Aco or Aro Trees"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:255
+msgid "The type of tree to verify"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:261
+msgid "Recover a corrupted Tree"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:266
+msgid "The type of tree to recover"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:285
+msgid "Tree is valid and strong"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:302
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:304
+msgid "<error>Tree recovery failed.</error>"
+msgstr ""
+
+#: View/Attendances/add.ctp:4
+msgid "Add Attendance"
+msgstr ""
+
+#: View/Attendances/add.ctp:20 View/Attendances/edit.ctp:21
+#: View/GradeCodes/add.ctp:10 View/GradeCodes/edit.ctp:11
+#: View/Grades/add.ctp:17 View/Grades/edit.ctp:18 View/Groups/add.ctp:9
+#: View/Groups/edit.ctp:10 View/Schools/add.ctp:21 View/Schools/edit.ctp:22
+#: View/Students/add.ctp:25 View/Students/edit.ctp:26 View/Users/add.ctp:11
+#: View/Users/edit.ctp:12 View/Helper/FormHelper.php:1670
+#: View/Scaffolds/form.ctp:23
+msgid "Submit"
+msgstr ""
+
+#: View/Attendances/add.ctp:23 View/Attendances/edit.ctp:24
+#: View/Attendances/index.ctp:20;68 View/Attendances/view.ctp:82
+#: View/GradeCodes/add.ctp:13 View/GradeCodes/edit.ctp:14
+#: View/GradeCodes/index.ctp:8;40 View/GradeCodes/view.ctp:22
+#: View/Grades/add.ctp:20 View/Grades/edit.ctp:21 View/Grades/index.ctp:17;62
+#: View/Grades/view.ctp:67;103;165 View/Groups/add.ctp:12
+#: View/Groups/edit.ctp:13 View/Groups/index.ctp:9;42
+#: View/Groups/view.ctp:27;48 View/Schools/add.ctp:24 View/Schools/edit.ctp:25
+#: View/Schools/index.ctp:21;66 View/Schools/view.ctp:87;114
+#: View/Students/add.ctp:28 View/Students/edit.ctp:29
+#: View/Students/index.ctp:25;76 View/Students/view.ctp:107;139
+#: View/Users/add.ctp:14 View/Users/edit.ctp:15 View/Users/index.ctp:11;48
+#: View/Users/view.ctp:37 View/Scaffolds/form.ctp:27
+#: View/Scaffolds/index.ctp:26;78 View/Scaffolds/view.ctp:45
+msgid "Actions"
+msgstr ""
+
+#: View/Attendances/add.ctp:26 View/Attendances/edit.ctp:28
+#: View/Attendances/view.ctp:86 View/Grades/add.ctp:28 View/Grades/edit.ctp:30
+#: View/Grades/index.ctp:69 View/Grades/view.ctp:77 View/Students/add.ctp:34
+#: View/Students/edit.ctp:36 View/Students/index.ctp:81
+#: View/Students/view.ctp:115
+msgid "List Attendances"
+msgstr ""
+
+#: View/Attendances/add.ctp:27 View/Attendances/edit.ctp:29
+#: View/Attendances/index.ctp:71 View/Attendances/view.ctp:88
+#: View/Grades/add.ctp:30 View/Grades/edit.ctp:32 View/Grades/index.ctp:71
+#: View/Grades/view.ctp:79 View/Students/add.ctp:31 View/Students/edit.ctp:33
+#: View/Students/view.ctp:111
+msgid "List Students"
+msgstr ""
+
+#: View/Attendances/add.ctp:28 View/Attendances/edit.ctp:30
+#: View/Attendances/index.ctp:72 View/Attendances/view.ctp:89
+#: View/Grades/add.ctp:31 View/Grades/edit.ctp:33 View/Grades/index.ctp:72
+#: View/Grades/view.ctp:80;203 View/Students/index.ctp:78
+#: View/Students/view.ctp:112
+msgid "New Student"
+msgstr ""
+
+#: View/Attendances/add.ctp:29 View/Attendances/edit.ctp:31
+#: View/Attendances/index.ctp:73 View/Attendances/view.ctp:90
+#: View/Grades/add.ctp:23 View/Grades/edit.ctp:25 View/Grades/view.ctp:71
+#: View/Schools/add.ctp:28 View/Schools/edit.ctp:30 View/Schools/index.ctp:69
+#: View/Schools/view.ctp:93 View/Students/add.ctp:32 View/Students/edit.ctp:34
+#: View/Students/index.ctp:79 View/Students/view.ctp:113
+msgid "List Grades"
+msgstr ""
+
+#: View/Attendances/add.ctp:30 View/Attendances/edit.ctp:32
+#: View/Attendances/index.ctp:74 View/Attendances/view.ctp:91
+#: View/Grades/index.ctp:64 View/Grades/view.ctp:72 View/Schools/add.ctp:29
+#: View/Schools/edit.ctp:31 View/Schools/index.ctp:70
+#: View/Schools/view.ctp:94;144 View/Students/add.ctp:33
+#: View/Students/edit.ctp:35 View/Students/index.ctp:80
+#: View/Students/view.ctp:114
+msgid "New Grade"
+msgstr ""
+
+#: View/Attendances/edit.ctp:4 View/Attendances/view.ctp:84
+msgid "Edit Attendance"
+msgstr ""
+
+#: View/Attendances/edit.ctp:27 View/Attendances/index.ctp:47
+#: View/GradeCodes/edit.ctp:17 View/GradeCodes/index.ctp:19
+#: View/Grades/edit.ctp:24 View/Grades/index.ctp:41
+#: View/Grades/view.ctp:127;194 View/Groups/edit.ctp:16
+#: View/Groups/index.ctp:21 View/Groups/view.ctp:63 View/Schools/edit.ctp:28
+#: View/Schools/index.ctp:45 View/Schools/view.ctp:135
+#: View/Students/edit.ctp:32 View/Students/index.ctp:55
+#: View/Students/view.ctp:163 View/Users/edit.ctp:18 View/Users/index.ctp:27
+#: View/Scaffolds/form.ctp:31 View/Scaffolds/index.ctp:52
+#: View/Scaffolds/view.ctp:133
+msgid "Delete"
+msgstr ""
+
+#: View/Attendances/edit.ctp:27 View/Attendances/index.ctp:47
+#: View/Attendances/view.ctp:85 View/GradeCodes/edit.ctp:17
+#: View/GradeCodes/index.ctp:19 View/GradeCodes/view.ctp:25
+#: View/Grades/edit.ctp:24 View/Grades/index.ctp:41
+#: View/Grades/view.ctp:70;127;194 View/Groups/edit.ctp:16
+#: View/Groups/index.ctp:21 View/Groups/view.ctp:30;63
+#: View/Schools/edit.ctp:28 View/Schools/index.ctp:45
+#: View/Schools/view.ctp:90;135 View/Students/edit.ctp:32
+#: View/Students/index.ctp:55 View/Students/view.ctp:110;163
+#: View/Users/edit.ctp:18 View/Users/index.ctp:27 View/Users/view.ctp:40
+#: View/Scaffolds/form.ctp:34
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Attendances/index.ctp:2
+msgid "Attendances"
+msgstr ""
+
+#: View/Attendances/index.ctp:45 View/GradeCodes/index.ctp:17
+#: View/Grades/index.ctp:39 View/Grades/view.ctp:125;192
+#: View/Groups/index.ctp:19 View/Groups/view.ctp:61 View/Schools/index.ctp:43
+#: View/Schools/view.ctp:133 View/Students/index.ctp:53
+#: View/Students/view.ctp:161 View/Users/index.ctp:25
+#: View/Scaffolds/index.ctp:49 View/Scaffolds/view.ctp:131
+msgid "View"
+msgstr ""
+
+#: View/Attendances/index.ctp:46 View/GradeCodes/index.ctp:18
+#: View/Grades/index.ctp:40 View/Grades/view.ctp:126;193
+#: View/Groups/index.ctp:20 View/Groups/view.ctp:62 View/Schools/index.ctp:44
+#: View/Schools/view.ctp:134 View/Students/index.ctp:54
+#: View/Students/view.ctp:162 View/Users/index.ctp:26
+#: View/Scaffolds/index.ctp:50 View/Scaffolds/view.ctp:132
+msgid "Edit"
+msgstr ""
+
+#: View/Attendances/index.ctp:55 View/GradeCodes/index.ctp:27
+#: View/Grades/index.ctp:49 View/Groups/index.ctp:29 View/Schools/index.ctp:53
+#: View/Students/index.ctp:63 View/Users/index.ctp:35
+#: View/Scaffolds/index.ctp:66
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Attendances/index.ctp:61 View/GradeCodes/index.ctp:33
+#: View/Grades/index.ctp:55 View/Groups/index.ctp:35 View/Schools/index.ctp:59
+#: View/Students/index.ctp:69 View/Users/index.ctp:41
+#: View/Scaffolds/index.ctp:71
+msgid "previous"
+msgstr ""
+
+#: View/Attendances/index.ctp:63 View/GradeCodes/index.ctp:35
+#: View/Grades/index.ctp:57 View/Groups/index.ctp:37 View/Schools/index.ctp:61
+#: View/Students/index.ctp:71 View/Users/index.ctp:43
+#: View/Scaffolds/index.ctp:73
+msgid "next"
+msgstr ""
+
+#: View/Attendances/index.ctp:70 View/Attendances/view.ctp:87
+#: View/Grades/add.ctp:29 View/Grades/edit.ctp:31 View/Grades/index.ctp:70
+#: View/Grades/view.ctp:78;136 View/Students/add.ctp:35
+#: View/Students/edit.ctp:37 View/Students/index.ctp:82
+#: View/Students/view.ctp:116;172
+msgid "New Attendance"
+msgstr ""
+
+#: View/Attendances/view.ctp:2
+msgid "Attendance"
+msgstr ""
+
+#: View/Attendances/view.ctp:4 View/GradeCodes/view.ctp:4
+#: View/Grades/view.ctp:4;88;145 View/Groups/view.ctp:4;42
+#: View/Schools/view.ctp:4;102 View/Students/view.ctp:4;124
+#: View/Users/view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: View/Attendances/view.ctp:9 View/Students/view.ctp:2
+msgid "Student"
+msgstr ""
+
+#: View/Attendances/view.ctp:14 View/Grades/view.ctp:90
+#: View/Students/view.ctp:126
+msgid "Attendance Date"
+msgstr ""
+
+#: View/Attendances/view.ctp:19 View/Grades/view.ctp:2
+#: View/Students/view.ctp:24
+msgid "Grade"
+msgstr ""
+
+#: View/Attendances/view.ctp:24 View/Grades/view.ctp:92
+#: View/Students/view.ctp:128
+msgid "Present"
+msgstr ""
+
+#: View/Attendances/view.ctp:29 View/Grades/view.ctp:93
+#: View/Students/view.ctp:129
+msgid "Absent"
+msgstr ""
+
+#: View/Attendances/view.ctp:34 View/Grades/view.ctp:94
+#: View/Students/view.ctp:130
+msgid "Late"
+msgstr ""
+
+#: View/Attendances/view.ctp:39 View/Grades/view.ctp:95
+#: View/Students/view.ctp:131
+msgid "Reason"
+msgstr ""
+
+#: View/Attendances/view.ctp:44 View/Grades/view.ctp:29;96;158
+#: View/Groups/view.ctp:14;46 View/Schools/view.ctp:49;107
+#: View/Students/view.ctp:69;132 View/Users/view.ctp:24
+msgid "Created"
+msgstr ""
+
+#: View/Attendances/view.ctp:49 View/Grades/view.ctp:34;97;159
+#: View/Groups/view.ctp:19;47 View/Schools/view.ctp:54;108
+#: View/Students/view.ctp:74;133 View/Users/view.ctp:29
+msgid "Modified"
+msgstr ""
+
+#: View/Attendances/view.ctp:54 View/Grades/view.ctp:39;98;160
+#: View/Schools/view.ctp:59;109 View/Students/view.ctp:79;134
+msgid "Trashed"
+msgstr ""
+
+#: View/Attendances/view.ctp:59 View/Grades/view.ctp:44;99;161
+#: View/Schools/view.ctp:64;110 View/Students/view.ctp:84;135
+msgid "Created By"
+msgstr ""
+
+#: View/Attendances/view.ctp:64 View/Grades/view.ctp:49;100;162
+#: View/Schools/view.ctp:69;111 View/Students/view.ctp:89;136
+msgid "Modified By"
+msgstr ""
+
+#: View/Attendances/view.ctp:69 View/Grades/view.ctp:54;101;163
+#: View/Schools/view.ctp:74;112 View/Students/view.ctp:94;137
+msgid "Trashed By"
+msgstr ""
+
+#: View/Attendances/view.ctp:74 View/Grades/view.ctp:59;102;164
+#: View/Schools/view.ctp:79;113 View/Students/view.ctp:99;138
+msgid "Note"
+msgstr ""
+
+#: View/Attendances/view.ctp:85
+msgid "Delete Attendance"
+msgstr ""
+
+#: View/GradeCodes/add.ctp:4
+msgid "Add Grade Code"
+msgstr ""
+
+#: View/GradeCodes/add.ctp:16 View/GradeCodes/edit.ctp:18
+#: View/GradeCodes/view.ctp:26
+msgid "List Grade Codes"
+msgstr ""
+
+#: View/GradeCodes/edit.ctp:4 View/GradeCodes/view.ctp:24
+msgid "Edit Grade Code"
+msgstr ""
+
+#: View/GradeCodes/index.ctp:2
+msgid "Grade Codes"
+msgstr ""
+
+#: View/GradeCodes/index.ctp:42 View/GradeCodes/view.ctp:27
+msgid "New Grade Code"
+msgstr ""
+
+#: View/GradeCodes/view.ctp:2 View/Grades/view.ctp:19
+#: View/Schools/view.ctp:105
+msgid "Grade Code"
+msgstr ""
+
+#: View/GradeCodes/view.ctp:9
+msgid "Code"
+msgstr ""
+
+#: View/GradeCodes/view.ctp:14
+msgid "Value"
+msgstr ""
+
+#: View/GradeCodes/view.ctp:25
+msgid "Delete Grade Code"
+msgstr ""
+
+#: View/Grades/add.ctp:4
+msgid "Add Grade"
+msgstr ""
+
+#: View/Grades/add.ctp:24 View/Grades/edit.ctp:26 View/Grades/index.ctp:65
+#: View/Grades/view.ctp:73 View/Schools/add.ctp:27 View/Schools/edit.ctp:29
+#: View/Schools/view.ctp:91
+msgid "List Schools"
+msgstr ""
+
+#: View/Grades/add.ctp:25 View/Grades/edit.ctp:27 View/Grades/index.ctp:66
+#: View/Grades/view.ctp:74 View/Schools/index.ctp:68 View/Schools/view.ctp:92
+msgid "New School"
+msgstr ""
+
+#: View/Grades/add.ctp:26 View/Grades/edit.ctp:28 View/Grades/index.ctp:67
+#: View/Grades/view.ctp:75
+msgid "List Course Codes"
+msgstr ""
+
+#: View/Grades/add.ctp:27 View/Grades/edit.ctp:29 View/Grades/index.ctp:68
+#: View/Grades/view.ctp:76
+msgid "New Course Code"
+msgstr ""
+
+#: View/Grades/edit.ctp:4 View/Grades/view.ctp:69
+msgid "Edit Grade"
+msgstr ""
+
+#: View/Grades/index.ctp:2
+msgid "Grades"
+msgstr ""
+
+#: View/Grades/view.ctp:9 View/Schools/view.ctp:2
+msgid "School"
+msgstr ""
+
+#: View/Grades/view.ctp:14 View/Schools/view.ctp:104
+msgid "Grade Number"
+msgstr ""
+
+#: View/Grades/view.ctp:24 View/Schools/view.ctp:106
+msgid "Course Code"
+msgstr ""
+
+#: View/Grades/view.ctp:70
+msgid "Delete Grade"
+msgstr ""
+
+#: View/Grades/view.ctp:84 View/Students/view.ctp:120
+msgid "Related Attendances"
+msgstr ""
+
+#: View/Grades/view.ctp:89 View/Students/view.ctp:125
+msgid "Student Id"
+msgstr ""
+
+#: View/Grades/view.ctp:91;149 View/Students/view.ctp:127
+msgid "Grade Id"
+msgstr ""
+
+#: View/Grades/view.ctp:141
+msgid "Related Students"
+msgstr ""
+
+#: View/Grades/view.ctp:146 View/Students/view.ctp:9
+msgid "First Name"
+msgstr ""
+
+#: View/Grades/view.ctp:147 View/Students/view.ctp:14
+msgid "Middle Name"
+msgstr ""
+
+#: View/Grades/view.ctp:148 View/Students/view.ctp:19
+msgid "Last Name"
+msgstr ""
+
+#: View/Grades/view.ctp:150 View/Students/view.ctp:29
+msgid "Date Of Birth"
+msgstr ""
+
+#: View/Grades/view.ctp:151 View/Schools/view.ctp:19 View/Students/view.ctp:34
+msgid "Address"
+msgstr ""
+
+#: View/Grades/view.ctp:152 View/Schools/view.ctp:24 View/Students/view.ctp:39
+msgid "Zipcode"
+msgstr ""
+
+#: View/Grades/view.ctp:153 View/Schools/view.ctp:29 View/Students/view.ctp:44
+msgid "City"
+msgstr ""
+
+#: View/Grades/view.ctp:154 View/Schools/view.ctp:34 View/Students/view.ctp:49
+msgid "State"
+msgstr ""
+
+#: View/Grades/view.ctp:155 View/Schools/view.ctp:39 View/Students/view.ctp:54
+msgid "Phone Number 1"
+msgstr ""
+
+#: View/Grades/view.ctp:156 View/Schools/view.ctp:44 View/Students/view.ctp:59
+msgid "Phone Number 2"
+msgstr ""
+
+#: View/Grades/view.ctp:157 View/Students/view.ctp:64
+msgid "Phone Number 3"
+msgstr ""
+
+#: View/Groups/add.ctp:4
+msgid "Add Group"
+msgstr ""
+
+#: View/Groups/add.ctp:15 View/Groups/edit.ctp:17 View/Groups/view.ctp:31
+#: View/Users/add.ctp:18 View/Users/edit.ctp:20 View/Users/index.ctp:51
+#: View/Users/view.ctp:43
+msgid "List Groups"
+msgstr ""
+
+#: View/Groups/add.ctp:16 View/Groups/edit.ctp:18 View/Groups/index.ctp:45
+#: View/Groups/view.ctp:33 View/Users/add.ctp:17 View/Users/edit.ctp:19
+#: View/Users/view.ctp:41
+msgid "List Users"
+msgstr ""
+
+#: View/Groups/add.ctp:17 View/Groups/edit.ctp:19 View/Groups/index.ctp:46
+#: View/Groups/view.ctp:34;72 View/Users/index.ctp:50 View/Users/view.ctp:42
+msgid "New User"
+msgstr ""
+
+#: View/Groups/edit.ctp:4 View/Groups/view.ctp:29
+msgid "Edit Group"
+msgstr ""
+
+#: View/Groups/index.ctp:2
+msgid "Groups"
+msgstr ""
+
+#: View/Groups/index.ctp:44 View/Groups/view.ctp:32 View/Users/add.ctp:19
+#: View/Users/edit.ctp:21 View/Users/index.ctp:52 View/Users/view.ctp:44
+msgid "New Group"
+msgstr ""
+
+#: View/Groups/view.ctp:2 View/Users/view.ctp:19
+msgid "Group"
+msgstr ""
+
+#: View/Groups/view.ctp:9 View/Schools/view.ctp:9
+msgid "Name"
+msgstr ""
+
+#: View/Groups/view.ctp:30
+msgid "Delete Group"
+msgstr ""
+
+#: View/Groups/view.ctp:38
+msgid "Related Users"
+msgstr ""
+
+#: View/Groups/view.ctp:43 View/Users/view.ctp:9
+msgid "Username"
+msgstr ""
+
+#: View/Groups/view.ctp:44 View/Users/view.ctp:14
+msgid "Password"
+msgstr ""
+
+#: View/Groups/view.ctp:45
+msgid "Group Id"
 msgstr ""
 
 #: View/Pages/start.ctp:2
 msgid "Welcome"
 msgstr "Benvenuto"
+
+#: View/Schools/add.ctp:4
+msgid "Add School"
+msgstr ""
+
+#: View/Schools/edit.ctp:4 View/Schools/view.ctp:89
+msgid "Edit School"
+msgstr ""
+
+#: View/Schools/index.ctp:2
+msgid "Schools"
+msgstr ""
+
+#: View/Schools/view.ctp:14
+msgid "School Code"
+msgstr ""
+
+#: View/Schools/view.ctp:90
+msgid "Delete School"
+msgstr ""
+
+#: View/Schools/view.ctp:98
+msgid "Related Grades"
+msgstr ""
+
+#: View/Schools/view.ctp:103
+msgid "School Id"
+msgstr ""
+
+#: View/Students/add.ctp:4
+msgid "Add Student"
+msgstr ""
+
+#: View/Students/edit.ctp:4 View/Students/view.ctp:109
+msgid "Edit Student"
+msgstr ""
+
+#: View/Students/index.ctp:2
+msgid "Students"
+msgstr ""
+
+#: View/Students/view.ctp:110
+msgid "Delete Student"
+msgstr ""
+
+#: View/Users/add.ctp:4
+msgid "Add User"
+msgstr ""
+
+#: View/Users/edit.ctp:4 View/Users/view.ctp:39
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/view.ctp:2
+msgid "User"
+msgstr ""
+
+#: View/Users/view.ctp:40
+msgid "Delete User"
+msgstr ""
 
 #: View/Helper/FormHelper.php:1329
 msgid "empty"
@@ -46,10 +724,8 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: View/Errors/error400.ctp:21
-#: View/Errors/error500.ctp:21
-#: View/Errors/fatal_error.ctp:21
-#: View/Errors/missing_action.ctp:20;24
+#: View/Errors/error400.ctp:21 View/Errors/error500.ctp:21
+#: View/Errors/fatal_error.ctp:21 View/Errors/missing_action.ctp:20;24
 #: View/Errors/missing_behavior.ctp:22;26
 #: View/Errors/missing_component.ctp:22;26
 #: View/Errors/missing_connection.ctp:21;32
@@ -57,14 +733,10 @@ msgstr ""
 #: View/Errors/missing_database.ctp:21;25
 #: View/Errors/missing_datasource.ctp:22
 #: View/Errors/missing_datasource_config.ctp:21
-#: View/Errors/missing_helper.ctp:22;26
-#: View/Errors/missing_layout.ctp:21;25
-#: View/Errors/missing_plugin.ctp:21;25
-#: View/Errors/missing_table.ctp:21
-#: View/Errors/missing_view.ctp:21;25
-#: View/Errors/pdo_error.ctp:21
-#: View/Errors/private_action.ctp:21
-#: View/Errors/scaffold_error.ctp:21
+#: View/Errors/missing_helper.ctp:22;26 View/Errors/missing_layout.ctp:21;25
+#: View/Errors/missing_plugin.ctp:21;25 View/Errors/missing_table.ctp:21
+#: View/Errors/missing_view.ctp:21;25 View/Errors/pdo_error.ctp:21
+#: View/Errors/private_action.ctp:21 View/Errors/scaffold_error.ctp:21
 msgid "Error"
 msgstr ""
 
@@ -72,8 +744,7 @@ msgstr ""
 msgid "The requested address %s was not found on this server."
 msgstr ""
 
-#: View/Errors/error500.ctp:22
-#: Error/ExceptionRenderer.php:226
+#: View/Errors/error500.ctp:22 Error/ExceptionRenderer.php:226
 msgid "An Internal Error Has Occurred."
 msgstr ""
 
@@ -289,21 +960,13 @@ msgstr[1] ""
 msgid "Error in field %s"
 msgstr ""
 
-#: View/Helper/FormHelper.php:855
-#: View/Scaffolds/form.ctp:44
-#: View/Scaffolds/index.ctp:80;87
-#: View/Scaffolds/view.ctp:51;58;142
+#: View/Helper/FormHelper.php:855 View/Scaffolds/form.ctp:44
+#: View/Scaffolds/index.ctp:80;87 View/Scaffolds/view.ctp:51;58;142
 msgid "New %s"
 msgstr ""
 
-#: View/Helper/FormHelper.php:861
-#: View/Scaffolds/view.ctp:48;85
+#: View/Helper/FormHelper.php:861 View/Scaffolds/view.ctp:48;85
 msgid "Edit %s"
-msgstr ""
-
-#: View/Helper/FormHelper.php:1670
-#: View/Scaffolds/form.ctp:23
-msgid "Submit"
 msgstr ""
 
 #: View/Helper/FormHelper.php:2528
@@ -358,57 +1021,17 @@ msgstr ""
 msgid " of "
 msgstr ""
 
-#: View/Scaffolds/form.ctp:27
-#: View/Scaffolds/index.ctp:26;78
-#: View/Scaffolds/view.ctp:45
-msgid "Actions"
-msgstr ""
-
-#: View/Scaffolds/form.ctp:31
-#: View/Scaffolds/index.ctp:52
-#: View/Scaffolds/view.ctp:133
-msgid "Delete"
-msgstr ""
-
-#: View/Scaffolds/form.ctp:34
-msgid "Are you sure you want to delete # %s?"
-msgstr ""
-
 #: View/Scaffolds/form.ctp:37
 msgid "List"
 msgstr ""
 
-#: View/Scaffolds/form.ctp:43
-#: View/Scaffolds/index.ctp:86
+#: View/Scaffolds/form.ctp:43 View/Scaffolds/index.ctp:86
 #: View/Scaffolds/view.ctp:50;57
 msgid "List %s"
 msgstr ""
 
-#: View/Scaffolds/index.ctp:49
-#: View/Scaffolds/view.ctp:131
-msgid "View"
-msgstr ""
-
-#: View/Scaffolds/index.ctp:50
-#: View/Scaffolds/view.ctp:132
-msgid "Edit"
-msgstr ""
-
-#: View/Scaffolds/index.ctp:55
-#: View/Scaffolds/view.ctp:49;133
+#: View/Scaffolds/index.ctp:55 View/Scaffolds/view.ctp:49;133
 msgid "Are you sure you want to delete"
-msgstr ""
-
-#: View/Scaffolds/index.ctp:66
-msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
-msgstr ""
-
-#: View/Scaffolds/index.ctp:71
-msgid "previous"
-msgstr ""
-
-#: View/Scaffolds/index.ctp:73
-msgid "next"
 msgstr ""
 
 #: View/Scaffolds/view.ctp:20
@@ -448,7 +1071,8 @@ msgid "Your version of PHP is 5.2.8 or higher."
 msgstr ""
 
 #: View/Pages/home.ctp:46
-msgid "Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
+msgid ""
+"Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
 msgstr ""
 
 #: View/Pages/home.ctp:55
@@ -460,11 +1084,14 @@ msgid "Your tmp directory is NOT writable."
 msgstr ""
 
 #: View/Pages/home.ctp:69
-msgid "The %s is being used for core caching. To change the config edit APP/Config/core.php "
+msgid ""
+"The %s is being used for core caching. To change the config edit APP/Config/"
+"core.php "
 msgstr ""
 
 #: View/Pages/home.ctp:73
-msgid "Your cache is NOT working. Please check the settings in APP/Config/core.php"
+msgid ""
+"Your cache is NOT working. Please check the settings in APP/Config/core.php"
 msgstr ""
 
 #: View/Pages/home.ctp:83
@@ -492,7 +1119,9 @@ msgid "PCRE has not been compiled with Unicode support."
 msgstr ""
 
 #: View/Pages/home.ctp:126
-msgid "Recompile PCRE with Unicode support by adding <code>--enable-unicode-properties</code> when configuring"
+msgid ""
+"Recompile PCRE with Unicode support by adding <code>--enable-unicode-"
+"properties</code> when configuring"
 msgstr ""
 
 #: View/Pages/home.ctp:130
@@ -500,7 +1129,10 @@ msgid "Editing this Page"
 msgstr ""
 
 #: View/Pages/home.ctp:133
-msgid "To change the content of this page, edit: APP/View/Pages/home.ctp.<br />\nTo change its layout, edit: APP/View/Layouts/default.ctp.<br />\nYou can also add some CSS styles for your pages at: APP/webroot/css."
+msgid ""
+"To change the content of this page, edit: APP/View/Pages/home.ctp.<br />\n"
+"To change its layout, edit: APP/View/Layouts/default.ctp.<br />\n"
+"You can also add some CSS styles for your pages at: APP/webroot/css."
 msgstr ""
 
 #: View/Pages/home.ctp:139
@@ -524,11 +1156,17 @@ msgid "More about Cake"
 msgstr ""
 
 #: View/Pages/home.ctp:161
-msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
+msgid ""
+"CakePHP is a rapid development framework for PHP which uses commonly known "
+"design patterns like Active Record, Association Data Mapping, Front "
+"Controller and MVC."
 msgstr ""
 
 #: View/Pages/home.ctp:164
-msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
+msgid ""
+"Our primary goal is to provide a structured framework that enables PHP users "
+"at all levels to rapidly develop robust web applications, without any loss "
+"to flexibility."
 msgstr ""
 
 #: View/Pages/home.ctp:168
@@ -576,7 +1214,9 @@ msgid "The Show"
 msgstr ""
 
 #: View/Pages/home.ctp:179
-msgid "The Show is a live and archived internet radio broadcast CakePHP-related topics and answer questions live via IRC, Skype, and telephone."
+msgid ""
+"The Show is a live and archived internet radio broadcast CakePHP-related "
+"topics and answer questions live via IRC, Skype, and telephone."
 msgstr ""
 
 #: View/Pages/home.ctp:180
@@ -607,8 +1247,7 @@ msgstr ""
 msgid "CakePHP Tickets, Wiki pages, Roadmap"
 msgstr ""
 
-#: View/Themed/MyTheme/webroot/test.php:87
-#: webroot/test.php:87
+#: View/Themed/MyTheme/webroot/test.php:87 webroot/test.php:87
 msgid "Debug setting does not allow access to this url."
 msgstr ""
 
@@ -644,13 +1283,11 @@ msgstr ""
 msgid "Method decrement() not implemented for compressed cache in %s"
 msgstr ""
 
-#: Configure/IniReader.php:101
-#: Configure/PhpReader.php:63
+#: Configure/IniReader.php:101 Configure/PhpReader.php:63
 msgid "Cannot load configuration files with ../ in them."
 msgstr ""
 
-#: Configure/IniReader.php:121
-#: Configure/PhpReader.php:77
+#: Configure/IniReader.php:121 Configure/PhpReader.php:77
 msgid "Could not load configuration file: %s"
 msgstr ""
 
@@ -747,15 +1384,21 @@ msgid "$controller does not implement an isAuthorized() method."
 msgstr ""
 
 #: Controller/Component/Auth/CrudAuthorize.php:84
-msgid "CrudAuthorize::authorize() - Attempted access of un-mapped action \"%1$s\" in controller \"%2$s\""
+msgid ""
+"CrudAuthorize::authorize() - Attempted access of un-mapped action \"%1$s\" "
+"in controller \"%2$s\""
 msgstr ""
 
 #: Core/Configure.php:77
-msgid "Can't find application core file. Please create %score.php, and make sure it is readable by PHP."
+msgid ""
+"Can't find application core file. Please create %score.php, and make sure it "
+"is readable by PHP."
 msgstr ""
 
 #: Core/Configure.php:93
-msgid "Can't find application bootstrap file. Please create %sbootstrap.php, and make sure it is readable by PHP."
+msgid ""
+"Can't find application bootstrap file. Please create %sbootstrap.php, and "
+"make sure it is readable by PHP."
 msgstr ""
 
 #: Event/CakeEventManager.php:104
@@ -763,7 +1406,9 @@ msgid "The eventKey variable is required"
 msgstr ""
 
 #: I18n/I18n.php:203
-msgid "Missing plural form translation for \"%s\" in \"%s\" domain, \"%s\" locale.  Check your po file for correct plurals and valid Plural-Forms header."
+msgid ""
+"Missing plural form translation for \"%s\" in \"%s\" domain, \"%s\" locale.  "
+"Check your po file for correct plurals and valid Plural-Forms header."
 msgstr ""
 
 #: Log/CakeLog.php:186
@@ -791,15 +1436,21 @@ msgid "AclNode::node() - Couldn't find %s node identified by \"%s\""
 msgstr ""
 
 #: Model/BehaviorCollection.php:226
-msgid "BehaviorCollection::dispatchMethod() - Method %s not found in any attached behavior"
+msgid ""
+"BehaviorCollection::dispatchMethod() - Method %s not found in any attached "
+"behavior"
 msgstr ""
 
 #: Model/CakeSchema.php:606
-msgid "Schema generation error: invalid column type %s for %s.%s does not exist in DBO"
+msgid ""
+"Schema generation error: invalid column type %s for %s.%s does not exist in "
+"DBO"
 msgstr ""
 
 #: Model/Model.php:1327
-msgid "(Model::getColumnTypes) Unable to build model field data. If you are using a model without a database table, try implementing schema()"
+msgid ""
+"(Model::getColumnTypes) Unable to build model field data. If you are using a "
+"model without a database table, try implementing schema()"
 msgstr ""
 
 #: Model/Model.php:3253
@@ -807,11 +1458,17 @@ msgid "Invalid join model settings in %s"
 msgstr ""
 
 #: Model/Permission.php:93
-msgid "DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:\nAro: "
+msgid ""
+"DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node "
+"references:\n"
+"Aro: "
 msgstr ""
 
 #: Model/Permission.php:98
-msgid "DbAcl::check() - Failed ACO node lookup in permissions check.  Node references:\nAro: "
+msgid ""
+"DbAcl::check() - Failed ACO node lookup in permissions check.  Node "
+"references:\n"
+"Aro: "
 msgstr ""
 
 #: Model/Permission.php:103
@@ -827,7 +1484,9 @@ msgid "Callback parentNode() not defined in %s"
 msgstr ""
 
 #: Model/Behavior/AclBehavior.php:82
-msgid "AclBehavior is setup with more then one type, please specify type parameter for node()"
+msgid ""
+"AclBehavior is setup with more then one type, please specify type parameter "
+"for node()"
 msgstr ""
 
 #: Model/Behavior/ContainableBehavior.php:339
@@ -859,7 +1518,9 @@ msgid "Could not load %s to handle the session."
 msgstr ""
 
 #: Model/Datasource/CakeSession.php:528
-msgid "Chosen SessionHandler does not implement CakeSessionHandlerInterface it cannot be used with an engine key."
+msgid ""
+"Chosen SessionHandler does not implement CakeSessionHandlerInterface it "
+"cannot be used with an engine key."
 msgstr ""
 
 #: Model/Datasource/DboSource.php:256
@@ -950,7 +1611,9 @@ msgid "The \"%s\" do not have send method."
 msgstr ""
 
 #: Network/Email/CakeEmail.php:905
-msgid "Invalid format for Message-ID. The text should be something like \"<uuid@server.com>\""
+msgid ""
+"Invalid format for Message-ID. The text should be something like "
+"\"<uuid@server.com>\""
 msgstr ""
 
 #: Network/Email/CakeEmail.php:970
@@ -1046,11 +1709,16 @@ msgid "The %s do not support proxy authentication."
 msgstr ""
 
 #: Network/Http/HttpSocket.php:836
-msgid "HttpSocket::_buildRequestLine - Passed an invalid request line string. Activate quirks mode to do this."
+msgid ""
+"HttpSocket::_buildRequestLine - Passed an invalid request line string. "
+"Activate quirks mode to do this."
 msgstr ""
 
 #: Network/Http/HttpSocket.php:854
-msgid "HttpSocket::_buildRequestLine - The \"*\" asterisk character is only allowed for the following methods: %s. Activate quirks mode to work outside of HTTP/1.1 specs."
+msgid ""
+"HttpSocket::_buildRequestLine - The \"*\" asterisk character is only allowed "
+"for the following methods: %s. Activate quirks mode to work outside of "
+"HTTP/1.1 specs."
 msgstr ""
 
 #: Routing/Router.php:189
@@ -1066,7 +1734,9 @@ msgid "(ClassRegistry::init() could not create instance of %s"
 msgstr ""
 
 #: Utility/ClassRegistry.php:184
-msgid "(ClassRegistry::init() Attempted to create instance of a class with a numeric name"
+msgid ""
+"(ClassRegistry::init() Attempted to create instance of a class with a "
+"numeric name"
 msgstr ""
 
 #: Utility/Debugger.php:594
@@ -1074,11 +1744,15 @@ msgid "Invalid Debugger output format."
 msgstr ""
 
 #: Utility/Debugger.php:810
-msgid "Please change the value of 'Security.salt' in app/Config/core.php to a salt value specific to your application"
+msgid ""
+"Please change the value of 'Security.salt' in app/Config/core.php to a salt "
+"value specific to your application"
 msgstr ""
 
 #: Utility/Debugger.php:814
-msgid "Please change the value of 'Security.cipherSeed' in app/Config/core.php to a numeric (digits only) seed value specific to your application"
+msgid ""
+"Please change the value of 'Security.cipherSeed' in app/Config/core.php to a "
+"numeric (digits only) seed value specific to your application"
 msgstr ""
 
 #: Utility/Folder.php:358;379
@@ -1109,10 +1783,8 @@ msgstr ""
 msgid "%s NOT removed"
 msgstr ""
 
-#: Utility/Folder.php:618
-#: Console/Command/AclShell.php:318;320;528
-#: Console/Command/ApiShell.php:92
-#: Console/Command/Task/DbConfigTask.php:255
+#: Utility/Folder.php:618 Console/Command/AclShell.php:318;320;528
+#: Console/Command/ApiShell.php:92 Console/Command/Task/DbConfigTask.php:255
 msgid "%s not found"
 msgstr ""
 
@@ -1145,7 +1817,9 @@ msgid "You cannot use an empty key for Security::rijndael()"
 msgstr ""
 
 #: Utility/Security.php:169
-msgid "You must specify the operation for Security::rijndael(), either encrypt or decrypt"
+msgid ""
+"You must specify the operation for Security::rijndael(), either encrypt or "
+"decrypt"
 msgstr ""
 
 #: Utility/Security.php:173
@@ -1236,42 +1910,27 @@ msgstr ""
 msgid "Line"
 msgstr ""
 
-#: View/Errors/fatal_error.ctp:33
-#: View/Errors/missing_action.ctp:39
-#: View/Errors/missing_behavior.ctp:36
-#: View/Errors/missing_component.ctp:36
-#: View/Errors/missing_connection.ctp:37
-#: View/Errors/missing_controller.ctp:36
-#: View/Errors/missing_database.ctp:29
-#: View/Errors/missing_datasource.ctp:26
+#: View/Errors/fatal_error.ctp:33 View/Errors/missing_action.ctp:39
+#: View/Errors/missing_behavior.ctp:36 View/Errors/missing_component.ctp:36
+#: View/Errors/missing_connection.ctp:37 View/Errors/missing_controller.ctp:36
+#: View/Errors/missing_database.ctp:29 View/Errors/missing_datasource.ctp:26
 #: View/Errors/missing_datasource_config.ctp:25
-#: View/Errors/missing_helper.ctp:36
-#: View/Errors/missing_layout.ctp:29
-#: View/Errors/missing_plugin.ctp:41
-#: View/Errors/missing_table.ctp:25
-#: View/Errors/missing_view.ctp:29
-#: View/Errors/pdo_error.ctp:35
-#: View/Errors/private_action.ctp:25
-#: View/Errors/scaffold_error.ctp:25
+#: View/Errors/missing_helper.ctp:36 View/Errors/missing_layout.ctp:29
+#: View/Errors/missing_plugin.ctp:41 View/Errors/missing_table.ctp:25
+#: View/Errors/missing_view.ctp:29 View/Errors/pdo_error.ctp:35
+#: View/Errors/private_action.ctp:25 View/Errors/scaffold_error.ctp:25
 msgid "Notice"
 msgstr ""
 
-#: View/Errors/fatal_error.ctp:34
-#: View/Errors/missing_action.ctp:40
-#: View/Errors/missing_behavior.ctp:37
-#: View/Errors/missing_component.ctp:37
-#: View/Errors/missing_controller.ctp:37
-#: View/Errors/missing_database.ctp:30
+#: View/Errors/fatal_error.ctp:34 View/Errors/missing_action.ctp:40
+#: View/Errors/missing_behavior.ctp:37 View/Errors/missing_component.ctp:37
+#: View/Errors/missing_controller.ctp:37 View/Errors/missing_database.ctp:30
 #: View/Errors/missing_datasource.ctp:27
 #: View/Errors/missing_datasource_config.ctp:26
-#: View/Errors/missing_helper.ctp:37
-#: View/Errors/missing_layout.ctp:30
-#: View/Errors/missing_plugin.ctp:42
-#: View/Errors/missing_table.ctp:26
-#: View/Errors/missing_view.ctp:30
-#: View/Errors/pdo_error.ctp:36
-#: View/Errors/private_action.ctp:26
-#: View/Errors/scaffold_error.ctp:26
+#: View/Errors/missing_helper.ctp:37 View/Errors/missing_layout.ctp:30
+#: View/Errors/missing_plugin.ctp:42 View/Errors/missing_table.ctp:26
+#: View/Errors/missing_view.ctp:30 View/Errors/pdo_error.ctp:36
+#: View/Errors/private_action.ctp:26 View/Errors/scaffold_error.ctp:26
 msgid "If you want to customize this error message, create %s"
 msgstr ""
 
@@ -1291,17 +1950,13 @@ msgstr ""
 msgid "Missing Behavior"
 msgstr ""
 
-#: View/Errors/missing_behavior.ctp:23
-#: View/Errors/missing_component.ctp:23
-#: View/Errors/missing_controller.ctp:23
-#: View/Errors/missing_helper.ctp:23
+#: View/Errors/missing_behavior.ctp:23 View/Errors/missing_component.ctp:23
+#: View/Errors/missing_controller.ctp:23 View/Errors/missing_helper.ctp:23
 msgid "%s could not be found."
 msgstr ""
 
-#: View/Errors/missing_behavior.ctp:27
-#: View/Errors/missing_component.ctp:27
-#: View/Errors/missing_controller.ctp:27
-#: View/Errors/missing_helper.ctp:27
+#: View/Errors/missing_behavior.ctp:27 View/Errors/missing_component.ctp:27
+#: View/Errors/missing_controller.ctp:27 View/Errors/missing_helper.ctp:27
 msgid "Create the class %s below in file: %s"
 msgstr ""
 
@@ -1309,8 +1964,7 @@ msgstr ""
 msgid "Missing Component"
 msgstr ""
 
-#: View/Errors/missing_connection.ctp:19
-#: View/Errors/missing_database.ctp:19
+#: View/Errors/missing_connection.ctp:19 View/Errors/missing_database.ctp:19
 msgid "Missing Database Connection"
 msgstr ""
 
@@ -1338,8 +1992,7 @@ msgstr ""
 msgid "Scaffold requires a database connection"
 msgstr ""
 
-#: View/Errors/missing_database.ctp:26
-#: View/Errors/missing_layout.ctp:26
+#: View/Errors/missing_database.ctp:26 View/Errors/missing_layout.ctp:26
 #: View/Errors/missing_view.ctp:26
 msgid "Confirm you have created the file: %s"
 msgstr ""
@@ -1389,7 +2042,8 @@ msgid "Loading all plugins"
 msgstr ""
 
 #: View/Errors/missing_plugin.ctp:35
-msgid "If you wish to load all plugins at once, use the following line in your "
+msgid ""
+"If you wish to load all plugins at once, use the following line in your "
 msgstr ""
 
 #: View/Errors/missing_table.ctp:19
@@ -1460,19 +2114,21 @@ msgstr ""
 msgid "MootoolsEngine::drop() requires a \"drag\" option to properly function"
 msgstr ""
 
-#: View/Helper/NumberHelper.php:63
-#: View/Helper/TextHelper.php:76
-#: View/Helper/TimeHelper.php:60
-#: Console/Command/ApiShell.php:207
+#: View/Helper/NumberHelper.php:63 View/Helper/TextHelper.php:76
+#: View/Helper/TimeHelper.php:60 Console/Command/ApiShell.php:207
 msgid "%s could not be found"
 msgstr ""
 
 #: View/Helper/PaginatorHelper.php:98
-msgid "%s does not implement a link() method, it is incompatible with PaginatorHelper"
+msgid ""
+"%s does not implement a link() method, it is incompatible with "
+"PaginatorHelper"
 msgstr ""
 
 #: Console/ConsoleErrorHandler.php:57
-msgid "<error>Error:</error> %s\n%s"
+msgid ""
+"<error>Error:</error> %s\n"
+"%s"
 msgstr ""
 
 #: Console/ConsoleErrorHandler.php:81
@@ -1487,8 +2143,7 @@ msgstr ""
 msgid " <comment>(optional)</comment>"
 msgstr ""
 
-#: Console/ConsoleInputArgument.php:101
-#: Console/ConsoleInputOption.php:131
+#: Console/ConsoleInputArgument.php:101 Console/ConsoleInputOption.php:131
 msgid " <comment>(choices: %s)</comment>"
 msgstr ""
 
@@ -1545,7 +2200,8 @@ msgid "<info>Subcommands:</info>"
 msgstr ""
 
 #: Console/HelpFormatter.php:86
-msgid "To see help on a subcommand use <info>`cake %s [subcommand] --help`</info>"
+msgid ""
+"To see help on a subcommand use <info>`cake %s [subcommand] --help`</info>"
 msgstr ""
 
 #: Console/HelpFormatter.php:93
@@ -1564,8 +2220,7 @@ msgstr ""
 msgid "App : %s"
 msgstr ""
 
-#: Console/Shell.php:220
-#: Console/Command/Task/PluginTask.php:65
+#: Console/Shell.php:220 Console/Command/Task/PluginTask.php:65
 #: Console/Command/Task/TestTask.php:112
 msgid "Path: %s"
 msgstr ""
@@ -1611,19 +2266,22 @@ msgid "You can download PHPUnit from %s"
 msgstr ""
 
 #: Console/Command/AclShell.php:78
-msgid "Error: Your current Cake configuration is set to an ACL implementation other than DB."
+msgid ""
+"Error: Your current Cake configuration is set to an ACL implementation other "
+"than DB."
 msgstr ""
 
 #: Console/Command/AclShell.php:79
-msgid "Please change your core config to reflect your decision to use DbAcl before attempting to use this script"
+msgid ""
+"Please change your core config to reflect your decision to use DbAcl before "
+"attempting to use this script"
 msgstr ""
 
 #: Console/Command/AclShell.php:81
 msgid "Current ACL Classname: %s"
 msgstr ""
 
-#: Console/Command/AclShell.php:89
-#: Console/Command/BakeShell.php:86
+#: Console/Command/AclShell.php:89 Console/Command/BakeShell.php:86
 #: Console/Command/I18nShell.php:55
 msgid "Your database configuration was not found. Take a moment to create one."
 msgstr ""
@@ -1657,7 +2315,9 @@ msgid "<success>%s deleted.</success>"
 msgstr ""
 
 #: Console/Command/AclShell.php:181
-msgid "Error in setting new parent. Please make sure the parent node exists, and is not a descendant of the node specified."
+msgid ""
+"Error in setting new parent. Please make sure the parent node exists, and is "
+"not a descendant of the node specified."
 msgstr ""
 
 #: Console/Command/AclShell.php:183
@@ -1769,7 +2429,9 @@ msgid "Returns the path to the ACL object specified by <node>."
 msgstr ""
 
 #: Console/Command/AclShell.php:424
-msgid "This command is useful in determining the inheritance of permissions for a certain object in the tree."
+msgid ""
+"This command is useful in determining the inheritance of permissions for a "
+"certain object in the tree."
 msgstr ""
 
 #: Console/Command/AclShell.php:429
@@ -1801,7 +2463,10 @@ msgid "Grant an ARO permissions to an ACO."
 msgstr ""
 
 #: Console/Command/AclShell.php:450
-msgid "Use this command to grant ACL permissions. Once executed, the ARO specified (and its children, if any) will have ALLOW access to the specified ACO action (and the ACO's children, if any)."
+msgid ""
+"Use this command to grant ACL permissions. Once executed, the ARO specified "
+"(and its children, if any) will have ALLOW access to the specified ACO "
+"action (and the ACO's children, if any)."
 msgstr ""
 
 #: Console/Command/AclShell.php:453
@@ -1821,7 +2486,10 @@ msgid "Deny an ARO permissions to an ACO."
 msgstr ""
 
 #: Console/Command/AclShell.php:462
-msgid "Use this command to deny ACL permissions. Once executed, the ARO specified (and its children, if any) will have DENY access to the specified ACO action (and the ACO's children, if any)."
+msgid ""
+"Use this command to deny ACL permissions. Once executed, the ARO specified "
+"(and its children, if any) will have DENY access to the specified ACO action "
+"(and the ACO's children, if any)."
 msgstr ""
 
 #: Console/Command/AclShell.php:465
@@ -1841,7 +2509,9 @@ msgid "Inherit an ARO's parent permissions."
 msgstr ""
 
 #: Console/Command/AclShell.php:474
-msgid "Use this command to force a child ARO object to inherit its permissions settings from its parent."
+msgid ""
+"Use this command to force a child ARO object to inherit its permissions "
+"settings from its parent."
 msgstr ""
 
 #: Console/Command/AclShell.php:477
@@ -1877,7 +2547,8 @@ msgid "The optional node to view the subtree of."
 msgstr ""
 
 #: Console/Command/AclShell.php:496
-msgid "Initialize the DbAcl tables. Uses this command : cake schema create DbAcl"
+msgid ""
+"Initialize the DbAcl tables. Uses this command : cake schema create DbAcl"
 msgstr ""
 
 #: Console/Command/AclShell.php:564
@@ -1889,7 +2560,9 @@ msgid "%s::%s() could not be found"
 msgstr ""
 
 #: Console/Command/ApiShell.php:117
-msgid "Select a number to see the more information about a specific method. q to quit. l to list."
+msgid ""
+"Select a number to see the more information about a specific method. q to "
+"quit. l to list."
 msgstr ""
 
 #: Console/Command/ApiShell.php:119
@@ -1897,7 +2570,9 @@ msgid "Done"
 msgstr ""
 
 #: Console/Command/ApiShell.php:147
-msgid "Either a full path or type of class (model, behavior, controller, component, view, helper)"
+msgid ""
+"Either a full path or type of class (model, behavior, controller, component, "
+"view, helper)"
 msgstr ""
 
 #: Console/Command/ApiShell.php:149
@@ -1948,8 +2623,7 @@ msgstr ""
 msgid "[T]est case"
 msgstr ""
 
-#: Console/Command/BakeShell.php:99
-#: Console/Command/I18nShell.php:72
+#: Console/Command/BakeShell.php:99 Console/Command/I18nShell.php:72
 msgid "[Q]uit"
 msgstr ""
 
@@ -1958,7 +2632,9 @@ msgid "What would you like to Bake?"
 msgstr ""
 
 #: Console/Command/BakeShell.php:128
-msgid "You have made an invalid selection. Please choose a type of class to Bake by entering D, M, V, F, T, or C."
+msgid ""
+"You have made an invalid selection. Please choose a type of class to Bake by "
+"entering D, M, V, F, T, or C."
 msgstr ""
 
 #: Console/Command/BakeShell.php:196
@@ -1970,7 +2646,12 @@ msgid "Bake All could not continue without a valid model"
 msgstr ""
 
 #: Console/Command/BakeShell.php:211
-msgid "The Bake script generates controllers, views and models for your application. If run with no command line arguments, Bake guides the user through the class creation process. You can customize the generation process by telling Bake where different parts of your application are using command line arguments."
+msgid ""
+"The Bake script generates controllers, views and models for your "
+"application. If run with no command line arguments, Bake guides the user "
+"through the class creation process. You can customize the generation process "
+"by telling Bake where different parts of your application are using command "
+"line arguments."
 msgstr ""
 
 #: Console/Command/BakeShell.php:216
@@ -1978,11 +2659,15 @@ msgid "Bake a complete MVC. optional <name> of a Model"
 msgstr ""
 
 #: Console/Command/BakeShell.php:218
-msgid "Bake a new app folder in the path supplied or in current directory if no path is specified"
+msgid ""
+"Bake a new app folder in the path supplied or in current directory if no "
+"path is specified"
 msgstr ""
 
 #: Console/Command/BakeShell.php:221
-msgid "Bake a new plugin folder in the path supplied or in current directory if no path is specified."
+msgid ""
+"Bake a new plugin folder in the path supplied or in current directory if no "
+"path is specified."
 msgstr ""
 
 #: Console/Command/BakeShell.php:224
@@ -2022,7 +2707,9 @@ msgid "<info>Changing Paths:</info>"
 msgstr ""
 
 #: Console/Command/CommandListShell.php:51
-msgid "Your working path should be the same as your application path to change your path use the '-app' param."
+msgid ""
+"Your working path should be the same as your application path to change your "
+"path use the '-app' param."
 msgstr ""
 
 #: Console/Command/CommandListShell.php:52
@@ -2038,11 +2725,13 @@ msgid "To run an app or core command, type <info>cake shell_name [args]</info>"
 msgstr ""
 
 #: Console/Command/CommandListShell.php:125
-msgid "To run a plugin command, type <info>cake Plugin.shell_name [args]</info>"
+msgid ""
+"To run a plugin command, type <info>cake Plugin.shell_name [args]</info>"
 msgstr ""
 
 #: Console/Command/CommandListShell.php:126
-msgid "To get help on a specific command, type <info>cake shell_name --help</info>"
+msgid ""
+"To get help on a specific command, type <info>cake shell_name --help</info>"
 msgstr ""
 
 #: Console/Command/CommandListShell.php:163
@@ -2062,7 +2751,9 @@ msgid "Model classes:"
 msgstr ""
 
 #: Console/Command/ConsoleShell.php:69
-msgid "There was an error loading the routes config. Please check that the file exists and contains no errors."
+msgid ""
+"There was an error loading the routes config. Please check that the file "
+"exists and contains no errors."
 msgstr ""
 
 #: Console/Command/ConsoleShell.php:197
@@ -2078,7 +2769,9 @@ msgid "Removed %s association between %s and %s"
 msgstr ""
 
 #: Console/Command/ConsoleShell.php:228
-msgid "Please verify you are using valid models, valid current association, and valid association types"
+msgid ""
+"Please verify you are using valid models, valid current association, and "
+"valid association types"
 msgstr ""
 
 #: Console/Command/ConsoleShell.php:279
@@ -2098,7 +2791,9 @@ msgid "Please verify that you selected a valid model"
 msgstr ""
 
 #: Console/Command/ConsoleShell.php:320
-msgid "There was an error loading the routes config. Please check that the file exists and is free of parse errors."
+msgid ""
+"There was an error loading the routes config. Please check that the file "
+"exists and is free of parse errors."
 msgstr ""
 
 #: Console/Command/ConsoleShell.php:323
@@ -2130,11 +2825,15 @@ msgid "What would you like to do?"
 msgstr ""
 
 #: Console/Command/I18nShell.php:89
-msgid "You have made an invalid selection. Please choose a command to execute by entering E, I, H, or Q."
+msgid ""
+"You have made an invalid selection. Please choose a command to execute by "
+"entering E, I, H, or Q."
 msgstr ""
 
 #: Console/Command/I18nShell.php:112
-msgid "I18n Shell initializes i18n database table for your application and generates .pot files(s) with translations."
+msgid ""
+"I18n Shell initializes i18n database table for your application and "
+"generates .pot files(s) with translations."
 msgstr ""
 
 #: Console/Command/I18nShell.php:114
@@ -2154,7 +2853,12 @@ msgid "Generating Schema..."
 msgstr ""
 
 #: Console/Command/SchemaShell.php:133
-msgid "Schema file exists.\n [O]verwrite\n [S]napshot\n [Q]uit\nWould you like to do?"
+msgid ""
+"Schema file exists.\n"
+" [O]verwrite\n"
+" [S]napshot\n"
+" [Q]uit\n"
+"Would you like to do?"
 msgstr ""
 
 #: Console/Command/SchemaShell.php:180;183
@@ -2274,7 +2978,9 @@ msgid "File name to read and write."
 msgstr ""
 
 #: Console/Command/SchemaShell.php:456
-msgid "Classname to use. If its Plugin.class, both name and plugin options will be set."
+msgid ""
+"Classname to use. If its Plugin.class, both name and plugin options will be "
+"set."
 msgstr ""
 
 #: Console/Command/SchemaShell.php:460
@@ -2282,7 +2988,9 @@ msgid "Snapshot number to use/make."
 msgstr ""
 
 #: Console/Command/SchemaShell.php:463
-msgid "Perform a dry run on create and update commands. Queries will be output instead of run."
+msgid ""
+"Perform a dry run on create and update commands. Queries will be output "
+"instead of run."
 msgstr ""
 
 #: Console/Command/SchemaShell.php:468
@@ -2294,7 +3002,9 @@ msgid "Write the dumped SQL to a file."
 msgstr ""
 
 #: Console/Command/SchemaShell.php:477
-msgid "The Schema Shell generates a schema object from the database and updates the database from the schema."
+msgid ""
+"The Schema Shell generates a schema object from the database and updates the "
+"database from the schema."
 msgstr ""
 
 #: Console/Command/SchemaShell.php:479
@@ -2302,7 +3012,8 @@ msgid "Read and output the contents of a schema file"
 msgstr ""
 
 #: Console/Command/SchemaShell.php:485
-msgid "Reads from --connection and writes to --path. Generate snapshots with -s"
+msgid ""
+"Reads from --connection and writes to --path. Generate snapshots with -s"
 msgstr ""
 
 #: Console/Command/SchemaShell.php:489
@@ -2329,9 +3040,9 @@ msgstr ""
 msgid "Alter the tables based on the schema file."
 msgstr ""
 
-#: Console/Command/TestShell.php:49
-#: Console/Command/TestsuiteShell.php:43
-msgid "The CakePHP Testsuite allows you to run test cases from the command line"
+#: Console/Command/TestShell.php:49 Console/Command/TestsuiteShell.php:43
+msgid ""
+"The CakePHP Testsuite allows you to run test cases from the command line"
 msgstr ""
 
 #: Console/Command/TestShell.php:51
@@ -2482,13 +3193,14 @@ msgstr ""
 msgid "More verbose output."
 msgstr ""
 
-#: Console/Command/TestShell.php:250
-#: Console/Command/TestsuiteShell.php:89
+#: Console/Command/TestShell.php:250 Console/Command/TestsuiteShell.php:89
 msgid "CakePHP Test Shell"
 msgstr ""
 
 #: Console/Command/TestShell.php:299
-msgid "No test cases available \n\n"
+msgid ""
+"No test cases available \n"
+"\n"
 msgstr ""
 
 #: Console/Command/TestShell.php:313
@@ -2544,7 +3256,9 @@ msgid "The plugin to update. Only the specified plugin will be updated."
 msgstr ""
 
 #: Console/Command/UpgradeShell.php:796
-msgid "The extension(s) to search. A pipe delimited list, or a preg_match compatible subpattern"
+msgid ""
+"The extension(s) to search. A pipe delimited list, or a preg_match "
+"compatible subpattern"
 msgstr ""
 
 #: Console/Command/UpgradeShell.php:801
@@ -2556,7 +3270,9 @@ msgid "Dry run the update, no files will actually be modified."
 msgstr ""
 
 #: Console/Command/UpgradeShell.php:813
-msgid "A shell to help automate upgrading from CakePHP 1.3 to 2.0. \nBe sure to have a backup of your application before running these commands."
+msgid ""
+"A shell to help automate upgrading from CakePHP 1.3 to 2.0. \n"
+"Be sure to have a backup of your application before running these commands."
 msgstr ""
 
 #: Console/Command/UpgradeShell.php:816
@@ -2612,7 +3328,9 @@ msgid "Adding %s methods"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:129
-msgid "Bake Controller\nPath: %s"
+msgid ""
+"Bake Controller\n"
+"Path: %s"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:138
@@ -2649,7 +3367,9 @@ msgid "The following controller will be created:"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:219
-msgid "Controller Name:\n\t%s"
+msgid ""
+"Controller Name:\n"
+"\t%s"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:226
@@ -2661,7 +3381,9 @@ msgid "Components:"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:254
-msgid "Would you like to create some basic class methods \n(index(), add(), view(), edit())?"
+msgid ""
+"Would you like to create some basic class methods \n"
+"(index(), add(), view(), edit())?"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:258
@@ -2669,7 +3391,9 @@ msgid "Would you like to create the basic class methods for admin routing?"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:280
-msgid "You must have a model for this class to build basic methods. Please try again."
+msgid ""
+"You must have a model for this class to build basic methods. Please try "
+"again."
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:312
@@ -2677,11 +3401,16 @@ msgid "Baking controller class for %s..."
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:351
-msgid "Would you like this controller to use other helpers\nbesides HtmlHelper and FormHelper?"
+msgid ""
+"Would you like this controller to use other helpers\n"
+"besides HtmlHelper and FormHelper?"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:352
-msgid "Please provide a comma separated list of the other\nhelper names you'd like to use.\nExample: 'Ajax, Javascript, Time'"
+msgid ""
+"Please provide a comma separated list of the other\n"
+"helper names you'd like to use.\n"
+"Example: 'Ajax, Javascript, Time'"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:363
@@ -2689,7 +3418,10 @@ msgid "Would you like this controller to use any components?"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:364
-msgid "Please provide a comma separated list of the component names you'd like to use.\nExample: 'Acl, Security, RequestHandler'"
+msgid ""
+"Please provide a comma separated list of the component names you'd like to "
+"use.\n"
+"Example: 'Acl, Security, RequestHandler'"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:399
@@ -2697,7 +3429,9 @@ msgid "Possible Controllers based on your current database:"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:423
-msgid "Enter a number from the list above,\ntype in the name of another controller, or 'q' to exit"
+msgid ""
+"Enter a number from the list above,\n"
+"type in the name of another controller, or 'q' to exit"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:425
@@ -2706,19 +3440,26 @@ msgid "Exit"
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:430
-msgid "The Controller name you supplied was empty,\nor the number you selected was not an option. Please try again."
+msgid ""
+"The Controller name you supplied was empty,\n"
+"or the number you selected was not an option. Please try again."
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:451
-msgid "Bake a controller for a model. Using options you can bake public, admin or both."
+msgid ""
+"Bake a controller for a model. Using options you can bake public, admin or "
+"both."
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:453
-msgid "Name of the controller to bake. Can use Plugin.name to bake controllers into plugins."
+msgid ""
+"Name of the controller to bake. Can use Plugin.name to bake controllers into "
+"plugins."
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:455
-msgid "Bake a controller with basic crud actions (index, view, add, edit, delete)."
+msgid ""
+"Bake a controller with basic crud actions (index, view, add, edit, delete)."
 msgstr ""
 
 #: Console/Command/Task/ControllerTask.php:458
@@ -2740,8 +3481,7 @@ msgstr ""
 #: Console/Command/Task/ControllerTask.php:468
 #: Console/Command/Task/FixtureTask.php:89
 #: Console/Command/Task/ModelTask.php:980
-#: Console/Command/Task/TestTask.php:567
-#: Console/Command/Task/ViewTask.php:442
+#: Console/Command/Task/TestTask.php:567 Console/Command/Task/ViewTask.php:442
 msgid "Omitting all arguments and options will enter into an interactive mode."
 msgstr ""
 
@@ -2754,7 +3494,8 @@ msgid "Name:"
 msgstr ""
 
 #: Console/Command/Task/DbConfigTask.php:102
-msgid "The name may only contain unaccented latin characters, numbers or underscores"
+msgid ""
+"The name may only contain unaccented latin characters, numbers or underscores"
 msgstr ""
 
 #: Console/Command/Task/DbConfigTask.php:105
@@ -2866,7 +3607,10 @@ msgid "Bake new database configuration settings."
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:124
-msgid "Current paths: %s\nWhat is the path you would like to extract?\n[Q]uit [D]one"
+msgid ""
+"Current paths: %s\n"
+"What is the path you would like to extract?\n"
+"[Q]uit [D]one"
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:131;208
@@ -2886,7 +3630,9 @@ msgid "Would you like to extract the messages from the CakePHP core?"
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:204
-msgid "What is the path you would like to output?\n[Q]uit"
+msgid ""
+"What is the path you would like to output?\n"
+"[Q]uit"
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:224
@@ -2934,23 +3680,34 @@ msgid "Comma separated list of files."
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:310
-msgid "Ignores all files in plugins if this command is run inside from the same app directory."
+msgid ""
+"Ignores all files in plugins if this command is run inside from the same app "
+"directory."
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:313
-msgid "Extracts tokens only from the plugin specified and puts the result in the plugin's Locale directory."
+msgid ""
+"Extracts tokens only from the plugin specified and puts the result in the "
+"plugin's Locale directory."
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:318
-msgid "Ignores validation messages in the $validate property. If this flag is not set and the command is run from the same app directory, all messages in model validation rules will be extracted as tokens."
+msgid ""
+"Ignores validation messages in the $validate property. If this flag is not "
+"set and the command is run from the same app directory, all messages in "
+"model validation rules will be extracted as tokens."
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:323
-msgid "If set to a value, the localization domain to be used for model validation messages."
+msgid ""
+"If set to a value, the localization domain to be used for model validation "
+"messages."
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:326
-msgid "Comma separated list of directories to exclude. Any path containing a path segment with the provided values will be skipped. E.g. test,vendors"
+msgid ""
+"Comma separated list of directories to exclude. Any path containing a path "
+"segment with the provided values will be skipped. E.g. test,vendors"
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:332
@@ -2966,7 +3723,8 @@ msgid "Processing %s..."
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:588
-msgid "Error: %s already exists in this location. Overwrite? [Y]es, [N]o, [A]ll"
+msgid ""
+"Error: %s already exists in this location. Overwrite? [Y]es, [N]o, [A]ll"
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:595
@@ -2974,19 +3732,26 @@ msgid "What would you like to name this file?"
 msgstr ""
 
 #: Console/Command/Task/ExtractTask.php:689
-msgid "Invalid marker content in %s:%s\n* %s("
+msgid ""
+"Invalid marker content in %s:%s\n"
+"* %s("
 msgstr ""
 
 #: Console/Command/Task/FixtureTask.php:71
-msgid "Generate fixtures for use with the test suite. You can use `bake fixture all` to bake all fixtures."
+msgid ""
+"Generate fixtures for use with the test suite. You can use `bake fixture "
+"all` to bake all fixtures."
 msgstr ""
 
 #: Console/Command/Task/FixtureTask.php:73
-msgid "Name of the fixture to bake. Can use Plugin.name to bake plugin fixtures."
+msgid ""
+"Name of the fixture to bake. Can use Plugin.name to bake plugin fixtures."
 msgstr ""
 
 #: Console/Command/Task/FixtureTask.php:75
-msgid "When using generated data, the number of records to include in the fixture(s)."
+msgid ""
+"When using generated data, the number of records to include in the fixture"
+"(s)."
 msgstr ""
 
 #: Console/Command/Task/FixtureTask.php:79
@@ -2998,11 +3763,15 @@ msgid "CamelCased name of the plugin to bake fixtures for."
 msgstr ""
 
 #: Console/Command/Task/FixtureTask.php:86
-msgid "Used with --count and <name>/all commands to pull [n] records from the live tables, where [n] is either --count or the default of 10"
+msgid ""
+"Used with --count and <name>/all commands to pull [n] records from the live "
+"tables, where [n] is either --count or the default of 10"
 msgstr ""
 
 #: Console/Command/Task/FixtureTask.php:140
-msgid "Bake Fixture\nPath: %s"
+msgid ""
+"Bake Fixture\n"
+"Path: %s"
 msgstr ""
 
 #: Console/Command/Task/FixtureTask.php:160
@@ -3022,7 +3791,9 @@ msgid "Baking test fixture for %s..."
 msgstr ""
 
 #: Console/Command/Task/FixtureTask.php:389
-msgid "Please provide a SQL fragment to use as conditions\nExample: WHERE 1=1"
+msgid ""
+"Please provide a SQL fragment to use as conditions\n"
+"Example: WHERE 1=1"
 msgstr ""
 
 #: Console/Command/Task/FixtureTask.php:393
@@ -3038,19 +3809,27 @@ msgid "Make a selection from the choices above"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:194
-msgid "Bake Model\nPath: %s"
+msgid ""
+"Bake Model\n"
+"Path: %s"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:209
-msgid "The table %s doesn't exist or could not be automatically detected\ncontinue anyway?"
+msgid ""
+"The table %s doesn't exist or could not be automatically detected\n"
+"continue anyway?"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:235
-msgid "Would you like to supply validation criteria \nfor the fields in your model?"
+msgid ""
+"Would you like to supply validation criteria \n"
+"for the fields in your model?"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:241
-msgid "Would you like to define model associations\n(hasMany, hasOne, belongsTo, etc.)?"
+msgid ""
+"Would you like to define model associations\n"
+"(hasMany, hasOne, belongsTo, etc.)?"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:250
@@ -3086,7 +3865,9 @@ msgid "What is the primaryKey?"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:332
-msgid "A displayField could not be automatically detected\nwould you like to choose one?"
+msgid ""
+"A displayField could not be automatically detected\n"
+"would you like to choose one?"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:337
@@ -3114,7 +3895,9 @@ msgid "... or enter in a valid regex validation string.\n"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:456
-msgid "You have already chosen that validation rule,\nplease choose again"
+msgid ""
+"You have already chosen that validation rule,\n"
+"please choose again"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:460
@@ -3150,7 +3933,9 @@ msgid "Enter a number"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:696
-msgid "For the following options be very careful to match your setup exactly.\nAny spelling mistakes will cause errors."
+msgid ""
+"For the following options be very careful to match your setup exactly.\n"
+"Any spelling mistakes will cause errors."
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:700
@@ -3198,7 +3983,9 @@ msgid "Possible Models based on your current database:"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:885
-msgid "Given your model named '%s',\nCake would expect a database table named '%s'"
+msgid ""
+"Given your model named '%s',\n"
+"Cake would expect a database table named '%s'"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:886
@@ -3214,11 +4001,15 @@ msgid "Your database does not have any tables."
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:939
-msgid "Enter a number from the list above,\ntype in the name of another model, or 'q' to exit"
+msgid ""
+"Enter a number from the list above,\n"
+"type in the name of another model, or 'q' to exit"
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:948
-msgid "The model name you supplied was empty,\nor the number you selected was not an option. Please try again."
+msgid ""
+"The model name you supplied was empty,\n"
+"or the number you selected was not an option. Please try again."
 msgstr ""
 
 #: Console/Command/Task/ModelTask.php:969
@@ -3271,7 +4062,9 @@ msgid "Choose a plugin path from the paths above."
 msgstr ""
 
 #: Console/Command/Task/PluginTask.php:217
-msgid "Create the directory structure, AppModel and AppController classes for a new plugin. Can create plugins in any of your bootstrapped plugin paths."
+msgid ""
+"Create the directory structure, AppModel and AppController classes for a new "
+"plugin. Can create plugins in any of your bootstrapped plugin paths."
 msgstr ""
 
 #: Console/Command/Task/PluginTask.php:221
@@ -3283,7 +4076,8 @@ msgid "What is the path to the project you want to bake?"
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:70
-msgid "<warning>A project already exists in this location:</warning> %s Overwrite?"
+msgid ""
+"<warning>A project already exists in this location:</warning> %s Overwrite?"
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:82
@@ -3291,7 +4085,9 @@ msgid " * Random hash key created for 'Security.salt'"
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:84
-msgid "Unable to generate random hash for 'Security.salt', you should change it in %s"
+msgid ""
+"Unable to generate random hash for 'Security.salt', you should change it in "
+"%s"
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:89
@@ -3299,7 +4095,9 @@ msgid " * Random seed created for 'Security.cipherSeed'"
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:91
-msgid "Unable to generate random seed for 'Security.cipherSeed', you should change it in %s"
+msgid ""
+"Unable to generate random seed for 'Security.cipherSeed', you should change "
+"it in %s"
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:96
@@ -3311,11 +4109,15 @@ msgid "Unable to set console path for app/Console."
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:104
-msgid "<info>CakePHP is on your `include_path`. CAKE_CORE_INCLUDE_PATH will be set, but commented out.</info>"
+msgid ""
+"<info>CakePHP is on your `include_path`. CAKE_CORE_INCLUDE_PATH will be set, "
+"but commented out.</info>"
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:106
-msgid "<warning>CakePHP is not on your `include_path`, CAKE_CORE_INCLUDE_PATH will be hard coded.</warning>"
+msgid ""
+"<warning>CakePHP is not on your `include_path`, CAKE_CORE_INCLUDE_PATH will "
+"be hard coded.</warning>"
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:107
@@ -3335,7 +4137,9 @@ msgid "Unable to set CAKE_CORE_INCLUDE_PATH, you should change it in %s"
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:119
-msgid "   * <warning>Remember to check these values after moving to production server</warning>"
+msgid ""
+"   * <warning>Remember to check these values after moving to production "
+"server</warning>"
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:124
@@ -3391,7 +4195,9 @@ msgid "Please choose a prefix to bake with."
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:385;393
-msgid "You need to enable Configure::write('Routing.prefixes',array('admin')) in /app/Config/core.php to use prefix routing."
+msgid ""
+"You need to enable Configure::write('Routing.prefixes',array('admin')) in /"
+"app/Config/core.php to use prefix routing."
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:386
@@ -3415,15 +4221,19 @@ msgid "Generate a new CakePHP project skeleton."
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:411
-msgid "Application directory to make, if it starts with \"/\" the path is absolute."
+msgid ""
+"Application directory to make, if it starts with \"/\" the path is absolute."
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:414
-msgid "Create empty files in each of the directories. Good if you are using git"
+msgid ""
+"Create empty files in each of the directories. Good if you are using git"
 msgstr ""
 
 #: Console/Command/Task/ProjectTask.php:417
-msgid "The directory layout to use for the new application skeleton. Defaults to cake/Console/Templates/skel of CakePHP used to create the project."
+msgid ""
+"The directory layout to use for the new application skeleton. Defaults to "
+"cake/Console/Templates/skel of CakePHP used to create the project."
 msgstr ""
 
 #: Console/Command/Task/TemplateTask.php:178
@@ -3471,7 +4281,8 @@ msgid "Choose a %s class"
 msgstr ""
 
 #: Console/Command/Task/TestTask.php:229
-msgid "Choose an existing class, or enter the name of a class that does not exist"
+msgid ""
+"Choose an existing class, or enter the name of a class that does not exist"
 msgstr ""
 
 #: Console/Command/Task/TestTask.php:453
@@ -3479,7 +4290,10 @@ msgid "Bake could not detect fixtures, would you like to add some?"
 msgstr ""
 
 #: Console/Command/Task/TestTask.php:456
-msgid "Please provide a comma separated list of the fixtures names you'd like to use.\nExample: 'app.comment, app.post, plugin.forums.post'"
+msgid ""
+"Please provide a comma separated list of the fixtures names you'd like to "
+"use.\n"
+"Example: 'app.comment, app.post, plugin.forums.post'"
 msgstr ""
 
 #: Console/Command/Task/TestTask.php:552
@@ -3487,7 +4301,9 @@ msgid "Bake test case skeletons for classes."
 msgstr ""
 
 #: Console/Command/Task/TestTask.php:554
-msgid "Type of class to bake, can be any of the following: controller, model, helper, component or behavior."
+msgid ""
+"Type of class to bake, can be any of the following: controller, model, "
+"helper, component or behavior."
 msgstr ""
 
 #: Console/Command/Task/TestTask.php:563
@@ -3499,11 +4315,17 @@ msgid "CamelCased name of the plugin to bake tests for."
 msgstr ""
 
 #: Console/Command/Task/ViewTask.php:210
-msgid "Would you like bake to build your views interactively?\nWarning: Choosing no will overwrite %s views if it exist."
+msgid ""
+"Would you like bake to build your views interactively?\n"
+"Warning: Choosing no will overwrite %s views if it exist."
 msgstr ""
 
 #: Console/Command/Task/ViewTask.php:217
-msgid "Would you like to create some CRUD views\n(index, add, view, edit) for this controller?\nNOTE: Before doing so, you'll need to create your controller\nand model classes (including associated models)."
+msgid ""
+"Would you like to create some CRUD views\n"
+"(index, add, view, edit) for this controller?\n"
+"NOTE: Before doing so, you'll need to create your controller\n"
+"and model classes (including associated models)."
 msgstr ""
 
 #: Console/Command/Task/ViewTask.php:220
@@ -3519,7 +4341,9 @@ msgid "Controller not found"
 msgstr ""
 
 #: Console/Command/Task/ViewTask.php:268
-msgid "The file '%s' could not be found.\nIn order to bake a view, you'll need to first create the controller."
+msgid ""
+"The file '%s' could not be found.\n"
+"In order to bake a view, you'll need to first create the controller."
 msgstr ""
 
 #: Console/Command/Task/ViewTask.php:320
@@ -3559,15 +4383,19 @@ msgid "Bake views for a controller, using built-in or custom templates."
 msgstr ""
 
 #: Console/Command/Task/ViewTask.php:426
-msgid "Name of the controller views to bake.  Can be Plugin.name as a shortcut for plugin baking."
+msgid ""
+"Name of the controller views to bake.  Can be Plugin.name as a shortcut for "
+"plugin baking."
 msgstr ""
 
 #: Console/Command/Task/ViewTask.php:428
-msgid "Will bake a single action's file. core templates are (index, add, edit, view)"
+msgid ""
+"Will bake a single action's file. core templates are (index, add, edit, view)"
 msgstr ""
 
 #: Console/Command/Task/ViewTask.php:430
-msgid "Will bake the template in <action> but create the filename after <alias>."
+msgid ""
+"Will bake the template in <action> but create the filename after <alias>."
 msgstr ""
 
 #: Console/Command/Task/ViewTask.php:433
@@ -3583,6 +4411,7 @@ msgid "The connection the connected model is on."
 msgstr ""
 
 #: Console/Command/Task/ViewTask.php:441
-msgid "Bake all CRUD action views for all controllers. Requires models and controllers to exist."
+msgid ""
+"Bake all CRUD action views for all controllers. Requires models and "
+"controllers to exist."
 msgstr ""
-
