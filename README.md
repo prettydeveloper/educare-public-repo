@@ -11,5 +11,7 @@ It is designed to manage students, schools and extra-schools courses. The main p
 
 The application is in the early stage of development, any contribution is welcome!
 
+==
+
 [Maestri di Strada](http://www.maestridistrada.org/) - The main contributors to the project and first users
 
