@@ -1,7 +1,10 @@
-Educ@re
+EduCare
 =======
 
-[[EduCare]](http://www.cakephp.org)
+[![EduCare](http://prettydeveloper.com/screenshot.png)](http://prettydeveloper.com)
+
+General Information
+===================
 
 EduCare is a web application based on the excellent [CakePHP](http://www.cakephp.org) - The fast development PHP framework.
 It is designed to manage students, schools and extra-schools courses. The main pourpose is to track students attendances.
