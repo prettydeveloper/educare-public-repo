@@ -1,18 +1,18 @@
 # ************************************************************
-# Sequel Pro SQL dump
-# Version 3991
+# EduCare SQL structure dump
+# Version 1.0
 #
-# http://www.sequelpro.com/
-# http://code.google.com/p/sequel-pro/
+# https://github.com/prettydeveloper/educare-public-repo
 #
 # Host: 127.0.0.1 (MySQL 5.5.24)
 # Database: educare
-# Generation Time: 2013-01-29 14:29:30 +0000
+# Generation Time: 2013-01-31 12:21:25 +0000
 # ************************************************************
-
 
 # Dump of table acos
 # ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `acos`;
 
 CREATE TABLE `acos` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
@@ -30,6 +30,8 @@ CREATE TABLE `acos` (
 # Dump of table aros
 # ------------------------------------------------------------
 
+DROP TABLE IF EXISTS `aros`;
+
 CREATE TABLE `aros` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `parent_id` int(10) DEFAULT NULL,
@@ -45,6 +47,8 @@ CREATE TABLE `aros` (
 
 # Dump of table aros_acos
 # ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `aros_acos`;
 
 CREATE TABLE `aros_acos` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
@@ -63,6 +67,8 @@ CREATE TABLE `aros_acos` (
 # Dump of table attendances
 # ------------------------------------------------------------
 
+DROP TABLE IF EXISTS `attendances`;
+
 CREATE TABLE `attendances` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `student_id` int(10) NOT NULL,
@@ -79,13 +85,15 @@ CREATE TABLE `attendances` (
   `modified_by` int(10) DEFAULT NULL,
   `trashed_by` int(10) DEFAULT NULL,
   `note` varchar(512) DEFAULT NULL,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
 
 # Dump of table course_codes
 # ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `course_codes`;
 
 CREATE TABLE `course_codes` (
   `id` tinyint(4) NOT NULL AUTO_INCREMENT,
@@ -98,6 +106,8 @@ CREATE TABLE `course_codes` (
 
 # Dump of table grades
 # ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `grades`;
 
 CREATE TABLE `grades` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
@@ -112,13 +122,15 @@ CREATE TABLE `grades` (
   `modified_by` int(10) DEFAULT NULL,
   `trashed_by` int(10) DEFAULT NULL,
   `note` varchar(512) DEFAULT NULL,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
 
 # Dump of table groups
 # ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `groups`;
 
 CREATE TABLE `groups` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -132,6 +144,8 @@ CREATE TABLE `groups` (
 
 # Dump of table schools
 # ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `schools`;
 
 CREATE TABLE `schools` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
@@ -158,6 +172,8 @@ CREATE TABLE `schools` (
 # Dump of table students
 # ------------------------------------------------------------
 
+DROP TABLE IF EXISTS `students`;
+
 CREATE TABLE `students` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `first_name` varchar(32) NOT NULL,
@@ -179,13 +195,15 @@ CREATE TABLE `students` (
   `modified_by` int(10) DEFAULT NULL,
   `trashed_by` int(10) DEFAULT NULL,
   `note` varchar(512) DEFAULT NULL,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
 
 # Dump of table users
 # ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `users`;
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -198,12 +216,3 @@ CREATE TABLE `users` (
   UNIQUE KEY `username` (`username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-
-
-
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
