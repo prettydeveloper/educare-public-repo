@@ -2,5 +2,34 @@ app/tmp
 app/tmp/cache
 lib/Cake/Console/Templates/skel/tmp/
 .DS_Store
+<<<<<<< HEAD
 app/.DS_Store
 app/Config/database.php
+=======
+<<<<<<< HEAD
+/app/.DS_Store
+=======
+
+app/tmp/cache/models/myapp_cake_model_default_educare_attendances
+>>>>>>> Commit
+
+app/Config/database.php
+
+app/Config/database.php
+
+app/tmp/cache/models/myapp_cake_model_default_educare_grades
+
+app/tmp/cache/models/myapp_cake_model_default_educare_list
+
+app/tmp/cache/persistent/myapp_cake_core_cake_dev_ita
+
+app/tmp/cache/persistent/myapp_cake_core_cake_ita
+
+app/tmp/cache/persistent/myapp_cake_core_default_ita
+
+app/tmp/cache/persistent/myapp_cake_core_file_map
+
+app/tmp/cache/persistent/myapp_cake_core_method_cache
+
+app/tmp/logs/error.log
+>>>>>>> Update ignore
