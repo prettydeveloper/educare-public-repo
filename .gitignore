@@ -2,4 +2,9 @@
 /app/tmp/cache
 /lib/Cake/Console/Templates/skel/tmp/
 .DS_Store
+<<<<<<< HEAD
 /app/.DS_Store
+=======
+
+app/tmp/cache/models/myapp_cake_model_default_educare_attendances
+>>>>>>> Commit
