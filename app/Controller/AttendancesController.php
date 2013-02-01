@@ -111,6 +111,43 @@ class AttendancesController extends AppController {
 	 * @return void
 	 */
 
+	public function select() {
+
+			// Has any form data been POSTed?
+		    if ($this->request->is('post')) {
+		        // If the form data can be validated and saved...
+		        $this->Attendance->create();
+
+		        foreach ($this->request->data['Attendance'] as $attendance): 
+		        	if( $attendance['absent'] == true || $attendance['late'] == true)
+		        		$this->Attendance->save($attendance);
+		        	else if( $attendance['absent'] == false && $attendance['late'] == false )
+		        		$this->Attendance->delete($attendance);
+		        endforeach;
+
+		        //if ($this->Attendance->saveMany($this->request->data['Attendance'], array('Attendance.absent' => true))) {
+
+		            // Set a session flash message and redirect.
+		            // debug($this->request->data, true , true);
+		            $this->Session->setFlash('Presenze salvate!');
+		            //$this->redirect('/attendances/take');
+		        //}
+		    }
+
+		    // If no form data, find the students with attendance to be edited
+		    // and hand it to the view.
+		    $this->loadModel('Schools');
+		    $this->set('schools', $this->Schools->find('all'));
+	}
+
+	/**
+	 * take method
+	 *
+	 * @throws NotFoundException
+	 * @param string $id
+	 * @return void
+	 */
+
 	public function take() {
 			// Has any form data been POSTed?
 		    if ($this->request->is('post')) {
