@@ -7,22 +7,21 @@
 </div><!--/hero-->
 <div class="row-fluid">
 	<div class="span4">
-		<h2>Scuole</h2>
+		<h2><?php echo __('Schools'); ?></h2>
 		<a class="btn" href="./schools/add">
-			<i class="icon-plus"></i> Aggiungi una Scuola
+			<i class="icon-plus"></i> <?php echo __('Add School'); ?>
 		</a>
 	</div><!--/span-->
 	<div class="span4">
-		<h2>Studenti</h2>
+		<h2><?php echo __('Students'); ?></h2>
 			<a class="btn" href="./students/add">
-				<i class="icon-plus"></i>Aggiungi uno Studente
+				<i class="icon-plus"></i><?php echo __('Add Student'); ?>
 			</a>
 	</div><!--/span-->
 	<div class="span4">
-		<h2>Classi</h2>
-		<a class="btn" href="./class/add">
-			<i class="icon-plus"></i>
-			Aggiungi una Classe
+		<h2><?php echo __('Grades'); ?></h2>
+		<a class="btn" href="./grades/add">
+			<i class="icon-plus"></i> <?php echo __('Add Grade'); ?>
 		</a>
 	</div><!--/span-->
 </div><!--/row-->

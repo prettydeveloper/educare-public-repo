@@ -9,7 +9,12 @@
           <a class="brand" href="/"><?php echo $title; ?></a>
           <div class="nav-collapse collapse">
           	<p class="navbar-text pull-right">
-              <?php echo $this->Session->read('Auth.User.username') ?> <i class="icon-off icon-white"></i> <?php echo $this->Html->link('Logout', array('controller' => 'users', 'action' => 'logout'));?>
+              <?php 
+              if($this->Session->read('Auth.User.username')) {
+                  echo $this->Session->read('Auth.User.username');
+                  echo ' <i class="icon-off icon-white"></i> ';
+                  echo $this->Html->link('Logout', array('controller' => 'users', 'action' => 'logout'));
+               }?>
             </p>
             <ul class="nav">
               <li class="active">
@@ -17,15 +22,15 @@
     			array('controller' => 'pages', 'action' => ''));?>
               </li>
               <li>
-               <?php echo $this->Html->link('Scuole',
+               <?php echo $this->Html->link(__('Schools'),
     			array('controller' => 'schools', 'action' => ''));?>
               </li>
               <li>
-                <?php echo $this->Html->link('Classi',
+                <?php echo $this->Html->link(__('Grades'),
     			array('controller' => 'grades', 'action' => ''));?>
               </li>
               <li>
-                <?php echo $this->Html->link('Studenti',
+                <?php echo $this->Html->link(__('Students'),
     			array('controller' => 'students', 'action' => ''));?>
               </li>
               <!--<li>
@@ -37,7 +42,7 @@
     			array('controller' => 'educators', 'action' => ''));?>
               </li>-->
               <li>
-                <?php echo $this->Html->link('Amministrazione',
+                <?php echo $this->Html->link(__('Administrator'),
     			array('controller' => 'admin', 'action' => ''));?>
               </li>
             </ul>
