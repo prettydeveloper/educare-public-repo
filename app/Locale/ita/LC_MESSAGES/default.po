@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EduCare\n"
 "POT-Creation-Date: 2013-01-31 18:46+0100\n"
-"PO-Revision-Date: 2013-01-31 18:58+0100\n"
+"PO-Revision-Date: 2013-02-01 12:16+0100\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: EduCare <info@prettydeveloper.com>\n"
 "MIME-Version: 1.0\n"
@@ -16,123 +16,123 @@ msgstr ""
 
 #: Controller/AttendancesController.php:30;65;96
 msgid "Invalid attendance"
-msgstr ""
+msgstr "Presenza non valida"
 
 #: Controller/AttendancesController.php:44;69
 msgid "The attendance has been saved"
-msgstr ""
+msgstr "La presenza è stata registrata"
 
 #: Controller/AttendancesController.php:47;72
 msgid "The attendance could not be saved. Please, try again."
-msgstr ""
+msgstr "La presenza non è stata registrata, riprovare."
 
 #: Controller/AttendancesController.php:99
 msgid "Attendance deleted"
-msgstr ""
+msgstr "Presenza cancellata"
 
 #: Controller/AttendancesController.php:102
 msgid "Attendance was not deleted"
-msgstr ""
+msgstr "La presenza non è stata cancellata"
 
 #: Controller/GradesController.php:30;65;96;126;161;192
 msgid "Invalid grade"
-msgstr ""
+msgstr "Classe non valida"
 
 #: Controller/GradesController.php:44;69;140;165
 msgid "The grade has been saved"
-msgstr ""
+msgstr "La classe è stata registrata"
 
 #: Controller/GradesController.php:47;72;143;168
 msgid "The grade could not be saved. Please, try again."
-msgstr ""
+msgstr "La classe non è stata registrata, riprovare"
 
 #: Controller/GradesController.php:99;195
 msgid "Grade deleted"
-msgstr ""
+msgstr "Grado cancellato"
 
 #: Controller/GradesController.php:102;198
 msgid "Grade was not deleted"
-msgstr ""
+msgstr "La classe non è stata cancellata"
 
 #: Controller/GroupsController.php:40;72;100
 msgid "Invalid group"
-msgstr ""
+msgstr "Gruppo non valido"
 
 #: Controller/GroupsController.php:54;76
 msgid "The group has been saved"
-msgstr ""
+msgstr "Il gruppo è stato salvato"
 
 #: Controller/GroupsController.php:57;79
 msgid "The group could not be saved. Please, try again."
-msgstr ""
+msgstr "Il gruppo non è stato salvato, riprovare"
 
 #: Controller/GroupsController.php:103
 msgid "Group deleted"
-msgstr ""
+msgstr "Gruppo cancellato"
 
 #: Controller/GroupsController.php:106
 msgid "Group was not deleted"
-msgstr ""
+msgstr "Il gruppo non è stato cancellato"
 
 #: Controller/SchoolsController.php:30;62;90;120;152;180
 msgid "Invalid school"
-msgstr ""
+msgstr "Scuola non valida"
 
 #: Controller/SchoolsController.php:44;66;134;156
 msgid "The school has been saved"
-msgstr ""
+msgstr "La scuola è stata salvata"
 
 #: Controller/SchoolsController.php:47;69;137;159
 msgid "The school could not be saved. Please, try again."
-msgstr ""
+msgstr "La scuola non è stata registrata, riprovare"
 
 #: Controller/SchoolsController.php:93;183
 msgid "School deleted"
-msgstr ""
+msgstr "Scuola cancellata"
 
 #: Controller/SchoolsController.php:96;186
 msgid "School was not deleted"
-msgstr ""
+msgstr "La scuola non è stata cancellata"
 
 #: Controller/StudentsController.php:30;64;94;124;158;188
 msgid "Invalid student"
-msgstr ""
+msgstr "Studente non valido"
 
 #: Controller/StudentsController.php:44;68;138;162
 msgid "The student has been saved"
-msgstr ""
+msgstr "Lo studente è stato registrato"
 
 #: Controller/StudentsController.php:47;71;141;165
 msgid "The student could not be saved. Please, try again."
-msgstr ""
+msgstr "Lo studente non è stato registrato, riprovare"
 
 #: Controller/StudentsController.php:97;191
 msgid "Student deleted"
-msgstr ""
+msgstr "Studente cancellato"
 
 #: Controller/StudentsController.php:100;194
 msgid "Student was not deleted"
-msgstr ""
+msgstr "Studente non è stato cancellato"
 
 #: Controller/UsersController.php:45;79;109
 msgid "Invalid user"
-msgstr ""
+msgstr "Utente non valido"
 
 #: Controller/UsersController.php:59;83
 msgid "The user has been saved"
-msgstr ""
+msgstr "L'utente è stato registrato"
 
 #: Controller/UsersController.php:62;86
 msgid "The user could not be saved. Please, try again."
-msgstr ""
+msgstr "L'utente non è stato registrato, riprovare"
 
 #: Controller/UsersController.php:112
 msgid "User deleted"
-msgstr ""
+msgstr "Utente cancellato"
 
 #: Controller/UsersController.php:115
 msgid "User was not deleted"
-msgstr ""
+msgstr "L'utente non è stato cancellato"
 
 #: Plugin/AclExtras/Console/Command/AclExtrasShell.php:111
 msgid "<success>Aco Update Complete</success>"
@@ -197,7 +197,7 @@ msgstr ""
 
 #: View/Attendances/add.ctp:4
 msgid "Add Attendance"
-msgstr ""
+msgstr "Aggiungi Presenza"
 
 #: View/Attendances/add.ctp:20 View/Attendances/edit.ctp:21
 #: View/GradeCodes/add.ctp:10 View/GradeCodes/edit.ctp:11
@@ -207,7 +207,7 @@ msgstr ""
 #: View/Users/edit.ctp:12 View/Helper/FormHelper.php:1670
 #: View/Scaffolds/form.ctp:23
 msgid "Submit"
-msgstr ""
+msgstr "Invia"
 
 #: View/Attendances/add.ctp:23 View/Attendances/edit.ctp:24
 #: View/Attendances/index.ctp:20;68 View/Attendances/view.ctp:82
@@ -224,7 +224,7 @@ msgstr ""
 #: View/Users/view.ctp:37 View/Scaffolds/form.ctp:27
 #: View/Scaffolds/index.ctp:26;78 View/Scaffolds/view.ctp:45
 msgid "Actions"
-msgstr ""
+msgstr "Azioni"
 
 #: View/Attendances/add.ctp:26 View/Attendances/edit.ctp:28
 #: View/Attendances/view.ctp:86 View/Grades/add.ctp:28 View/Grades/edit.ctp:30
@@ -232,7 +232,7 @@ msgstr ""
 #: View/Students/edit.ctp:36 View/Students/index.ctp:81
 #: View/Students/view.ctp:115
 msgid "List Attendances"
-msgstr ""
+msgstr "Lista Presenze"
 
 #: View/Attendances/add.ctp:27 View/Attendances/edit.ctp:29
 #: View/Attendances/index.ctp:71 View/Attendances/view.ctp:88
@@ -240,7 +240,7 @@ msgstr ""
 #: View/Grades/view.ctp:79 View/Students/add.ctp:31 View/Students/edit.ctp:33
 #: View/Students/view.ctp:111
 msgid "List Students"
-msgstr ""
+msgstr "Lista Studenti"
 
 #: View/Attendances/add.ctp:28 View/Attendances/edit.ctp:30
 #: View/Attendances/index.ctp:72 View/Attendances/view.ctp:89
@@ -248,7 +248,7 @@ msgstr ""
 #: View/Grades/view.ctp:80;203 View/Students/index.ctp:78
 #: View/Students/view.ctp:112
 msgid "New Student"
-msgstr ""
+msgstr "Nuovo Studente"
 
 #: View/Attendances/add.ctp:29 View/Attendances/edit.ctp:31
 #: View/Attendances/index.ctp:73 View/Attendances/view.ctp:90
@@ -257,7 +257,7 @@ msgstr ""
 #: View/Schools/view.ctp:93 View/Students/add.ctp:32 View/Students/edit.ctp:34
 #: View/Students/index.ctp:79 View/Students/view.ctp:113
 msgid "List Grades"
-msgstr ""
+msgstr "Lista Classi"
 
 #: View/Attendances/add.ctp:30 View/Attendances/edit.ctp:32
 #: View/Attendances/index.ctp:74 View/Attendances/view.ctp:91
@@ -267,11 +267,11 @@ msgstr ""
 #: View/Students/edit.ctp:35 View/Students/index.ctp:80
 #: View/Students/view.ctp:114
 msgid "New Grade"
-msgstr ""
+msgstr "Nuova Classe"
 
 #: View/Attendances/edit.ctp:4 View/Attendances/view.ctp:84
 msgid "Edit Attendance"
-msgstr ""
+msgstr "Modifica Presenza"
 
 #: View/Attendances/edit.ctp:27 View/Attendances/index.ctp:47
 #: View/GradeCodes/edit.ctp:17 View/GradeCodes/index.ctp:19
@@ -284,7 +284,7 @@ msgstr ""
 #: View/Scaffolds/form.ctp:31 View/Scaffolds/index.ctp:52
 #: View/Scaffolds/view.ctp:133
 msgid "Delete"
-msgstr ""
+msgstr "Cancella"
 
 #: View/Attendances/edit.ctp:27 View/Attendances/index.ctp:47
 #: View/Attendances/view.ctp:85 View/GradeCodes/edit.ctp:17
@@ -298,11 +298,11 @@ msgstr ""
 #: View/Users/edit.ctp:18 View/Users/index.ctp:27 View/Users/view.ctp:40
 #: View/Scaffolds/form.ctp:34
 msgid "Are you sure you want to delete # %s?"
-msgstr ""
+msgstr "Sei sicuro di voler cancellare # %s?"
 
 #: View/Attendances/index.ctp:2
 msgid "Attendances"
-msgstr ""
+msgstr "Presenze"
 
 #: View/Attendances/index.ctp:45 View/GradeCodes/index.ctp:17
 #: View/Grades/index.ctp:39 View/Grades/view.ctp:125;192
@@ -311,7 +311,7 @@ msgstr ""
 #: View/Students/view.ctp:161 View/Users/index.ctp:25
 #: View/Scaffolds/index.ctp:49 View/Scaffolds/view.ctp:131
 msgid "View"
-msgstr ""
+msgstr "Visualizza"
 
 #: View/Attendances/index.ctp:46 View/GradeCodes/index.ctp:18
 #: View/Grades/index.ctp:40 View/Grades/view.ctp:126;193
@@ -320,7 +320,7 @@ msgstr ""
 #: View/Students/view.ctp:162 View/Users/index.ctp:26
 #: View/Scaffolds/index.ctp:50 View/Scaffolds/view.ctp:132
 msgid "Edit"
-msgstr ""
+msgstr "Modifica"
 
 #: View/Attendances/index.ctp:55 View/GradeCodes/index.ctp:27
 #: View/Grades/index.ctp:49 View/Groups/index.ctp:29 View/Schools/index.ctp:53
@@ -329,21 +329,21 @@ msgstr ""
 msgid ""
 "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
 "starting on record {:start}, ending on {:end}"
-msgstr ""
+msgstr "Page {:page} of {:pages}, record di su {:count} totale"
 
 #: View/Attendances/index.ctp:61 View/GradeCodes/index.ctp:33
 #: View/Grades/index.ctp:55 View/Groups/index.ctp:35 View/Schools/index.ctp:59
 #: View/Students/index.ctp:69 View/Users/index.ctp:41
 #: View/Scaffolds/index.ctp:71
 msgid "previous"
-msgstr ""
+msgstr "precedente"
 
 #: View/Attendances/index.ctp:63 View/GradeCodes/index.ctp:35
 #: View/Grades/index.ctp:57 View/Groups/index.ctp:37 View/Schools/index.ctp:61
 #: View/Students/index.ctp:71 View/Users/index.ctp:43
 #: View/Scaffolds/index.ctp:73
 msgid "next"
-msgstr ""
+msgstr "prossimo"
 
 #: View/Attendances/index.ctp:70 View/Attendances/view.ctp:87
 #: View/Grades/add.ctp:29 View/Grades/edit.ctp:31 View/Grades/index.ctp:70
@@ -351,302 +351,302 @@ msgstr ""
 #: View/Students/edit.ctp:37 View/Students/index.ctp:82
 #: View/Students/view.ctp:116;172
 msgid "New Attendance"
-msgstr ""
+msgstr "Nuova Presenza"
 
 #: View/Attendances/view.ctp:2
 msgid "Attendance"
-msgstr ""
+msgstr "Presenza"
 
 #: View/Attendances/view.ctp:4 View/GradeCodes/view.ctp:4
 #: View/Grades/view.ctp:4;88;145 View/Groups/view.ctp:4;42
 #: View/Schools/view.ctp:4;102 View/Students/view.ctp:4;124
 #: View/Users/view.ctp:4
 msgid "Id"
-msgstr ""
+msgstr "Id"
 
 #: View/Attendances/view.ctp:9 View/Students/view.ctp:2
 msgid "Student"
-msgstr ""
+msgstr "Studente"
 
 #: View/Attendances/view.ctp:14 View/Grades/view.ctp:90
 #: View/Students/view.ctp:126
 msgid "Attendance Date"
-msgstr ""
+msgstr "Data Presenza"
 
 #: View/Attendances/view.ctp:19 View/Grades/view.ctp:2
 #: View/Students/view.ctp:24
 msgid "Grade"
-msgstr ""
+msgstr "Classe"
 
 #: View/Attendances/view.ctp:24 View/Grades/view.ctp:92
 #: View/Students/view.ctp:128
 msgid "Present"
-msgstr ""
+msgstr "Presente"
 
 #: View/Attendances/view.ctp:29 View/Grades/view.ctp:93
 #: View/Students/view.ctp:129
 msgid "Absent"
-msgstr ""
+msgstr "Assente"
 
 #: View/Attendances/view.ctp:34 View/Grades/view.ctp:94
 #: View/Students/view.ctp:130
 msgid "Late"
-msgstr ""
+msgstr "Ritardo"
 
 #: View/Attendances/view.ctp:39 View/Grades/view.ctp:95
 #: View/Students/view.ctp:131
 msgid "Reason"
-msgstr ""
+msgstr "Ragione"
 
 #: View/Attendances/view.ctp:44 View/Grades/view.ctp:29;96;158
 #: View/Groups/view.ctp:14;46 View/Schools/view.ctp:49;107
 #: View/Students/view.ctp:69;132 View/Users/view.ctp:24
 msgid "Created"
-msgstr ""
+msgstr "Creato"
 
 #: View/Attendances/view.ctp:49 View/Grades/view.ctp:34;97;159
 #: View/Groups/view.ctp:19;47 View/Schools/view.ctp:54;108
 #: View/Students/view.ctp:74;133 View/Users/view.ctp:29
 msgid "Modified"
-msgstr ""
+msgstr "Modificato"
 
 #: View/Attendances/view.ctp:54 View/Grades/view.ctp:39;98;160
 #: View/Schools/view.ctp:59;109 View/Students/view.ctp:79;134
 msgid "Trashed"
-msgstr ""
+msgstr "Cestinato"
 
 #: View/Attendances/view.ctp:59 View/Grades/view.ctp:44;99;161
 #: View/Schools/view.ctp:64;110 View/Students/view.ctp:84;135
 msgid "Created By"
-msgstr ""
+msgstr "Creato da"
 
 #: View/Attendances/view.ctp:64 View/Grades/view.ctp:49;100;162
 #: View/Schools/view.ctp:69;111 View/Students/view.ctp:89;136
 msgid "Modified By"
-msgstr ""
+msgstr "Modificato da"
 
 #: View/Attendances/view.ctp:69 View/Grades/view.ctp:54;101;163
 #: View/Schools/view.ctp:74;112 View/Students/view.ctp:94;137
 msgid "Trashed By"
-msgstr ""
+msgstr "Cestinato da"
 
 #: View/Attendances/view.ctp:74 View/Grades/view.ctp:59;102;164
 #: View/Schools/view.ctp:79;113 View/Students/view.ctp:99;138
 msgid "Note"
-msgstr ""
+msgstr "Nota"
 
 #: View/Attendances/view.ctp:85
 msgid "Delete Attendance"
-msgstr ""
+msgstr "Cancella Presenza"
 
 #: View/GradeCodes/add.ctp:4
 msgid "Add Grade Code"
-msgstr ""
+msgstr "Aggiungi N° Classe"
 
 #: View/GradeCodes/add.ctp:16 View/GradeCodes/edit.ctp:18
 #: View/GradeCodes/view.ctp:26
 msgid "List Grade Codes"
-msgstr ""
+msgstr "Lista di Classi"
 
 #: View/GradeCodes/edit.ctp:4 View/GradeCodes/view.ctp:24
 msgid "Edit Grade Code"
-msgstr ""
+msgstr "Modifica N° Classe"
 
 #: View/GradeCodes/index.ctp:2
 msgid "Grade Codes"
-msgstr ""
+msgstr "Classi"
 
 #: View/GradeCodes/index.ctp:42 View/GradeCodes/view.ctp:27
 msgid "New Grade Code"
-msgstr ""
+msgstr "Nuovo N° Classe"
 
 #: View/GradeCodes/view.ctp:2 View/Grades/view.ctp:19
 #: View/Schools/view.ctp:105
 msgid "Grade Code"
-msgstr ""
+msgstr "N° Classe"
 
 #: View/GradeCodes/view.ctp:9
 msgid "Code"
-msgstr ""
+msgstr "Numero"
 
 #: View/GradeCodes/view.ctp:14
 msgid "Value"
-msgstr ""
+msgstr "Valore"
 
 #: View/GradeCodes/view.ctp:25
 msgid "Delete Grade Code"
-msgstr ""
+msgstr "Cancella N° Classe"
 
 #: View/Grades/add.ctp:4
 msgid "Add Grade"
-msgstr ""
+msgstr "Aggiungi Classe"
 
 #: View/Grades/add.ctp:24 View/Grades/edit.ctp:26 View/Grades/index.ctp:65
 #: View/Grades/view.ctp:73 View/Schools/add.ctp:27 View/Schools/edit.ctp:29
 #: View/Schools/view.ctp:91
 msgid "List Schools"
-msgstr ""
+msgstr "Lista Scuole"
 
 #: View/Grades/add.ctp:25 View/Grades/edit.ctp:27 View/Grades/index.ctp:66
 #: View/Grades/view.ctp:74 View/Schools/index.ctp:68 View/Schools/view.ctp:92
 msgid "New School"
-msgstr ""
+msgstr "Nuova Scuola"
 
 #: View/Grades/add.ctp:26 View/Grades/edit.ctp:28 View/Grades/index.ctp:67
 #: View/Grades/view.ctp:75
 msgid "List Course Codes"
-msgstr ""
+msgstr "Cicli d'istruzione"
 
 #: View/Grades/add.ctp:27 View/Grades/edit.ctp:29 View/Grades/index.ctp:68
 #: View/Grades/view.ctp:76
 msgid "New Course Code"
-msgstr ""
+msgstr "Nuovo Ciclo d'Istruzione"
 
 #: View/Grades/edit.ctp:4 View/Grades/view.ctp:69
 msgid "Edit Grade"
-msgstr ""
+msgstr "Modifica Classe"
 
 #: View/Grades/index.ctp:2
 msgid "Grades"
-msgstr ""
+msgstr "Classi"
 
 #: View/Grades/view.ctp:9 View/Schools/view.ctp:2
 msgid "School"
-msgstr ""
+msgstr "Scuola"
 
 #: View/Grades/view.ctp:14 View/Schools/view.ctp:104
 msgid "Grade Number"
-msgstr ""
+msgstr "Numero Classe"
 
 #: View/Grades/view.ctp:24 View/Schools/view.ctp:106
 msgid "Course Code"
-msgstr ""
+msgstr "Ciclo d'Istruzione"
 
 #: View/Grades/view.ctp:70
 msgid "Delete Grade"
-msgstr ""
+msgstr "Cancella Classe"
 
 #: View/Grades/view.ctp:84 View/Students/view.ctp:120
 msgid "Related Attendances"
-msgstr ""
+msgstr "Presenze Correlate"
 
 #: View/Grades/view.ctp:89 View/Students/view.ctp:125
 msgid "Student Id"
-msgstr ""
+msgstr "Id Studente"
 
 #: View/Grades/view.ctp:91;149 View/Students/view.ctp:127
 msgid "Grade Id"
-msgstr ""
+msgstr "Id Classe"
 
 #: View/Grades/view.ctp:141
 msgid "Related Students"
-msgstr ""
+msgstr "Studenti Correlati"
 
 #: View/Grades/view.ctp:146 View/Students/view.ctp:9
 msgid "First Name"
-msgstr ""
+msgstr "Nome"
 
 #: View/Grades/view.ctp:147 View/Students/view.ctp:14
 msgid "Middle Name"
-msgstr ""
+msgstr "Secondo Nome"
 
 #: View/Grades/view.ctp:148 View/Students/view.ctp:19
 msgid "Last Name"
-msgstr ""
+msgstr "Cognome"
 
 #: View/Grades/view.ctp:150 View/Students/view.ctp:29
 msgid "Date Of Birth"
-msgstr ""
+msgstr "Data di nascita"
 
 #: View/Grades/view.ctp:151 View/Schools/view.ctp:19 View/Students/view.ctp:34
 msgid "Address"
-msgstr ""
+msgstr "Indirizzo"
 
 #: View/Grades/view.ctp:152 View/Schools/view.ctp:24 View/Students/view.ctp:39
 msgid "Zipcode"
-msgstr ""
+msgstr "CAP"
 
 #: View/Grades/view.ctp:153 View/Schools/view.ctp:29 View/Students/view.ctp:44
 msgid "City"
-msgstr ""
+msgstr "Città"
 
 #: View/Grades/view.ctp:154 View/Schools/view.ctp:34 View/Students/view.ctp:49
 msgid "State"
-msgstr ""
+msgstr "Provincia"
 
 #: View/Grades/view.ctp:155 View/Schools/view.ctp:39 View/Students/view.ctp:54
 msgid "Phone Number 1"
-msgstr ""
+msgstr "Recapito 1"
 
 #: View/Grades/view.ctp:156 View/Schools/view.ctp:44 View/Students/view.ctp:59
 msgid "Phone Number 2"
-msgstr ""
+msgstr "Recapito 2"
 
 #: View/Grades/view.ctp:157 View/Students/view.ctp:64
 msgid "Phone Number 3"
-msgstr ""
+msgstr "Recapito 3"
 
 #: View/Groups/add.ctp:4
 msgid "Add Group"
-msgstr ""
+msgstr "Aggiungi Gruppo"
 
 #: View/Groups/add.ctp:15 View/Groups/edit.ctp:17 View/Groups/view.ctp:31
 #: View/Users/add.ctp:18 View/Users/edit.ctp:20 View/Users/index.ctp:51
 #: View/Users/view.ctp:43
 msgid "List Groups"
-msgstr ""
+msgstr "Lista Gruppi"
 
 #: View/Groups/add.ctp:16 View/Groups/edit.ctp:18 View/Groups/index.ctp:45
 #: View/Groups/view.ctp:33 View/Users/add.ctp:17 View/Users/edit.ctp:19
 #: View/Users/view.ctp:41
 msgid "List Users"
-msgstr ""
+msgstr "Lista Utenti"
 
 #: View/Groups/add.ctp:17 View/Groups/edit.ctp:19 View/Groups/index.ctp:46
 #: View/Groups/view.ctp:34;72 View/Users/index.ctp:50 View/Users/view.ctp:42
 msgid "New User"
-msgstr ""
+msgstr "Nuovo Utente"
 
 #: View/Groups/edit.ctp:4 View/Groups/view.ctp:29
 msgid "Edit Group"
-msgstr ""
+msgstr "Modifica Gruppo"
 
 #: View/Groups/index.ctp:2
 msgid "Groups"
-msgstr ""
+msgstr "Gruppi"
 
 #: View/Groups/index.ctp:44 View/Groups/view.ctp:32 View/Users/add.ctp:19
 #: View/Users/edit.ctp:21 View/Users/index.ctp:52 View/Users/view.ctp:44
 msgid "New Group"
-msgstr ""
+msgstr "Nuovo Gruppo"
 
 #: View/Groups/view.ctp:2 View/Users/view.ctp:19
 msgid "Group"
-msgstr ""
+msgstr "Gruppo"
 
 #: View/Groups/view.ctp:9 View/Schools/view.ctp:9
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: View/Groups/view.ctp:30
 msgid "Delete Group"
-msgstr ""
+msgstr "Cancella Gruppo"
 
 #: View/Groups/view.ctp:38
 msgid "Related Users"
-msgstr ""
+msgstr "Utenti Correlati"
 
 #: View/Groups/view.ctp:43 View/Users/view.ctp:9
 msgid "Username"
-msgstr ""
+msgstr "Username"
 
 #: View/Groups/view.ctp:44 View/Users/view.ctp:14
 msgid "Password"
-msgstr ""
+msgstr "Password"
 
 #: View/Groups/view.ctp:45
 msgid "Group Id"
-msgstr ""
+msgstr "Id Gruppo"
 
 #: View/Pages/start.ctp:2
 msgid "Welcome"
@@ -654,71 +654,71 @@ msgstr "Benvenuto"
 
 #: View/Schools/add.ctp:4
 msgid "Add School"
-msgstr ""
+msgstr "Aggiungi Scuola"
 
 #: View/Schools/edit.ctp:4 View/Schools/view.ctp:89
 msgid "Edit School"
-msgstr ""
+msgstr "Modifica Scuola"
 
 #: View/Schools/index.ctp:2
 msgid "Schools"
-msgstr ""
+msgstr "Scuole"
 
 #: View/Schools/view.ctp:14
 msgid "School Code"
-msgstr ""
+msgstr "Numero Circolo"
 
 #: View/Schools/view.ctp:90
 msgid "Delete School"
-msgstr ""
+msgstr "Cancella Scuola"
 
 #: View/Schools/view.ctp:98
 msgid "Related Grades"
-msgstr ""
+msgstr "Classi Correlate"
 
 #: View/Schools/view.ctp:103
 msgid "School Id"
-msgstr ""
+msgstr "Id Scuola"
 
 #: View/Students/add.ctp:4
 msgid "Add Student"
-msgstr ""
+msgstr "Aggiungi Studente"
 
 #: View/Students/edit.ctp:4 View/Students/view.ctp:109
 msgid "Edit Student"
-msgstr ""
+msgstr "Modifica Studente"
 
 #: View/Students/index.ctp:2
 msgid "Students"
-msgstr ""
+msgstr "Studenti"
 
 #: View/Students/view.ctp:110
 msgid "Delete Student"
-msgstr ""
+msgstr "Cancella Studente"
 
 #: View/Users/add.ctp:4
 msgid "Add User"
-msgstr ""
+msgstr "Aggiungi Utente"
 
 #: View/Users/edit.ctp:4 View/Users/view.ctp:39
 msgid "Edit User"
-msgstr ""
+msgstr "Modifica Utente"
 
 #: View/Users/index.ctp:2
 msgid "Users"
-msgstr ""
+msgstr "Utenti"
 
 #: View/Users/view.ctp:2
 msgid "User"
-msgstr ""
+msgstr "Utente"
 
 #: View/Users/view.ctp:40
 msgid "Delete User"
-msgstr ""
+msgstr "Cancella Utente"
 
 #: View/Helper/FormHelper.php:1329
 msgid "empty"
-msgstr ""
+msgstr "vuoto"
 
 #: View/Helper/HtmlHelper.php:731
 msgid "Home"
@@ -738,15 +738,15 @@ msgstr ""
 #: View/Errors/missing_view.ctp:21;25 View/Errors/pdo_error.ctp:21
 #: View/Errors/private_action.ctp:21 View/Errors/scaffold_error.ctp:21
 msgid "Error"
-msgstr ""
+msgstr "Errore"
 
 #: View/Errors/error400.ctp:23
 msgid "The requested address %s was not found on this server."
-msgstr ""
+msgstr "L'indirizzo richiesto %s non si trova su questo server."
 
 #: View/Errors/error500.ctp:22 Error/ExceptionRenderer.php:226
 msgid "An Internal Error Has Occurred."
-msgstr ""
+msgstr "Errore interno"
 
 #: Controller/Scaffold.php:128
 msgid "Scaffold :: "
@@ -754,15 +754,15 @@ msgstr ""
 
 #: Controller/Scaffold.php:167;234;305
 msgid "Invalid %s"
-msgstr ""
+msgstr "%s non validi"
 
 #: Controller/Scaffold.php:222
 msgid "updated"
-msgstr ""
+msgstr "aggiornato"
 
 #: Controller/Scaffold.php:225
 msgid "saved"
-msgstr ""
+msgstr "salvato"
 
 #: Controller/Scaffold.php:245
 msgid "The %1$s has been %2$s"
@@ -770,7 +770,7 @@ msgstr ""
 
 #: Controller/Scaffold.php:256
 msgid "Please correct errors below."
-msgstr ""
+msgstr "Correggere gli errori precedenti"
 
 #: Controller/Scaffold.php:308
 msgid "The %1$s with id: %2$s has been deleted."
@@ -820,43 +820,43 @@ msgstr[1] ""
 
 #: Utility/CakeTime.php:387
 msgid "Sunday"
-msgstr ""
+msgstr "Domenica"
 
 #: Utility/CakeTime.php:388
 msgid "Monday"
-msgstr ""
+msgstr "Lunedì"
 
 #: Utility/CakeTime.php:389
 msgid "Tuesday"
-msgstr ""
+msgstr "Martedì"
 
 #: Utility/CakeTime.php:390
 msgid "Wednesday"
-msgstr ""
+msgstr "Mercoledì"
 
 #: Utility/CakeTime.php:391
 msgid "Thursday"
-msgstr ""
+msgstr "Giovedì"
 
 #: Utility/CakeTime.php:392
 msgid "Friday"
-msgstr ""
+msgstr "Venerdì"
 
 #: Utility/CakeTime.php:393
 msgid "Saturday"
-msgstr ""
+msgstr "Sabato"
 
 #: Utility/CakeTime.php:397
 msgid "Today, %s"
-msgstr ""
+msgstr "%s di oggi"
 
 #: Utility/CakeTime.php:399
 msgid "Yesterday, %s"
-msgstr ""
+msgstr "%s di ieri"
 
 #: Utility/CakeTime.php:401
 msgid "Tomorrow, %s"
-msgstr ""
+msgstr "%s di domani"
 
 #: Utility/CakeTime.php:405
 msgid "On %s %s"
@@ -872,11 +872,11 @@ msgstr ""
 
 #: Utility/CakeTime.php:842
 msgid "just now"
-msgstr ""
+msgstr "proprio adesso"
 
 #: Utility/CakeTime.php:860;885
 msgid "days"
-msgstr ""
+msgstr "giorni"
 
 #: Utility/CakeTime.php:148
 msgid "abday"
@@ -884,7 +884,7 @@ msgstr ""
 
 #: Utility/CakeTime.php:154
 msgid "day"
-msgstr ""
+msgstr "giorno"
 
 #: Utility/CakeTime.php:160
 msgid "d_t_fmt"
@@ -971,68 +971,68 @@ msgstr ""
 
 #: View/Helper/FormHelper.php:2528
 msgid "January"
-msgstr ""
+msgstr "Gennaio"
 
 #: View/Helper/FormHelper.php:2529
 msgid "February"
-msgstr ""
+msgstr "Febbraio"
 
 #: View/Helper/FormHelper.php:2530
 msgid "March"
-msgstr ""
+msgstr "Marzo"
 
 #: View/Helper/FormHelper.php:2531
 msgid "April"
-msgstr ""
+msgstr "Aprile"
 
 #: View/Helper/FormHelper.php:2532
 msgid "May"
-msgstr ""
+msgstr "Maggio"
 
 #: View/Helper/FormHelper.php:2533
 msgid "June"
-msgstr ""
+msgstr "Giugno"
 
 #: View/Helper/FormHelper.php:2534
 msgid "July"
-msgstr ""
+msgstr "Luglio"
 
 #: View/Helper/FormHelper.php:2535
 msgid "August"
-msgstr ""
+msgstr "Agosto"
 
 #: View/Helper/FormHelper.php:2536
 msgid "September"
-msgstr ""
+msgstr "Settembre"
 
 #: View/Helper/FormHelper.php:2537
 msgid "October"
-msgstr ""
+msgstr "Ottobre"
 
 #: View/Helper/FormHelper.php:2538
 msgid "November"
-msgstr ""
+msgstr "Novembre"
 
 #: View/Helper/FormHelper.php:2539
 msgid "December"
-msgstr ""
+msgstr "Dicembre"
 
 #: View/Helper/PaginatorHelper.php:581
 msgid " of "
-msgstr ""
+msgstr "di"
 
 #: View/Scaffolds/form.ctp:37
 msgid "List"
-msgstr ""
+msgstr "Lista"
 
 #: View/Scaffolds/form.ctp:43 View/Scaffolds/index.ctp:86
 #: View/Scaffolds/view.ctp:50;57
 msgid "List %s"
-msgstr ""
+msgstr "Lista di %s"
 
 #: View/Scaffolds/index.ctp:55 View/Scaffolds/view.ctp:49;133
 msgid "Are you sure you want to delete"
-msgstr ""
+msgstr "Vuoi davvero cancellare"
 
 #: View/Scaffolds/view.ctp:20
 msgid "View %s"
@@ -1137,11 +1137,11 @@ msgstr ""
 
 #: View/Pages/home.ctp:139
 msgid "Getting Started"
-msgstr ""
+msgstr "Inizia"
 
 #: View/Pages/home.ctp:143
 msgid "New"
-msgstr ""
+msgstr "Nuovo"
 
 #: View/Pages/home.ctp:143
 msgid "CakePHP 2.0 Docs"
@@ -1674,7 +1674,7 @@ msgstr ""
 
 #: Network/Http/HttpResponse.php:145
 msgid "Invalid response."
-msgstr ""
+msgstr "Response non valida"
 
 #: Network/Http/HttpResponse.php:149
 msgid "Invalid HTTP response."
@@ -2567,7 +2567,7 @@ msgstr ""
 
 #: Console/Command/ApiShell.php:119
 msgid "Done"
-msgstr ""
+msgstr "Fatto"
 
 #: Console/Command/ApiShell.php:147
 msgid ""
