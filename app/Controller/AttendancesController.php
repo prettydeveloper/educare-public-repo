@@ -111,7 +111,7 @@ class AttendancesController extends AppController {
 	 * @return void
 	 */
 
-	public function select() {
+	public function selectSchool() {
 
 			// Has any form data been POSTed?
 		    if ($this->request->is('post')) {
