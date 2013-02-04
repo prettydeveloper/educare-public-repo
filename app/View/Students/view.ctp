@@ -1,6 +1,6 @@
 <div class="students view">
 <h2><?php  echo __('Student'); ?></h2>
-	<dl>
+	<dl class="dl-horizontal">
 		<dt><?php echo __('Id'); ?></dt>
 		<dd>
 			<?php echo h($student['Student']['id']); ?>

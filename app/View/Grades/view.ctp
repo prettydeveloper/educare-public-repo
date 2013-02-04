@@ -1,6 +1,6 @@
 <div class="grades view">
 <h2><?php  echo __('Grade'); ?></h2>
-	<dl>
+	<dl class="dl-horizontal">
 		<dt><?php echo __('Id'); ?></dt>
 		<dd>
 			<?php echo h($grade['Grade']['id']); ?>
