@@ -4,7 +4,7 @@
 	<tr>
 <!--			<th><?php echo $this->Paginator->sort('id'); ?></th> -->
 			<th><?php echo $this->Paginator->sort('first_name'); ?></th>
-			<th><?php echo $this->Paginator->sort('middle_name'); ?></th>
+<!--			<th><?php echo $this->Paginator->sort('middle_name'); ?></th> -->
 			<th><?php echo $this->Paginator->sort('last_name'); ?></th>
 			<th><?php echo $this->Paginator->sort('grade_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('date_of_birth'); ?></th>
@@ -29,7 +29,7 @@
 	<tr>
 <!--		<td><?php echo h($student['Student']['id']); ?>&nbsp;</td> -->
 		<td><?php echo h($student['Student']['first_name']); ?>&nbsp;</td>
-		<td><?php echo h($student['Student']['middle_name']); ?>&nbsp;</td>
+<!--		<td><?php echo h($student['Student']['middle_name']); ?>&nbsp;</td> -->
 		<td><?php echo h($student['Student']['last_name']); ?>&nbsp;</td>
 		<td>
 			<?php echo $this->Html->link($student['Grade']['id'], array('controller' => 'grades', 'action' => 'view', $student['Grade']['id'])); ?>
