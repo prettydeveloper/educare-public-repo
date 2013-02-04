@@ -10,12 +10,12 @@
 			<th><?php echo $this->Paginator->sort('absent'); ?></th>
 			<th><?php echo $this->Paginator->sort('late'); ?></th>
 			<th><?php echo $this->Paginator->sort('reason'); ?></th>
-			<th><?php echo $this->Paginator->sort('created'); ?></th>
+<!--			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
 			<th><?php echo $this->Paginator->sort('trashed'); ?></th>
 			<th><?php echo $this->Paginator->sort('created_by'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified_by'); ?></th>
-			<th><?php echo $this->Paginator->sort('trashed_by'); ?></th>
+			<th><?php echo $this->Paginator->sort('trashed_by'); ?></th> -->
 			<th><?php echo $this->Paginator->sort('note'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
@@ -34,12 +34,12 @@
 		<td><?php echo h($attendance['Attendance']['absent']); ?>&nbsp;</td>
 		<td><?php echo h($attendance['Attendance']['late']); ?>&nbsp;</td>
 		<td><?php echo h($attendance['Attendance']['reason']); ?>&nbsp;</td>
-		<td><?php echo h($attendance['Attendance']['created']); ?>&nbsp;</td>
+<!--		<td><?php echo h($attendance['Attendance']['created']); ?>&nbsp;</td>
 		<td><?php echo h($attendance['Attendance']['modified']); ?>&nbsp;</td>
 		<td><?php echo h($attendance['Attendance']['trashed']); ?>&nbsp;</td>
 		<td><?php echo h($attendance['Attendance']['created_by']); ?>&nbsp;</td>
 		<td><?php echo h($attendance['Attendance']['modified_by']); ?>&nbsp;</td>
-		<td><?php echo h($attendance['Attendance']['trashed_by']); ?>&nbsp;</td>
+		<td><?php echo h($attendance['Attendance']['trashed_by']); ?>&nbsp;</td> -->
 		<td><?php echo h($attendance['Attendance']['note']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $attendance['Attendance']['id'])); ?>
