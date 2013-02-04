@@ -10,8 +10,8 @@
 			<th><?php echo $this->Paginator->sort('city'); ?></th>
 			<th><?php echo $this->Paginator->sort('state'); ?></th>
 			<th><?php echo $this->Paginator->sort('phone_number_1'); ?></th>
-			<th><?php echo $this->Paginator->sort('phone_number_2'); ?></th>
-<!--			<th><?php echo $this->Paginator->sort('created'); ?></th>
+<!--			<th><?php echo $this->Paginator->sort('phone_number_2'); ?></th>
+			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
 			<th><?php echo $this->Paginator->sort('trashed'); ?></th>
 			<th><?php echo $this->Paginator->sort('created_by'); ?></th>
@@ -31,8 +31,8 @@
 		<td><?php echo h($school['School']['city']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['state']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['phone_number_1']); ?>&nbsp;</td>
-		<td><?php echo h($school['School']['phone_number_2']); ?>&nbsp;</td>
-<!--		<td><?php echo h($school['School']['created']); ?>&nbsp;</td>
+<!--		<td><?php echo h($school['School']['phone_number_2']); ?>&nbsp;</td>
+		<td><?php echo h($school['School']['created']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['modified']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['trashed']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['created_by']); ?>&nbsp;</td>
