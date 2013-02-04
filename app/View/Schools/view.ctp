@@ -104,12 +104,12 @@
 		<th><?php echo __('Grade Number'); ?></th>
 		<th><?php echo __('Grade Code'); ?></th>
 		<th><?php echo __('Course Code'); ?></th>
-		<th><?php echo __('Created'); ?></th>
+<!--		<th><?php echo __('Created'); ?></th>
 		<th><?php echo __('Modified'); ?></th>
 		<th><?php echo __('Trashed'); ?></th>
 		<th><?php echo __('Created By'); ?></th>
 		<th><?php echo __('Modified By'); ?></th>
-		<th><?php echo __('Trashed By'); ?></th>
+		<th><?php echo __('Trashed By'); ?></th> -->
 		<th><?php echo __('Note'); ?></th>
 		<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
@@ -121,13 +121,13 @@
 			<td><?php echo $grade['school_id']; ?></td>
 			<td><?php echo $grade['grade_number']; ?></td>
 			<td><?php echo $grade['grade_code']; ?></td>
-			<td><?php echo $grade['course_code']; ?></td>
-			<td><?php echo $grade['created']; ?></td>
+			<td><?php echo $grade['CourseCode']['value']; ?></td>
+<!--			<td><?php echo $grade['created']; ?></td>
 			<td><?php echo $grade['modified']; ?></td>
 			<td><?php echo $grade['trashed']; ?></td>
 			<td><?php echo $grade['created_by']; ?></td>
 			<td><?php echo $grade['modified_by']; ?></td>
-			<td><?php echo $grade['trashed_by']; ?></td>
+			<td><?php echo $grade['trashed_by']; ?></td> -->
 			<td><?php echo $grade['note']; ?></td>
 			<td class="actions">
 				<?php echo $this->Html->link(__('View'), array('controller' => 'grades', 'action' => 'view', $grade['id'])); ?>

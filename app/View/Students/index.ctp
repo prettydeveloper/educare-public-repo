@@ -2,7 +2,7 @@
 	<h2><?php echo __('Students'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
+<!--			<th><?php echo $this->Paginator->sort('id'); ?></th> -->
 			<th><?php echo $this->Paginator->sort('first_name'); ?></th>
 			<th><?php echo $this->Paginator->sort('middle_name'); ?></th>
 			<th><?php echo $this->Paginator->sort('last_name'); ?></th>
@@ -15,19 +15,19 @@
 			<th><?php echo $this->Paginator->sort('phone_number_1'); ?></th>
 			<th><?php echo $this->Paginator->sort('phone_number_2'); ?></th>
 			<th><?php echo $this->Paginator->sort('phone_number_3'); ?></th>
-			<th><?php echo $this->Paginator->sort('created'); ?></th>
+<!--			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
 			<th><?php echo $this->Paginator->sort('trashed'); ?></th>
 			<th><?php echo $this->Paginator->sort('created_by'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified_by'); ?></th>
-			<th><?php echo $this->Paginator->sort('trashed_by'); ?></th>
+			<th><?php echo $this->Paginator->sort('trashed_by'); ?></th> -->
 			<th><?php echo $this->Paginator->sort('note'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php
 	foreach ($students as $student): ?>
 	<tr>
-		<td><?php echo h($student['Student']['id']); ?>&nbsp;</td>
+<!--		<td><?php echo h($student['Student']['id']); ?>&nbsp;</td> -->
 		<td><?php echo h($student['Student']['first_name']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['middle_name']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['last_name']); ?>&nbsp;</td>
@@ -42,12 +42,12 @@
 		<td><?php echo h($student['Student']['phone_number_1']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['phone_number_2']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['phone_number_3']); ?>&nbsp;</td>
-		<td><?php echo h($student['Student']['created']); ?>&nbsp;</td>
+<!--		<td><?php echo h($student['Student']['created']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['modified']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['trashed']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['created_by']); ?>&nbsp;</td>
 		<td><?php echo h($student['Student']['modified_by']); ?>&nbsp;</td>
-		<td><?php echo h($student['Student']['trashed_by']); ?>&nbsp;</td>
+		<td><?php echo h($student['Student']['trashed_by']); ?>&nbsp;</td> -->
 		<td><?php echo h($student['Student']['note']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $student['Student']['id'])); ?>

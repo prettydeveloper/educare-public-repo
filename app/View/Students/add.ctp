@@ -4,7 +4,7 @@
 		<legend><?php echo __('Add Student'); ?></legend>
 	<?php
 		echo $this->Form->input('first_name');
-		echo $this->Form->input('middle_name');
+//		echo $this->Form->input('middle_name');
 		echo $this->Form->input('last_name');
 		echo $this->Form->input('grade_id');
 		echo $this->Form->input('date_of_birth');

@@ -2,24 +2,24 @@
 	<h2><?php echo __('Grades'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
+<!--			<th><?php echo $this->Paginator->sort('id'); ?></th> -->
 			<th><?php echo $this->Paginator->sort('school_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('grade_number'); ?></th>
 			<th><?php echo $this->Paginator->sort('grade_code'); ?></th>
 			<th><?php echo $this->Paginator->sort('course_code_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('created'); ?></th>
+<!---			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
 			<th><?php echo $this->Paginator->sort('trashed'); ?></th>
 			<th><?php echo $this->Paginator->sort('created_by'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified_by'); ?></th>
-			<th><?php echo $this->Paginator->sort('trashed_by'); ?></th>
+			<th><?php echo $this->Paginator->sort('trashed_by'); ?></th> -->
 			<th><?php echo $this->Paginator->sort('note'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php
 	foreach ($grades as $grade): ?>
 	<tr>
-		<td><?php echo h($grade['Grade']['id']); ?>&nbsp;</td>
+<!--		<td><?php echo h($grade['Grade']['id']); ?>&nbsp;</td> -->
 		<td>
 			<?php echo $this->Html->link($grade['School']['name'], array('controller' => 'schools', 'action' => 'view', $grade['School']['id'])); ?>
 		</td>
@@ -28,12 +28,12 @@
 		<td>
 			<?php echo $this->Html->link($grade['CourseCode']['value'], array('controller' => 'course_codes', 'action' => 'view', $grade['CourseCode']['id'])); ?>
 		</td>
-		<td><?php echo h($grade['Grade']['created']); ?>&nbsp;</td>
+<!--		<td><?php echo h($grade['Grade']['created']); ?>&nbsp;</td>
 		<td><?php echo h($grade['Grade']['modified']); ?>&nbsp;</td>
 		<td><?php echo h($grade['Grade']['trashed']); ?>&nbsp;</td>
 		<td><?php echo h($grade['Grade']['created_by']); ?>&nbsp;</td>
 		<td><?php echo h($grade['Grade']['modified_by']); ?>&nbsp;</td>
-		<td><?php echo h($grade['Grade']['trashed_by']); ?>&nbsp;</td>
+		<td><?php echo h($grade['Grade']['trashed_by']); ?>&nbsp;</td> -->
 		<td><?php echo h($grade['Grade']['note']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $grade['Grade']['id'])); ?>
