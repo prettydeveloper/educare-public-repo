@@ -237,7 +237,7 @@ table td.actions a {
 }
 
 /** Scaffold View **/
-dl {
+/*dl {
 	line-height: 2em;
 	margin: 0em 0em;
 	width: 60%;
@@ -257,7 +257,7 @@ dd {
 	margin-left: 10em;
 	margin-top: -2em;
 	vertical-align: top;
-}
+}*/
 
 /** Forms **/
 form {
