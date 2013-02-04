@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EduCare\n"
 "POT-Creation-Date: 2013-01-31 18:46+0100\n"
-"PO-Revision-Date: 2013-02-01 12:36+0100\n"
+"PO-Revision-Date: 2013-02-04 12:08+0100\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: EduCare <info@prettydeveloper.com>\n"
 "MIME-Version: 1.0\n"
@@ -516,7 +516,7 @@ msgstr "Scuola"
 
 #: View/Grades/view.ctp:14 View/Schools/view.ctp:104
 msgid "Grade Number"
-msgstr "Numero Classe"
+msgstr "Classe"
 
 #: View/Grades/view.ctp:24 View/Schools/view.ctp:106
 msgid "Course Code"
