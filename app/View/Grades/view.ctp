@@ -1,9 +1,9 @@
 <div class="grades view">
-<h2><?php  echo __('Grade'); ?></h2>
+<h2><?php  echo __('Grade') .' '. $grade['Grade']['grade_number']. $grade['Grade']['grade_code']; ?></h2>
 	<dl class="dl-horizontal">
-		<dt><?php echo __('Id'); ?></dt>
+<!--		<dt><?php echo __('Id'); ?></dt> -->
 		<dd>
-			<?php echo h($grade['Grade']['id']); ?>
+<!--			<?php echo h($grade['Grade']['id']); ?> -->
 			&nbsp;
 		</dd>
 		<dt><?php echo __('School'); ?></dt>
@@ -11,22 +11,22 @@
 			<?php echo $this->Html->link($grade['School']['name'], array('controller' => 'schools', 'action' => 'view', $grade['School']['id'])); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Grade Number'); ?></dt>
+<!--		<dt><?php echo __('Grade Number'); ?></dt>
 		<dd>
 			<?php echo h($grade['Grade']['grade_number']); ?>
 			&nbsp;
-		</dd>
+		</dd> 
 		<dt><?php echo __('Grade Code'); ?></dt>
 		<dd>
 			<?php echo h($grade['Grade']['grade_code']); ?>
 			&nbsp;
-		</dd>
+		</dd> -->
 		<dt><?php echo __('Course Code'); ?></dt>
 		<dd>
 			<?php echo $this->Html->link($grade['CourseCode']['value'], array('controller' => 'course_codes', 'action' => 'view', $grade['CourseCode']['id'])); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Created'); ?></dt>
+<!--		<dt><?php echo __('Created'); ?></dt>
 		<dd>
 			<?php echo h($grade['Grade']['created']); ?>
 			&nbsp;
@@ -60,8 +60,84 @@
 		<dd>
 			<?php echo h($grade['Grade']['note']); ?>
 			&nbsp;
-		</dd>
+		</dd> -->
 	</dl>
+
+
+
+
+<div class="related">
+	<h3><?php echo __('Related Students'); ?></h3>
+	<?php if (!empty($grade['Student'])): ?>
+	<table cellpadding = "0" cellspacing = "0">
+	<tr>
+<!--		<th><?php echo __('Id'); ?></th> -->
+		<th><?php echo __('First Name'); ?></th>
+<!--		<th><?php echo __('Middle Name'); ?></th> -->
+		<th><?php echo __('Last Name'); ?></th>
+		<th><?php echo __('Grade Id'); ?></th>
+		<th><?php echo __('Date Of Birth'); ?></th>
+<!--		<th><?php echo __('Address'); ?></th>
+		<th><?php echo __('Zipcode'); ?></th>
+		<th><?php echo __('City'); ?></th>
+		<th><?php echo __('State'); ?></th>
+		<th><?php echo __('Phone Number 1'); ?></th>
+		<th><?php echo __('Phone Number 2'); ?></th>
+		<th><?php echo __('Phone Number 3'); ?></th>
+		<th><?php echo __('Created'); ?></th>
+		<th><?php echo __('Modified'); ?></th>
+		<th><?php echo __('Trashed'); ?></th>
+		<th><?php echo __('Created By'); ?></th>
+		<th><?php echo __('Modified By'); ?></th>
+		<th><?php echo __('Trashed By'); ?></th> -->
+		<th><?php echo __('Note'); ?></th>
+		<th class="actions"><?php echo __('Actions'); ?></th>
+	</tr>
+	<?php
+		$i = 0;
+		foreach ($grade['Student'] as $student): ?>
+		<tr>
+<!--			<td><?php echo $student['id']; ?></td> -->
+			<td><?php echo $student['first_name']; ?></td>
+<!--			<td><?php echo $student['middle_name']; ?></td> -->
+			<td><?php echo $student['last_name']; ?></td>
+			<td><?php echo $student['grade_id']; ?></td>
+			<td><?php echo $student['date_of_birth']; ?></td>
+<!--			<td><?php echo $student['address']; ?></td>
+			<td><?php echo $student['zipcode']; ?></td>
+			<td><?php echo $student['city']; ?></td>
+			<td><?php echo $student['state']; ?></td>
+			<td><?php echo $student['phone_number_1']; ?></td>
+			<td><?php echo $student['phone_number_2']; ?></td>
+			<td><?php echo $student['phone_number_3']; ?></td>
+			<td><?php echo $student['created']; ?></td>
+			<td><?php echo $student['modified']; ?></td>
+			<td><?php echo $student['trashed']; ?></td>
+			<td><?php echo $student['created_by']; ?></td>
+			<td><?php echo $student['modified_by']; ?></td>
+			<td><?php echo $student['trashed_by']; ?></td> -->
+			<td><?php echo $student['note']; ?></td>
+			<td class="actions">
+				<?php echo $this->Html->link(__('View'), array('controller' => 'students', 'action' => 'view', $student['id'])); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'students', 'action' => 'edit', $student['id'])); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'students', 'action' => 'delete', $student['id']), null, __('Are you sure you want to delete # %s?', $student['id'])); ?>
+			</td>
+		</tr>
+	<?php endforeach; ?>
+	</table>
+<?php endif; ?>
+
+	<div class="actions">
+		<ul>
+			<li><?php echo $this->Html->link(__('New Student'), array('controller' => 'students', 'action' => 'add')); ?> </li>
+		</ul>
+	</div>
+</div>
+
+
+
+
+
 </div>
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
@@ -137,70 +213,4 @@
 		</ul>
 	</div>
 </div>
-<div class="related">
-	<h3><?php echo __('Related Students'); ?></h3>
-	<?php if (!empty($grade['Student'])): ?>
-	<table cellpadding = "0" cellspacing = "0">
-	<tr>
-		<th><?php echo __('Id'); ?></th>
-		<th><?php echo __('First Name'); ?></th>
-		<th><?php echo __('Middle Name'); ?></th>
-		<th><?php echo __('Last Name'); ?></th>
-		<th><?php echo __('Grade Id'); ?></th>
-		<th><?php echo __('Date Of Birth'); ?></th>
-		<th><?php echo __('Address'); ?></th>
-		<th><?php echo __('Zipcode'); ?></th>
-		<th><?php echo __('City'); ?></th>
-		<th><?php echo __('State'); ?></th>
-		<th><?php echo __('Phone Number 1'); ?></th>
-		<th><?php echo __('Phone Number 2'); ?></th>
-		<th><?php echo __('Phone Number 3'); ?></th>
-		<th><?php echo __('Created'); ?></th>
-		<th><?php echo __('Modified'); ?></th>
-		<th><?php echo __('Trashed'); ?></th>
-		<th><?php echo __('Created By'); ?></th>
-		<th><?php echo __('Modified By'); ?></th>
-		<th><?php echo __('Trashed By'); ?></th>
-		<th><?php echo __('Note'); ?></th>
-		<th class="actions"><?php echo __('Actions'); ?></th>
-	</tr>
-	<?php
-		$i = 0;
-		foreach ($grade['Student'] as $student): ?>
-		<tr>
-			<td><?php echo $student['id']; ?></td>
-			<td><?php echo $student['first_name']; ?></td>
-			<td><?php echo $student['middle_name']; ?></td>
-			<td><?php echo $student['last_name']; ?></td>
-			<td><?php echo $student['grade_id']; ?></td>
-			<td><?php echo $student['date_of_birth']; ?></td>
-			<td><?php echo $student['address']; ?></td>
-			<td><?php echo $student['zipcode']; ?></td>
-			<td><?php echo $student['city']; ?></td>
-			<td><?php echo $student['state']; ?></td>
-			<td><?php echo $student['phone_number_1']; ?></td>
-			<td><?php echo $student['phone_number_2']; ?></td>
-			<td><?php echo $student['phone_number_3']; ?></td>
-			<td><?php echo $student['created']; ?></td>
-			<td><?php echo $student['modified']; ?></td>
-			<td><?php echo $student['trashed']; ?></td>
-			<td><?php echo $student['created_by']; ?></td>
-			<td><?php echo $student['modified_by']; ?></td>
-			<td><?php echo $student['trashed_by']; ?></td>
-			<td><?php echo $student['note']; ?></td>
-			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'students', 'action' => 'view', $student['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'students', 'action' => 'edit', $student['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'students', 'action' => 'delete', $student['id']), null, __('Are you sure you want to delete # %s?', $student['id'])); ?>
-			</td>
-		</tr>
-	<?php endforeach; ?>
-	</table>
-<?php endif; ?>
 
-	<div class="actions">
-		<ul>
-			<li><?php echo $this->Html->link(__('New Student'), array('controller' => 'students', 'action' => 'add')); ?> </li>
-		</ul>
-	</div>
-</div>
