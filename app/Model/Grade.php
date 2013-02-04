@@ -11,11 +11,21 @@ App::uses('AppModel', 'Model');
 class Grade extends AppModel {
 
 /**
+ * Virtual fields for display
+ *
+ * @var string
+ */
+
+public $virtualFields = array(
+    'grade_name' => "CONCAT(grade_number, grade_code)"
+);
+
+/**
  * Display field
  *
  * @var string
  */
-	public $displayField = 'grade_number';
+	public $displayField = 'grade_name';
 
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed

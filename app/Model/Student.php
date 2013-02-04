@@ -8,12 +8,16 @@ App::uses('AppModel', 'Model');
  */
 class Student extends AppModel {
 
+public $virtualFields = array(
+    'student_name' => "CONCAT(last_name, ' ', first_name)"
+);
+
 /**
  * Display field
  *
  * @var string
  */
-	public $displayField = 'last_name';
+	public $displayField = 'student_name';
 
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
