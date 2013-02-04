@@ -2,7 +2,7 @@
 	<h2><?php echo __('Attendances'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
+<!--			<th><?php echo $this->Paginator->sort('id'); ?></th> -->
 			<th><?php echo $this->Paginator->sort('student_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('attendance_date'); ?></th>
 			<th><?php echo $this->Paginator->sort('grade_id'); ?></th>
@@ -24,7 +24,7 @@
 	<tr>
 		<td><?php echo h($attendance['Attendance']['id']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($attendance['Student']['id'], array('controller' => 'students', 'action' => 'view', $attendance['Student']['id'])); ?>
+<!--			<?php echo $this->Html->link($attendance['Student']['id'], array('controller' => 'students', 'action' => 'view', $attendance['Student']['id'])); ?> -->
 		</td>
 		<td><?php echo h($attendance['Attendance']['attendance_date']); ?>&nbsp;</td>
 		<td>
