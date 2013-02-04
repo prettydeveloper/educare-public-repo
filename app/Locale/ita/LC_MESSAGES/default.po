@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EduCare\n"
 "POT-Creation-Date: 2013-01-31 18:46+0100\n"
-"PO-Revision-Date: 2013-02-04 12:08+0100\n"
+"PO-Revision-Date: 2013-02-04 15:30+0100\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: EduCare <info@prettydeveloper.com>\n"
 "MIME-Version: 1.0\n"
@@ -528,7 +528,7 @@ msgstr "Cancella Classe"
 
 #: View/Grades/view.ctp:84 View/Students/view.ctp:120
 msgid "Related Attendances"
-msgstr "Presenze Correlate"
+msgstr "Presenze"
 
 #: View/Grades/view.ctp:89 View/Students/view.ctp:125
 msgid "Student Id"
@@ -540,7 +540,7 @@ msgstr "Id Classe"
 
 #: View/Grades/view.ctp:141
 msgid "Related Students"
-msgstr "Studenti Correlati"
+msgstr "Studenti"
 
 #: View/Grades/view.ctp:146 View/Students/view.ctp:9
 msgid "First Name"
