@@ -2,7 +2,7 @@
 	<h2><?php echo __('Schools'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-<!--			<th><?php echo $this->Paginator->sort('id'); ?></th> -->
+<!--		<th><?php echo $this->Paginator->sort('id'); ?></th> -->
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
 			<th><?php echo $this->Paginator->sort('school_code'); ?></th>
 			<th><?php echo $this->Paginator->sort('address'); ?></th>
@@ -10,7 +10,7 @@
 			<th><?php echo $this->Paginator->sort('city'); ?></th>
 			<th><?php echo $this->Paginator->sort('state'); ?></th>
 			<th><?php echo $this->Paginator->sort('phone_number_1'); ?></th>
-<!--			<th><?php echo $this->Paginator->sort('phone_number_2'); ?></th>
+<!--		<th><?php echo $this->Paginator->sort('phone_number_2'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
 			<th><?php echo $this->Paginator->sort('trashed'); ?></th>
@@ -23,7 +23,7 @@
 	<?php
 	foreach ($schools as $school): ?>
 	<tr>
-<!--		<td><?php echo h($school['School']['id']); ?>&nbsp;</td> -->
+<!--	<td><?php echo h($school['School']['id']); ?>&nbsp;</td> -->
 		<td><?php echo h($school['School']['name']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['school_code']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['address']); ?>&nbsp;</td>
@@ -31,7 +31,7 @@
 		<td><?php echo h($school['School']['city']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['state']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['phone_number_1']); ?>&nbsp;</td>
-<!--		<td><?php echo h($school['School']['phone_number_2']); ?>&nbsp;</td>
+<!--	<td><?php echo h($school['School']['phone_number_2']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['created']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['modified']); ?>&nbsp;</td>
 		<td><?php echo h($school['School']['trashed']); ?>&nbsp;</td>

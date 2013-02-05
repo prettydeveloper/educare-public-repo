@@ -4,7 +4,7 @@
 			<div class="span6">
 				<div class="section section-small">
 					<div class="section-header">
-						<h5>Users</h5>
+						<h5><?php echo __d('authake','Users')?></h5>
 					</div>
 					<div class="section-body">
 						<div class="row-fluid">
@@ -27,7 +27,7 @@
 			<div class="span6">
 				<div class="section section-small">
 					<div class="section-header">
-						<h5>Groups & Rules</h5>
+						<h5><?php echo __d('authake','Groups & Rules')?></h5>
 					</div>
 					<div class="section-body">
 						<div class="row-fluid">
@@ -52,42 +52,11 @@
 	<div class="span6">
 		<div class="section section-small">
 			<div class="section-header">
-				<h5>News from the Author</h5>
+				<h5><?php echo __d('authake','Users and Permission management')?></h5>
 			</div>
 			<div class="section-body">
 				<div class="row-fluid">
-					<script src="http://widgets.twimg.com/j/2/widget.js" type="text/javascript">
-					</script> <script type="text/javascript">
-					new TWTR.Widget({
-						version: 2,
-						type: 'profile',
-						rpp: 20,
-						interval: 6000,
-						width: 'auto',
-						height: 500,
-						theme: {
-							shell: {
-								background: '#ffffff',
-								color: '#000000'
-							},
-							tweets: {
-								background: '#ffffff',
-								color: '#000000',
-								links: '#0748eb'
-							}
-						},
-						features: {
-							scrollbar: true,
-							loop: false,
-							live: true,
-							hashtags: true,
-							timestamp: true,
-							avatars: false,
-							behavior: 'all'
-						}
-						}).render().setUser('mtkocak').start();
-						</script>
-	
+					<p><?php echo __d('authake','Help demo text. Lorem ipsum dolor sit amet Lorem')?></p>
 				</div>
 			</div>
 		</div>
