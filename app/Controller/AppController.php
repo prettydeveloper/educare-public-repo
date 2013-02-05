@@ -20,8 +20,8 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
-App::uses('AuthComponent', 'Controller/Component');
-App::uses('Controller', 'Controller');
+//App::uses('AuthComponent', 'Controller/Component');
+//App::uses('Controller', 'Controller');
 
 /**
  * Application Controller
@@ -33,6 +33,23 @@ App::uses('Controller', 'Controller');
  * @link http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+    // AUTHAKE COMPONENT
+
+    var $helpers = array('Form', 'Time', 'Html', 'Session', 'Js', 'Authake.Authake');
+    var $components = array('Session','RequestHandler', 'Authake.Authake');
+    var $counter = 0;
+
+    function beforeFilter(){
+        $this->auth();
+    }
+    
+    private function auth(){
+        Configure::write('Authake.useDefaultLayout', true);
+        $this->Authake->beforeFilter($this);
+    }
+
+    /* ACL STANDARD FILTER
 
 	public $components = array(
         'Acl',
@@ -51,4 +68,5 @@ class AppController extends Controller {
         $this->Auth->logoutRedirect = array('controller' => 'users', 'action' => 'login');
         $this->Auth->loginRedirect = array('controller' => 'pages', 'action' => '');
     }
+    */
 }

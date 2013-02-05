@@ -1,7 +1,7 @@
 <div class="hero-unit">
 	<h1><?php echo __('Welcome'); ?></h1>
 	<p>Questa è la home page</p>
-	<p><a class="btn btn-primary btn-large" href="./attendances/take">
+	<p><a class="btn btn-primary btn-large" href="./attendances/selectSchool">
 		<i class="icon-calendar icon-white"></i>Presenze di oggi &raquo;
 	</a></p>
 </div><!--/hero-->

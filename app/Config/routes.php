@@ -43,3 +43,18 @@ Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'star
  * the built-in default routes.
  */
 	require CAKE . 'Config' . DS . 'routes.php';
+
+
+	/* AUTHAKE ROUTING 
+	
+	Router::connect('/register', array('plugin'=>'authake', 'controller' => 'user', 'action' => 'register'));
+	Router::connect('/login', array('plugin'=>'authake', 'controller' => 'user', 'action' => 'login'));
+	Router::connect('/user/login', array('plugin'=>'authake', 'controller' => 'user', 'action' => 'login'));
+	Router::connect('/logout', array('plugin'=>'authake', 'controller' => 'user', 'action' => 'logout'));
+	Router::connect('/user/logout', array('plugin'=>'authake', 'controller' => 'user', 'action' => 'logout'));
+	Router::connect('/lost-password', array('plugin'=>'authake', 'controller' => 'user', 'action' => 'lost_password'));
+	Router::connect('/verify/*', array('plugin'=>'authake', 'controller' => 'user', 'action' => 'verify'));
+	Router::connect('/pass/*', array('plugin'=>'authake', 'controller' => 'user', 'action' => 'pass'));
+	Router::connect('/profile', array('plugin'=>'authake', 'controller' => 'user', 'action' => 'index'));
+	Router::connect('/denied', array('plugin'=>'authake', 'controller'=>'user', 'action'=>'denied')); */
+ 

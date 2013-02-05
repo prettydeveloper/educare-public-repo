@@ -183,5 +183,7 @@ CakeLog::config('error', array(
 ));
 
 /** ACL PLUGIN for authentication e access control list */
-CakePlugin::load('AclExtras');
+//CakePlugin::load('AclExtras');
+
+CakePlugin::load('Authake');
 

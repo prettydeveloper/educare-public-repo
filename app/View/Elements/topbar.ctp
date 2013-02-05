@@ -11,12 +11,12 @@
             array('class' => 'brand') );?>
           <div class="nav-collapse collapse">
           	<p class="navbar-text pull-right">
-              <?php 
+              <!--<?php 
               if($this->Session->read('Auth.User.username')) {
                   echo $this->Session->read('Auth.User.username');
                   echo ' <i class="icon-off icon-white"></i> ';
                   echo $this->Html->link('Logout', array('controller' => 'users', 'action' => 'logout'));
-               }?>
+               }?>-->
             </p>
             <ul class="nav">
               <li class="active">
@@ -35,19 +35,20 @@
                 <?php echo $this->Html->link(__('Students'),
     			array('controller' => 'students', 'action' => ''));?>
               </li>
-              <!--<li>
-                <?php echo $this->Html->link('Insegnanti',
-    			array('controller' => 'teachers', 'action' => ''));?>
-              </li>
-              <li>
-                <?php echo $this->Html->link('Educatori',
-    			array('controller' => 'educators', 'action' => ''));?>
-              </li>-->
               <li>
                 <?php echo $this->Html->link(__('Administrator'),
-    			array('controller' => 'admin', 'action' => ''));?>
+    			array('controller' => 'authake', 'action' => ''));?>
               </li>
             </ul>
+            <?php 
+            if($this->Session->read('Authake.login')) {
+              echo '<ul class="nav pull-right">';
+              echo '<li><a>'.$this->Session->read('Authake.login').'</a></li>';
+              echo '<li><a href="'.$this->Html->url(array('plugin' => 'authake','controller' => 'user', 'action' => 'logout')).'">
+                      <i class="icon-off icon-white"></i> Logout</a></li>';
+              echo '</ul>';
+            ?> 
+            <?php } //endif ?> 
           </div><!--/.nav-collapse -->
         </div>
     </div>
