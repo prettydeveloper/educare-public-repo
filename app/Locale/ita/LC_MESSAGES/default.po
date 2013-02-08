@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EduCare\n"
 "POT-Creation-Date: 2013-01-31 18:46+0100\n"
-"PO-Revision-Date: 2013-02-04 15:59+0100\n"
+"PO-Revision-Date: 2013-02-08 12:11+0100\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: EduCare <info@prettydeveloper.com>\n"
 "MIME-Version: 1.0\n"
@@ -1126,7 +1126,7 @@ msgstr ""
 
 #: View/Pages/home.ctp:130
 msgid "Editing this Page"
-msgstr ""
+msgstr "Modificando questa pagina"
 
 #: View/Pages/home.ctp:133
 msgid ""
@@ -1908,7 +1908,7 @@ msgstr ""
 
 #: View/Errors/fatal_error.ctp:29
 msgid "Line"
-msgstr ""
+msgstr "Riga"
 
 #: View/Errors/fatal_error.ctp:33 View/Errors/missing_action.ctp:39
 #: View/Errors/missing_behavior.ctp:36 View/Errors/missing_component.ctp:36
@@ -1920,7 +1920,7 @@ msgstr ""
 #: View/Errors/missing_view.ctp:29 View/Errors/pdo_error.ctp:35
 #: View/Errors/private_action.ctp:25 View/Errors/scaffold_error.ctp:25
 msgid "Notice"
-msgstr ""
+msgstr "Avviso"
 
 #: View/Errors/fatal_error.ctp:34 View/Errors/missing_action.ctp:40
 #: View/Errors/missing_behavior.ctp:37 View/Errors/missing_component.ctp:37
@@ -1966,7 +1966,7 @@ msgstr ""
 
 #: View/Errors/missing_connection.ctp:19 View/Errors/missing_database.ctp:19
 msgid "Missing Database Connection"
-msgstr ""
+msgstr "Manca la connessione al database"
 
 #: View/Errors/missing_connection.ctp:22
 msgid "A Database connection using \"%s\" was missing or unable to connect. "
