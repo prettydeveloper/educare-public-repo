@@ -5,14 +5,42 @@
     Created 2/2013 by Lucia Moreno 
 -->
 
-<h2><?php echo __('Select School') ?></h2>
+<div id="schools">
+    <h2><?php echo __('Select School') ?></h2>
 
-<?php
-    foreach ($schools as $school): ?>
-        <a class="btn" href=>
-            <?php echo h($school['Schools']['name']); ?> - 
-            <?php echo h($school['Schools']['school_code']); ?>&nbsp;Circolo
-        </a>
-<?php endforeach; ?>
+    <?php
+        foreach ($schools as $school): 
+            
+           $school_id = $school['Schools']['id']; ?>
+
+            <a class="btn" href="#" id="btn_<?php echo $school_id ?>">
+                <?php echo h($school['Schools']['name']); ?> - 
+                <?php echo h($school['Schools']['school_code']); ?>&nbsp;Circolo
+            </a>
+
+            <?php // Javascript for AJAX calls
+
+            $this->Js->get('#btn_'.$school_id);
+            $this->Js->event('click', 
+                $this->Js->request(
+                    array('controller' => 'attendances', 'action' => 'findGrades', $school_id),
+                    array('async' => true, 'update' => '#grades')
+                )
+            ) ;
+
+        endforeach; ?>
+</div>
+
+<div id="grades">
+
+</div>
+
+<div id="students">
+
+</div>
+
+<?php 
+    echo $this->Js->writeBuffer(); // Write cached scripts
+?>
 
 <?php unset($school); ?>

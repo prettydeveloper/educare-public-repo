@@ -7,6 +7,11 @@ App::uses('AppController', 'Controller');
  */
 class AttendancesController extends AppController {
 
+	/* Helpers and components for AJAX data handling */
+
+	public $components = array('RequestHandler');
+	public $helpers = array('Js');
+
 /**
  * index method
  *
@@ -138,17 +143,46 @@ class AttendancesController extends AppController {
 		    // and hand it to the view.
 		    $this->loadModel('Schools');
 		    $this->set('schools', $this->Schools->find('all'));
+		    // serialization for AJAX calls
+		    $this->set('_serialize', array('schools'));
 	}
+
+	/** 
+	 *	findGrades method
+	 *	returns selected grades filered by school ID
+     *
+     *	@throws NotFoundException
+	 * 	@return void
+	 *	@param string $id the school_id
+	 *
+	 */
+
+	public function findGrades($id = null) {
+		$this->loadModel('Grades');
+		$grades = $this->Grades->find('all',
+				array(
+					'conditions' => array(
+						'Grades.school_id' => $id
+					),
+					'group' => array('Grades.grade_code')
+				)
+			) ;
+
+		$this->set(array(
+			'grades' => $grades,
+			'_serialize' => array('grades')
+		));
+	}
+
 
 	/**
 	 * take method
 	 *
 	 * @throws NotFoundException
-	 * @param string $id
 	 * @return void
 	 */
 
-	public function take() {
+	public function take($grade_id = null) {
 			// Has any form data been POSTed?
 		    if ($this->request->is('post')) {
 		        // If the form data can be validated and saved...
@@ -173,7 +207,10 @@ class AttendancesController extends AppController {
 		    // If no form data, find the students with attendance to be edited
 		    // and hand it to the view.
 		    $this->loadModel('Student');
-		    $this->set('students', $this->Student->find('all'));
+		    $this->set('students', $this->Student->find('all', 
+		    	array( 'conditions' => array('Student.grade_id' => $grade_id),
+		    		'group' => array('Student.last_name'))
+		    ));
 	}
 
 }

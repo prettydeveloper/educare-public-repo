@@ -37,14 +37,14 @@
               </li>
               <li>
                 <?php echo $this->Html->link(__('Administrator'),
-    			array('controller' => 'authake', 'action' => ''));?>
+    			array('controller' => 'admin', 'action' => ''));?>
               </li>
             </ul>
             <?php 
-            if($this->Session->read('Authake.login')) {
+            if($this->Session->read('Auth.User.username')) {
               echo '<ul class="nav pull-right">';
-              echo '<li><a>'.$this->Session->read('Authake.login').'</a></li>';
-              echo '<li><a href="'.$this->Html->url(array('plugin' => 'authake','controller' => 'user', 'action' => 'logout')).'">
+              echo '<li><a>'.$this->Session->read('Auth.User.username').'</a></li>';
+              echo '<li><a href="'.$this->Html->url(array('controller' => 'users', 'action' => 'logout')).'">
                       <i class="icon-off icon-white"></i> Logout</a></li>';
               echo '</ul>';
             ?> 

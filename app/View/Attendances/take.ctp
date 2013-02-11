@@ -36,6 +36,7 @@
         else
             $('#student'+id).css('background-color', '');
     }
+);
 
 </script>
  
@@ -87,8 +88,8 @@
         endforeach; 
     ?>
     </tbody>
-<?php echo $this->Form->end('Salva'); ?>
-
+    
+    <?php echo $this->Form->end('Salva'); ?>
 
     <?php unset($student); ?>
 </table>
