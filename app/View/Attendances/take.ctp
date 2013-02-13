@@ -4,12 +4,17 @@
     GESTIONE DELLE ASSENZE
     Created 10/2012 by Lucia Moreno 
 -->
-
-<h2>Assenze del giorno: <?php echo date('d/m/y');?></h2>
-<!--<?php echo $this->Html->link('Aggiungi Studente', array('controller' => 'students', 'action' => 'add')); ?>-->
-<?php 
-    echo $this->Form->create('Attendance');
+<h2><?php echo __('Grade') .' '. $grade['Grade']['grade_number'].$grade['Grade']['grade_code'] ?>
+&nbsp;- <?php echo $grade['School']['name'] ?>
+</h2> 
+<?php echo $this->Html->link(__('Change school'), 
+        array(  'controller' => 'Attendances', 
+                'action' => 'selectSchool'),
+        array(  'class' => 'btn'));
 ?>
+<h3><?php echo __('Attendances of the day:') .' '. date('d/m/y');?></h3>
+<!--<?php debug($grade) ?>-->
+<!--<?php echo $this->Html->link('Aggiungi Studente', array('controller' => 'students', 'action' => 'add')); ?>-->
 
 <script type="text/javascript">
     
@@ -30,15 +35,17 @@
         else
             $('#student'+id).css('background-color', '');
     }
+
     function checkLate(id){
         if($('#Attendance'+id+'Late').is(':checked'))
             $('#student'+id).css('background-color', '#FFCC99');
         else
             $('#student'+id).css('background-color', '');
     }
-);
 
 </script>
+
+<?php echo $this->Form->create('Attendance');?>
  
 <table>
     <thead>
@@ -60,7 +67,7 @@
             // campi nascosti per salvare l'id dello studente e la data
             echo $this->Form->hidden('Attendance.'.$i.'.student_id', array('default' => $student['Student']['id'])); 
             echo $this->Form->hidden('Attendance.'.$i.'.grade_id', array('default' => $student['Student']['grade_id'])); 
-            echo $this->Form->hidden('Attendance.'.$i.'.month_date', array('default' => date('Y-m-d') )); 
+            echo $this->Form->hidden('Attendance.'.$i.'.attendance_date', array('default' => date('Y-m-d') )); 
             echo $this->Form->hidden('Attendance.'.$i.'.id',
                     array( 'value' => $student['TodayAttendance']['id'] )); ?>
 
@@ -90,6 +97,5 @@
     </tbody>
     
     <?php echo $this->Form->end('Salva'); ?>
-
     <?php unset($student); ?>
 </table>

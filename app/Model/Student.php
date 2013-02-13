@@ -61,14 +61,14 @@ public $virtualFields = array(
 	public $hasOne = array(
 		'TodayAttendance' => array(
 			'className' => 'Attendance',
-			//'conditions' => array('DATE(TodayAttendance.month_date)' => 'CURDATE()')
+			'conditions' => array('DATE(TodayAttendance.attendance_date) = CURDATE()')
 			)
 		);
 	
-	public $hasMany = array(
+	/*public $hasMany = array(
 		'TotalAttendances' => array(
 			'className' => 'Attendance'
 			)
 		);
-
+	*/
 }

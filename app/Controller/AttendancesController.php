@@ -211,6 +211,11 @@ class AttendancesController extends AppController {
 		    	array( 'conditions' => array('Student.grade_id' => $grade_id),
 		    		'group' => array('Student.last_name'))
 		    ));
+
+		    $this->loadModel('Grade');
+		    $this->set('grade', $this->Grade->find('first', 
+		    	array( 'conditions' => array('Grade.id' => $grade_id))
+		    ));
 	}
 
 }
