@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-14 11:14+0100\n"
+"POT-Creation-Date: 2013-02-14 12:43+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -92,6 +92,26 @@ msgstr ""
 
 #: Controller/GroupsController.php:106
 msgid "Group was not deleted"
+msgstr ""
+
+#: Controller/LaboratoriesController.php:30;62;90;120;152;180
+msgid "Invalid laboratory"
+msgstr ""
+
+#: Controller/LaboratoriesController.php:44;66;134;156
+msgid "The laboratory has been saved"
+msgstr ""
+
+#: Controller/LaboratoriesController.php:47;69;137;159
+msgid "The laboratory could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LaboratoriesController.php:93;183
+msgid "Laboratory deleted"
+msgstr ""
+
+#: Controller/LaboratoriesController.php:96;186
+msgid "Laboratory was not deleted"
 msgstr ""
 
 #: Controller/SchoolsController.php:30;62;90;120;152;180
@@ -224,6 +244,8 @@ msgstr ""
 #: View/Grades/edit.ctp:18
 #: View/Groups/add.ctp:9
 #: View/Groups/edit.ctp:10
+#: View/Laboratories/add.ctp:17
+#: View/Laboratories/edit.ctp:18
 #: View/Schools/add.ctp:21
 #: View/Schools/edit.ctp:22
 #: View/Students/add.ctp:25
@@ -253,6 +275,10 @@ msgstr ""
 #: View/Groups/edit.ctp:13
 #: View/Groups/index.ctp:9;42
 #: View/Groups/view.ctp:27;48
+#: View/Laboratories/add.ctp:20
+#: View/Laboratories/edit.ctp:21
+#: View/Laboratories/index.ctp:17;58
+#: View/Laboratories/view.ctp:67
 #: View/Schools/add.ctp:24
 #: View/Schools/edit.ctp:25
 #: View/Schools/index.ctp:21;66
@@ -361,6 +387,8 @@ msgstr ""
 #: View/Groups/edit.ctp:16
 #: View/Groups/index.ctp:21
 #: View/Groups/view.ctp:63
+#: View/Laboratories/edit.ctp:24
+#: View/Laboratories/index.ctp:37
 #: View/Schools/edit.ctp:28
 #: View/Schools/index.ctp:45
 #: View/Schools/view.ctp:135
@@ -387,6 +415,9 @@ msgstr ""
 #: View/Groups/edit.ctp:16
 #: View/Groups/index.ctp:21
 #: View/Groups/view.ctp:30;63
+#: View/Laboratories/edit.ctp:24
+#: View/Laboratories/index.ctp:37
+#: View/Laboratories/view.ctp:70
 #: View/Schools/edit.ctp:28
 #: View/Schools/index.ctp:45
 #: View/Schools/view.ctp:90;135
@@ -414,6 +445,7 @@ msgstr ""
 #: View/Grades/view.ctp:121;201
 #: View/Groups/index.ctp:19
 #: View/Groups/view.ctp:61
+#: View/Laboratories/index.ctp:35
 #: View/Schools/index.ctp:43
 #: View/Schools/view.ctp:133
 #: View/Students/index.ctp:53
@@ -429,6 +461,7 @@ msgstr ""
 #: View/Grades/view.ctp:122;202
 #: View/Groups/index.ctp:20
 #: View/Groups/view.ctp:62
+#: View/Laboratories/index.ctp:36
 #: View/Schools/index.ctp:44
 #: View/Schools/view.ctp:134
 #: View/Students/index.ctp:54
@@ -442,6 +475,7 @@ msgstr ""
 #: View/GradeCodes/index.ctp:27
 #: View/Grades/index.ctp:49
 #: View/Groups/index.ctp:29
+#: View/Laboratories/index.ctp:45
 #: View/Schools/index.ctp:53
 #: View/Students/index.ctp:63
 #: View/Users/index.ctp:35
@@ -453,6 +487,7 @@ msgstr ""
 #: View/GradeCodes/index.ctp:33
 #: View/Grades/index.ctp:55
 #: View/Groups/index.ctp:35
+#: View/Laboratories/index.ctp:51
 #: View/Schools/index.ctp:59
 #: View/Students/index.ctp:69
 #: View/Users/index.ctp:41
@@ -464,6 +499,7 @@ msgstr ""
 #: View/GradeCodes/index.ctp:35
 #: View/Grades/index.ctp:57
 #: View/Groups/index.ctp:37
+#: View/Laboratories/index.ctp:53
 #: View/Schools/index.ctp:61
 #: View/Students/index.ctp:71
 #: View/Users/index.ctp:43
@@ -511,6 +547,7 @@ msgstr ""
 #: View/GradeCodes/view.ctp:4
 #: View/Grades/view.ctp:4;74;164
 #: View/Groups/view.ctp:4;42
+#: View/Laboratories/view.ctp:4
 #: View/Schools/view.ctp:4;102
 #: View/Students/view.ctp:4;124
 #: View/Users/view.ctp:4
@@ -556,6 +593,7 @@ msgstr ""
 #: View/Educators/view.ctp:89
 #: View/Grades/view.ctp:29;87;172
 #: View/Groups/view.ctp:14;46
+#: View/Laboratories/view.ctp:29
 #: View/Schools/view.ctp:49;107
 #: View/Students/view.ctp:69;132
 #: View/Users/view.ctp:24
@@ -566,6 +604,7 @@ msgstr ""
 #: View/Educators/view.ctp:94
 #: View/Grades/view.ctp:34;88;173
 #: View/Groups/view.ctp:19;47
+#: View/Laboratories/view.ctp:34
 #: View/Schools/view.ctp:54;108
 #: View/Students/view.ctp:74;133
 #: View/Users/view.ctp:29
@@ -575,6 +614,7 @@ msgstr ""
 #: View/Attendances/view.ctp:54
 #: View/Educators/view.ctp:99
 #: View/Grades/view.ctp:39;89;174
+#: View/Laboratories/view.ctp:39
 #: View/Schools/view.ctp:59;109
 #: View/Students/view.ctp:79;134
 msgid "Trashed"
@@ -583,6 +623,7 @@ msgstr ""
 #: View/Attendances/view.ctp:59
 #: View/Educators/view.ctp:104
 #: View/Grades/view.ctp:44;90;175
+#: View/Laboratories/view.ctp:44
 #: View/Schools/view.ctp:64;110
 #: View/Students/view.ctp:84;135
 msgid "Created By"
@@ -591,6 +632,7 @@ msgstr ""
 #: View/Attendances/view.ctp:64
 #: View/Educators/view.ctp:109
 #: View/Grades/view.ctp:49;91;176
+#: View/Laboratories/view.ctp:49
 #: View/Schools/view.ctp:69;111
 #: View/Students/view.ctp:89;136
 msgid "Modified By"
@@ -599,6 +641,7 @@ msgstr ""
 #: View/Attendances/view.ctp:69
 #: View/Educators/view.ctp:114
 #: View/Grades/view.ctp:54;92;177
+#: View/Laboratories/view.ctp:54
 #: View/Schools/view.ctp:74;112
 #: View/Students/view.ctp:94;137
 msgid "Trashed By"
@@ -607,6 +650,7 @@ msgstr ""
 #: View/Attendances/view.ctp:74
 #: View/Educators/view.ctp:119
 #: View/Grades/view.ctp:59;93;178
+#: View/Laboratories/view.ctp:59
 #: View/Schools/view.ctp:79;113
 #: View/Students/view.ctp:99;138
 msgid "Note"
@@ -632,6 +676,7 @@ msgid "Edit Educator"
 msgstr ""
 
 #: View/Educators/index.ctp:2
+#: View/Elements/topbar.ctp:43
 msgid "Educators"
 msgstr ""
 
@@ -747,18 +792,23 @@ msgid "Schools"
 msgstr ""
 
 #: View/Elements/topbar.ctp:31
+#: View/Laboratories/index.ctp:2
+msgid "Laboratories"
+msgstr ""
+
+#: View/Elements/topbar.ctp:35
 #: View/Grades/index.ctp:2
 #: View/Pages/start.ctp:22
 msgid "Grades"
 msgstr ""
 
-#: View/Elements/topbar.ctp:35
+#: View/Elements/topbar.ctp:39
 #: View/Pages/start.ctp:16
 #: View/Students/index.ctp:2
 msgid "Students"
 msgstr ""
 
-#: View/Elements/topbar.ctp:39
+#: View/Elements/topbar.ctp:47
 msgid "Administrator"
 msgstr ""
 
@@ -942,6 +992,7 @@ msgid "Group"
 msgstr ""
 
 #: View/Groups/view.ctp:9
+#: View/Laboratories/view.ctp:9
 #: View/Schools/view.ctp:9
 msgid "Name"
 msgstr ""
@@ -966,6 +1017,46 @@ msgstr ""
 
 #: View/Groups/view.ctp:45
 msgid "Group Id"
+msgstr ""
+
+#: View/Laboratories/add.ctp:4
+msgid "Add Laboratory"
+msgstr ""
+
+#: View/Laboratories/add.ctp:23
+#: View/Laboratories/edit.ctp:25
+#: View/Laboratories/view.ctp:71
+msgid "List Laboratories"
+msgstr ""
+
+#: View/Laboratories/edit.ctp:4
+#: View/Laboratories/view.ctp:69
+msgid "Edit Laboratory"
+msgstr ""
+
+#: View/Laboratories/index.ctp:60
+#: View/Laboratories/view.ctp:72
+msgid "New Laboratory"
+msgstr ""
+
+#: View/Laboratories/view.ctp:2
+msgid "Laboratory"
+msgstr ""
+
+#: View/Laboratories/view.ctp:14
+msgid "Description"
+msgstr ""
+
+#: View/Laboratories/view.ctp:19
+msgid "Starting Date"
+msgstr ""
+
+#: View/Laboratories/view.ctp:24
+msgid "Finishing Date"
+msgstr ""
+
+#: View/Laboratories/view.ctp:70
+msgid "Delete Laboratory"
 msgstr ""
 
 #: View/Pages/start.ctp:2
@@ -1047,207 +1138,5 @@ msgstr ""
 #: Model/Group.php:validation for field name
 #: Model/User.php:validation for field username;validation for field password
 msgid "notempty"
-msgstr ""
-
-#: View/Errors/error400.ctp:21
-#: View/Errors/error500.ctp:21
-msgid "Error"
-msgstr ""
-
-#: View/Errors/error400.ctp:23
-msgid "The requested address %s was not found on this server."
-msgstr ""
-
-#: View/Errors/error500.ctp:22
-msgid "An Internal Error Has Occurred."
-msgstr ""
-
-#: View/Layouts/default.ctp:12
-msgid "EduCare"
-msgstr ""
-
-#: View/Layouts/error.ctp:19
-msgid "CakePHP: the rapid development php framework"
-msgstr ""
-
-#: View/Pages/home.ctp:26
-msgid "Release Notes for CakePHP %s."
-msgstr ""
-
-#: View/Pages/home.ctp:27
-msgid "Read the changelog"
-msgstr ""
-
-#: View/Pages/home.ctp:34
-msgid "URL rewriting is not properly configured on your server."
-msgstr ""
-
-#: View/Pages/home.ctp:42
-msgid "Your version of PHP is 5.2.8 or higher."
-msgstr ""
-
-#: View/Pages/home.ctp:46
-msgid "Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
-msgstr ""
-
-#: View/Pages/home.ctp:55
-msgid "Your tmp directory is writable."
-msgstr ""
-
-#: View/Pages/home.ctp:59
-msgid "Your tmp directory is NOT writable."
-msgstr ""
-
-#: View/Pages/home.ctp:69
-msgid "The %s is being used for core caching. To change the config edit APP/Config/core.php "
-msgstr ""
-
-#: View/Pages/home.ctp:73
-msgid "Your cache is NOT working. Please check the settings in APP/Config/core.php"
-msgstr ""
-
-#: View/Pages/home.ctp:83
-msgid "Your database configuration file is present."
-msgstr ""
-
-#: View/Pages/home.ctp:88
-msgid "Your database configuration file is NOT present."
-msgstr ""
-
-#: View/Pages/home.ctp:90
-msgid "Rename APP/Config/database.php.default to APP/Config/database.php"
-msgstr ""
-
-#: View/Pages/home.ctp:108
-msgid "Cake is able to connect to the database."
-msgstr ""
-
-#: View/Pages/home.ctp:112
-msgid "Cake is NOT able to connect to the database."
-msgstr ""
-
-#: View/Pages/home.ctp:124
-msgid "PCRE has not been compiled with Unicode support."
-msgstr ""
-
-#: View/Pages/home.ctp:126
-msgid "Recompile PCRE with Unicode support by adding <code>--enable-unicode-properties</code> when configuring"
-msgstr ""
-
-#: View/Pages/home.ctp:130
-msgid "Editing this Page"
-msgstr ""
-
-#: View/Pages/home.ctp:133
-msgid "To change the content of this page, edit: APP/View/Pages/home.ctp.<br />\nTo change its layout, edit: APP/View/Layouts/default.ctp.<br />\nYou can also add some CSS styles for your pages at: APP/webroot/css."
-msgstr ""
-
-#: View/Pages/home.ctp:139
-msgid "Getting Started"
-msgstr ""
-
-#: View/Pages/home.ctp:143
-msgid "New"
-msgstr ""
-
-#: View/Pages/home.ctp:143
-msgid "CakePHP 2.0 Docs"
-msgstr ""
-
-#: View/Pages/home.ctp:152
-msgid "The 15 min Blog Tutorial"
-msgstr ""
-
-#: View/Pages/home.ctp:159
-msgid "More about Cake"
-msgstr ""
-
-#: View/Pages/home.ctp:161
-msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
-msgstr ""
-
-#: View/Pages/home.ctp:164
-msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
-msgstr ""
-
-#: View/Pages/home.ctp:168
-msgid "Cake Software Foundation"
-msgstr ""
-
-#: View/Pages/home.ctp:169
-msgid "Promoting development related to CakePHP"
-msgstr ""
-
-#: View/Pages/home.ctp:170
-msgid "CakePHP"
-msgstr ""
-
-#: View/Pages/home.ctp:171
-msgid "The Rapid Development Framework"
-msgstr ""
-
-#: View/Pages/home.ctp:172
-msgid "CakePHP Documentation"
-msgstr ""
-
-#: View/Pages/home.ctp:173
-msgid "Your Rapid Development Cookbook"
-msgstr ""
-
-#: View/Pages/home.ctp:174
-msgid "CakePHP API"
-msgstr ""
-
-#: View/Pages/home.ctp:175
-msgid "Quick Reference"
-msgstr ""
-
-#: View/Pages/home.ctp:176
-msgid "The Bakery"
-msgstr ""
-
-#: View/Pages/home.ctp:177
-msgid "Everything CakePHP"
-msgstr ""
-
-#: View/Pages/home.ctp:178
-msgid "The Show"
-msgstr ""
-
-#: View/Pages/home.ctp:179
-msgid "The Show is a live and archived internet radio broadcast CakePHP-related topics and answer questions live via IRC, Skype, and telephone."
-msgstr ""
-
-#: View/Pages/home.ctp:180
-msgid "CakePHP Google Group"
-msgstr ""
-
-#: View/Pages/home.ctp:181
-msgid "Community mailing list"
-msgstr ""
-
-#: View/Pages/home.ctp:183
-msgid "Live chat about CakePHP"
-msgstr ""
-
-#: View/Pages/home.ctp:184
-msgid "CakePHP Code"
-msgstr ""
-
-#: View/Pages/home.ctp:185
-msgid "For the Development of CakePHP Git repository, Downloads"
-msgstr ""
-
-#: View/Pages/home.ctp:186
-msgid "CakePHP Lighthouse"
-msgstr ""
-
-#: View/Pages/home.ctp:187
-msgid "CakePHP Tickets, Wiki pages, Roadmap"
-msgstr ""
-
-#: View/Themed/MyTheme/webroot/test.php:87
-#: webroot/test.php:87
-msgid "Debug setting does not allow access to this url."
 msgstr ""
 

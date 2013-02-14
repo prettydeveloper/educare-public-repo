@@ -28,6 +28,10 @@
     			array('controller' => 'schools', 'action' => ''));?>
               </li>
               <li>
+                <?php echo $this->Html->link(__('Laboratories'),
+                array('controller' => 'laboratories', 'action' => ''));?>
+              </li>
+              <li>
                 <?php echo $this->Html->link(__('Grades'),
     			array('controller' => 'grades', 'action' => ''));?>
               </li>
@@ -39,15 +43,12 @@
                 <?php echo $this->Html->link(__('Educators'),
                 array('controller' => 'educators', 'action' => ''));?>
               </li>
-              <li>
-                <?php echo $this->Html->link(__('Administrator'),
-    			array('controller' => 'users', 'action' => ''));?>
-              </li>
             </ul>
             <?php 
             if($this->Session->read('Auth.User.username')) {
               echo '<ul class="nav pull-right">';
-              echo '<li><a>'.$this->Session->read('Auth.User.username').'</a></li>';
+              echo '<li>'.$this->Html->link($this->Session->read('Auth.User.username'), 
+                array('controller' => 'users', 'action' => '')).'</li>';
               echo '<li><a href="'.$this->Html->url(array('controller' => 'users', 'action' => 'logout')).'">
                       <i class="icon-off icon-white"></i> Logout</a></li>';
               echo '</ul>';
