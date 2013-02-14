@@ -36,8 +36,12 @@
     			array('controller' => 'students', 'action' => ''));?>
               </li>
               <li>
+                <?php echo $this->Html->link(__('Educators'),
+                array('controller' => 'educators', 'action' => ''));?>
+              </li>
+              <li>
                 <?php echo $this->Html->link(__('Administrator'),
-    			array('controller' => 'admin', 'action' => ''));?>
+    			array('controller' => 'users', 'action' => ''));?>
               </li>
             </ul>
             <?php 

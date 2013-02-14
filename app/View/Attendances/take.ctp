@@ -4,6 +4,7 @@
     GESTIONE DELLE ASSENZE
     Created 10/2012 by Lucia Moreno 
 -->
+
 <h2><?php echo __('Grade') .' '. $grade['Grade']['grade_number'].$grade['Grade']['grade_code'] ?>
 &nbsp;- <?php echo $grade['School']['name'] ?>
 </h2> 
