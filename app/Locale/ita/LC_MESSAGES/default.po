@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EduCare\n"
 "POT-Creation-Date: 2013-02-14 12:43+0100\n"
-"PO-Revision-Date: 2013-02-14 15:00+0100\n"
+"PO-Revision-Date: 2013-02-15 11:33+0100\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: EduCare <info@prettydeveloper.com>\n"
 "Language: it_IT\n"
@@ -625,7 +625,7 @@ msgstr "Scuole"
 
 #: View/Elements/topbar.ctp:31 View/Laboratories/index.ctp:2
 msgid "Laboratories"
-msgstr ""
+msgstr "Laboratori"
 
 #: View/Elements/topbar.ctp:35 View/Grades/index.ctp:2 View/Pages/start.ctp:22
 msgid "Grades"
@@ -820,11 +820,11 @@ msgstr "Nuovo Laboratorio"
 
 #: View/Laboratories/view.ctp:2
 msgid "Laboratory"
-msgstr ""
+msgstr "Laboratorio"
 
 #: View/Laboratories/view.ctp:14
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 #: View/Laboratories/view.ctp:19
 msgid "Starting Date"
@@ -832,7 +832,7 @@ msgstr "Data di inizio"
 
 #: View/Laboratories/view.ctp:24
 msgid "Finishing Date"
-msgstr ""
+msgstr "Data Fine"
 
 #: View/Laboratories/view.ctp:70
 msgid "Delete Laboratory"
