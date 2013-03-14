@@ -6,7 +6,7 @@
 -->
 
 <div id="schools">
-    <h2><?php echo __('Select School') ?></h2>
+    <h3><?php echo __('Select School') ?></h3>
 
     <?php
         foreach ($schools as $school): 
@@ -31,13 +31,8 @@
         endforeach; ?>
 </div>
 
-<div id="grades">
-
-</div>
-
-<div id="students">
-
-</div>
+<div id="grades"></div>
+<div id="students"></div>
 
 <?php 
     echo $this->Js->writeBuffer(); // Write cached scripts

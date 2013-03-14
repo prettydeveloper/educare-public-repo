@@ -182,16 +182,18 @@ class AttendancesController extends AppController {
 	 * @return void
 	 */
 
-	public function take($grade_id = null) {
+	public function take($grade_id = null, $attendance_date = null) {
+			
 			// Has any form data been POSTed?
 		    if ($this->request->is('post')) {
 		        // If the form data can be validated and saved...
+
 		        $this->Attendance->create();
 
 		        foreach ($this->request->data['Attendance'] as $attendance): 
-		        	if( $attendance['absent'] == true || $attendance['late'] == true)
+		        	if( $attendance['absent'] == true || $attendance['late'] == true || $attendance['present'] == true)
 		        		$this->Attendance->save($attendance);
-		        	else if( $attendance['absent'] == false && $attendance['late'] == false )
+		        	else if( $attendance['absent'] == false && $attendance['late'] == false || $attendance['present'] == false)
 		        		$this->Attendance->delete($attendance);
 		        endforeach;
 
@@ -207,15 +209,28 @@ class AttendancesController extends AppController {
 		    // If no form data, find the students with attendance to be edited
 		    // and hand it to the view.
 		    $this->loadModel('Student');
-		    $this->set('students', $this->Student->find('all', 
-		    	array( 'conditions' => array('Student.grade_id' => $grade_id),
-		    		'group' => array('Student.last_name'))
-		    ));
+		    $students = $this->Student->find('all', 
+		    	array( 	'conditions' => array('Student.grade_id' => $grade_id),
+		    			'group' => array('Student.last_name')));
+
+		    $this->set('students', $students);
 
 		    $this->loadModel('Grade');
 		    $this->set('grade', $this->Grade->find('first', 
 		    	array( 'conditions' => array('Grade.id' => $grade_id))
 		    ));
+
+		    $this->loadModel('Attendance');
+
+		    $i = 0;
+		    foreach ($students as $student) {
+		    	$attendances[$i] = $this->Attendance->getDayAttendance($student['Student']['id'],
+		    		date('Y-m-d',strtotime($attendance_date)));
+		    	$i++;
+		    }
+
+		    $this->set('attendances',$attendances);
+		    $this->set('attendance_date', $attendance_date);
 	}
 
 }

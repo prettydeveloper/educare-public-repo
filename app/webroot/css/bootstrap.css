@@ -5772,3 +5772,8 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+
+/* other styles */
+.btn-inline {
+  margin-bottom: 9px;
+}

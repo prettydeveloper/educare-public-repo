@@ -35,8 +35,13 @@ $cakeDescription = __d('cake_dev', 'EduCare');
 			echo $this->Html->css('bootstrap');
 			echo $this->Html->css('bootstrap-responsive');
 
-			echo $this->Html->script('jquery-1.8.2.min');
+			echo $this->Html->script('jquery-1.9.1');
 			echo $this->Html->script('bootstrap');
+
+			// Datepicker for Bootstrap
+			echo $this->Html->css('datepicker');
+			echo $this->Html->script('bootstrap-datepicker');
+			echo $this->Html->script('locales/bootstrap-datepicker.it');
 
 			echo $this->fetch('meta');
 			echo $this->fetch('css');
@@ -78,7 +83,7 @@ $cakeDescription = __d('cake_dev', 'EduCare');
 				?>
 			</footer>
 		</div><!--/.fluid-container-->
-		<!--<?php echo $this->element('sql_dump'); ?>-->
+		<?php echo $this->element('sql_dump'); ?>
 
 	</body>
 </html>
