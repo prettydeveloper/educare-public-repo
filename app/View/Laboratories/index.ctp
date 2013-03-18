@@ -26,10 +26,10 @@
 		<td><?php echo h($laboratory['Laboratory']['name']); ?>&nbsp;</td>
 		<td><?php echo h($laboratory['Laboratory']['description']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($laboratory['Educatore']['id'], array('controller' => 'employees', 'action' => 'view', $laboratory['Educatore']['id'])); ?>
+			<?php echo $this->Html->link($laboratory['Educator']['id'], array('controller' => 'employees', 'action' => 'view', $laboratory['Educator']['id'])); ?>
 		</td>
 		<td>
-			<?php echo $this->Html->link($laboratory['Esperto']['id'], array('controller' => 'employees', 'action' => 'view', $laboratory['Esperto']['id'])); ?>
+			<?php echo $this->Html->link($laboratory['Expert']['id'], array('controller' => 'employees', 'action' => 'view', $laboratory['Expert']['id'])); ?>
 		</td>
 		<td><?php echo h($laboratory['Laboratory']['observator']); ?>&nbsp;</td>
 		<td><?php echo h($laboratory['Laboratory']['starting_date']); ?>&nbsp;</td>
@@ -69,7 +69,7 @@
 	<ul>
 		<li><?php echo $this->Html->link(__('New Laboratory'), array('action' => 'add')); ?></li>
 		<li><?php echo $this->Html->link(__('List Employees'), array('controller' => 'employees', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Educatore'), array('controller' => 'employees', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Educator'), array('controller' => 'employees', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Laboratory Attendances'), array('controller' => 'laboratory_attendances', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Laboratory Attendance'), array('controller' => 'laboratory_attendances', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Grades'), array('controller' => 'grades', 'action' => 'index')); ?> </li>

@@ -16,14 +16,14 @@
 			<?php echo h($laboratory['Laboratory']['description']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Educatore'); ?></dt>
+		<dt><?php echo __('Educator'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($laboratory['Educatore']['id'], array('controller' => 'employees', 'action' => 'view', $laboratory['Educatore']['id'])); ?>
+			<?php echo $this->Html->link($laboratory['Educator']['id'], array('controller' => 'employees', 'action' => 'view', $laboratory['Educator']['id'])); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Esperto'); ?></dt>
+		<dt><?php echo __('Expert'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($laboratory['Esperto']['id'], array('controller' => 'employees', 'action' => 'view', $laboratory['Esperto']['id'])); ?>
+			<?php echo $this->Html->link($laboratory['Expert']['id'], array('controller' => 'employees', 'action' => 'view', $laboratory['Expert']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Observator'); ?></dt>
@@ -86,7 +86,7 @@
 		<li><?php echo $this->Html->link(__('List Laboratories'), array('action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Laboratory'), array('action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Employees'), array('controller' => 'employees', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Educatore'), array('controller' => 'employees', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Educator'), array('controller' => 'employees', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Laboratory Attendances'), array('controller' => 'laboratory_attendances', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Laboratory Attendance'), array('controller' => 'laboratory_attendances', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Grades'), array('controller' => 'grades', 'action' => 'index')); ?> </li>

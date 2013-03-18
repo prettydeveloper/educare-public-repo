@@ -15,7 +15,7 @@
 	<div class="span4">
 		<h2><?php echo __('Meetings'); ?></h2>
 			<a class="btn" href="./meetings">
-				<i class="icon-chevron-right"></i><?php echo __('Manage meetings'); ?>
+				<i class="icon-chevron-right"></i> <?php echo __('Manage meetings'); ?>
 			</a>
 	</div><!--/span-->
 	<div class="span4">

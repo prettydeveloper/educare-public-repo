@@ -15,7 +15,7 @@
 	<div class="span4">
 		<h2><?php echo __('Students'); ?></h2>
 			<a class="btn" href="./students/add">
-				<i class="icon-plus"></i><?php echo __('Add Student'); ?>
+				<i class="icon-plus"></i> <?php echo __('Add Student'); ?>
 			</a>
 	</div><!--/span-->
 	<div class="span4">

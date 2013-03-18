@@ -10,6 +10,8 @@ App::uses('AppModel', 'Model');
  */
 class Grade extends AppModel {
 
+	public $actsAs = array('Containable');
+
 /**
  * Virtual fields for display
  *
@@ -85,5 +87,29 @@ public $virtualFields = array(
 			'counterQuery' => ''
 		)
 	);
+
+	/**
+	 * hasAndBelongsToMany associations
+	 *
+	 * @var array
+	 */
+	public $hasAndBelongsToMany = array(
+		'Laboratory' => array(
+			'className' => 'Laboratory',
+			'joinTable' => 'grades_laboratories',
+			'foreignKey' => 'grade_id',
+			'associationForeignKey' => 'laboratory_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+			'deleteQuery' => '',
+			'insertQuery' => ''
+		)
+	);
+
 
 }
