@@ -1,5 +1,4 @@
 <?php
-App::uses('AuthComponent', 'Controller/Component');
 App::uses('AppController', 'Controller');
 /**
  * Groups Controller
@@ -7,15 +6,6 @@ App::uses('AppController', 'Controller');
  * @property Group $Group
  */
 class GroupsController extends AppController {
-
-/**
- * per ACL
- *
- */
-	public function beforeFilter() {
-	    parent::beforeFilter();
-	    $this->Auth->allow('*');
-	}
 
 /**
  * index method

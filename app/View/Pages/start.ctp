@@ -2,7 +2,7 @@
 	<h1><?php echo __('Welcome'); ?></h1>
 	<p>Questa è la home page</p>
 	<p><a class="btn btn-primary btn-large" href="./attendances/selectSchool">
-		<i class="icon-calendar icon-white"></i>Presenze di oggi &raquo;
+		<i class="icon-calendar icon-white"></i><?php echo __('Take attendances') ?> &raquo;
 	</a></p>
 </div><!--/hero-->
 <div class="row-fluid">

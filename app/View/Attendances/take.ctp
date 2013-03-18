@@ -22,6 +22,8 @@
         // enabling datepicker
         $('.datepicker').datepicker({ format:'dd-mm-yyyy', language:'it' });
 
+        $('#grades').hide();
+
     });
 
     function checkPresence(id){
@@ -63,26 +65,47 @@
         window.location.href = path+'attendances/take/'+grade_id+'/'+date;
     }
 
+    function showGrades(){
+        $('#grades').toggle('slow');
+    }
 </script>
-
-<h3><?php echo __('Grade') .' '. $grade['Grade']['grade_number'].$grade['Grade']['grade_code'] ?>
-&nbsp;- <?php echo $grade['School']['name'] ?> &nbsp;
-<?php echo $this->Html->link(__('Change school'), 
-        array(  'controller' => 'Attendances', 
-                'action' => 'selectSchool'),
-        array(  'class' => 'btn btn-inline'));
+<?php         // Javascript for AJAX calls
+    $this->Js->get('#btn_grade');
+    $this->Js->event('click', 
+        $this->Js->request(
+            array('controller' => 'attendances', 'action' => 'findGrades', $grade['School']['id']),
+            array('async' => true, 'update' => '#grades', 'complete' => 'showGrades()')));
 ?>
-</h3> 
-
+<div class="row-fluid">
+    <div class="span2">
+        <h4><?php echo $grade['School']['name'] ?></h4>
+        <?php echo $this->Html->link(__('Change school'), 
+            array(  'controller' => 'Attendances', 
+                    'action' => 'selectSchool'),
+            array(  'class' => 'btn btn-small btn-inline')); ?>
+    </div>
+    <div class="span2"> 
+        <h4><?php echo __('Grade') .' '. $grade['Grade']['grade_number'].$grade['Grade']['grade_code'] ?></h4>
+        <?php echo $this->Html->link(__('Change grade'),'#', 
+            array(  'class' => 'btn btn-small btn-inline', 
+                    'id' => 'btn_grade'));
+        ?>
+    </div>
+</div>
+<div class="row-fluid" id="grades">&nbsp;</div>
+<div>
 <h4><?php echo __('Attendances of the day:');?> 
     <input type="text" name="attendance_date" id="attendance_date" class="datepicker"
         size="12" value="<?php echo $attendance_date ?>">
     <a href="javascript:submitDate()" class="btn btn-small btn-inline">Vai</a>
 </h4>
-
+</div>
 <!--<?php debug($grade) ?>-->
 
-<?php echo $this->Form->create('Attendance');?>
+
+<?php if(!empty($students)) {
+
+    echo $this->Form->create('Attendance');?>
  
 <table>
     <thead>
@@ -99,7 +122,7 @@
     <tbody>
     <?php 
         //debug($attendances);
-        $i = 0; 
+        $i = 0;
         foreach ($students as $student):
 
             // campi nascosti per salvare l'id dello studente e la data
@@ -114,9 +137,12 @@
                 <td><?php echo $student['Student']['last_name']; ?></td>
                 <td><?php echo $student['Grade']['grade_number'].$student['Grade']['grade_code'] ; ?></td>
                 <td class='present'>
-                    <?php echo $this->Form->checkbox('Attendance.'.$i.'.present', 
+                    <?php 
+                        $present = 1;
+                        if(!empty($attendances[$i])){$present = $attendances[$i]['Attendance']['present'];}
+                        echo $this->Form->checkbox('Attendance.'.$i.'.present', 
                         array(  'onClick' => 'javascript:checkPresence(\''.$i.'\')', 
-                                'checked' => $attendances[$i]['Attendance']['present'] )); ?>
+                                'checked' => $present )); ?>
                 </td>
                 <td class='absent'>
                     <?php echo $this->Form->checkbox('Attendance.'.$i.'.absent', 
@@ -139,5 +165,16 @@
     ?>
     </tbody>
 </table>
-<?php echo $this->Form->end('Salva'); ?>
-<?php unset($student); ?>
+<?php 
+        echo $this->Form->end('Salva');
+        unset($student); 
+    } else {
+        echo '<div class="alert alert-info">';
+        echo __('There are no students yet in this grade');
+        echo '</div>';
+        echo $this->Html->link(__('Add Student'), array('controller' => 'Students', 'action' => 'add'),
+            array(  'class' => 'btn btn-primary'));
+    }
+
+    echo $this->Js->writeBuffer(); // Write cached scripts
+?>

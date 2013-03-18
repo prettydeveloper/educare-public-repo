@@ -223,6 +223,7 @@ class AttendancesController extends AppController {
 		    $this->loadModel('Attendance');
 
 		    $i = 0;
+		    $attendances = array();
 		    foreach ($students as $student) {
 		    	$attendances[$i] = $this->Attendance->getDayAttendance($student['Student']['id'],
 		    		date('Y-m-d',strtotime($attendance_date)));

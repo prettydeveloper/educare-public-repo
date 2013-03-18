@@ -1,6 +1,6 @@
 <div class="groups view">
 <h2><?php  echo __('Group'); ?></h2>
-	<dl class="dl-horizontal">
+	<dl>
 		<dt><?php echo __('Id'); ?></dt>
 		<dd>
 			<?php echo h($group['Group']['id']); ?>

@@ -1,9 +1,14 @@
-<!-- File: /app/View/Attendance/take.ctp -->
+<!-- File: /app/View/Attendance/select_school.ctp -->
 
 <!-- 
-    GESTIONE DELLE ASSENZE
+    Selezione scuole
     Created 2/2013 by Lucia Moreno 
 -->
+<script type="text/javascript">
+        function showGrades(){
+        $('#grades').toggle('slow');
+    }
+</script>
 
 <div id="schools">
     <h3><?php echo __('Select School') ?></h3>
@@ -18,20 +23,20 @@
                 <?php echo h($school['Schools']['school_code']); ?>&nbsp;Circolo
             </a>
 
-            <?php // Javascript for AJAX calls
-
+            <?php
+            // Javascript for AJAX calls
             $this->Js->get('#btn_'.$school_id);
             $this->Js->event('click', 
                 $this->Js->request(
                     array('controller' => 'attendances', 'action' => 'findGrades', $school_id),
-                    array('async' => true, 'update' => '#grades')
+                    array('async' => true, 'update' => '#grades', 'complete' => 'showGrades()')
                 )
-            ) ;
-
-        endforeach; ?>
+            );
+        endforeach; 
+    ?>
 </div>
 
-<div id="grades"></div>
+<div id="grades" style="display:none"></div>
 <div id="students"></div>
 
 <?php 

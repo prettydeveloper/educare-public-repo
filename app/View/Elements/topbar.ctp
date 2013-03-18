@@ -40,8 +40,8 @@
     			array('controller' => 'students', 'action' => ''));?>
               </li>
               <li>
-                <?php echo $this->Html->link(__('Educators'),
-                array('controller' => 'educators', 'action' => ''));?>
+                <?php echo $this->Html->link(__('Administration'),
+                array('controller' => 'pages', 'action' => 'admin'));?>
               </li>
             </ul>
             <?php 
