@@ -4,15 +4,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: EduCare\n"
-"POT-Creation-Date: 2013-02-14 12:43+0100\n"
-"PO-Revision-Date: 2013-02-15 11:33+0100\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-03-20 12:51+0100\n"
+"PO-Revision-Date: 2013-03-20 12:52+0100\n"
+"Last-Translator: PrettyDeveloper <info@prettydeveloper.com>\n"
 "Language-Team: EduCare <info@prettydeveloper.com>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: Controller/AttendancesController.php:35;70;101
 msgid "Invalid attendance"
@@ -34,123 +34,429 @@ msgstr "Presenza cancellata"
 msgid "Attendance was not deleted"
 msgstr "La presenza non è stata cancellata"
 
-#: Controller/EducatorsController.php:30;62;90;120;152;180
-msgid "Invalid educator"
-msgstr "Educatore non valido"
+#: Controller/CourseCodesController.php:30;62;90
+#, fuzzy
+msgid "Invalid course code"
+msgstr "Utente non valido"
 
-#: Controller/EducatorsController.php:44;66;134;156
-msgid "The educator has been saved"
-msgstr "L'Educatore è stato registrato"
+#: Controller/CourseCodesController.php:44;66
+#, fuzzy
+msgid "The course code has been saved"
+msgstr "L'utente è stato registrato"
 
-#: Controller/EducatorsController.php:47;69;137;159
-msgid "The educator could not be saved. Please, try again."
-msgstr "L'Educatore non è stato registrato, riprovare"
+#: Controller/CourseCodesController.php:47;69
+#, fuzzy
+msgid "The course code could not be saved. Please, try again."
+msgstr "L'utente non è stato registrato, riprovare"
 
-#: Controller/EducatorsController.php:93;183
-msgid "Educator deleted"
+#: Controller/CourseCodesController.php:93
+#, fuzzy
+msgid "Course code deleted"
+msgstr "Grado cancellato"
+
+#: Controller/CourseCodesController.php:96
+#, fuzzy
+msgid "Course code was not deleted"
+msgstr "La classe non è stata cancellata"
+
+#: Controller/DepartmentsController.php:30;62;90
+#, fuzzy
+msgid "Invalid department"
+msgstr "Studente non valido"
+
+#: Controller/DepartmentsController.php:44;66
+#, fuzzy
+msgid "The department has been saved"
+msgstr "Lo studente è stato registrato"
+
+#: Controller/DepartmentsController.php:47;69
+#, fuzzy
+msgid "The department could not be saved. Please, try again."
+msgstr "Lo studente non è stato registrato, riprovare"
+
+#: Controller/DepartmentsController.php:93
+#, fuzzy
+msgid "Department deleted"
+msgstr "Studente cancellato"
+
+#: Controller/DepartmentsController.php:96
+#, fuzzy
+msgid "Department was not deleted"
+msgstr "Studente non è stato cancellato"
+
+#: Controller/EmployeeCategoriesController.php:30;62;90
+#, fuzzy
+msgid "Invalid employee category"
+msgstr "Laboratorio non valido"
+
+#: Controller/EmployeeCategoriesController.php:44;66
+#, fuzzy
+msgid "The employee category has been saved"
+msgstr "Il Laboratorio è stato registrato"
+
+#: Controller/EmployeeCategoriesController.php:47;69
+#, fuzzy
+msgid "The employee category could not be saved. Please, try again."
+msgstr "Il Laboratorio non è stato registrato, riprovare"
+
+#: Controller/EmployeeCategoriesController.php:93
+#, fuzzy
+msgid "Employee category deleted"
 msgstr "Educatore cancellato"
 
-#: Controller/EducatorsController.php:96;186
-msgid "Educator was not deleted"
+#: Controller/EmployeeCategoriesController.php:96
+#, fuzzy
+msgid "Employee category was not deleted"
 msgstr "L'Educatore non è stato cancellato"
 
-#: Controller/GradesController.php:30;65;96;126;161;192
+#: Controller/EmployeesController.php:30;69;104
+#, fuzzy
+msgid "Invalid employee"
+msgstr "Response non valida"
+
+#: Controller/EmployeesController.php:44;73
+#, fuzzy
+msgid "The employee has been saved"
+msgstr "L'utente è stato registrato"
+
+#: Controller/EmployeesController.php:47;76
+#, fuzzy
+msgid "The employee could not be saved. Please, try again."
+msgstr "L'utente non è stato registrato, riprovare"
+
+#: Controller/EmployeesController.php:107
+#, fuzzy
+msgid "Employee deleted"
+msgstr "Utente cancellato"
+
+#: Controller/EmployeesController.php:110
+#, fuzzy
+msgid "Employee was not deleted"
+msgstr "L'utente non è stato cancellato"
+
+#: Controller/EmployeesMeetingsController.php:30;65;96
+#, fuzzy
+msgid "Invalid employees meeting"
+msgstr "Response non valida"
+
+#: Controller/EmployeesMeetingsController.php:44;69
+#, fuzzy
+msgid "The employees meeting has been saved"
+msgstr "L'utente è stato registrato"
+
+#: Controller/EmployeesMeetingsController.php:47;72
+#, fuzzy
+msgid "The employees meeting could not be saved. Please, try again."
+msgstr "L'utente non è stato registrato, riprovare"
+
+#: Controller/EmployeesMeetingsController.php:99
+msgid "Employees meeting deleted"
+msgstr "Riunione cancellata"
+
+#: Controller/EmployeesMeetingsController.php:102
+#, fuzzy
+msgid "Employees meeting was not deleted"
+msgstr "L'utente non è stato cancellato"
+
+#: Controller/EmployeesSchoolsController.php:30;65;96
+#, fuzzy
+msgid "Invalid employees school"
+msgstr "Scuola non valida"
+
+#: Controller/EmployeesSchoolsController.php:44;69
+#, fuzzy
+msgid "The employees school has been saved"
+msgstr "La scuola è stata salvata"
+
+#: Controller/EmployeesSchoolsController.php:47;72
+#, fuzzy
+msgid "The employees school could not be saved. Please, try again."
+msgstr "La scuola non è stata registrata, riprovare"
+
+#: Controller/EmployeesSchoolsController.php:99
+#, fuzzy
+msgid "Employees school deleted"
+msgstr "Scuola cancellata"
+
+#: Controller/EmployeesSchoolsController.php:102
+#, fuzzy
+msgid "Employees school was not deleted"
+msgstr "La scuola non è stata cancellata"
+
+#: Controller/EventsController.php:30;62;90
+#, fuzzy
+msgid "Invalid event"
+msgstr "Studente non valido"
+
+#: Controller/EventsController.php:44;66
+#, fuzzy
+msgid "The event has been saved"
+msgstr "Lo studente è stato registrato"
+
+#: Controller/EventsController.php:47;69
+#, fuzzy
+msgid "The event could not be saved. Please, try again."
+msgstr "Lo studente non è stato registrato, riprovare"
+
+#: Controller/EventsController.php:93
+#, fuzzy
+msgid "Event deleted"
+msgstr "Studente cancellato"
+
+#: Controller/EventsController.php:96
+#, fuzzy
+msgid "Event was not deleted"
+msgstr "Studente non è stato cancellato"
+
+#: Controller/GradesController.php:30;66;98;128;163;194
 msgid "Invalid grade"
 msgstr "Classe non valida"
 
-#: Controller/GradesController.php:44;69;140;165
+#: Controller/GradesController.php:45;71;142;167
 msgid "The grade has been saved"
 msgstr "La classe è stata registrata"
 
-#: Controller/GradesController.php:47;72;143;168
+#: Controller/GradesController.php:48;74;145;170
 msgid "The grade could not be saved. Please, try again."
 msgstr "La classe non è stata registrata, riprovare"
 
-#: Controller/GradesController.php:99;195
+#: Controller/GradesController.php:101;197
 msgid "Grade deleted"
 msgstr "Grado cancellato"
 
-#: Controller/GradesController.php:102;198
+#: Controller/GradesController.php:104;200
 msgid "Grade was not deleted"
 msgstr "La classe non è stata cancellata"
 
-#: Controller/GroupsController.php:40;72;100
+#: Controller/GradesLaboratoriesController.php:30;65;96
+#, fuzzy
+msgid "Invalid grades laboratory"
+msgstr "Laboratorio non valido"
+
+#: Controller/GradesLaboratoriesController.php:44;69
+#, fuzzy
+msgid "The grades laboratory has been saved"
+msgstr "Il Laboratorio è stato registrato"
+
+#: Controller/GradesLaboratoriesController.php:47;72
+#, fuzzy
+msgid "The grades laboratory could not be saved. Please, try again."
+msgstr "Il Laboratorio non è stato registrato, riprovare"
+
+#: Controller/GradesLaboratoriesController.php:99
+#, fuzzy
+msgid "Grades laboratory deleted"
+msgstr "Laboratorio cancellato"
+
+#: Controller/GradesLaboratoriesController.php:102
+#, fuzzy
+msgid "Grades laboratory was not deleted"
+msgstr "Il Laboratorio non è stato cancellato"
+
+#: Controller/GroupsController.php:30;62;90
 msgid "Invalid group"
 msgstr "Gruppo non valido"
 
-#: Controller/GroupsController.php:54;76
+#: Controller/GroupsController.php:44;66
 msgid "The group has been saved"
 msgstr "Il gruppo è stato salvato"
 
-#: Controller/GroupsController.php:57;79
+#: Controller/GroupsController.php:47;69
 msgid "The group could not be saved. Please, try again."
 msgstr "Il gruppo non è stato salvato, riprovare"
 
-#: Controller/GroupsController.php:103
+#: Controller/GroupsController.php:93
 msgid "Group deleted"
 msgstr "Gruppo cancellato"
 
-#: Controller/GroupsController.php:106
+#: Controller/GroupsController.php:96
 msgid "Group was not deleted"
 msgstr "Il gruppo non è stato cancellato"
 
-#: Controller/LaboratoriesController.php:30;62;90;120;152;180
+#: Controller/LaboratoriesController.php:30;64;94;123;157;187
 msgid "Invalid laboratory"
 msgstr "Laboratorio non valido"
 
-#: Controller/LaboratoriesController.php:44;66;134;156
-msgid "The laboratory has been saved"
+#: Controller/LaboratoriesController.php:44;137
+#, fuzzy
+msgid "Laboratory saved."
+msgstr "Laboratorio cancellato"
+
+#: Controller/LaboratoriesController.php:68;161
+#, fuzzy
+msgid "The laboratory has been saved."
 msgstr "Il Laboratorio è stato registrato"
 
-#: Controller/LaboratoriesController.php:47;69;137;159
-msgid "The laboratory could not be saved. Please, try again."
-msgstr "Il Laboratorio non è stato registrato, riprovare"
-
-#: Controller/LaboratoriesController.php:93;183
+#: Controller/LaboratoriesController.php:97;190
 msgid "Laboratory deleted"
 msgstr "Laboratorio cancellato"
 
-#: Controller/LaboratoriesController.php:96;186
+#: Controller/LaboratoriesController.php:99;192
 msgid "Laboratory was not deleted"
 msgstr "Il Laboratorio non è stato cancellato"
 
-#: Controller/SchoolsController.php:30;62;90;120;152;180
+#: Controller/LaboratoryAttendancesController.php:30;65;96
+#, fuzzy
+msgid "Invalid laboratory attendance"
+msgstr "Laboratorio non valido"
+
+#: Controller/LaboratoryAttendancesController.php:44;69
+#, fuzzy
+msgid "The laboratory attendance has been saved"
+msgstr "La presenza è stata registrata"
+
+#: Controller/LaboratoryAttendancesController.php:47;72
+#, fuzzy
+msgid "The laboratory attendance could not be saved. Please, try again."
+msgstr "La presenza non è stata registrata, riprovare."
+
+#: Controller/LaboratoryAttendancesController.php:99
+#, fuzzy
+msgid "Laboratory attendance deleted"
+msgstr "Laboratorio cancellato"
+
+#: Controller/LaboratoryAttendancesController.php:102
+#, fuzzy
+msgid "Laboratory attendance was not deleted"
+msgstr "Il Laboratorio non è stato cancellato"
+
+#: Controller/MeetingAttendancesController.php:30;65;96
+#, fuzzy
+msgid "Invalid meeting attendance"
+msgstr "Presenza non valida"
+
+#: Controller/MeetingAttendancesController.php:44;69
+#, fuzzy
+msgid "The meeting attendance has been saved"
+msgstr "La presenza è stata registrata"
+
+#: Controller/MeetingAttendancesController.php:47;72
+#, fuzzy
+msgid "The meeting attendance could not be saved. Please, try again."
+msgstr "La presenza non è stata registrata, riprovare."
+
+#: Controller/MeetingAttendancesController.php:99
+#, fuzzy
+msgid "Meeting attendance deleted"
+msgstr "Presenza cancellata"
+
+#: Controller/MeetingAttendancesController.php:102
+#, fuzzy
+msgid "Meeting attendance was not deleted"
+msgstr "La presenza non è stata cancellata"
+
+#: Controller/MeetingTypesController.php:30;62;90
+#, fuzzy
+msgid "Invalid meeting type"
+msgstr "Studente non valido"
+
+#: Controller/MeetingTypesController.php:44;66
+#, fuzzy
+msgid "The meeting type has been saved"
+msgstr "Lo studente è stato registrato"
+
+#: Controller/MeetingTypesController.php:47;69
+#, fuzzy
+msgid "The meeting type could not be saved. Please, try again."
+msgstr "Lo studente non è stato registrato, riprovare"
+
+#: Controller/MeetingTypesController.php:93
+#, fuzzy
+msgid "Meeting type deleted"
+msgstr "Studente cancellato"
+
+#: Controller/MeetingTypesController.php:96
+#, fuzzy
+msgid "Meeting type was not deleted"
+msgstr "Studente non è stato cancellato"
+
+#: Controller/MeetingsController.php:30;65;96
+#, fuzzy
+msgid "Invalid meeting"
+msgstr "Studente non valido"
+
+#: Controller/MeetingsController.php:44;69
+#, fuzzy
+msgid "The meeting has been saved"
+msgstr "L'utente è stato registrato"
+
+#: Controller/MeetingsController.php:47;72
+#, fuzzy
+msgid "The meeting could not be saved. Please, try again."
+msgstr "L'utente non è stato registrato, riprovare"
+
+#: Controller/MeetingsController.php:99
+#, fuzzy
+msgid "Meeting deleted"
+msgstr "Studente cancellato"
+
+#: Controller/MeetingsController.php:102
+#, fuzzy
+msgid "Meeting was not deleted"
+msgstr "L'utente non è stato cancellato"
+
+#: Controller/SchoolsController.php:30;70;99;129;161;189
 msgid "Invalid school"
 msgstr "Scuola non valida"
 
-#: Controller/SchoolsController.php:44;66;134;156
+#: Controller/SchoolsController.php:52;75;143;165
 msgid "The school has been saved"
 msgstr "La scuola è stata salvata"
 
-#: Controller/SchoolsController.php:47;69;137;159
+#: Controller/SchoolsController.php:55;78;146;168
 msgid "The school could not be saved. Please, try again."
 msgstr "La scuola non è stata registrata, riprovare"
 
-#: Controller/SchoolsController.php:93;183
+#: Controller/SchoolsController.php:102;192
 msgid "School deleted"
 msgstr "Scuola cancellata"
 
-#: Controller/SchoolsController.php:96;186
+#: Controller/SchoolsController.php:105;195
 msgid "School was not deleted"
 msgstr "La scuola non è stata cancellata"
 
-#: Controller/StudentsController.php:30;64;94;124;158;188
+#: Controller/StudentGradesController.php:30;64;94
+#, fuzzy
+msgid "Invalid student grade"
+msgstr "Studente non valido"
+
+#: Controller/StudentGradesController.php:44;68
+#, fuzzy
+msgid "The student grade has been saved"
+msgstr "Lo studente è stato registrato"
+
+#: Controller/StudentGradesController.php:47;71
+#, fuzzy
+msgid "The student grade could not be saved. Please, try again."
+msgstr "Lo studente non è stato registrato, riprovare"
+
+#: Controller/StudentGradesController.php:97
+#, fuzzy
+msgid "Student grade deleted"
+msgstr "Studente cancellato"
+
+#: Controller/StudentGradesController.php:100
+#, fuzzy
+msgid "Student grade was not deleted"
+msgstr "Studente non è stato cancellato"
+
+#: Controller/StudentsController.php:32;74;105;135;169;199
 msgid "Invalid student"
 msgstr "Studente non valido"
 
-#: Controller/StudentsController.php:44;68;138;162
+#: Controller/StudentsController.php:53;79;149;173
 msgid "The student has been saved"
 msgstr "Lo studente è stato registrato"
 
-#: Controller/StudentsController.php:47;71;141;165
+#: Controller/StudentsController.php:56;82;152;176
 msgid "The student could not be saved. Please, try again."
 msgstr "Lo studente non è stato registrato, riprovare"
 
-#: Controller/StudentsController.php:97;191
+#: Controller/StudentsController.php:108;202
 msgid "Student deleted"
 msgstr "Studente cancellato"
 
-#: Controller/StudentsController.php:100;194
+#: Controller/StudentsController.php:111;205
 msgid "Student was not deleted"
 msgstr "Studente non è stato cancellato"
 
@@ -176,7 +482,7 @@ msgstr "L'utente non è stato cancellato"
 
 #: Plugin/AclExtras/Console/Command/AclExtrasShell.php:111
 msgid "<success>Aco Update Complete</success>"
-msgstr ""
+msgstr "<success>Aco Update Completato</success>"
 
 #: Plugin/AclExtras/Console/Command/AclExtrasShell.php:156
 msgid "Deleted %s and all children"
@@ -192,7 +498,7 @@ msgstr ""
 
 #: Plugin/AclExtras/Console/Command/AclExtrasShell.php:242
 msgid "Better manage, and easily synchronize you application's ACO tree"
-msgstr ""
+msgstr "Configura e sincronizza l'albero ACO dell'applicazione"
 
 #: Plugin/AclExtras/Console/Command/AclExtrasShell.php:244
 msgid ""
@@ -240,76 +546,131 @@ msgid "Add Attendance"
 msgstr "Aggiungi Presenza"
 
 #: View/Attendances/add.ctp:20 View/Attendances/edit.ctp:21
-#: View/Educators/add.ctp:29 View/Educators/edit.ctp:30
-#: View/GradeCodes/add.ctp:10 View/GradeCodes/edit.ctp:11
-#: View/Grades/add.ctp:17 View/Grades/edit.ctp:18 View/Groups/add.ctp:9
-#: View/Groups/edit.ctp:10 View/Laboratories/add.ctp:17
-#: View/Laboratories/edit.ctp:18 View/Schools/add.ctp:21
-#: View/Schools/edit.ctp:22 View/Students/add.ctp:25 View/Students/edit.ctp:26
-#: View/Users/add.ctp:11 View/Users/edit.ctp:12
+#: View/CourseCodes/add.ctp:10 View/CourseCodes/edit.ctp:11
+#: View/Departments/add.ctp:10 View/Departments/edit.ctp:11
+#: View/EmployeeCategories/add.ctp:10 View/EmployeeCategories/edit.ctp:11
+#: View/Employees/add.ctp:43 View/Employees/edit.ctp:44
+#: View/EmployeesMeetings/add.ctp:10 View/EmployeesMeetings/edit.ctp:11
+#: View/EmployeesSchools/add.ctp:10 View/EmployeesSchools/edit.ctp:11
+#: View/Events/add.ctp:21 View/Events/edit.ctp:22 View/GradeCodes/add.ctp:10
+#: View/GradeCodes/edit.ctp:11 View/Grades/add.ctp:25 View/Grades/edit.ctp:27
+#: View/GradesLaboratories/add.ctp:10 View/GradesLaboratories/edit.ctp:11
+#: View/Groups/add.ctp:9 View/Groups/edit.ctp:10 View/Laboratories/add.ctp:27
+#: View/Laboratories/edit.ctp:22 View/LaboratoryAttendances/add.ctp:20
+#: View/LaboratoryAttendances/edit.ctp:21 View/MeetingAttendances/add.ctp:20
+#: View/MeetingAttendances/edit.ctp:21 View/MeetingTypes/add.ctp:10
+#: View/MeetingTypes/edit.ctp:11 View/Meetings/add.ctp:16
+#: View/Meetings/edit.ctp:17 View/Schools/add.ctp:27 View/Schools/edit.ctp:29
+#: View/StudentGrades/add.ctp:17 View/StudentGrades/edit.ctp:18
+#: View/Students/add.ctp:65 View/Students/edit.ctp:37 View/Users/add.ctp:11
+#: View/Users/edit.ctp:12
 msgid "Submit"
 msgstr "Invia"
 
 #: View/Attendances/add.ctp:23 View/Attendances/edit.ctp:24
 #: View/Attendances/index.ctp:20;68 View/Attendances/view.ctp:82
-#: View/Educators/add.ctp:32 View/Educators/edit.ctp:33
-#: View/Educators/index.ctp:29;82 View/Educators/view.ctp:127
+#: View/CourseCodes/add.ctp:13 View/CourseCodes/edit.ctp:14
+#: View/CourseCodes/index.ctp:8;40 View/CourseCodes/view.ctp:22;49
+#: View/Departments/add.ctp:13 View/Departments/edit.ctp:14
+#: View/Departments/index.ctp:8;40 View/Departments/view.ctp:22;73
+#: View/EmployeeCategories/add.ctp:13 View/EmployeeCategories/edit.ctp:14
+#: View/EmployeeCategories/index.ctp:8;40
+#: View/EmployeeCategories/view.ctp:22;73 View/Employees/add.ctp:46
+#: View/Employees/edit.ctp:47 View/Employees/index.ctp:41;114
+#: View/Employees/view.ctp:187;229;281;334 View/EmployeesMeetings/add.ctp:13
+#: View/EmployeesMeetings/edit.ctp:14 View/EmployeesMeetings/index.ctp:8;44
+#: View/EmployeesMeetings/view.ctp:22 View/EmployeesSchools/add.ctp:13
+#: View/EmployeesSchools/edit.ctp:14 View/EmployeesSchools/index.ctp:8;44
+#: View/EmployeesSchools/view.ctp:22 View/Events/add.ctp:24
+#: View/Events/edit.ctp:25 View/Events/index.ctp:21;66 View/Events/view.ctp:87
 #: View/GradeCodes/add.ctp:13 View/GradeCodes/edit.ctp:14
 #: View/GradeCodes/index.ctp:8;40 View/GradeCodes/view.ctp:22
-#: View/Grades/add.ctp:20 View/Grades/edit.ctp:21 View/Grades/index.ctp:17;62
-#: View/Grades/view.ctp:94;143;179 View/Groups/add.ctp:12
+#: View/Grades/add.ctp:4 View/Grades/edit.ctp:4 View/Grades/index.ctp:4;27
+#: View/Grades/view.ctp:4 View/GradesLaboratories/add.ctp:13
+#: View/GradesLaboratories/edit.ctp:14 View/GradesLaboratories/index.ctp:8;44
+#: View/GradesLaboratories/view.ctp:22 View/Groups/add.ctp:12
 #: View/Groups/edit.ctp:13 View/Groups/index.ctp:9;42
-#: View/Groups/view.ctp:27;48 View/Laboratories/add.ctp:20
-#: View/Laboratories/edit.ctp:21 View/Laboratories/index.ctp:17;58
-#: View/Laboratories/view.ctp:67 View/Schools/add.ctp:24
-#: View/Schools/edit.ctp:25 View/Schools/index.ctp:21;66
-#: View/Schools/view.ctp:87;114 View/Students/add.ctp:28
-#: View/Students/edit.ctp:29 View/Students/index.ctp:25;76
-#: View/Students/view.ctp:107;139 View/Users/add.ctp:14 View/Users/edit.ctp:15
-#: View/Users/index.ctp:11;48 View/Users/view.ctp:37
+#: View/Groups/view.ctp:27;48 View/Laboratories/add.ctp:4
+#: View/Laboratories/edit.ctp:25 View/Laboratories/index.ctp:4;22
+#: View/Laboratories/view.ctp:4;91 View/LaboratoryAttendances/add.ctp:23
+#: View/LaboratoryAttendances/edit.ctp:24
+#: View/LaboratoryAttendances/index.ctp:20;68
+#: View/LaboratoryAttendances/view.ctp:82 View/MeetingAttendances/add.ctp:23
+#: View/MeetingAttendances/edit.ctp:24 View/MeetingAttendances/index.ctp:20;68
+#: View/MeetingAttendances/view.ctp:82 View/MeetingTypes/add.ctp:13
+#: View/MeetingTypes/edit.ctp:14 View/MeetingTypes/index.ctp:8;40
+#: View/MeetingTypes/view.ctp:22;47 View/Meetings/add.ctp:19
+#: View/Meetings/edit.ctp:20 View/Meetings/index.ctp:15;56
+#: View/Meetings/view.ctp:57;91;169 View/Schools/add.ctp:4
+#: View/Schools/edit.ctp:4 View/Schools/index.ctp:4;23 View/Schools/view.ctp:4
+#: View/StudentGrades/add.ctp:20 View/StudentGrades/edit.ctp:21
+#: View/StudentGrades/index.ctp:17;60 View/StudentGrades/view.ctp:67
+#: View/Students/add.ctp:30 View/Students/edit.ctp:4
+#: View/Students/index.ctp:4;22 View/Students/view.ctp:4 View/Users/add.ctp:14
+#: View/Users/edit.ctp:15 View/Users/index.ctp:11;48 View/Users/view.ctp:37
 msgid "Actions"
 msgstr "Azioni"
 
 #: View/Attendances/add.ctp:26 View/Attendances/edit.ctp:28
-#: View/Attendances/view.ctp:86 View/Grades/add.ctp:28 View/Grades/edit.ctp:30
-#: View/Grades/index.ctp:69 View/Grades/view.ctp:153 View/Students/add.ctp:34
-#: View/Students/edit.ctp:36 View/Students/index.ctp:81
-#: View/Students/view.ctp:115
+#: View/Attendances/view.ctp:86 View/Grades/index.ctp:10
+#: View/Students/add.ctp:34 View/Students/edit.ctp:9 View/Students/index.ctp:8
+#: View/Students/view.ctp:11
 msgid "List Attendances"
 msgstr "Lista Presenze"
 
 #: View/Attendances/add.ctp:27 View/Attendances/edit.ctp:29
 #: View/Attendances/index.ctp:71 View/Attendances/view.ctp:88
-#: View/Grades/add.ctp:30 View/Grades/edit.ctp:32 View/Grades/index.ctp:71
-#: View/Grades/view.ctp:155 View/Students/add.ctp:31 View/Students/edit.ctp:33
-#: View/Students/view.ctp:111
+#: View/Grades/add.ctp:8 View/Grades/edit.ctp:9 View/Grades/index.ctp:13
+#: View/Grades/view.ctp:12 View/LaboratoryAttendances/add.ctp:27
+#: View/LaboratoryAttendances/edit.ctp:29
+#: View/LaboratoryAttendances/index.ctp:71
+#: View/LaboratoryAttendances/view.ctp:88 View/StudentGrades/add.ctp:24
+#: View/StudentGrades/edit.ctp:26 View/StudentGrades/index.ctp:63
+#: View/StudentGrades/view.ctp:73 View/Students/add.ctp:31
+#: View/Students/edit.ctp:6 View/Students/view.ctp:7
 msgid "List Students"
 msgstr "Lista Studenti"
 
 #: View/Attendances/add.ctp:28 View/Attendances/edit.ctp:30
 #: View/Attendances/index.ctp:72 View/Attendances/view.ctp:89
-#: View/Grades/add.ctp:31 View/Grades/edit.ctp:33 View/Grades/index.ctp:72
-#: View/Grades/view.ctp:132;156 View/Students/index.ctp:78
-#: View/Students/view.ctp:112
+#: View/Grades/add.ctp:9 View/Grades/edit.ctp:10 View/Grades/index.ctp:14
+#: View/Grades/view.ctp:13 View/LaboratoryAttendances/add.ctp:28
+#: View/LaboratoryAttendances/edit.ctp:30
+#: View/LaboratoryAttendances/index.ctp:72
+#: View/LaboratoryAttendances/view.ctp:89 View/StudentGrades/add.ctp:25
+#: View/StudentGrades/edit.ctp:27 View/StudentGrades/index.ctp:64
+#: View/StudentGrades/view.ctp:74 View/Students/index.ctp:5
+#: View/Students/view.ctp:8
 msgid "New Student"
 msgstr "Nuovo Studente"
 
 #: View/Attendances/add.ctp:29 View/Attendances/edit.ctp:31
 #: View/Attendances/index.ctp:73 View/Attendances/view.ctp:90
-#: View/Grades/add.ctp:23 View/Grades/edit.ctp:25 View/Grades/view.ctp:147
-#: View/Schools/add.ctp:28 View/Schools/edit.ctp:30 View/Schools/index.ctp:69
-#: View/Schools/view.ctp:93 View/Students/add.ctp:32 View/Students/edit.ctp:34
-#: View/Students/index.ctp:79 View/Students/view.ctp:113
+#: View/CourseCodes/add.ctp:17 View/CourseCodes/edit.ctp:19
+#: View/CourseCodes/index.ctp:43 View/CourseCodes/view.ctp:28
+#: View/Grades/add.ctp:5 View/Grades/edit.ctp:6 View/Grades/view.ctp:7
+#: View/GradesLaboratories/add.ctp:17 View/GradesLaboratories/edit.ctp:19
+#: View/GradesLaboratories/index.ctp:47 View/GradesLaboratories/view.ctp:28
+#: View/Laboratories/add.ctp:6 View/Laboratories/edit.ctp:34
+#: View/Laboratories/index.ctp:8 View/Laboratories/view.ctp:9
+#: View/Schools/add.ctp:6 View/Schools/edit.ctp:7 View/Schools/index.ctp:6
+#: View/Schools/view.ctp:9 View/Students/add.ctp:32 View/Students/edit.ctp:7
+#: View/Students/index.ctp:6 View/Students/view.ctp:9
 msgid "List Grades"
 msgstr "Lista Classi"
 
 #: View/Attendances/add.ctp:30 View/Attendances/edit.ctp:32
 #: View/Attendances/index.ctp:74 View/Attendances/view.ctp:91
-#: View/Grades/index.ctp:64 View/Grades/view.ctp:148 View/Schools/add.ctp:29
-#: View/Schools/edit.ctp:31 View/Schools/index.ctp:70
-#: View/Schools/view.ctp:94;144 View/Students/add.ctp:33
-#: View/Students/edit.ctp:35 View/Students/index.ctp:80
-#: View/Students/view.ctp:114
+#: View/CourseCodes/add.ctp:18 View/CourseCodes/edit.ctp:20
+#: View/CourseCodes/index.ctp:44 View/CourseCodes/view.ctp:29;79
+#: View/Grades/index.ctp:5 View/Grades/view.ctp:8
+#: View/GradesLaboratories/add.ctp:18 View/GradesLaboratories/edit.ctp:20
+#: View/GradesLaboratories/index.ctp:48 View/GradesLaboratories/view.ctp:29
+#: View/Laboratories/add.ctp:7 View/Laboratories/edit.ctp:35
+#: View/Laboratories/index.ctp:9 View/Laboratories/view.ctp:10
+#: View/Schools/add.ctp:7 View/Schools/edit.ctp:8 View/Schools/index.ctp:7
+#: View/Schools/view.ctp:10 View/Students/add.ctp:33 View/Students/edit.ctp:8
+#: View/Students/index.ctp:7 View/Students/view.ctp:10
 msgid "New Grade"
 msgstr "Nuova Classe"
 
@@ -318,196 +679,338 @@ msgid "Edit Attendance"
 msgstr "Modifica Presenza"
 
 #: View/Attendances/edit.ctp:27 View/Attendances/index.ctp:47
-#: View/Educators/edit.ctp:36 View/Educators/index.ctp:61
+#: View/CourseCodes/edit.ctp:17 View/CourseCodes/index.ctp:19
+#: View/CourseCodes/view.ctp:70 View/Departments/edit.ctp:17
+#: View/Departments/index.ctp:19 View/Departments/view.ctp:118
+#: View/EmployeeCategories/edit.ctp:17 View/EmployeeCategories/index.ctp:19
+#: View/EmployeeCategories/view.ctp:118 View/Employees/edit.ctp:50
+#: View/Employees/index.ctp:93 View/Employees/view.ctp:253;300;359
+#: View/EmployeesMeetings/edit.ctp:17 View/EmployeesMeetings/index.ctp:23
+#: View/EmployeesSchools/edit.ctp:17 View/EmployeesSchools/index.ctp:23
+#: View/Events/edit.ctp:28 View/Events/index.ctp:45
 #: View/GradeCodes/edit.ctp:17 View/GradeCodes/index.ctp:19
-#: View/Grades/edit.ctp:24 View/Grades/index.ctp:41
-#: View/Grades/view.ctp:123;203 View/Groups/edit.ctp:16
-#: View/Groups/index.ctp:21 View/Groups/view.ctp:63
-#: View/Laboratories/edit.ctp:24 View/Laboratories/index.ctp:37
-#: View/Schools/edit.ctp:28 View/Schools/index.ctp:45
-#: View/Schools/view.ctp:135 View/Students/edit.ctp:32
-#: View/Students/index.ctp:55 View/Students/view.ctp:163
-#: View/Users/edit.ctp:18 View/Users/index.ctp:27
+#: View/Grades/edit.ctp:5 View/Grades/index.ctp:42
+#: View/GradesLaboratories/edit.ctp:17 View/GradesLaboratories/index.ctp:23
+#: View/Groups/edit.ctp:16 View/Groups/index.ctp:21 View/Groups/view.ctp:63
+#: View/Laboratories/edit.ctp:28 View/Laboratories/index.ctp:41
+#: View/LaboratoryAttendances/edit.ctp:27
+#: View/LaboratoryAttendances/index.ctp:47 View/MeetingAttendances/edit.ctp:27
+#: View/MeetingAttendances/index.ctp:47 View/MeetingTypes/edit.ctp:17
+#: View/MeetingTypes/index.ctp:19 View/MeetingTypes/view.ctp:66
+#: View/Meetings/edit.ctp:23 View/Meetings/index.ctp:35
+#: View/Meetings/view.ctp:115;214 View/Schools/edit.ctp:5
+#: View/Schools/index.ctp:39 View/StudentGrades/edit.ctp:24
+#: View/StudentGrades/index.ctp:39 View/Students/edit.ctp:5
+#: View/Students/index.ctp:37 View/Users/edit.ctp:18 View/Users/index.ctp:27
 msgid "Delete"
 msgstr "Cancella"
 
 #: View/Attendances/edit.ctp:27 View/Attendances/index.ctp:47
-#: View/Attendances/view.ctp:85 View/Educators/edit.ctp:36
-#: View/Educators/index.ctp:61 View/Educators/view.ctp:130
+#: View/Attendances/view.ctp:85 View/CourseCodes/edit.ctp:17
+#: View/CourseCodes/index.ctp:19 View/CourseCodes/view.ctp:25;70
+#: View/Departments/edit.ctp:17 View/Departments/index.ctp:19
+#: View/Departments/view.ctp:25;118 View/EmployeeCategories/edit.ctp:17
+#: View/EmployeeCategories/index.ctp:19
+#: View/EmployeeCategories/view.ctp:25;118 View/Employees/edit.ctp:50
+#: View/Employees/index.ctp:93 View/Employees/view.ctp:190;253;300;359
+#: View/EmployeesMeetings/edit.ctp:17 View/EmployeesMeetings/index.ctp:23
+#: View/EmployeesMeetings/view.ctp:25 View/EmployeesSchools/edit.ctp:17
+#: View/EmployeesSchools/index.ctp:23 View/EmployeesSchools/view.ctp:25
+#: View/Events/edit.ctp:28 View/Events/index.ctp:45 View/Events/view.ctp:90
 #: View/GradeCodes/edit.ctp:17 View/GradeCodes/index.ctp:19
-#: View/GradeCodes/view.ctp:25 View/Grades/edit.ctp:24
-#: View/Grades/index.ctp:41 View/Grades/view.ctp:123;146;203
+#: View/GradeCodes/view.ctp:25 View/Grades/edit.ctp:5 View/Grades/index.ctp:42
+#: View/Grades/view.ctp:6 View/GradesLaboratories/edit.ctp:17
+#: View/GradesLaboratories/index.ctp:23 View/GradesLaboratories/view.ctp:25
 #: View/Groups/edit.ctp:16 View/Groups/index.ctp:21 View/Groups/view.ctp:30;63
-#: View/Laboratories/edit.ctp:24 View/Laboratories/index.ctp:37
-#: View/Laboratories/view.ctp:70 View/Schools/edit.ctp:28
-#: View/Schools/index.ctp:45 View/Schools/view.ctp:90;135
-#: View/Students/edit.ctp:32 View/Students/index.ctp:55
-#: View/Students/view.ctp:110;163 View/Users/edit.ctp:18
+#: View/Laboratories/edit.ctp:28 View/Laboratories/index.ctp:41
+#: View/Laboratories/view.ctp:6 View/LaboratoryAttendances/edit.ctp:27
+#: View/LaboratoryAttendances/index.ctp:47
+#: View/LaboratoryAttendances/view.ctp:85 View/MeetingAttendances/edit.ctp:27
+#: View/MeetingAttendances/index.ctp:47 View/MeetingAttendances/view.ctp:85
+#: View/MeetingTypes/edit.ctp:17 View/MeetingTypes/index.ctp:19
+#: View/MeetingTypes/view.ctp:25;66 View/Meetings/edit.ctp:23
+#: View/Meetings/index.ctp:35 View/Meetings/view.ctp:60;115;214
+#: View/Schools/edit.ctp:5 View/Schools/index.ctp:39 View/Schools/view.ctp:6
+#: View/StudentGrades/edit.ctp:24 View/StudentGrades/index.ctp:39
+#: View/StudentGrades/view.ctp:70 View/Students/edit.ctp:5
+#: View/Students/index.ctp:37 View/Students/view.ctp:6 View/Users/edit.ctp:18
 #: View/Users/index.ctp:27 View/Users/view.ctp:40
 msgid "Are you sure you want to delete # %s?"
 msgstr "Sei sicuro di voler cancellare # %s?"
 
 #: View/Attendances/find_grades.ctp:1
-msgid "Select Class"
-msgstr "Seleziona Classe"
+#: View/LaboratoryAttendances/find_grades.ctp:2
+#, fuzzy
+msgid "Select grade:"
+msgstr "Cancella Classe"
 
 #: View/Attendances/index.ctp:2
 msgid "Attendances"
 msgstr "Presenze"
 
-#: View/Attendances/index.ctp:45 View/Educators/index.ctp:59
-#: View/GradeCodes/index.ctp:17 View/Grades/index.ctp:39
-#: View/Grades/view.ctp:121;201 View/Groups/index.ctp:19
-#: View/Groups/view.ctp:61 View/Laboratories/index.ctp:35
-#: View/Schools/index.ctp:43 View/Schools/view.ctp:133
-#: View/Students/index.ctp:53 View/Students/view.ctp:161
+#: View/Attendances/index.ctp:45 View/CourseCodes/index.ctp:17
+#: View/CourseCodes/view.ctp:68 View/Departments/index.ctp:17
+#: View/Departments/view.ctp:116 View/EmployeeCategories/index.ctp:17
+#: View/EmployeeCategories/view.ctp:116 View/Employees/index.ctp:91
+#: View/Employees/view.ctp:251;298;357 View/EmployeesMeetings/index.ctp:21
+#: View/EmployeesSchools/index.ctp:21 View/Events/index.ctp:43
+#: View/GradeCodes/index.ctp:17 View/Grades/index.ctp:40
+#: View/GradesLaboratories/index.ctp:21 View/Groups/index.ctp:19
+#: View/Groups/view.ctp:61 View/Laboratories/index.ctp:39
+#: View/LaboratoryAttendances/index.ctp:45
+#: View/MeetingAttendances/index.ctp:45 View/MeetingTypes/index.ctp:17
+#: View/MeetingTypes/view.ctp:64 View/Meetings/index.ctp:33
+#: View/Meetings/view.ctp:113;212 View/Schools/index.ctp:37
+#: View/StudentGrades/index.ctp:37 View/Students/index.ctp:35
 #: View/Users/index.ctp:25
 msgid "View"
 msgstr "Visualizza"
 
-#: View/Attendances/index.ctp:46 View/Educators/index.ctp:60
-#: View/GradeCodes/index.ctp:18 View/Grades/index.ctp:40
-#: View/Grades/view.ctp:122;202 View/Groups/index.ctp:20
-#: View/Groups/view.ctp:62 View/Laboratories/index.ctp:36
-#: View/Schools/index.ctp:44 View/Schools/view.ctp:134
-#: View/Students/index.ctp:54 View/Students/view.ctp:162
+#: View/Attendances/index.ctp:46 View/CourseCodes/index.ctp:18
+#: View/CourseCodes/view.ctp:69 View/Departments/index.ctp:18
+#: View/Departments/view.ctp:117 View/EmployeeCategories/index.ctp:18
+#: View/EmployeeCategories/view.ctp:117 View/Employees/index.ctp:92
+#: View/Employees/view.ctp:252;299;358 View/EmployeesMeetings/index.ctp:22
+#: View/EmployeesSchools/index.ctp:22 View/Events/index.ctp:44
+#: View/GradeCodes/index.ctp:18 View/Grades/index.ctp:41
+#: View/GradesLaboratories/index.ctp:22 View/Groups/index.ctp:20
+#: View/Groups/view.ctp:62 View/Laboratories/index.ctp:40
+#: View/LaboratoryAttendances/index.ctp:46
+#: View/MeetingAttendances/index.ctp:46 View/MeetingTypes/index.ctp:18
+#: View/MeetingTypes/view.ctp:65 View/Meetings/index.ctp:34
+#: View/Meetings/view.ctp:114;213 View/Schools/index.ctp:38
+#: View/StudentGrades/index.ctp:38 View/Students/index.ctp:36
 #: View/Users/index.ctp:26
 msgid "Edit"
 msgstr "Modifica"
 
-#: View/Attendances/index.ctp:55 View/Educators/index.ctp:69
-#: View/GradeCodes/index.ctp:27 View/Grades/index.ctp:49
-#: View/Groups/index.ctp:29 View/Laboratories/index.ctp:45
-#: View/Schools/index.ctp:53 View/Students/index.ctp:63
+#: View/Attendances/index.ctp:55 View/CourseCodes/index.ctp:27
+#: View/Departments/index.ctp:27 View/EmployeeCategories/index.ctp:27
+#: View/Employees/index.ctp:101 View/EmployeesMeetings/index.ctp:31
+#: View/EmployeesSchools/index.ctp:31 View/Events/index.ctp:53
+#: View/GradeCodes/index.ctp:27 View/Grades/index.ctp:50
+#: View/GradesLaboratories/index.ctp:31 View/Groups/index.ctp:29
+#: View/Laboratories/index.ctp:49 View/LaboratoryAttendances/index.ctp:55
+#: View/MeetingAttendances/index.ctp:55 View/MeetingTypes/index.ctp:27
+#: View/Meetings/index.ctp:43 View/Schools/index.ctp:47
+#: View/StudentGrades/index.ctp:47 View/Students/index.ctp:45
 #: View/Users/index.ctp:35
 msgid ""
 "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
 "starting on record {:start}, ending on {:end}"
 msgstr "Page {:page} of {:pages}, record di su {:count} totale"
 
-#: View/Attendances/index.ctp:61 View/Educators/index.ctp:75
-#: View/GradeCodes/index.ctp:33 View/Grades/index.ctp:55
-#: View/Groups/index.ctp:35 View/Laboratories/index.ctp:51
-#: View/Schools/index.ctp:59 View/Students/index.ctp:69
+#: View/Attendances/index.ctp:61 View/CourseCodes/index.ctp:33
+#: View/Departments/index.ctp:33 View/EmployeeCategories/index.ctp:33
+#: View/Employees/index.ctp:107 View/EmployeesMeetings/index.ctp:37
+#: View/EmployeesSchools/index.ctp:37 View/Events/index.ctp:59
+#: View/GradeCodes/index.ctp:33 View/Grades/index.ctp:56
+#: View/GradesLaboratories/index.ctp:37 View/Groups/index.ctp:35
+#: View/Laboratories/index.ctp:55 View/LaboratoryAttendances/index.ctp:61
+#: View/MeetingAttendances/index.ctp:61 View/MeetingTypes/index.ctp:33
+#: View/Meetings/index.ctp:49 View/Schools/index.ctp:53
+#: View/StudentGrades/index.ctp:53 View/Students/index.ctp:51
 #: View/Users/index.ctp:41
 msgid "previous"
 msgstr "precedente"
 
-#: View/Attendances/index.ctp:63 View/Educators/index.ctp:77
-#: View/GradeCodes/index.ctp:35 View/Grades/index.ctp:57
-#: View/Groups/index.ctp:37 View/Laboratories/index.ctp:53
-#: View/Schools/index.ctp:61 View/Students/index.ctp:71
+#: View/Attendances/index.ctp:63 View/CourseCodes/index.ctp:35
+#: View/Departments/index.ctp:35 View/EmployeeCategories/index.ctp:35
+#: View/Employees/index.ctp:109 View/EmployeesMeetings/index.ctp:39
+#: View/EmployeesSchools/index.ctp:39 View/Events/index.ctp:61
+#: View/GradeCodes/index.ctp:35 View/Grades/index.ctp:58
+#: View/GradesLaboratories/index.ctp:39 View/Groups/index.ctp:37
+#: View/Laboratories/index.ctp:57 View/LaboratoryAttendances/index.ctp:63
+#: View/MeetingAttendances/index.ctp:63 View/MeetingTypes/index.ctp:35
+#: View/Meetings/index.ctp:51 View/Schools/index.ctp:55
+#: View/StudentGrades/index.ctp:55 View/Students/index.ctp:53
 #: View/Users/index.ctp:43
 msgid "next"
 msgstr "prossimo"
 
 #: View/Attendances/index.ctp:70 View/Attendances/view.ctp:87
-#: View/Grades/add.ctp:29 View/Grades/edit.ctp:31 View/Grades/index.ctp:70
-#: View/Grades/view.ctp:154;212 View/Students/add.ctp:35
-#: View/Students/edit.ctp:37 View/Students/index.ctp:82
-#: View/Students/view.ctp:116;172
+#: View/Grades/index.ctp:11 View/Students/add.ctp:35 View/Students/edit.ctp:10
+#: View/Students/index.ctp:9 View/Students/view.ctp:12;154
 msgid "New Attendance"
 msgstr "Inserisci Presenza"
 
-#: View/Attendances/select_school.ctp:9
+#: View/Attendances/select_school.ctp:14
+#: View/LaboratoryAttendances/select_school.ctp:19
 msgid "Select School"
 msgstr "Seleziona Scuola"
 
-#: View/Attendances/take.ctp:8 View/Attendances/view.ctp:19
-#: View/Grades/view.ctp:2 View/Students/view.ctp:24
+#: View/Attendances/take.ctp:81;115 View/Attendances/view.ctp:19
+#: View/Grades/view.ctp:18 View/GradesLaboratories/view.ctp:9
+#: View/Laboratories/view.ctp:89 View/LaboratoryAttendances/take.ctp:103;151
+#: View/Schools/view.ctp:95 View/Students/view.ctp:34
 msgid "Grade"
 msgstr "Classe"
 
-#: View/Attendances/take.ctp:11
+#: View/Attendances/take.ctp:82
+msgid "Change grade"
+msgstr "Cambia classe"
+
+#: View/Attendances/take.ctp:89
 msgid "Change school"
 msgstr "Cambia Scuola"
 
-#: View/Attendances/take.ctp:16
+#: View/Attendances/take.ctp:97
 msgid "Attendances of the day:"
 msgstr "Presenze del giorno:"
+
+#: View/Attendances/take.ctp:113 View/Departments/view.ctp:41
+#: View/EmployeeCategories/view.ctp:41 View/Employees/view.ctp:24
+#: View/LaboratoryAttendances/take.ctp:149 View/Meetings/view.ctp:137
+#: View/Students/view.ctp:24
+msgid "First Name"
+msgstr "Nome"
+
+#: View/Attendances/take.ctp:114 View/Departments/view.ctp:42
+#: View/EmployeeCategories/view.ctp:42 View/Employees/view.ctp:29
+#: View/LaboratoryAttendances/take.ctp:150 View/Meetings/view.ctp:138
+#: View/Students/view.ctp:29
+msgid "Last Name"
+msgstr "Cognome"
+
+#: View/Attendances/take.ctp:116 View/Attendances/view.ctp:24
+#: View/Employees/view.ctp:218 View/LaboratoryAttendances/take.ctp:152
+#: View/LaboratoryAttendances/view.ctp:24 View/MeetingAttendances/view.ctp:24
+#: View/Meetings/view.ctp:80
+msgid "Present"
+msgstr "Presente"
+
+#: View/Attendances/take.ctp:117 View/Attendances/view.ctp:29
+#: View/Employees/view.ctp:219 View/LaboratoryAttendances/take.ctp:153
+#: View/LaboratoryAttendances/view.ctp:29 View/MeetingAttendances/view.ctp:29
+#: View/Meetings/view.ctp:81
+msgid "Absent"
+msgstr "Assente"
+
+#: View/Attendances/take.ctp:118 View/Attendances/view.ctp:34
+#: View/Employees/view.ctp:220 View/LaboratoryAttendances/take.ctp:154
+#: View/LaboratoryAttendances/view.ctp:34 View/MeetingAttendances/view.ctp:34
+#: View/Meetings/view.ctp:82 View/Students/view.ctp:135
+msgid "Late"
+msgstr "Ritardo"
+
+#: View/Attendances/take.ctp:119 View/Attendances/view.ctp:39
+#: View/Employees/view.ctp:221 View/LaboratoryAttendances/take.ctp:155
+#: View/LaboratoryAttendances/view.ctp:39 View/MeetingAttendances/view.ctp:39
+#: View/Meetings/view.ctp:83 View/Students/view.ctp:123;139
+msgid "Reason"
+msgstr "Ragione"
+
+#: View/Attendances/take.ctp:174 View/LaboratoryAttendances/take.ctp:210
+msgid "There are no students yet in this grade"
+msgstr "Non sono presenti studenti nella classe"
+
+#: View/Attendances/take.ctp:176 View/Grades/view.ctp:90
+#: View/LaboratoryAttendances/take.ctp:212 View/Pages/start.ctp:18
+#: View/Students/add.ctp:42
+msgid "Add Student"
+msgstr "Aggiungi Studente"
 
 #: View/Attendances/view.ctp:2
 msgid "Attendance"
 msgstr "Presenza"
 
-#: View/Attendances/view.ctp:4 View/Educators/view.ctp:4
-#: View/GradeCodes/view.ctp:4 View/Grades/view.ctp:4;74;164
-#: View/Groups/view.ctp:4;42 View/Laboratories/view.ctp:4
-#: View/Schools/view.ctp:4;102 View/Students/view.ctp:4;124
+#: View/Attendances/view.ctp:4 View/CourseCodes/view.ctp:4;37
+#: View/Departments/view.ctp:4;37 View/EmployeeCategories/view.ctp:4;37
+#: View/Employees/view.ctp:4;214;271;318 View/EmployeesMeetings/view.ctp:4
+#: View/EmployeesSchools/view.ctp:4 View/Events/view.ctp:4
+#: View/GradeCodes/view.ctp:4 View/GradesLaboratories/view.ctp:4
+#: View/Groups/view.ctp:4;42 View/LaboratoryAttendances/view.ctp:4
+#: View/MeetingAttendances/view.ctp:4 View/MeetingTypes/view.ctp:4;37
+#: View/Meetings/view.ctp:4;76;133 View/Schools/view.ctp:18
+#: View/StudentGrades/view.ctp:4 View/Students/view.ctp:19
 #: View/Users/view.ctp:4
 msgid "Id"
 msgstr "Id"
 
-#: View/Attendances/view.ctp:9 View/Students/view.ctp:2
+#: View/Attendances/view.ctp:9 View/LaboratoryAttendances/view.ctp:9
+#: View/StudentGrades/view.ctp:19 View/Students/view.ctp:17
 msgid "Student"
 msgstr "Studente"
 
-#: View/Attendances/view.ctp:14 View/Grades/view.ctp:166
-#: View/Students/view.ctp:126
+#: View/Attendances/view.ctp:14 View/Employees/view.ctp:216
+#: View/LaboratoryAttendances/view.ctp:14 View/MeetingAttendances/view.ctp:14
+#: View/Meetings/view.ctp:78
 msgid "Attendance Date"
 msgstr "Data Presenza"
 
-#: View/Attendances/view.ctp:24 View/Grades/view.ctp:168
-#: View/Students/view.ctp:128
-msgid "Present"
-msgstr "Presente"
-
-#: View/Attendances/view.ctp:29 View/Grades/view.ctp:169
-#: View/Students/view.ctp:129
-msgid "Absent"
-msgstr "Assente"
-
-#: View/Attendances/view.ctp:34 View/Grades/view.ctp:170
-#: View/Students/view.ctp:130
-msgid "Late"
-msgstr "Ritardo"
-
-#: View/Attendances/view.ctp:39 View/Grades/view.ctp:171
-#: View/Students/view.ctp:131
-msgid "Reason"
-msgstr "Ragione"
-
-#: View/Attendances/view.ctp:44 View/Educators/view.ctp:89
-#: View/Grades/view.ctp:29;87;172 View/Groups/view.ctp:14;46
-#: View/Laboratories/view.ctp:29 View/Schools/view.ctp:49;107
-#: View/Students/view.ctp:69;132 View/Users/view.ctp:24
+#: View/Attendances/view.ctp:44 View/CourseCodes/view.ctp:42
+#: View/Departments/view.ctp:64 View/EmployeeCategories/view.ctp:64
+#: View/Employees/view.ctp:139;222;274;327 View/Events/view.ctp:49
+#: View/Grades/view.ctp:30 View/Groups/view.ctp:14;46
+#: View/Laboratories/view.ctp:54 View/LaboratoryAttendances/view.ctp:44
+#: View/MeetingAttendances/view.ctp:44 View/MeetingTypes/view.ctp:40
+#: View/Meetings/view.ctp:19;84;160 View/Schools/view.ctp:63
+#: View/StudentGrades/view.ctp:29 View/Students/view.ctp:79
+#: View/Users/view.ctp:24
 msgid "Created"
 msgstr "Creato"
 
-#: View/Attendances/view.ctp:49 View/Educators/view.ctp:94
-#: View/Grades/view.ctp:34;88;173 View/Groups/view.ctp:19;47
-#: View/Laboratories/view.ctp:34 View/Schools/view.ctp:54;108
-#: View/Students/view.ctp:74;133 View/Users/view.ctp:29
+#: View/Attendances/view.ctp:49 View/CourseCodes/view.ctp:43
+#: View/Departments/view.ctp:65 View/EmployeeCategories/view.ctp:65
+#: View/Employees/view.ctp:144;223;275;328 View/Events/view.ctp:54
+#: View/Grades/view.ctp:35 View/Groups/view.ctp:19;47
+#: View/Laboratories/view.ctp:59 View/LaboratoryAttendances/view.ctp:49
+#: View/MeetingAttendances/view.ctp:49 View/MeetingTypes/view.ctp:41
+#: View/Meetings/view.ctp:24;85;161 View/Schools/view.ctp:68
+#: View/StudentGrades/view.ctp:34 View/Students/view.ctp:84
+#: View/Users/view.ctp:29
 msgid "Modified"
 msgstr "Modificato"
 
-#: View/Attendances/view.ctp:54 View/Educators/view.ctp:99
-#: View/Grades/view.ctp:39;89;174 View/Laboratories/view.ctp:39
-#: View/Schools/view.ctp:59;109 View/Students/view.ctp:79;134
+#: View/Attendances/view.ctp:54 View/CourseCodes/view.ctp:44
+#: View/Departments/view.ctp:66 View/EmployeeCategories/view.ctp:66
+#: View/Employees/view.ctp:149;224;276;329 View/Events/view.ctp:59
+#: View/Grades/view.ctp:40 View/LaboratoryAttendances/view.ctp:54
+#: View/MeetingAttendances/view.ctp:54 View/MeetingTypes/view.ctp:42
+#: View/Meetings/view.ctp:29;86;162 View/StudentGrades/view.ctp:39
+#: View/Students/view.ctp:89
 msgid "Trashed"
 msgstr "Cestinato"
 
-#: View/Attendances/view.ctp:59 View/Educators/view.ctp:104
-#: View/Grades/view.ctp:44;90;175 View/Laboratories/view.ctp:44
-#: View/Schools/view.ctp:64;110 View/Students/view.ctp:84;135
+#: View/Attendances/view.ctp:59 View/CourseCodes/view.ctp:45
+#: View/Departments/view.ctp:67 View/EmployeeCategories/view.ctp:67
+#: View/Employees/view.ctp:154;225;277;330 View/Events/view.ctp:64
+#: View/Grades/view.ctp:45 View/Laboratories/view.ctp:64
+#: View/LaboratoryAttendances/view.ctp:59 View/MeetingAttendances/view.ctp:59
+#: View/MeetingTypes/view.ctp:43 View/Meetings/view.ctp:34;87;163
+#: View/Schools/view.ctp:73 View/StudentGrades/view.ctp:44
+#: View/Students/view.ctp:94
 msgid "Created By"
 msgstr "Creato da"
 
-#: View/Attendances/view.ctp:64 View/Educators/view.ctp:109
-#: View/Grades/view.ctp:49;91;176 View/Laboratories/view.ctp:49
-#: View/Schools/view.ctp:69;111 View/Students/view.ctp:89;136
+#: View/Attendances/view.ctp:64 View/CourseCodes/view.ctp:46
+#: View/Departments/view.ctp:68 View/EmployeeCategories/view.ctp:68
+#: View/Employees/view.ctp:159;226;278;331 View/Events/view.ctp:69
+#: View/Grades/view.ctp:50 View/Laboratories/view.ctp:69
+#: View/LaboratoryAttendances/view.ctp:64 View/MeetingAttendances/view.ctp:64
+#: View/MeetingTypes/view.ctp:44 View/Meetings/view.ctp:39;88;164
+#: View/Schools/view.ctp:78 View/StudentGrades/view.ctp:49
+#: View/Students/view.ctp:99
 msgid "Modified By"
 msgstr "Modificato da"
 
-#: View/Attendances/view.ctp:69 View/Educators/view.ctp:114
-#: View/Grades/view.ctp:54;92;177 View/Laboratories/view.ctp:54
-#: View/Schools/view.ctp:74;112 View/Students/view.ctp:94;137
+#: View/Attendances/view.ctp:69 View/CourseCodes/view.ctp:47
+#: View/Departments/view.ctp:69 View/EmployeeCategories/view.ctp:69
+#: View/Employees/view.ctp:164;227;279;332 View/Events/view.ctp:74
+#: View/Grades/view.ctp:55 View/LaboratoryAttendances/view.ctp:69
+#: View/MeetingAttendances/view.ctp:69 View/MeetingTypes/view.ctp:45
+#: View/Meetings/view.ctp:44;89;165 View/StudentGrades/view.ctp:54
+#: View/Students/view.ctp:104
 msgid "Trashed By"
 msgstr "Cestinato da"
 
-#: View/Attendances/view.ctp:74 View/Educators/view.ctp:119
-#: View/Grades/view.ctp:59;93;178 View/Laboratories/view.ctp:59
-#: View/Schools/view.ctp:79;113 View/Students/view.ctp:99;138
+#: View/Attendances/view.ctp:74 View/CourseCodes/view.ctp:48
+#: View/Employees/view.ctp:228;280;333 View/Events/view.ctp:79
+#: View/Grades/view.ctp:60 View/Laboratories/view.ctp:74
+#: View/LaboratoryAttendances/view.ctp:74 View/MeetingAttendances/view.ctp:74
+#: View/MeetingTypes/view.ctp:46 View/Meetings/view.ctp:49;90
+#: View/Schools/view.ctp:83 View/StudentGrades/view.ctp:59
+#: View/Students/view.ctp:109
 msgid "Note"
 msgstr "Nota"
 
@@ -515,130 +1018,663 @@ msgstr "Nota"
 msgid "Delete Attendance"
 msgstr "Cancella Presenza"
 
-#: View/Educators/add.ctp:4
-msgid "Add Educator"
-msgstr "Aggiungi Educatore"
+#: View/CourseCodes/add.ctp:4
+#, fuzzy
+msgid "Add Course Code"
+msgstr "Ciclo d'Istruzione"
 
-#: View/Educators/add.ctp:35 View/Educators/edit.ctp:37
-#: View/Educators/view.ctp:131
-msgid "List Educators"
-msgstr "Lista Educatori"
+#: View/CourseCodes/add.ctp:16 View/CourseCodes/edit.ctp:18
+#: View/CourseCodes/view.ctp:26 View/Grades/index.ctp:8
+msgid "List Course Codes"
+msgstr "Cicli d'istruzione"
 
-#: View/Educators/edit.ctp:4 View/Educators/view.ctp:129
-msgid "Edit Educator"
-msgstr "Modifica Educatore"
+#: View/CourseCodes/edit.ctp:4 View/CourseCodes/view.ctp:24
+#, fuzzy
+msgid "Edit Course Code"
+msgstr "Cicli d'istruzione"
 
-#: View/Educators/index.ctp:2 View/Elements/topbar.ctp:43
-msgid "Educators"
-msgstr "Educatori"
+#: View/CourseCodes/index.ctp:2
+#, fuzzy
+msgid "Course Codes"
+msgstr "Ciclo d'Istruzione"
 
-#: View/Educators/index.ctp:84 View/Educators/view.ctp:132
-msgid "New Educator"
-msgstr "Nuovo Educatore"
+#: View/CourseCodes/index.ctp:42 View/CourseCodes/view.ctp:27
+#: View/Grades/index.ctp:9
+msgid "New Course Code"
+msgstr "Nuovo Ciclo d'Istruzione"
 
-#: View/Educators/view.ctp:2
-msgid "Educator"
-msgstr "Educatore"
+#: View/CourseCodes/view.ctp:2 View/Grades/view.ctp:25
+#: View/Schools/view.ctp:96
+msgid "Course Code"
+msgstr "Ciclo d'Istruzione"
 
-#: View/Educators/view.ctp:9 View/Grades/view.ctp:75 View/Students/view.ctp:9
-msgid "First Name"
+#: View/CourseCodes/view.ctp:9 View/GradeCodes/view.ctp:9
+msgid "Code"
+msgstr "Numero"
+
+#: View/CourseCodes/view.ctp:14 View/GradeCodes/view.ctp:14
+#: View/StudentGrades/view.ctp:9
+msgid "Value"
+msgstr "Valore"
+
+#: View/CourseCodes/view.ctp:25
+#, fuzzy
+msgid "Delete Course Code"
+msgstr "Cancella N° Classe"
+
+#: View/CourseCodes/view.ctp:33 View/Laboratories/view.ctp:84
+#: View/Schools/view.ctp:91
+msgid "Related Grades"
+msgstr "Classi Correlate"
+
+#: View/CourseCodes/view.ctp:38 View/Laboratories/view.ctp:88
+msgid "School Id"
+msgstr "Id Scuola"
+
+#: View/CourseCodes/view.ctp:39
+msgid "Grade Number"
+msgstr "Classe"
+
+#: View/CourseCodes/view.ctp:40 View/GradeCodes/view.ctp:2
+msgid "Grade Code"
+msgstr "Sezione"
+
+#: View/CourseCodes/view.ctp:41 View/Laboratories/view.ctp:90
+#, fuzzy
+msgid "Course Code Id"
+msgstr "Ciclo d'Istruzione"
+
+#: View/Departments/add.ctp:4
+#, fuzzy
+msgid "Add Department"
+msgstr "Aggiungi Studente"
+
+#: View/Departments/add.ctp:16 View/Departments/edit.ctp:18
+#: View/Departments/view.ctp:26 View/Employees/add.ctp:52
+#: View/Employees/edit.ctp:54 View/Employees/index.ctp:119
+#: View/Employees/view.ctp:195
+#, fuzzy
+msgid "List Departments"
+msgstr "Lista Studenti"
+
+#: View/Departments/add.ctp:17 View/Departments/edit.ctp:19
+#: View/Departments/index.ctp:43 View/Departments/view.ctp:28
+#: View/EmployeeCategories/add.ctp:17 View/EmployeeCategories/edit.ctp:19
+#: View/EmployeeCategories/index.ctp:43 View/EmployeeCategories/view.ctp:28
+#: View/Employees/add.ctp:49;54 View/Employees/edit.ctp:51;56
+#: View/Employees/index.ctp:121 View/Employees/view.ctp:191;197
+#: View/EmployeesMeetings/add.ctp:17 View/EmployeesMeetings/edit.ctp:19
+#: View/EmployeesMeetings/index.ctp:47 View/EmployeesMeetings/view.ctp:28
+#: View/EmployeesSchools/add.ctp:19 View/EmployeesSchools/edit.ctp:21
+#: View/EmployeesSchools/index.ctp:49 View/EmployeesSchools/view.ctp:30
+#: View/Laboratories/edit.ctp:30 View/Laboratories/index.ctp:6
+#: View/MeetingAttendances/add.ctp:27 View/MeetingAttendances/edit.ctp:29
+#: View/MeetingAttendances/index.ctp:71 View/MeetingAttendances/view.ctp:88
+#: View/Meetings/add.ctp:27 View/Meetings/edit.ctp:29
+#: View/Meetings/index.ctp:63 View/Meetings/view.ctp:67
+msgid "List Employees"
+msgstr "Elenca personale"
+
+#: View/Departments/add.ctp:18 View/Departments/edit.ctp:20
+#: View/Departments/index.ctp:44 View/Departments/view.ctp:29;127
+#: View/EmployeeCategories/add.ctp:18 View/EmployeeCategories/edit.ctp:20
+#: View/EmployeeCategories/index.ctp:44
+#: View/EmployeeCategories/view.ctp:29;127 View/Employees/index.ctp:116
+#: View/Employees/view.ctp:192 View/EmployeesMeetings/add.ctp:18
+#: View/EmployeesMeetings/edit.ctp:20 View/EmployeesMeetings/index.ctp:48
+#: View/EmployeesMeetings/view.ctp:29 View/EmployeesSchools/add.ctp:20
+#: View/EmployeesSchools/edit.ctp:22 View/EmployeesSchools/index.ctp:50
+#: View/EmployeesSchools/view.ctp:31 View/MeetingAttendances/add.ctp:28
+#: View/MeetingAttendances/edit.ctp:30 View/MeetingAttendances/index.ctp:72
+#: View/MeetingAttendances/view.ctp:89 View/Meetings/add.ctp:28
+#: View/Meetings/edit.ctp:30 View/Meetings/index.ctp:64
+#: View/Meetings/view.ctp:68;223
+msgid "New Employee"
+msgstr "Nuovo personale"
+
+#: View/Departments/edit.ctp:4 View/Departments/view.ctp:24
+#, fuzzy
+msgid "Edit Department"
+msgstr "Modifica Studente"
+
+#: View/Departments/index.ctp:2
+msgid "Departments"
+msgstr "Dipartimenti"
+
+#: View/Departments/index.ctp:42 View/Departments/view.ctp:27
+#: View/Employees/add.ctp:53 View/Employees/edit.ctp:55
+#: View/Employees/index.ctp:120 View/Employees/view.ctp:196
+#, fuzzy
+msgid "New Department"
+msgstr "Nuovo Studente"
+
+#: View/Departments/view.ctp:2 View/Employees/view.ctp:14
+msgid "Department"
+msgstr "Dipartimento"
+
+#: View/Departments/view.ctp:9 View/EmployeeCategories/view.ctp:9
+#: View/Employees/view.ctp:319 View/Grades/view.ctp:73 View/Groups/view.ctp:9
+#: View/Laboratories/view.ctp:17 View/MeetingTypes/view.ctp:9
+#: View/Schools/view.ctp:23
+msgid "Name"
 msgstr "Nome"
 
-#: View/Educators/view.ctp:14 View/Grades/view.ctp:76
-#: View/Students/view.ctp:14
-msgid "Middle Name"
-msgstr "Secondo Nome"
+#: View/Departments/view.ctp:14;72 View/EmployeeCategories/view.ctp:14;72
+#: View/Employees/view.ctp:179 View/MeetingTypes/view.ctp:14
+#: View/Meetings/view.ctp:168
+#, fuzzy
+msgid "Notes"
+msgstr "Nota"
 
-#: View/Educators/view.ctp:19 View/Grades/view.ctp:77
-#: View/Students/view.ctp:19
-msgid "Last Name"
-msgstr "Cognome"
+#: View/Departments/view.ctp:25
+#, fuzzy
+msgid "Delete Department"
+msgstr "Cancella Studente"
 
-#: View/Educators/view.ctp:24 View/Grades/view.ctp:79
-#: View/Students/view.ctp:29
+#: View/Departments/view.ctp:33 View/EmployeeCategories/view.ctp:33
+#: View/Meetings/view.ctp:129
+#, fuzzy
+msgid "Related Employees"
+msgstr "Utenti Correlati"
+
+#: View/Departments/view.ctp:38 View/EmployeeCategories/view.ctp:38
+#: View/Meetings/view.ctp:134
+msgid "Employee Category Id"
+msgstr "Categoria personale"
+
+#: View/Departments/view.ctp:39 View/EmployeeCategories/view.ctp:39
+#: View/Meetings/view.ctp:135
+#, fuzzy
+msgid "Department Id"
+msgstr "Id Studente"
+
+#: View/Departments/view.ctp:40 View/EmployeeCategories/view.ctp:40
+#: View/Meetings/view.ctp:136
+msgid "Manager Id"
+msgstr "Supervisore"
+
+#: View/Departments/view.ctp:43 View/EmployeeCategories/view.ctp:43
+#: View/Employees/view.ctp:34 View/Meetings/view.ctp:139
+#, fuzzy
+msgid "Tax Code"
+msgstr "Sezione"
+
+#: View/Departments/view.ctp:44 View/EmployeeCategories/view.ctp:44
+#: View/Employees/view.ctp:39 View/Meetings/view.ctp:140
+#, fuzzy
+msgid "Vat Code"
+msgstr "Sezione"
+
+#: View/Departments/view.ctp:45 View/EmployeeCategories/view.ctp:45
+#: View/Employees/view.ctp:44 View/Meetings/view.ctp:141
+msgid "Job Title"
+msgstr "Titolo"
+
+#: View/Departments/view.ctp:46 View/EmployeeCategories/view.ctp:46
+#: View/Employees/view.ctp:49 View/Meetings/view.ctp:142
+#, fuzzy
+msgid "Status"
+msgstr "Provincia"
+
+#: View/Departments/view.ctp:47 View/EmployeeCategories/view.ctp:47
+#: View/Employees/view.ctp:54 View/Grades/view.ctp:74
+#: View/Meetings/view.ctp:143 View/Students/view.ctp:39
 msgid "Date Of Birth"
 msgstr "Data di nascita"
 
-#: View/Educators/view.ctp:29 View/Grades/view.ctp:80 View/Schools/view.ctp:19
-#: View/Students/view.ctp:34
+#: View/Departments/view.ctp:48 View/EmployeeCategories/view.ctp:48
+#: View/Employees/view.ctp:59;321 View/Meetings/view.ctp:144
+#: View/Schools/view.ctp:33 View/Students/view.ctp:44
 msgid "Address"
 msgstr "Indirizzo"
 
-#: View/Educators/view.ctp:34 View/Grades/view.ctp:81 View/Schools/view.ctp:24
-#: View/Students/view.ctp:39
+#: View/Departments/view.ctp:49 View/EmployeeCategories/view.ctp:49
+#: View/Employees/view.ctp:64;322 View/Meetings/view.ctp:145
+#: View/Schools/view.ctp:38 View/Students/view.ctp:49
 msgid "Zipcode"
 msgstr "CAP"
 
-#: View/Educators/view.ctp:39 View/Grades/view.ctp:82 View/Schools/view.ctp:29
-#: View/Students/view.ctp:44
+#: View/Departments/view.ctp:50 View/EmployeeCategories/view.ctp:50
+#: View/Employees/view.ctp:69;323 View/Meetings/view.ctp:146
+#: View/Schools/view.ctp:43 View/Students/view.ctp:54
 msgid "City"
 msgstr "Città"
 
-#: View/Educators/view.ctp:44 View/Grades/view.ctp:83 View/Schools/view.ctp:34
-#: View/Students/view.ctp:49
+#: View/Departments/view.ctp:51 View/EmployeeCategories/view.ctp:51
+#: View/Employees/view.ctp:74;324 View/Meetings/view.ctp:147
+#: View/Schools/view.ctp:48 View/Students/view.ctp:59
 msgid "State"
 msgstr "Provincia"
 
-#: View/Educators/view.ctp:49 View/Grades/view.ctp:84 View/Schools/view.ctp:39
-#: View/Students/view.ctp:54
+#: View/Departments/view.ctp:52 View/EmployeeCategories/view.ctp:52
+#: View/Employees/view.ctp:79;325 View/Meetings/view.ctp:148
+#: View/Schools/view.ctp:53 View/Students/view.ctp:64
 msgid "Phone Number 1"
 msgstr "Recapito 1"
 
-#: View/Educators/view.ctp:54 View/Grades/view.ctp:85 View/Schools/view.ctp:44
-#: View/Students/view.ctp:59
+#: View/Departments/view.ctp:53 View/EmployeeCategories/view.ctp:53
+#: View/Employees/view.ctp:84;326 View/Meetings/view.ctp:149
+#: View/Schools/view.ctp:58 View/Students/view.ctp:69
 msgid "Phone Number 2"
 msgstr "Recapito 2"
 
-#: View/Educators/view.ctp:59 View/Grades/view.ctp:86
-#: View/Students/view.ctp:64
+#: View/Departments/view.ctp:54 View/EmployeeCategories/view.ctp:54
+#: View/Employees/view.ctp:89 View/Meetings/view.ctp:150
+#: View/Students/view.ctp:74
 msgid "Phone Number 3"
 msgstr "Recapito 3"
 
-#: View/Educators/view.ctp:64
+#: View/Departments/view.ctp:55 View/EmployeeCategories/view.ctp:55
+#: View/Employees/view.ctp:94 View/Meetings/view.ctp:151
 msgid "Qualification"
 msgstr "Qualifica"
 
-#: View/Educators/view.ctp:69
+#: View/Departments/view.ctp:56 View/EmployeeCategories/view.ctp:56
+#: View/Employees/view.ctp:99 View/Meetings/view.ctp:152
 msgid "Experience"
 msgstr "Esperienza"
 
-#: View/Educators/view.ctp:74
+#: View/Departments/view.ctp:57 View/EmployeeCategories/view.ctp:57
+#: View/Employees/view.ctp:104 View/Meetings/view.ctp:153
 msgid "Education"
 msgstr "Titolo di studio"
 
-#: View/Educators/view.ctp:79
+#: View/Departments/view.ctp:58 View/EmployeeCategories/view.ctp:58
+#: View/Employees/view.ctp:109 View/Meetings/view.ctp:154
 msgid "Resume"
 msgstr "Breve CV"
 
-#: View/Educators/view.ctp:84
+#: View/Departments/view.ctp:59 View/EmployeeCategories/view.ctp:59
+#: View/Employees/view.ctp:114 View/Meetings/view.ctp:155
 msgid "Link"
 msgstr ""
 
-#: View/Educators/view.ctp:130
-msgid "Delete Educator"
-msgstr "Cancella Educatore"
+#: View/Departments/view.ctp:60 View/EmployeeCategories/view.ctp:60
+#: View/Employees/view.ctp:119 View/Meetings/view.ctp:156
+msgid "Resume File Name"
+msgstr "File CV"
+
+#: View/Departments/view.ctp:61 View/EmployeeCategories/view.ctp:61
+#: View/Employees/view.ctp:124 View/Meetings/view.ctp:157
+msgid "Resume Content Type"
+msgstr "Tipo file CV"
+
+#: View/Departments/view.ctp:62 View/EmployeeCategories/view.ctp:62
+#: View/Employees/view.ctp:129 View/Meetings/view.ctp:158
+#, fuzzy
+msgid "Resume Data"
+msgstr "Breve CV"
+
+#: View/Departments/view.ctp:63 View/EmployeeCategories/view.ctp:63
+#: View/Employees/view.ctp:134 View/Meetings/view.ctp:159
+msgid "Resume File Size"
+msgstr "Dimensione file CV"
+
+#: View/Departments/view.ctp:70 View/EmployeeCategories/view.ctp:70
+#: View/Meetings/view.ctp:166
+#, fuzzy
+msgid "User Id"
+msgstr "Utente"
+
+#: View/Departments/view.ctp:71 View/EmployeeCategories/view.ctp:71
+#: View/Employees/view.ctp:174 View/Meetings/view.ctp:167
+msgid "Is Manager"
+msgstr "Supervisore"
 
 #: View/Elements/topbar.ctp:27 View/Pages/start.ctp:10
-#: View/Schools/index.ctp:2
+#: View/Schools/index.ctp:12
 msgid "Schools"
 msgstr "Scuole"
 
-#: View/Elements/topbar.ctp:31 View/Laboratories/index.ctp:2
+#: View/Elements/topbar.ctp:31 View/Laboratories/index.ctp:14
+#: View/Pages/admin.ctp:22
 msgid "Laboratories"
 msgstr "Laboratori"
 
-#: View/Elements/topbar.ctp:35 View/Grades/index.ctp:2 View/Pages/start.ctp:22
+#: View/Elements/topbar.ctp:35 View/Grades/index.ctp:19
+#: View/Pages/start.ctp:22
 msgid "Grades"
 msgstr "Classi"
 
 #: View/Elements/topbar.ctp:39 View/Pages/start.ctp:16
-#: View/Students/index.ctp:2
+#: View/Students/index.ctp:14
 msgid "Students"
 msgstr "Studenti"
 
-#: View/Elements/topbar.ctp:47
-msgid "Administrator"
+#: View/Elements/topbar.ctp:43
+#, fuzzy
+msgid "Administration"
 msgstr "Amministratore"
+
+#: View/EmployeeCategories/add.ctp:4
+msgid "Add Employee Category"
+msgstr "Aggiungi categoria personale"
+
+#: View/EmployeeCategories/add.ctp:16 View/EmployeeCategories/edit.ctp:18
+#: View/EmployeeCategories/view.ctp:26 View/Employees/add.ctp:50
+#: View/Employees/edit.ctp:52 View/Employees/index.ctp:117
+#: View/Employees/view.ctp:193
+#, fuzzy
+msgid "List Employee Categories"
+msgstr "Lista Laboratori"
+
+#: View/EmployeeCategories/edit.ctp:4 View/EmployeeCategories/view.ctp:24
+msgid "Edit Employee Category"
+msgstr "Modifica categoria personale"
+
+#: View/EmployeeCategories/index.ctp:2
+msgid "Employee Categories"
+msgstr "Categorie personale"
+
+#: View/EmployeeCategories/index.ctp:42 View/EmployeeCategories/view.ctp:27
+#: View/Employees/add.ctp:51 View/Employees/edit.ctp:53
+#: View/Employees/index.ctp:118 View/Employees/view.ctp:194
+msgid "New Employee Category"
+msgstr "Nuova categoria personale"
+
+#: View/EmployeeCategories/view.ctp:2 View/Employees/view.ctp:9
+msgid "Employee Category"
+msgstr "Categoria personale"
+
+#: View/EmployeeCategories/view.ctp:25
+#, fuzzy
+msgid "Delete Employee Category"
+msgstr "Cancella Laboratorio"
+
+#: View/Employees/add.ctp:4
+msgid "Add Employee"
+msgstr "Aggiungi personale"
+
+#: View/Employees/add.ctp:55 View/Employees/edit.ctp:57
+#: View/Employees/index.ctp:122 View/Employees/view.ctp:198
+#, fuzzy
+msgid "New Manager"
+msgstr "Nuovo Utente"
+
+#: View/Employees/add.ctp:56 View/Employees/edit.ctp:58
+#: View/Employees/index.ctp:123 View/Employees/view.ctp:199
+#: View/Groups/add.ctp:16 View/Groups/edit.ctp:18 View/Groups/index.ctp:45
+#: View/Groups/view.ctp:33 View/Users/add.ctp:17 View/Users/edit.ctp:19
+#: View/Users/view.ctp:41
+msgid "List Users"
+msgstr "Lista Utenti"
+
+#: View/Employees/add.ctp:57 View/Employees/edit.ctp:59
+#: View/Employees/index.ctp:124 View/Employees/view.ctp:200
+#: View/Groups/add.ctp:17 View/Groups/edit.ctp:19 View/Groups/index.ctp:46
+#: View/Groups/view.ctp:34;72 View/Users/index.ctp:50 View/Users/view.ctp:42
+msgid "New User"
+msgstr "Nuovo Utente"
+
+#: View/Employees/add.ctp:58 View/Employees/edit.ctp:60
+#: View/Employees/index.ctp:125 View/Employees/view.ctp:201
+#: View/MeetingAttendances/add.ctp:26 View/MeetingAttendances/edit.ctp:28
+#: View/MeetingAttendances/view.ctp:86 View/Meetings/add.ctp:25
+#: View/Meetings/edit.ctp:27 View/Meetings/index.ctp:61
+#: View/Meetings/view.ctp:65
+#, fuzzy
+msgid "List Meeting Attendances"
+msgstr "Lista Presenze"
+
+#: View/Employees/add.ctp:59 View/Employees/edit.ctp:61
+#: View/Employees/index.ctp:126 View/Employees/view.ctp:202;262
+#: View/MeetingAttendances/index.ctp:70 View/MeetingAttendances/view.ctp:87
+#: View/Meetings/add.ctp:26 View/Meetings/edit.ctp:28
+#: View/Meetings/index.ctp:62 View/Meetings/view.ctp:66;124
+#, fuzzy
+msgid "New Meeting Attendance"
+msgstr "Inserisci Presenza"
+
+#: View/Employees/add.ctp:60 View/Employees/edit.ctp:62
+#: View/Employees/index.ctp:127 View/Employees/view.ctp:203
+#: View/EmployeesMeetings/add.ctp:19 View/EmployeesMeetings/edit.ctp:21
+#: View/EmployeesMeetings/index.ctp:49 View/EmployeesMeetings/view.ctp:30
+#: View/MeetingAttendances/add.ctp:29 View/MeetingAttendances/edit.ctp:31
+#: View/MeetingAttendances/index.ctp:73 View/MeetingAttendances/view.ctp:90
+#: View/MeetingTypes/add.ctp:17 View/MeetingTypes/edit.ctp:19
+#: View/MeetingTypes/index.ctp:43 View/MeetingTypes/view.ctp:28
+#: View/Meetings/add.ctp:22 View/Meetings/edit.ctp:24
+#: View/Meetings/view.ctp:61
+#, fuzzy
+msgid "List Meetings"
+msgstr "Lista Studenti"
+
+#: View/Employees/add.ctp:61 View/Employees/edit.ctp:63
+#: View/Employees/index.ctp:128 View/Employees/view.ctp:204;309
+#: View/EmployeesMeetings/add.ctp:20 View/EmployeesMeetings/edit.ctp:22
+#: View/EmployeesMeetings/index.ctp:50 View/EmployeesMeetings/view.ctp:31
+#: View/MeetingAttendances/add.ctp:30 View/MeetingAttendances/edit.ctp:32
+#: View/MeetingAttendances/index.ctp:74 View/MeetingAttendances/view.ctp:91
+#: View/MeetingTypes/add.ctp:18 View/MeetingTypes/edit.ctp:20
+#: View/MeetingTypes/index.ctp:44 View/MeetingTypes/view.ctp:29;75
+#: View/Meetings/index.ctp:58 View/Meetings/view.ctp:62
+msgid "New Meeting"
+msgstr "Nuova riunione"
+
+#: View/Employees/add.ctp:62 View/Employees/edit.ctp:64
+#: View/Employees/index.ctp:129 View/Employees/view.ctp:205
+#: View/EmployeesSchools/add.ctp:17 View/EmployeesSchools/edit.ctp:19
+#: View/EmployeesSchools/index.ctp:47 View/EmployeesSchools/view.ctp:28
+#: View/Grades/add.ctp:6 View/Grades/edit.ctp:7 View/Grades/index.ctp:6
+#: View/Grades/view.ctp:9 View/Schools/add.ctp:5 View/Schools/edit.ctp:6
+#: View/Schools/view.ctp:7
+msgid "List Schools"
+msgstr "Lista Scuole"
+
+#: View/Employees/add.ctp:63 View/Employees/edit.ctp:65
+#: View/Employees/index.ctp:130 View/Employees/view.ctp:206;368
+#: View/EmployeesSchools/add.ctp:18 View/EmployeesSchools/edit.ctp:20
+#: View/EmployeesSchools/index.ctp:48 View/EmployeesSchools/view.ctp:29
+#: View/Grades/add.ctp:7 View/Grades/edit.ctp:8 View/Grades/index.ctp:7
+#: View/Grades/view.ctp:10 View/Schools/index.ctp:5 View/Schools/view.ctp:8
+msgid "New School"
+msgstr "Nuova Scuola"
+
+#: View/Employees/edit.ctp:4 View/Employees/view.ctp:189
+msgid "Edit Employee"
+msgstr "Modifica personale"
+
+#: View/Employees/index.ctp:2 View/Pages/admin.ctp:10
+msgid "Employees"
+msgstr "Personale"
+
+#: View/Employees/view.ctp:2 View/EmployeesMeetings/view.ctp:9
+#: View/EmployeesSchools/view.ctp:9 View/MeetingAttendances/view.ctp:9
+msgid "Employee"
+msgstr "Personale"
+
+#: View/Employees/view.ctp:19
+msgid "Manager"
+msgstr "Supervisore"
+
+#: View/Employees/view.ctp:169 View/Users/view.ctp:2
+msgid "User"
+msgstr "Utente"
+
+#: View/Employees/view.ctp:190
+#, fuzzy
+msgid "Delete Employee"
+msgstr "Cancella Utente"
+
+#: View/Employees/view.ctp:210 View/Meetings/view.ctp:72
+#, fuzzy
+msgid "Related Meeting Attendances"
+msgstr "Presenze"
+
+#: View/Employees/view.ctp:215 View/Meetings/view.ctp:77
+msgid "Employee Id"
+msgstr "ID personale"
+
+#: View/Employees/view.ctp:217 View/Meetings/view.ctp:79
+msgid "Meeting Id"
+msgstr "ID riunione"
+
+#: View/Employees/view.ctp:267 View/MeetingTypes/view.ctp:33
+#, fuzzy
+msgid "Related Meetings"
+msgstr "Utenti Correlati"
+
+#: View/Employees/view.ctp:272 View/MeetingTypes/view.ctp:38
+#: View/Meetings/view.ctp:9
+#, fuzzy
+msgid "Meeting Date"
+msgstr "Data di inizio"
+
+#: View/Employees/view.ctp:273 View/MeetingTypes/view.ctp:39
+msgid "Meeting Type Id"
+msgstr "Tipo riunione"
+
+#: View/Employees/view.ctp:314
+#, fuzzy
+msgid "Related Schools"
+msgstr "Cancella Scuola"
+
+#: View/Employees/view.ctp:320 View/Schools/view.ctp:28
+msgid "School Code"
+msgstr "Circolo"
+
+#: View/EmployeesMeetings/add.ctp:4
+msgid "Add Employees Meeting"
+msgstr "Aggiungi riunione"
+
+#: View/EmployeesMeetings/add.ctp:16 View/EmployeesMeetings/edit.ctp:18
+#: View/EmployeesMeetings/view.ctp:26
+msgid "List Employees Meetings"
+msgstr "Elenca riunioni"
+
+#: View/EmployeesMeetings/edit.ctp:4 View/EmployeesMeetings/view.ctp:24
+msgid "Edit Employees Meeting"
+msgstr "Modifica riunione"
+
+#: View/EmployeesMeetings/index.ctp:2
+msgid "Employees Meetings"
+msgstr "Riunioni"
+
+#: View/EmployeesMeetings/index.ctp:46 View/EmployeesMeetings/view.ctp:27
+msgid "New Employees Meeting"
+msgstr "Nuova riunione"
+
+#: View/EmployeesMeetings/view.ctp:2
+msgid "Employees Meeting"
+msgstr "Riunione"
+
+#: View/EmployeesMeetings/view.ctp:14 View/MeetingAttendances/view.ctp:19
+#: View/Meetings/view.ctp:2
+msgid "Meeting"
+msgstr "Riunione"
+
+#: View/EmployeesMeetings/view.ctp:25
+msgid "Delete Employees Meeting"
+msgstr "Elimina riunione"
+
+#: View/EmployeesSchools/add.ctp:4
+#, fuzzy
+msgid "Add Employees School"
+msgstr "Aggiungi Scuola"
+
+#: View/EmployeesSchools/add.ctp:16 View/EmployeesSchools/edit.ctp:18
+#: View/EmployeesSchools/view.ctp:26
+#, fuzzy
+msgid "List Employees Schools"
+msgstr "Lista Scuole"
+
+#: View/EmployeesSchools/edit.ctp:4 View/EmployeesSchools/view.ctp:24
+#, fuzzy
+msgid "Edit Employees School"
+msgstr "Modifica Scuola"
+
+#: View/EmployeesSchools/index.ctp:2
+#, fuzzy
+msgid "Employees Schools"
+msgstr "Cancella Scuola"
+
+#: View/EmployeesSchools/index.ctp:46 View/EmployeesSchools/view.ctp:27
+#, fuzzy
+msgid "New Employees School"
+msgstr "Nuova Scuola"
+
+#: View/EmployeesSchools/view.ctp:2
+#, fuzzy
+msgid "Employees School"
+msgstr "Cancella Scuola"
+
+#: View/EmployeesSchools/view.ctp:14 View/Grades/view.ctp:20
+msgid "School"
+msgstr "Scuola"
+
+#: View/EmployeesSchools/view.ctp:25
+#, fuzzy
+msgid "Delete Employees School"
+msgstr "Cancella Scuola"
+
+#: View/Events/add.ctp:4
+#, fuzzy
+msgid "Add Event"
+msgstr "Aggiungi Studente"
+
+#: View/Events/add.ctp:27 View/Events/edit.ctp:29 View/Events/view.ctp:91
+#, fuzzy
+msgid "List Events"
+msgstr "Lista Studenti"
+
+#: View/Events/edit.ctp:4 View/Events/view.ctp:89
+#, fuzzy
+msgid "Edit Event"
+msgstr "Modifica Studente"
+
+#: View/Events/index.ctp:2
+msgid "Events"
+msgstr "Eventi"
+
+#: View/Events/index.ctp:68 View/Events/view.ctp:92
+#, fuzzy
+msgid "New Event"
+msgstr "Nuovo Studente"
+
+#: View/Events/view.ctp:2
+msgid "Event"
+msgstr "Evento"
+
+#: View/Events/view.ctp:9
+msgid "Title"
+msgstr "Titolo"
+
+#: View/Events/view.ctp:14 View/Laboratories/view.ctp:22
+#: View/StudentGrades/view.ctp:14
+msgid "Description"
+msgstr "Descrizione"
+
+#: View/Events/view.ctp:19
+#, fuzzy
+msgid "Start Date"
+msgstr "Data di inizio"
+
+#: View/Events/view.ctp:24
+#, fuzzy
+msgid "End Date"
+msgstr "Data Presenza"
+
+#: View/Events/view.ctp:29
+msgid "Is Common"
+msgstr "Normale"
+
+#: View/Events/view.ctp:34
+msgid "Is Meeting"
+msgstr "Riunione"
+
+#: View/Events/view.ctp:39
+#, fuzzy
+msgid "Is Laboratory"
+msgstr "Laboratorio"
+
+#: View/Events/view.ctp:44
+msgid "Is Exam"
+msgstr "Esame"
+
+#: View/Events/view.ctp:90
+#, fuzzy
+msgid "Delete Event"
+msgstr "Cancella Studente"
 
 #: View/GradeCodes/add.ctp:4
 msgid "Add Grade Code"
@@ -661,83 +1697,95 @@ msgstr "Classi"
 msgid "New Grade Code"
 msgstr "Nuovo N° Classe"
 
-#: View/GradeCodes/view.ctp:2 View/Grades/view.ctp:19
-#: View/Schools/view.ctp:105
-msgid "Grade Code"
-msgstr "Sezione"
-
-#: View/GradeCodes/view.ctp:9
-msgid "Code"
-msgstr "Numero"
-
-#: View/GradeCodes/view.ctp:14
-msgid "Value"
-msgstr "Valore"
-
 #: View/GradeCodes/view.ctp:25
 msgid "Delete Grade Code"
 msgstr "Cancella N° Classe"
 
-#: View/Grades/add.ctp:4 View/Pages/start.ctp:24
+#: View/Grades/add.ctp:16 View/Pages/start.ctp:24 View/Schools/view.ctp:113
 msgid "Add Grade"
 msgstr "Aggiungi Classe"
 
-#: View/Grades/add.ctp:24 View/Grades/edit.ctp:26 View/Grades/index.ctp:65
-#: View/Grades/view.ctp:149 View/Schools/add.ctp:27 View/Schools/edit.ctp:29
-#: View/Schools/view.ctp:91
-msgid "List Schools"
-msgstr "Lista Scuole"
-
-#: View/Grades/add.ctp:25 View/Grades/edit.ctp:27 View/Grades/index.ctp:66
-#: View/Grades/view.ctp:150 View/Schools/index.ctp:68 View/Schools/view.ctp:92
-msgid "New School"
-msgstr "Nuova Scuola"
-
-#: View/Grades/add.ctp:26 View/Grades/edit.ctp:28 View/Grades/index.ctp:67
-#: View/Grades/view.ctp:151
-msgid "List Course Codes"
-msgstr "Cicli d'istruzione"
-
-#: View/Grades/add.ctp:27 View/Grades/edit.ctp:29 View/Grades/index.ctp:68
-#: View/Grades/view.ctp:152
-msgid "New Course Code"
-msgstr "Nuovo Ciclo d'Istruzione"
-
-#: View/Grades/edit.ctp:4 View/Grades/view.ctp:145
+#: View/Grades/edit.ctp:17 View/Grades/view.ctp:5
 msgid "Edit Grade"
 msgstr "Modifica Classe"
 
-#: View/Grades/view.ctp:9 View/Schools/view.ctp:2
-msgid "School"
-msgstr "Scuola"
-
-#: View/Grades/view.ctp:14 View/Schools/view.ctp:104
-msgid "Grade Number"
-msgstr "Classe"
-
-#: View/Grades/view.ctp:24 View/Schools/view.ctp:106
-msgid "Course Code"
-msgstr "Ciclo d'Istruzione"
-
-#: View/Grades/view.ctp:70
-msgid "Related Students"
-msgstr "Studenti"
-
-#: View/Grades/view.ctp:78;167 View/Students/view.ctp:127
-msgid "Grade Id"
-msgstr "Id Classe"
-
-#: View/Grades/view.ctp:146
+#: View/Grades/view.ctp:6
 msgid "Delete Grade"
 msgstr "Cancella Classe"
 
-#: View/Grades/view.ctp:160 View/Students/view.ctp:120
-msgid "Related Attendances"
+#: View/Grades/view.ctp:11
+#, fuzzy
+msgid "Take Attendances"
 msgstr "Presenze"
 
-#: View/Grades/view.ctp:165 View/Students/view.ctp:125
-msgid "Student Id"
-msgstr "Id Studente"
+#: View/Grades/view.ctp:69
+msgid "Related Students"
+msgstr "Studenti"
+
+#: View/Grades/view.ctp:88
+msgid "There are no students yet associated with this grade"
+msgstr "Non sono presenti studenti in questa classe"
+
+#: View/GradesLaboratories/add.ctp:4
+#, fuzzy
+msgid "Add Grades Laboratory"
+msgstr "Aggiungi Laboratorio"
+
+#: View/GradesLaboratories/add.ctp:16 View/GradesLaboratories/edit.ctp:18
+#: View/GradesLaboratories/view.ctp:26
+#, fuzzy
+msgid "List Grades Laboratories"
+msgstr "Lista Laboratori"
+
+#: View/GradesLaboratories/add.ctp:19 View/GradesLaboratories/edit.ctp:21
+#: View/GradesLaboratories/index.ctp:49 View/GradesLaboratories/view.ctp:30
+#: View/Laboratories/add.ctp:5 View/Laboratories/edit.ctp:29
+#: View/Laboratories/view.ctp:7 View/LaboratoryAttendances/add.ctp:29
+#: View/LaboratoryAttendances/edit.ctp:31
+#: View/LaboratoryAttendances/index.ctp:73
+#: View/LaboratoryAttendances/view.ctp:90
+msgid "List Laboratories"
+msgstr "Lista Laboratori"
+
+#: View/GradesLaboratories/add.ctp:20 View/GradesLaboratories/edit.ctp:22
+#: View/GradesLaboratories/index.ctp:50 View/GradesLaboratories/view.ctp:31
+#: View/Laboratories/index.ctp:5 View/Laboratories/view.ctp:8
+#: View/LaboratoryAttendances/add.ctp:30
+#: View/LaboratoryAttendances/edit.ctp:32
+#: View/LaboratoryAttendances/index.ctp:74
+#: View/LaboratoryAttendances/view.ctp:91
+msgid "New Laboratory"
+msgstr "Nuovo Laboratorio"
+
+#: View/GradesLaboratories/edit.ctp:4 View/GradesLaboratories/view.ctp:24
+#, fuzzy
+msgid "Edit Grades Laboratory"
+msgstr "Modifica Laboratorio"
+
+#: View/GradesLaboratories/index.ctp:2
+#, fuzzy
+msgid "Grades Laboratories"
+msgstr "Lista Laboratori"
+
+#: View/GradesLaboratories/index.ctp:46 View/GradesLaboratories/view.ctp:27
+#, fuzzy
+msgid "New Grades Laboratory"
+msgstr "Nuovo Laboratorio"
+
+#: View/GradesLaboratories/view.ctp:2
+#, fuzzy
+msgid "Grades Laboratory"
+msgstr "Aggiungi Laboratorio"
+
+#: View/GradesLaboratories/view.ctp:14 View/Laboratories/view.ctp:15
+#: View/LaboratoryAttendances/view.ctp:19
+msgid "Laboratory"
+msgstr "Laboratorio"
+
+#: View/GradesLaboratories/view.ctp:25
+#, fuzzy
+msgid "Delete Grades Laboratory"
+msgstr "Cancella Laboratorio"
 
 #: View/Groups/add.ctp:4
 msgid "Add Group"
@@ -748,17 +1796,6 @@ msgstr "Aggiungi Gruppo"
 #: View/Users/view.ctp:43
 msgid "List Groups"
 msgstr "Lista Gruppi"
-
-#: View/Groups/add.ctp:16 View/Groups/edit.ctp:18 View/Groups/index.ctp:45
-#: View/Groups/view.ctp:33 View/Users/add.ctp:17 View/Users/edit.ctp:19
-#: View/Users/view.ctp:41
-msgid "List Users"
-msgstr "Lista Utenti"
-
-#: View/Groups/add.ctp:17 View/Groups/edit.ctp:19 View/Groups/index.ctp:46
-#: View/Groups/view.ctp:34;72 View/Users/index.ctp:50 View/Users/view.ctp:42
-msgid "New User"
-msgstr "Nuovo Utente"
 
 #: View/Groups/edit.ctp:4 View/Groups/view.ctp:29
 msgid "Edit Group"
@@ -776,10 +1813,6 @@ msgstr "Nuovo Gruppo"
 #: View/Groups/view.ctp:2 View/Users/view.ctp:19
 msgid "Group"
 msgstr "Gruppo"
-
-#: View/Groups/view.ctp:9 View/Laboratories/view.ctp:9 View/Schools/view.ctp:9
-msgid "Name"
-msgstr "Nome"
 
 #: View/Groups/view.ctp:30
 msgid "Delete Group"
@@ -801,82 +1834,299 @@ msgstr "Password"
 msgid "Group Id"
 msgstr "Id Gruppo"
 
-#: View/Laboratories/add.ctp:4
+#: View/Laboratories/add.ctp:14 View/LaboratoryAttendances/find_lab.ctp:18
 msgid "Add Laboratory"
 msgstr "Aggiungi Laboratorio"
 
-#: View/Laboratories/add.ctp:23 View/Laboratories/edit.ctp:25
-#: View/Laboratories/view.ctp:71
-msgid "List Laboratories"
-msgstr "Lista Laboratori"
-
-#: View/Laboratories/edit.ctp:4 View/Laboratories/view.ctp:69
+#: View/Laboratories/edit.ctp:4 View/Laboratories/view.ctp:5
 msgid "Edit Laboratory"
 msgstr "Modifica Laboratorio"
 
-#: View/Laboratories/index.ctp:60 View/Laboratories/view.ctp:72
-msgid "New Laboratory"
+#: View/Laboratories/edit.ctp:31 View/Laboratories/index.ctp:7
+msgid "New Educator"
+msgstr "Nuovo Educatore"
+
+#: View/Laboratories/edit.ctp:32 View/LaboratoryAttendances/add.ctp:26
+#: View/LaboratoryAttendances/edit.ctp:28
+#: View/LaboratoryAttendances/view.ctp:86
+#, fuzzy
+msgid "List Laboratory Attendances"
+msgstr "Lista Presenze"
+
+#: View/Laboratories/edit.ctp:33 View/LaboratoryAttendances/index.ctp:70
+#: View/LaboratoryAttendances/view.ctp:87
+#, fuzzy
+msgid "New Laboratory Attendance"
 msgstr "Nuovo Laboratorio"
 
-#: View/Laboratories/view.ctp:2
-msgid "Laboratory"
-msgstr "Laboratorio"
+#: View/Laboratories/index.ctp:19 View/Laboratories/view.ctp:27
+msgid "Educator"
+msgstr "Educatore"
 
-#: View/Laboratories/view.ctp:14
-msgid "Description"
-msgstr "Descrizione"
+#: View/Laboratories/index.ctp:20 View/Laboratories/view.ctp:33
+#, fuzzy
+msgid "Expert"
+msgstr "Esperienza"
 
-#: View/Laboratories/view.ctp:19
-msgid "Starting Date"
-msgstr "Data di inizio"
-
-#: View/Laboratories/view.ctp:24
-msgid "Finishing Date"
-msgstr "Data Fine"
-
-#: View/Laboratories/view.ctp:70
+#: View/Laboratories/view.ctp:6
 msgid "Delete Laboratory"
 msgstr "Cancella Laboratorio"
 
-#: View/Pages/start.ctp:2
+#: View/Laboratories/view.ctp:39
+#, fuzzy
+msgid "Observator"
+msgstr "Laboratorio"
+
+#: View/Laboratories/view.ctp:44
+msgid "Starting Date"
+msgstr "Data di inizio"
+
+#: View/Laboratories/view.ctp:49
+msgid "Finishing Date"
+msgstr "Data Fine"
+
+#: View/Laboratories/view.ctp:100
+#, fuzzy
+msgid "Take Laboratory Attendance"
+msgstr "Laboratorio cancellato"
+
+#: View/LaboratoryAttendances/add.ctp:4
+#, fuzzy
+msgid "Add Laboratory Attendance"
+msgstr "Aggiungi Laboratorio"
+
+#: View/LaboratoryAttendances/edit.ctp:4
+#: View/LaboratoryAttendances/view.ctp:84
+#, fuzzy
+msgid "Edit Laboratory Attendance"
+msgstr "Modifica Laboratorio"
+
+#: View/LaboratoryAttendances/find_lab.ctp:3
+#, fuzzy
+msgid "Select laboratory:"
+msgstr "Cancella Laboratorio"
+
+#: View/LaboratoryAttendances/find_lab.ctp:16
+msgid "There are no laboratories yet associated with this grade"
+msgstr "Non sono associati laboratori a questa classe"
+
+#: View/LaboratoryAttendances/index.ctp:2
+#, fuzzy
+msgid "Laboratory Attendances"
+msgstr "Lista Presenze"
+
+#: View/LaboratoryAttendances/take.ctp:97;104;111
+#, fuzzy
+msgid "Change"
+msgstr "Cambia Scuola"
+
+#: View/LaboratoryAttendances/take.ctp:121
+#, fuzzy
+msgid "Eudcator:"
+msgstr "Educatore"
+
+#: View/LaboratoryAttendances/take.ctp:125
+msgid "Expert:"
+msgstr "Esperto:"
+
+#: View/LaboratoryAttendances/take.ctp:129
+msgid "Observator:"
+msgstr "Osservatore:"
+
+#: View/LaboratoryAttendances/take.ctp:133
+#, fuzzy
+msgid "Laboratory attendances of the day:"
+msgstr "Presenze del giorno:"
+
+#: View/LaboratoryAttendances/view.ctp:2
+#, fuzzy
+msgid "Laboratory Attendance"
+msgstr "Laboratorio cancellato"
+
+#: View/LaboratoryAttendances/view.ctp:85
+#, fuzzy
+msgid "Delete Laboratory Attendance"
+msgstr "Cancella Laboratorio"
+
+#: View/MeetingAttendances/add.ctp:4
+#, fuzzy
+msgid "Add Meeting Attendance"
+msgstr "Aggiungi Presenza"
+
+#: View/MeetingAttendances/edit.ctp:4 View/MeetingAttendances/view.ctp:84
+#, fuzzy
+msgid "Edit Meeting Attendance"
+msgstr "Modifica Presenza"
+
+#: View/MeetingAttendances/index.ctp:2
+#, fuzzy
+msgid "Meeting Attendances"
+msgstr "Cancella Presenza"
+
+#: View/MeetingAttendances/view.ctp:2
+#, fuzzy
+msgid "Meeting Attendance"
+msgstr "Cancella Presenza"
+
+#: View/MeetingAttendances/view.ctp:85
+#, fuzzy
+msgid "Delete Meeting Attendance"
+msgstr "Cancella Presenza"
+
+#: View/MeetingTypes/add.ctp:4
+msgid "Add Meeting Type"
+msgstr "Aggiungi tipo riunione"
+
+#: View/MeetingTypes/add.ctp:16 View/MeetingTypes/edit.ctp:18
+#: View/MeetingTypes/view.ctp:26 View/Meetings/add.ctp:23
+#: View/Meetings/edit.ctp:25 View/Meetings/index.ctp:59
+#: View/Meetings/view.ctp:63
+msgid "List Meeting Types"
+msgstr "Elenca tipi riunioni"
+
+#: View/MeetingTypes/edit.ctp:4 View/MeetingTypes/view.ctp:24
+msgid "Edit Meeting Type"
+msgstr "Modifica tipo riunione"
+
+#: View/MeetingTypes/index.ctp:2
+msgid "Meeting Types"
+msgstr "Tipi di riunione"
+
+#: View/MeetingTypes/index.ctp:42 View/MeetingTypes/view.ctp:27
+#: View/Meetings/add.ctp:24 View/Meetings/edit.ctp:26
+#: View/Meetings/index.ctp:60 View/Meetings/view.ctp:64
+msgid "New Meeting Type"
+msgstr "Nuovo tipo riunione"
+
+#: View/MeetingTypes/view.ctp:2 View/Meetings/view.ctp:14
+msgid "Meeting Type"
+msgstr "Tipo di riunione"
+
+#: View/MeetingTypes/view.ctp:25
+msgid "Delete Meeting Type"
+msgstr "Elimina tipo riunione"
+
+#: View/Meetings/add.ctp:4
+msgid "Add Meeting"
+msgstr "Aggiungi riunione"
+
+#: View/Meetings/edit.ctp:4 View/Meetings/view.ctp:59
+msgid "Edit Meeting"
+msgstr "Modifica riunione"
+
+#: View/Meetings/index.ctp:2 View/Pages/admin.ctp:16
+msgid "Meetings"
+msgstr "Riunioni"
+
+#: View/Meetings/view.ctp:60
+#, fuzzy
+msgid "Delete Meeting"
+msgstr "Cancella Studente"
+
+#: View/Pages/admin.ctp:2 View/Pages/start.ctp:2
 msgid "Welcome"
 msgstr "Benvenuto"
 
-#: View/Pages/start.ctp:12 View/Schools/add.ctp:4
+#: View/Pages/admin.ctp:12
+msgid "Manage employees"
+msgstr "Gestisci il personale"
+
+#: View/Pages/admin.ctp:18
+msgid "Manage meetings"
+msgstr "Gestisci le riunioni"
+
+#: View/Pages/admin.ctp:24
+#, fuzzy
+msgid "Manage laboratories"
+msgstr "Laboratori"
+
+#: View/Pages/start.ctp:5
+#, fuzzy
+msgid "Take attendances"
+msgstr "Presenze"
+
+#: View/Pages/start.ctp:12 View/Schools/add.ctp:14
 msgid "Add School"
 msgstr "Aggiungi Scuola"
 
-#: View/Pages/start.ctp:18 View/Students/add.ctp:4
-msgid "Add Student"
-msgstr "Aggiungi Studente"
-
-#: View/Schools/edit.ctp:4 View/Schools/view.ctp:89
+#: View/Schools/edit.ctp:15 View/Schools/view.ctp:5
 msgid "Edit School"
 msgstr "Modifica Scuola"
 
-#: View/Schools/view.ctp:14
-msgid "School Code"
-msgstr "Circolo"
-
-#: View/Schools/view.ctp:90
+#: View/Schools/view.ctp:6
 msgid "Delete School"
 msgstr "Cancella Scuola"
 
-#: View/Schools/view.ctp:98
-msgid "Related Grades"
-msgstr "Classi Correlate"
+#: View/Schools/view.ctp:111
+msgid "There are no grades yet associated with this school"
+msgstr "Non sono ancora state inserite classi in questa scuola"
 
-#: View/Schools/view.ctp:103
-msgid "School Id"
-msgstr "Id Scuola"
+#: View/StudentGrades/add.ctp:4
+#, fuzzy
+msgid "Add Student Grade"
+msgstr "Aggiungi Studente"
 
-#: View/Students/edit.ctp:4 View/Students/view.ctp:109
+#: View/StudentGrades/add.ctp:23 View/StudentGrades/edit.ctp:25
+#: View/StudentGrades/view.ctp:71
+#, fuzzy
+msgid "List Student Grades"
+msgstr "Lista Studenti"
+
+#: View/StudentGrades/edit.ctp:4 View/StudentGrades/view.ctp:69
+#, fuzzy
+msgid "Edit Student Grade"
+msgstr "Modifica Studente"
+
+#: View/StudentGrades/index.ctp:2
+#, fuzzy
+msgid "Student Grades"
+msgstr "Id Studente"
+
+#: View/StudentGrades/index.ctp:62 View/StudentGrades/view.ctp:72
+#, fuzzy
+msgid "New Student Grade"
+msgstr "Nuovo Studente"
+
+#: View/StudentGrades/view.ctp:2
+#, fuzzy
+msgid "Student Grade"
+msgstr "Id Studente"
+
+#: View/StudentGrades/view.ctp:24
+msgid "Date"
+msgstr "Data"
+
+#: View/StudentGrades/view.ctp:70
+#, fuzzy
+msgid "Delete Student Grade"
+msgstr "Cancella Studente"
+
+#: View/Students/edit.ctp:17 View/Students/view.ctp:5
 msgid "Edit Student"
 msgstr "Modifica Studente"
 
-#: View/Students/view.ctp:110
+#: View/Students/view.ctp:6
 msgid "Delete Student"
 msgstr "Cancella Studente"
+
+#: View/Students/view.ctp:118
+#, fuzzy
+msgid "Absences"
+msgstr "Assente"
+
+#: View/Students/view.ctp:122
+#, fuzzy
+msgid "Absence Date"
+msgstr "Data Presenza"
+
+#: View/Students/view.ctp:138
+#, fuzzy
+msgid "Late Date"
+msgstr "Data di inizio"
+
+#: View/Students/view.ctp:152
+msgid "There are no attendances yet associated with this student"
+msgstr "Non sono ancora state inserite presenze relative a questo studente"
 
 #: View/Users/add.ctp:4
 msgid "Add User"
@@ -890,27 +2140,72 @@ msgstr "Modifica Utente"
 msgid "Users"
 msgstr "Utenti"
 
-#: View/Users/view.ctp:2
-msgid "User"
-msgstr "Utente"
-
 #: View/Users/view.ctp:40
 msgid "Delete User"
 msgstr "Cancella Utente"
 
 #: Model/Attendance.php:validation for field student_id;validation grade_id
-#: Model/GradeCode.php:validation code Model/User.php:validation group_id
+#: Model/CourseCode.php:validation code Model/EmployeesMeeting.php:validation
+#: employee_id;validation meeting_id Model/EmployeesSchool.php:validation
+#: school_id Model/GradesLaboratory.php:validation grade_id;validation
+#: laboratory_id Model/LaboratoryAttendance.php:validation
+#: Model/Meeting.php:validation meeting_type_id
+#: Model/MeetingAttendance.php:validation Model/StudentGrade.php:validation
+#: student_id Model/User.php:validation group_id
 msgid "numeric"
 msgstr "numerico"
 
 #: Model/Attendance.php:validation for field attendance_date
+#: Model/LaboratoryAttendance.php:validation
+#: Model/MeetingAttendance.php:validation
+#, fuzzy
 msgid "date"
 msgstr "data"
 
-#: Model/GradeCode.php:validation for field value Model/Group.php:validation
-#: name Model/User.php:validation username;validation password
+#: Model/CourseCode.php:validation for field value
+#: Model/Department.php:validation name Model/EmployeeCategory.php:validation
+#: Model/Group.php:validation Model/Laboratory.php:validation name;validation
+#: description Model/MeetingType.php:validation Model/School.php:validation
+#: Model/User.php:validation username;validation password
+#, fuzzy
 msgid "notempty"
 msgstr "non vuoto"
+
+#~ msgid "Invalid educator"
+#~ msgstr "Educatore non valido"
+
+#~ msgid "The educator has been saved"
+#~ msgstr "L'Educatore è stato registrato"
+
+#~ msgid "The educator could not be saved. Please, try again."
+#~ msgstr "L'Educatore non è stato registrato, riprovare"
+
+#~ msgid "Educator deleted"
+#~ msgstr "Educatore cancellato"
+
+#~ msgid "Educator was not deleted"
+#~ msgstr "L'Educatore non è stato cancellato"
+
+#~ msgid "Add Educator"
+#~ msgstr "Aggiungi Educatore"
+
+#~ msgid "List Educators"
+#~ msgstr "Lista Educatori"
+
+#~ msgid "Edit Educator"
+#~ msgstr "Modifica Educatore"
+
+#~ msgid "Educators"
+#~ msgstr "Educatori"
+
+#~ msgid "Middle Name"
+#~ msgstr "Secondo Nome"
+
+#~ msgid "Delete Educator"
+#~ msgstr "Cancella Educatore"
+
+#~ msgid "Home"
+#~ msgstr "Home"
 
 #~ msgid "Error"
 #~ msgstr "Errore"
@@ -921,20 +2216,24 @@ msgstr "non vuoto"
 #~ msgid "An Internal Error Has Occurred."
 #~ msgstr "Errore interno"
 
-#~ msgid "Editing this Page"
-#~ msgstr "Modificando questa pagina"
-
-#~ msgid "New"
-#~ msgstr "Nuovo"
-
 #~ msgid "Invalid %s"
 #~ msgstr "%s non validi"
 
 #~ msgid "saved"
 #~ msgstr "salvato"
 
+#, fuzzy
+#~ msgid "The %1$s has been %2$s"
+#~ msgstr "L'utente è stato registrato"
+
 #~ msgid "Please correct errors below."
 #~ msgstr "Correggere gli errori precedenti"
+
+#~ msgid "You are not authorized to access that location."
+#~ msgstr "Non sei autorizzato ad accedere a questa risorsa"
+
+#~ msgid "Not Found"
+#~ msgstr "Non trovato"
 
 #~ msgid "Sunday"
 #~ msgstr "Domenica"
@@ -974,6 +2273,14 @@ msgstr "non vuoto"
 
 #~ msgid "day"
 #~ msgstr "giorno"
+
+#, fuzzy
+#~ msgid "New %s"
+#~ msgstr "Nuovo Utente"
+
+#, fuzzy
+#~ msgid "Edit %s"
+#~ msgstr "Modifica Utente"
 
 #~ msgid "January"
 #~ msgstr "Gennaio"
@@ -1023,8 +2330,86 @@ msgstr "non vuoto"
 #~ msgid "Are you sure you want to delete"
 #~ msgstr "Vuoi davvero cancellare"
 
+#, fuzzy
+#~ msgid "View %s"
+#~ msgstr "Visualizza"
+
+#, fuzzy
+#~ msgid "Delete %s"
+#~ msgstr "Cancella Utente"
+
+#, fuzzy
+#~ msgid "Related %s"
+#~ msgstr "Utenti Correlati"
+
+#~ msgid "Editing this Page"
+#~ msgstr "Modificando questa pagina"
+
+#, fuzzy
+#~ msgid "Getting Started"
+#~ msgstr "Data di inizio"
+
+#~ msgid "New"
+#~ msgstr "Nuovo"
+
+#, fuzzy
+#~ msgid "CakePHP Code"
+#~ msgstr "Sezione"
+
+#, fuzzy
+#~ msgid "%s modified"
+#~ msgstr "Modificato"
+
+#, fuzzy
+#~ msgid "Invalid object type."
+#~ msgstr "Response non valida"
+
+#, fuzzy
+#~ msgid "Invalid type name"
+#~ msgstr "Presenza non valida"
+
+#, fuzzy
+#~ msgid "The request has been black-holed"
+#~ msgstr "L'utente è stato registrato"
+
+#, fuzzy
+#~ msgid "Invalid key name"
+#~ msgstr "Presenza non valida"
+
+#, fuzzy
+#~ msgid "Invalid schema object"
+#~ msgstr "Scuola non valida"
+
+#, fuzzy
+#~ msgid "Invalid email: \"%s\""
+#~ msgstr "%s non validi"
+
 #~ msgid "Invalid response."
 #~ msgstr "Response non valida"
+
+#, fuzzy
+#~ msgid "Invalid HTTP response."
+#~ msgstr "Response non valida"
+
+#, fuzzy
+#~ msgid "Invalid resource."
+#~ msgstr "Response non valida"
+
+#, fuzzy
+#~ msgid "%s created"
+#~ msgstr "Creato"
+
+#, fuzzy
+#~ msgid "Invalid input."
+#~ msgstr "Utente non valido"
+
+#, fuzzy
+#~ msgid "Invalid array"
+#~ msgstr "Laboratorio non valido"
+
+#, fuzzy
+#~ msgid "Fatal Error"
+#~ msgstr "Errore"
 
 #~ msgid "Line"
 #~ msgstr "Riga"
@@ -1035,11 +2420,133 @@ msgstr "non vuoto"
 #~ msgid "Missing Database Connection"
 #~ msgstr "Manca la connessione al database"
 
+#, fuzzy
+#~ msgid "Scaffold requires a database connection"
+#~ msgstr "Manca la connessione al database"
+
+#, fuzzy
+#~ msgid "Missing Datasource"
+#~ msgstr "Manca la connessione al database"
+
+#, fuzzy
+#~ msgid "Missing Datasource Configuration"
+#~ msgstr "Manca la connessione al database"
+
+#, fuzzy
+#~ msgid "Missing Database Table"
+#~ msgstr "Manca la connessione al database"
+
+#, fuzzy
+#~ msgid "Do you want to overwrite?"
+#~ msgstr "Vuoi davvero cancellare"
+
+#, fuzzy
+#~ msgid "Node Not Deleted"
+#~ msgstr "La classe non è stata cancellata"
+
+#, fuzzy
+#~ msgid "Permission was not denied."
+#~ msgstr "L'utente non è stato cancellato"
+
+#, fuzzy
+#~ msgid "Permission was not inherited."
+#~ msgstr "L'utente non è stato cancellato"
+
+#, fuzzy
+#~ msgid "Delete an ACL node."
+#~ msgstr "Cancella N° Classe"
+
 #~ msgid "Done"
 #~ msgstr "Fatto"
+
+#, fuzzy
+#~ msgid "[D]atabase Configuration"
+#~ msgstr "Manca la connessione al database"
+
+#, fuzzy
+#~ msgid "Invalid command"
+#~ msgstr "Classe non valida"
+
+#, fuzzy
+#~ msgid "The chosen schema could not be loaded. Attempted to load:"
+#~ msgstr "La scuola non è stata registrata, riprovare"
+
+#, fuzzy
+#~ msgid "Name: %s"
+#~ msgstr "Nome"
+
+#, fuzzy
+#~ msgid "Are you sure you want to drop the table(s)?"
+#~ msgstr "Vuoi davvero cancellare"
+
+#, fuzzy
+#~ msgid "Are you sure you want to create the table(s)?"
+#~ msgstr "Sei sicuro di voler cancellare # %s?"
+
+#, fuzzy
+#~ msgid "Are you sure you want to alter the tables?"
+#~ msgstr "Sei sicuro di voler cancellare # %s?"
+
+#, fuzzy
+#~ msgid "Updating Database..."
+#~ msgstr "Data di inizio"
 
 #~ msgid "Exit"
 #~ msgstr "Esci"
 
+#, fuzzy
+#~ msgid "Database Configuration:"
+#~ msgstr "Manca la connessione al database"
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "Nome"
+
+#, fuzzy
+#~ msgid "Persistent Connection?"
+#~ msgstr "Manca la connessione al database"
+
+#, fuzzy
+#~ msgid "User:"
+#~ msgstr "Utente"
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "Password"
+
+#, fuzzy
+#~ msgid "Database Name:"
+#~ msgstr "Cognome"
+
+#, fuzzy
+#~ msgid "Use Database Config"
+#~ msgstr "Manca la connessione al database"
+
+#, fuzzy
+#~ msgid "The directory path you supplied was not found. Please try again."
+#~ msgstr "L'Educatore non è stato registrato, riprovare"
+
+#, fuzzy
+#~ msgid "Done."
+#~ msgstr "Fatto"
+
+#, fuzzy
+#~ msgid "Associations:"
+#~ msgstr "Azioni"
+
 #~ msgid "Enter a number"
 #~ msgstr "Inserisci un numero"
+
+#, fuzzy
+#~ msgid "The directory path you supplied was empty. Please try again."
+#~ msgstr "L'Educatore non è stato registrato, riprovare"
+
+#, fuzzy
+#~ msgid "The action name you supplied was empty. Please try again."
+#~ msgstr "La presenza non è stata registrata, riprovare."
+
+#~ msgid "Select Class"
+#~ msgstr "Seleziona Classe"
+
+#~ msgid "Grade Id"
+#~ msgstr "Id Classe"

@@ -230,6 +230,7 @@ Configure::write('Routing.prefixes', array('admin'));
  * any date & time related errors.
  */
 	date_default_timezone_set('Europe/Berlin');
+	setlocale(LC_ALL, 'it_IT');
 
 /**
  * Pick the caching engine to use.  If APC is enabled use it.
