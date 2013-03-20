@@ -170,6 +170,7 @@ class LaboratoryAttendancesController extends AppController {
 			'laboratories' => $laboratories,
 			'_serialize' => array('laboratories')
 		));
+		$this->set('grade_id', $grade['Grade']['id']);
 	}
 
 
@@ -180,28 +181,24 @@ class LaboratoryAttendancesController extends AppController {
 	 * @return void
 	 */
 
-	public function take($laboratory_id = null, $attendance_date = null) {
+	public function take($grade_id = null, $laboratory_id = null, $attendance_date = null) {
 			
 			// Has any form data been POSTed?
 		    if ($this->request->is('post')) {
 		        // If the form data can be validated and saved...
 
-		        $this->Attendance->create();
+		        $this->LaboratoryAttendance->create();
+		        $user_id = $this->Session->read('Auth.User.id');
 
-		        foreach ($this->request->data['Attendance'] as $attendance): 
-		        	if( $attendance['absent'] == true || $attendance['late'] == true || $attendance['present'] == true)
-		        		$this->Attendance->save($attendance);
-		        	else if( $attendance['absent'] == false && $attendance['late'] == false || $attendance['present'] == false)
-		        		$this->Attendance->delete($attendance);
-		        endforeach;
-
-		        //if ($this->Attendance->saveMany($this->request->data['Attendance'], array('Attendance.absent' => true))) {
-
-		            // Set a session flash message and redirect.
-		            // debug($this->request->data, true , true);
+		        foreach ($this->request->data['LaboratoryAttendance'] as $attendance): 
+		        	if( $attendance['absent'] == true || $attendance['late'] == true || $attendance['present'] == true){		        			
+		        		$this->LaboratoryAttendance->saveRecord($attendance, $user_id);
+		        	} else if( $attendance['absent'] == false && $attendance['late'] == false || $attendance['present'] == false) {
+		        		$this->LaboratoryAttendance->delete($attendance);
+		        	}
+		        endforeach;		     
 		            $this->Session->setFlash('Presenze salvate!');
-		            //$this->redirect('/attendances/take');
-		        //}
+
 		    }
 
 		    // If no form data, find the students with attendance to be edited
@@ -218,13 +215,16 @@ class LaboratoryAttendancesController extends AppController {
 		    	array( 'conditions' => array('Grade.id' => $grade_id))
 		    ));
 
-		    $this->loadModel('Attendance');
+		    $this->loadModel('Laboratory');
+		    $this->set('laboratory', $this->Laboratory->find('first', 
+		    	array( 'conditions' => array('Laboratory.id' => $laboratory_id))
+		    ));
 
 		    $i = 0;
 		    $attendances = array();
 		    foreach ($students as $student) {
-		    	$attendances[$i] = $this->Attendance->getDayAttendance($student['Student']['id'],
-		    		date('Y-m-d',strtotime($attendance_date)));
+		    	$attendances[$i] = $this->LaboratoryAttendance->getDayAttendance($student['Student']['id'],
+		    		$laboratory_id, date('Y-m-d',strtotime($attendance_date)));
 		    	$i++;
 		    }
 

@@ -4,7 +4,7 @@ App::uses('AppModel', 'Model');
  * Laboratory Model
  *
  * @property Educator $Educator
- * @property Expert $Expert
+ * @property Expert $Esperto
  * @property EmployeesSchool $EmployeesSchool
  * @property LaboratoryAttendance $LaboratoryAttendance
  * @property Grade $Grade
@@ -49,16 +49,16 @@ class Laboratory extends AppModel {
 	public $belongsTo = array(
 		'Educator' => array(
 			'className' => 'Employee',
-			'foreignKey' => 'employee_id_1',
+			'foreignKey' => 'employee_1_id',
 			'conditions' => '',
-			'fields' => '',
+			'fields' => 'id, first_name, last_name',
 			'order' => ''
 		),
 		'Expert' => array(
 			'className' => 'Employee',
-			'foreignKey' => 'employee_id_2',
+			'foreignKey' => 'employee_2_id',
 			'conditions' => '',
-			'fields' => '',
+			'fields' => 'id, first_name, last_name',
 			'order' => ''
 		)
 	);

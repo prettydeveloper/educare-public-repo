@@ -169,20 +169,18 @@ class AttendancesController extends AppController {
 
 		        $this->Attendance->create();
 
+		        $user_id = $this->Session->read('Auth.User.id');
+
 		        foreach ($this->request->data['Attendance'] as $attendance): 
 		        	if( $attendance['absent'] == true || $attendance['late'] == true || $attendance['present'] == true)
-		        		$this->Attendance->save($attendance);
+		        		$this->Attendance->saveRecord($attendance, $user_id);
 		        	else if( $attendance['absent'] == false && $attendance['late'] == false || $attendance['present'] == false)
 		        		$this->Attendance->delete($attendance);
 		        endforeach;
 
-		        //if ($this->Attendance->saveMany($this->request->data['Attendance'], array('Attendance.absent' => true))) {
+	            // Set a session flash message and redirect.
+	            $this->Session->setFlash('Presenze salvate!');
 
-		            // Set a session flash message and redirect.
-		            // debug($this->request->data, true , true);
-		            $this->Session->setFlash('Presenze salvate!');
-		            //$this->redirect('/attendances/take');
-		        //}
 		    }
 
 		    // If no form data, find the students with attendance to be edited

@@ -7,6 +7,8 @@ App::uses('AppController', 'Controller');
  */
 class StudentsController extends AppController {
 
+	public $components = array('RequestHandler');
+
 /**
  * index method
  *
@@ -29,7 +31,13 @@ class StudentsController extends AppController {
 		if (!$this->Student->exists()) {
 			throw new NotFoundException(__('Invalid student'));
 		}
-		$this->set('student', $this->Student->read(null, $id));
+		$student = $this->Student->findById($id);
+		$this->loadmodel('User');
+		$created_by = $this->User->findById($student['Student']['created_by'], array('fields' => 'username','id'));
+		$modified_by = $this->User->findById($student['Student']['modified_by'], array('fields' => 'username','id'));
+		$this->set('student', $student);
+		$this->set('created_by', $created_by);
+		$this->set('modified_by', $modified_by);
 	}
 
 /**
@@ -39,16 +47,18 @@ class StudentsController extends AppController {
  */
 	public function add() {
 		if ($this->request->is('post')) {
+			$user_id = $this->Session->read('Auth.User.id');
 			$this->Student->create();
-			if ($this->Student->save($this->request->data)) {
+			if ($this->Student->saveRecord($this->request->data, $user_id)) {
 				$this->Session->setFlash(__('The student has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The student could not be saved. Please, try again.'));
 			}
 		}
-		$grades = $this->Student->Grade->find('list');
-		$this->set(compact('grades'));
+		$this->loadModel('School');
+		$schools = $this->School->find('list');
+		$this->set(compact('schools'));
 	}
 
 /**
@@ -64,7 +74,8 @@ class StudentsController extends AppController {
 			throw new NotFoundException(__('Invalid student'));
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
-			if ($this->Student->save($this->request->data)) {
+			$user_id = $this->Session->read('Auth.User.id');
+			if ($this->Student->saveRecord($this->request->data, $user_id)) {
 				$this->Session->setFlash(__('The student has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {
@@ -194,4 +205,14 @@ class StudentsController extends AppController {
 		$this->Session->setFlash(__('Student was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
+
+	public function update_grades($school_id = null){
+		$grades = $this->Student->Grade->find('all', array('conditions' => array('grade.school_id' => $school_id ), 
+			'fields' => 'id, grade_code, grade_number', 'recursive' => 0));
+		$this->set(compact('grades'));
+        $this->set('_serialize', 'grades');
+	}
+
 }
+
+

@@ -21,23 +21,23 @@
             <ul class="nav">
               <li class="active">
                 <?php echo $this->Html->link('Home',
-    			array('controller' => 'pages', 'action' => ''));?>
+    			array('controller' => 'pages', 'action' => 'index'));?>
               </li>
               <li>
                <?php echo $this->Html->link(__('Schools'),
-    			array('controller' => 'schools', 'action' => ''));?>
+    			array('controller' => 'schools', 'action' => 'index'));?>
               </li>
               <li>
                 <?php echo $this->Html->link(__('Laboratories'),
-                array('controller' => 'laboratories', 'action' => ''));?>
+                array('controller' => 'laboratories', 'action' => 'index'));?>
               </li>
               <li>
                 <?php echo $this->Html->link(__('Grades'),
-    			array('controller' => 'grades', 'action' => ''));?>
+    			array('controller' => 'grades', 'action' => 'index'));?>
               </li>
               <li>
                 <?php echo $this->Html->link(__('Students'),
-    			array('controller' => 'students', 'action' => ''));?>
+    			array('controller' => 'students', 'action' => 'index'));?>
               </li>
               <li>
                 <?php echo $this->Html->link(__('Administration'),

@@ -32,7 +32,7 @@
                     array('async' => true, 'update' => '#grades', 'complete' => 'showGrades()')
                 )
             );
-        endforeach; 
+        endforeach;
     ?>
 </div>
 

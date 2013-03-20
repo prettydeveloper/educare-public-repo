@@ -77,19 +77,19 @@
             array('async' => true, 'update' => '#grades', 'complete' => 'showGrades()')));
 ?>
 <div class="row-fluid">
-    <div class="span2">
-        <h4><?php echo $grade['School']['name'] ?></h4>
-        <?php echo $this->Html->link(__('Change school'), 
-            array(  'controller' => 'Attendances', 
-                    'action' => 'selectSchool'),
-            array(  'class' => 'btn btn-small btn-inline')); ?>
-    </div>
     <div class="span2"> 
         <h4><?php echo __('Grade') .' '. $grade['Grade']['grade_number'].$grade['Grade']['grade_code'] ?></h4>
         <?php echo $this->Html->link(__('Change grade'),'#', 
             array(  'class' => 'btn btn-small btn-inline', 
                     'id' => 'btn_grade'));
         ?>
+    </div>
+    <div class="span2">
+        <h4><?php echo $grade['School']['name'] ?></h4>
+        <?php echo $this->Html->link(__('Change school'), 
+            array(  'controller' => 'Attendances', 
+                    'action' => 'selectSchool'),
+            array(  'class' => 'btn btn-small btn-inline')); ?>
     </div>
 </div>
 <div class="row-fluid" id="grades">&nbsp;</div>
@@ -125,8 +125,9 @@
         $i = 0;
         foreach ($students as $student):
 
-            // campi nascosti per salvare l'id dello studente e la data
-            echo $this->Form->hidden('Attendance.'.$i.'.student_id', array('default' => $student['Student']['id'])); 
+            // campi nascosti per salvare l'id dello studente e la data           
+
+            echo $this->Form->hidden('Attendance.'.$i.'.student_id', array('default' => $student['Student']['id']));
             echo $this->Form->hidden('Attendance.'.$i.'.grade_id', array('default' => $student['Student']['grade_id'])); 
             echo $this->Form->hidden('Attendance.'.$i.'.attendance_date', 
                 array('default' => date('Y-m-d',strtotime($attendance_date)) )); 

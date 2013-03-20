@@ -1,10 +1,13 @@
 <?php
 App::uses('AppModel', 'Model');
 /**
- * GradeCode Model
+ * CourseCode Model
  *
+ * @property Grade $Grade
  */
-class GradeCode extends AppModel {
+class CourseCode extends AppModel {
+
+	public $displayField = 'value';
 
 /**
  * Validation rules
@@ -33,4 +36,28 @@ class GradeCode extends AppModel {
 			),
 		),
 	);
+
+	//The Associations below have been created with all possible keys, those that are not needed can be removed
+
+/**
+ * hasMany associations
+ *
+ * @var array
+ */
+	public $hasMany = array(
+		'Grade' => array(
+			'className' => 'Grade',
+			'foreignKey' => 'course_code_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		)
+	);
+
 }

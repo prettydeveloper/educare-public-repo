@@ -49,7 +49,7 @@ public $virtualFields = array(
 			'className' => 'CourseCode',
 			'foreignKey' => 'course_code_id',
 			'conditions' => '',
-			'fields' => '',
+			'fields' => 'id, value',
 			'order' => ''
 		)
 	);

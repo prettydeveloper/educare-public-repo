@@ -31,4 +31,23 @@ App::uses('Model', 'Model');
  * @package       app.Model
  */
 class AppModel extends Model {
+
+/** 
+ *	saveRecord method
+ *	extends the save method to collect informations on who edited what
+ *
+ *	@param string $user_id the ID of the user updating the data
+ *
+ */
+
+	public function saveRecord($data = null, $user_id = null, $validate = true, $fieldList = array()) {
+        $this->set($data);
+        if (isset($user_id)) {
+	        if (!isset($this->data[$this->alias]['created_by'])) {
+	            $this->data[$this->alias]['created_by'] = $user_id;
+	        }
+	        $this->data[$this->alias]['modified_by'] = $user_id;
+	    }
+        return parent::save($this->data, $validate, $fieldList);
+    }
 }

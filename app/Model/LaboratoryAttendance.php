@@ -69,4 +69,15 @@ class LaboratoryAttendance extends AppModel {
 			'order' => ''
 		)
 	);
+
+
+	public function getDayAttendance($student_id, $laboratory_id, $date) {
+		$conditions = array(
+            'attendance_date' => DATE($date),
+            'laboratory_id' => $laboratory_id,
+			'student_id' => $student_id
+        );
+        return $this->find('first', compact('conditions'));
+	}
+
 }

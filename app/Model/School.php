@@ -73,4 +73,28 @@ class School extends AppModel {
 		)
 	);
 
+	public $belongsTo = array(
+			'CreatedBy' => array(
+			'className' => 'User',
+			'foreignKey' => 'created_by',
+			'conditions' => '',
+			'fields' => 'id, username',
+			'order' => ''
+		),
+			'ModifiedBy' => array(
+				'className' => 'User',
+				'foreignKey' => 'modified_by',
+				'conditions' => '',
+				'fields' => 'id, username',
+				'order' => ''
+		),
+			'TrashedBy' => array(
+				'className' => 'User',
+				'foreignKey' => 'trashed_by',
+				'conditions' => '',
+				'fields' => 'id, username',
+				'order' => ''
+		)
+	);
+
 }

@@ -1,5 +1,4 @@
 <h4><?php echo __('Select grade:') ?>
-
 <?php foreach($grades as $grade):
 
 	$grade_id = $grade['Grades']['id']; ?>
@@ -13,5 +12,4 @@
 
     <?php 
 endforeach; ?>
-
 </h4>

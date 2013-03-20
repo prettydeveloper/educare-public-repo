@@ -26,7 +26,7 @@
 /* AND xml and json too */
 //Router::mapResources('grades');
 
-Router::parseExtensions();
+Router::parseExtensions('json');
 
 /**
  * Here, we are connecting '/' (base path) to controller called 'Pages',

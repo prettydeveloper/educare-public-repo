@@ -8,9 +8,9 @@ App::uses('AppModel', 'Model');
  */
 class Student extends AppModel {
 
-public $virtualFields = array(
-    'student_name' => "CONCAT(last_name, ' ', first_name)"
-);
+	public $virtualFields = array(
+	    'student_name' => "CONCAT(last_name, ' ', first_name)"
+	);
 
 /**
  * Display field
@@ -42,12 +42,25 @@ public $virtualFields = array(
  *
  * @var array
  */
-/*	public $hasMany = array(
-		'Attendance' => array(
+	public $hasMany = array(
+		'Absence' => array(
 			'className' => 'Attendance',
 			'foreignKey' => 'student_id',
 			'dependent' => false,
-			'conditions' => '',
+			'conditions' => 'Absence.absent = 1',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'Late' => array(
+			'className' => 'Attendance',
+			'foreignKey' => 'student_id',
+			'dependent' => false,
+			'conditions' => 'Late.late = 1',
 			'fields' => '',
 			'order' => '',
 			'limit' => '',
@@ -56,14 +69,14 @@ public $virtualFields = array(
 			'finderQuery' => '',
 			'counterQuery' => ''
 		)
-	);*/
+	);
 
-	public $hasOne = array(
+	/*public $hasOne = array(
 		'TodayAttendance' => array(
 			'className' => 'Attendance',
 			'conditions' => array('DATE(TodayAttendance.attendance_date) = CURDATE()')
 			)
-		);
+		);*/
 	
 	/*public $hasMany = array(
 		'TotalAttendances' => array(

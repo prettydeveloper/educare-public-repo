@@ -29,7 +29,14 @@ class SchoolsController extends AppController {
 		if (!$this->School->exists()) {
 			throw new NotFoundException(__('Invalid school'));
 		}
-		$this->set('school', $this->School->read(null, $id));
+		$school = $this->School->findById($id);
+		$this->loadmodel('User');
+		$created_by = $this->User->findById($school['School']['created_by'], array('fields' => 'username','id'));
+		$modified_by = $this->User->findById($school['School']['modified_by'], array('fields' => 'username','id'));
+		$this->set('school', $school);
+		$this->set('grades', $this->School->Grade->findAllBySchoolId($id));
+		$this->set('created_by', $created_by);
+		$this->set('modified_by', $modified_by);
 	}
 
 /**
@@ -39,8 +46,9 @@ class SchoolsController extends AppController {
  */
 	public function add() {
 		if ($this->request->is('post')) {
+			$user_id = $this->Session->read('Auth.User.id');
 			$this->School->create();
-			if ($this->School->save($this->request->data)) {
+			if ($this->School->saveRecord($this->request->data, $user_id)) {
 				$this->Session->setFlash(__('The school has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {
@@ -62,7 +70,8 @@ class SchoolsController extends AppController {
 			throw new NotFoundException(__('Invalid school'));
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
-			if ($this->School->save($this->request->data)) {
+			$user_id = $this->Session->read('Auth.User.id');
+			if ($this->School->saveRecord($this->request->data, $user_id)) {
 				$this->Session->setFlash(__('The school has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {
