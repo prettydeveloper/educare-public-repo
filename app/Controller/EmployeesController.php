@@ -39,8 +39,9 @@ class EmployeesController extends AppController {
  */
 	public function add() {
 		if ($this->request->is('post')) {
+			$user_id = $this->Session->read('Auth.User.id');
 			$this->Employee->create();
-			if ($this->Employee->save($this->request->data)) {
+			if ($this->Employee->saveRecord($this->request->data,$user_id)) {
 				$this->Session->setFlash(__('The employee has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {
@@ -69,7 +70,8 @@ class EmployeesController extends AppController {
 			throw new NotFoundException(__('Invalid employee'));
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
-			if ($this->Employee->save($this->request->data)) {
+			$user_id = $this->Session->read('Auth.User.id');
+			if ($this->Employee->saveRecord($this->request->data,$user_id)) {
 				$this->Session->setFlash(__('The employee has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {
@@ -81,9 +83,9 @@ class EmployeesController extends AppController {
 		$employeeCategories = $this->Employee->EmployeeCategory->find('list');
 		$departments = $this->Employee->Department->find('list');
 		$managers = $this->Employee->Manager->find('list');
-		$users = $this->Employee->User->find('list');
-		$meetings = $this->Employee->Meeting->find('list');
-		$schools = $this->Employee->School->find('list');
+		//$users = $this->Employee->User->find('list');
+		//$meetings = $this->Employee->Meeting->find('list');
+		//$schools = $this->Employee->School->find('list');
 		$this->set(compact('employeeCategories', 'departments', 'managers', 'users', 'meetings', 'schools'));
 	}
 

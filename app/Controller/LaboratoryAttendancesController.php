@@ -40,7 +40,8 @@ class LaboratoryAttendancesController extends AppController {
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->LaboratoryAttendance->create();
-			if ($this->LaboratoryAttendance->save($this->request->data)) {
+			$user_id = $this->Session->read('Auth.User.id');
+			if ($this->LaboratoryAttendance->saveRecord($this->request->data, $user_id)) {
 				$this->Session->setFlash(__('The laboratory attendance has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {
@@ -65,7 +66,8 @@ class LaboratoryAttendancesController extends AppController {
 			throw new NotFoundException(__('Invalid laboratory attendance'));
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
-			if ($this->LaboratoryAttendance->save($this->request->data)) {
+			$user_id = $this->Session->read('Auth.User.id');
+			if ($this->LaboratoryAttendance->saveRecord($this->request->data, $user_id)) {
 				$this->Session->setFlash(__('The laboratory attendance has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {
@@ -186,19 +188,29 @@ class LaboratoryAttendancesController extends AppController {
 			// Has any form data been POSTed?
 		    if ($this->request->is('post')) {
 		        // If the form data can be validated and saved...
-
-		        $this->LaboratoryAttendance->create();
 		        $user_id = $this->Session->read('Auth.User.id');
 
+		        // Retrieving and saving Students attendance data
 		        foreach ($this->request->data['LaboratoryAttendance'] as $attendance): 
 		        	if( $attendance['absent'] == true || $attendance['late'] == true || $attendance['present'] == true){		        			
 		        		$this->LaboratoryAttendance->saveRecord($attendance, $user_id);
 		        	} else if( $attendance['absent'] == false && $attendance['late'] == false || $attendance['present'] == false) {
 		        		$this->LaboratoryAttendance->delete($attendance);
 		        	}
-		        endforeach;		     
-		            $this->Session->setFlash('Presenze salvate!');
+		        endforeach;	
 
+		        // Retrieving and saving Employees attendance data
+		        $this->loadModel('EmployeeAttendance');
+		        $educator_attendance = $this->request->data['EducatorAttendance'];
+		        $expert_attendance = $this->request->data['ExpertAttendance'];
+		        $this->EmployeeAttendance->saveRecord($educator_attendance, $user_id);
+		        $this->EmployeeAttendance->saveRecord($expert_attendance, $user_id);
+
+		        $this->loadModel('Observator');
+		        $observator = $this->request->data['Observator'];
+		        $this->Observator->save($observator);
+
+		        $this->Session->setFlash('Presenze salvate!');
 		    }
 
 		    // If no form data, find the students with attendance to be edited
@@ -216,9 +228,19 @@ class LaboratoryAttendancesController extends AppController {
 		    ));
 
 		    $this->loadModel('Laboratory');
-		    $this->set('laboratory', $this->Laboratory->find('first', 
-		    	array( 'conditions' => array('Laboratory.id' => $laboratory_id))
-		    ));
+		    $laboratory = $this->Laboratory->find('first', 
+		    	array( 'conditions' => array('Laboratory.id' => $laboratory_id)));
+		    $this->set('laboratory', $laboratory);
+
+		    // Collecting and setting attendance data for students and staff
+		    $this->loadModel('EmployeeAttendance');
+
+		    $educator_id = $laboratory['Educator']['id'];
+		    $expert_id = $laboratory['Expert']['id'];
+		    $laboratory_id = $laboratory['Laboratory']['id'];
+
+		    $educator_attendance = $this->EmployeeAttendance->getDayAttendance($educator_id, $laboratory_id, date('Y-m-d', strtotime($attendance_date)));
+		    $expert_attendance = $this->EmployeeAttendance->getDayAttendance($expert_id, $laboratory_id, date('Y-m-d', strtotime($attendance_date)));
 
 		    $i = 0;
 		    $attendances = array();
@@ -228,7 +250,13 @@ class LaboratoryAttendancesController extends AppController {
 		    	$i++;
 		    }
 
+		    $this->loadModel('Observator');
+		    $observator = $this->Observator->getLaboratoryObservator($laboratory_id, date('Y-m-d', strtotime($attendance_date)));
+
+		    $this->set('observator',$observator);
 		    $this->set('attendances',$attendances);
+		    $this->set('educator_attendance',$educator_attendance);
+		    $this->set('expert_attendance',$expert_attendance);
 		    $this->set('attendance_date', $attendance_date);
 	}
 }

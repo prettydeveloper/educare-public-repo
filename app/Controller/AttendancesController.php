@@ -45,7 +45,8 @@ class AttendancesController extends AppController {
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Attendance->create();
-			if ($this->Attendance->save($this->request->data)) {
+			$user_id = $this->Session->read('Auth.User.id');
+			if ($this->Attendance->saveRecord($this->request->data, $user_id)) {
 				$this->Session->setFlash(__('The attendance has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {
@@ -70,7 +71,8 @@ class AttendancesController extends AppController {
 			throw new NotFoundException(__('Invalid attendance'));
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
-			if ($this->Attendance->save($this->request->data)) {
+			$user_id = $this->Session->read('Auth.User.id');
+			if ($this->Attendance->saveRecord($this->request->data, $user_id)) {
 				$this->Session->setFlash(__('The attendance has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {

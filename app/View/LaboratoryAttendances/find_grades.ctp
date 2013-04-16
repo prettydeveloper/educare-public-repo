@@ -1,5 +1,5 @@
 <div class="span12">
-	<h4><?php echo __('Select grade:') ?>
+	<h5><?php echo __('Select grade:') ?>
 
 	<?php
 	foreach($grades as $grade):
@@ -24,5 +24,5 @@
     echo $this->Js->writeBuffer(); // Write cached scripts
 
     ?>
-	</h4>
+	</h5>
 </div>

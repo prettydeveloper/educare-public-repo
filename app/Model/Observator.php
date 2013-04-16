@@ -1,12 +1,12 @@
 <?php
 App::uses('AppModel', 'Model');
 /**
- * MeetingAttendance Model
+ * Observator Model
  *
- * @property Employee $Employee
+ * @property Laboratory $Laboratory
  * @property Meeting $Meeting
  */
-class MeetingAttendance extends AppModel {
+class Observator extends AppModel {
 
 /**
  * Validation rules
@@ -14,17 +14,7 @@ class MeetingAttendance extends AppModel {
  * @var array
  */
 	public $validate = array(
-		'employee_id' => array(
-			'numeric' => array(
-				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-		'attendance_date' => array(
+		'observation_date' => array(
 			'date' => array(
 				'rule' => array('date'),
 				//'message' => 'Your custom message here',
@@ -34,9 +24,9 @@ class MeetingAttendance extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'meeting_id' => array(
-			'numeric' => array(
-				'rule' => array('numeric'),
+		'name' => array(
+			'notempty' => array(
+				'rule' => array('notempty'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -54,9 +44,9 @@ class MeetingAttendance extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
-		'Employee' => array(
-			'className' => 'Employee',
-			'foreignKey' => 'employee_id',
+		'Laboratory' => array(
+			'className' => 'Laboratory',
+			'foreignKey' => 'laboratory_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
@@ -69,4 +59,12 @@ class MeetingAttendance extends AppModel {
 			'order' => ''
 		)
 	);
+
+	public function getLaboratoryObservator($laboratory_id, $date) {
+		$conditions = array(
+            'laboratory_id' => $laboratory_id,
+            'observation_date' => DATE($date)
+        );
+        return $this->find('first', compact('conditions'));
+	}
 }

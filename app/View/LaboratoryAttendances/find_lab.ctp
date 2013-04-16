@@ -1,6 +1,6 @@
 <div class="span12">
 	<?php if(!empty($laboratories)) { ?>
-		<h4><?php echo __('Select laboratory:') ?>
+		<h5><?php echo __('Select laboratory:') ?>
 		<?php
 		foreach($laboratories as $laboratory):
 		$laboratory_id = $laboratory['id']; ?>
@@ -10,7 +10,7 @@
 	        <?php echo h($laboratory['name']); ?>
 	    </a>
 		<?php endforeach; ?>
-		</h4>
+		</h5>
 	<?php } else { ?>
 		<div class="alert alert-info">
         	<?php echo __('There are no laboratories yet associated with this grade') ?>

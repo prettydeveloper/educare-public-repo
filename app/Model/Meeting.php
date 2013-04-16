@@ -50,8 +50,8 @@ class Meeting extends AppModel {
  * @var array
  */
 	public $hasMany = array(
-		'MeetingAttendance' => array(
-			'className' => 'MeetingAttendance',
+		'EmployeeAttendance' => array(
+			'className' => 'EmployeeAttendance',
 			'foreignKey' => 'meeting_id',
 			'dependent' => false,
 			'conditions' => '',

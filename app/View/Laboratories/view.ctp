@@ -79,7 +79,7 @@
 		</dl>
 	</div>
 			
-	<div id="related" class="span5">
+	<div id="related" class="span6">
 		
 		<h3><?php echo __('Related Grades'); ?></h3>
 		<?php if (!empty($laboratory['Grade'])): ?>
@@ -98,7 +98,7 @@
 				<td><?php echo $grade['grade_number'].$grade['grade_code']; ?></td>
 				<td><?php echo $grade['course_code_id']; ?></td>
 				<td><?php echo $this->Html->link(__('Take Laboratory Attendance'), 
-					array('controller' => 'laboratory_attendances', 'action' => 'take', $grade['id'], $laboratory['Laboratory']['id']),
+					array('controller' => 'laboratory_attendances', 'action' => 'take', $grade['id'], $laboratory['Laboratory']['id'], date('d-m-Y')),
 					array('class' => 'btn btn-small')); ?> </li>
 			</tr>
 		<?php endforeach; ?>
