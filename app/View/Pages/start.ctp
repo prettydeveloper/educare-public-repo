@@ -8,19 +8,19 @@
 <div class="row-fluid">
 	<div class="span4">
 		<h2><?php echo __('Schools'); ?></h2>
-		<a class="btn" href="./schools/add">
+		<a class="btn" href="<?php echo $this->webroot ?>/schools/add">
 			<i class="icon-plus"></i> <?php echo __('Add School'); ?>
 		</a>
 	</div><!--/span-->
 	<div class="span4">
 		<h2><?php echo __('Students'); ?></h2>
-			<a class="btn" href="./students/add">
+			<a class="btn" href="<?php echo $this->webroot ?>/students/add">
 				<i class="icon-plus"></i> <?php echo __('Add Student'); ?>
 			</a>
 	</div><!--/span-->
 	<div class="span4">
 		<h2><?php echo __('Grades'); ?></h2>
-		<a class="btn" href="./grades/add">
+		<a class="btn" href="<?php echo $this->webroot ?>/grades/add">
 			<i class="icon-plus"></i> <?php echo __('Add Grade'); ?>
 		</a>
 	</div><!--/span-->
