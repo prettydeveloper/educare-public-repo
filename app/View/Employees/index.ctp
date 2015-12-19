@@ -13,28 +13,20 @@
 			<th><?php echo $this->Paginator->sort('job_title'); ?></th>
 			<th><?php echo $this->Paginator->sort('status'); ?></th>
 			<th><?php echo $this->Paginator->sort('date_of_birth'); ?></th>
-			<th><?php echo $this->Paginator->sort('address'); ?></th>
-			<th><?php echo $this->Paginator->sort('zipcode'); ?></th>
+			<th><?php echo $this->Paginator->sort('address_line1'); ?></th>
+			<th><?php echo $this->Paginator->sort('address_line2'); ?></th>
 			<th><?php echo $this->Paginator->sort('city'); ?></th>
 			<th><?php echo $this->Paginator->sort('state'); ?></th>
-			<th><?php echo $this->Paginator->sort('phone_number_1'); ?></th>
-			<th><?php echo $this->Paginator->sort('phone_number_2'); ?></th>
-			<th><?php echo $this->Paginator->sort('phone_number_3'); ?></th>
-			<th><?php echo $this->Paginator->sort('qualification'); ?></th>
-			<th><?php echo $this->Paginator->sort('experience'); ?></th>
-			<th><?php echo $this->Paginator->sort('education'); ?></th>
-			<th><?php echo $this->Paginator->sort('resume'); ?></th>
-			<th><?php echo $this->Paginator->sort('link'); ?></th>
-			<th><?php echo $this->Paginator->sort('resume_file_name'); ?></th>
-			<th><?php echo $this->Paginator->sort('resume_content_type'); ?></th>
-			<th><?php echo $this->Paginator->sort('resume_data'); ?></th>
-			<th><?php echo $this->Paginator->sort('resume_file_size'); ?></th>
+			<th><?php echo $this->Paginator->sort('country_id'); ?></th>
+			<th><?php echo $this->Paginator->sort('zip_code'); ?></th>
+			<th><?php echo $this->Paginator->sort('mobile_phone'); ?></th>
+			<th><?php echo $this->Paginator->sort('home_phone'); ?></th>
+			<th><?php echo $this->Paginator->sort('email'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
-			<th><?php echo $this->Paginator->sort('trashed'); ?></th>
 			<th><?php echo $this->Paginator->sort('created_by'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified_by'); ?></th>
-			<th><?php echo $this->Paginator->sort('trashed_by'); ?></th>
+			<th><?php echo $this->Paginator->sort('deleted'); ?></th>
 			<th><?php echo $this->Paginator->sort('user_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('is_manager'); ?></th>
 			<th><?php echo $this->Paginator->sort('notes'); ?></th>
@@ -51,7 +43,7 @@
 			<?php echo $this->Html->link($employee['Department']['name'], array('controller' => 'departments', 'action' => 'view', $employee['Department']['id'])); ?>
 		</td>
 		<td>
-			<?php echo $this->Html->link($employee['Manager']['id'], array('controller' => 'employees', 'action' => 'view', $employee['Manager']['id'])); ?>
+			<?php echo $this->Html->link($employee['Manager']['last_name'], array('controller' => 'employees', 'action' => 'view', $employee['Manager']['id'])); ?>
 		</td>
 		<td><?php echo h($employee['Employee']['first_name']); ?>&nbsp;</td>
 		<td><?php echo h($employee['Employee']['last_name']); ?>&nbsp;</td>
@@ -60,30 +52,22 @@
 		<td><?php echo h($employee['Employee']['job_title']); ?>&nbsp;</td>
 		<td><?php echo h($employee['Employee']['status']); ?>&nbsp;</td>
 		<td><?php echo h($employee['Employee']['date_of_birth']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['address']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['zipcode']); ?>&nbsp;</td>
+		<td><?php echo h($employee['Employee']['address_line1']); ?>&nbsp;</td>
+		<td><?php echo h($employee['Employee']['address_line2']); ?>&nbsp;</td>
 		<td><?php echo h($employee['Employee']['city']); ?>&nbsp;</td>
 		<td><?php echo h($employee['Employee']['state']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['phone_number_1']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['phone_number_2']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['phone_number_3']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['qualification']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['experience']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['education']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['resume']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['link']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['resume_file_name']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['resume_content_type']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['resume_data']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['resume_file_size']); ?>&nbsp;</td>
+		<td><?php echo h($employee['Employee']['country_id']); ?>&nbsp;</td>
+		<td><?php echo h($employee['Employee']['zip_code']); ?>&nbsp;</td>
+		<td><?php echo h($employee['Employee']['mobile_phone']); ?>&nbsp;</td>
+		<td><?php echo h($employee['Employee']['home_phone']); ?>&nbsp;</td>
+		<td><?php echo h($employee['Employee']['email']); ?>&nbsp;</td>
 		<td><?php echo h($employee['Employee']['created']); ?>&nbsp;</td>
 		<td><?php echo h($employee['Employee']['modified']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['trashed']); ?>&nbsp;</td>
 		<td><?php echo h($employee['Employee']['created_by']); ?>&nbsp;</td>
 		<td><?php echo h($employee['Employee']['modified_by']); ?>&nbsp;</td>
-		<td><?php echo h($employee['Employee']['trashed_by']); ?>&nbsp;</td>
+		<td><?php echo h($employee['Employee']['deleted']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($employee['User']['id'], array('controller' => 'users', 'action' => 'view', $employee['User']['id'])); ?>
+			<?php echo $this->Html->link($employee['User']['username'], array('controller' => 'users', 'action' => 'view', $employee['User']['id'])); ?>
 		</td>
 		<td><?php echo h($employee['Employee']['is_manager']); ?>&nbsp;</td>
 		<td><?php echo h($employee['Employee']['notes']); ?>&nbsp;</td>
@@ -122,8 +106,8 @@
 		<li><?php echo $this->Html->link(__('New Manager'), array('controller' => 'employees', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Meeting Attendances'), array('controller' => 'meeting_attendances', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Meeting Attendance'), array('controller' => 'meeting_attendances', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Employee Attendances'), array('controller' => 'employee_attendances', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Employee Attendance'), array('controller' => 'employee_attendances', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Meetings'), array('controller' => 'meetings', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Meeting'), array('controller' => 'meetings', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Schools'), array('controller' => 'schools', 'action' => 'index')); ?> </li>

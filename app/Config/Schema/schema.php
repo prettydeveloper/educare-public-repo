@@ -143,7 +143,7 @@ class AppSchema extends CakeSchema {
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'employee_category_id' => array('type' => 'integer', 'null' => true, 'default' => null),
 		'department_id' => array('type' => 'integer', 'null' => true, 'default' => null),
-		'employee_id' => array('type' => 'integer', 'null' => true, 'default' => null),
+		'manager_id' => array('type' => 'integer', 'null' => true, 'default' => null),
 		'first_name' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 127, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'last_name' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 127, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'tax_code' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 16, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),

@@ -14,26 +14,18 @@
 		echo $this->Form->input('job_title');
 		echo $this->Form->input('status');
 		echo $this->Form->input('date_of_birth');
-		echo $this->Form->input('address');
-		echo $this->Form->input('zipcode');
+		echo $this->Form->input('address_line1');
+		echo $this->Form->input('address_line2');
 		echo $this->Form->input('city');
 		echo $this->Form->input('state');
-		echo $this->Form->input('phone_number_1');
-		echo $this->Form->input('phone_number_2');
-		echo $this->Form->input('phone_number_3');
-		echo $this->Form->input('qualification');
-		echo $this->Form->input('experience');
-		echo $this->Form->input('education');
-		echo $this->Form->input('resume');
-		echo $this->Form->input('link');
-		echo $this->Form->input('resume_file_name');
-		echo $this->Form->input('resume_content_type');
-		echo $this->Form->input('resume_data');
-		echo $this->Form->input('resume_file_size');
-		echo $this->Form->input('trashed');
+		echo $this->Form->input('country_id');
+		echo $this->Form->input('zip_code');
+		echo $this->Form->input('mobile_phone');
+		echo $this->Form->input('home_phone');
+		echo $this->Form->input('email');
 		echo $this->Form->input('created_by');
 		echo $this->Form->input('modified_by');
-		echo $this->Form->input('trashed_by');
+		echo $this->Form->input('deleted');
 		echo $this->Form->input('user_id');
 		echo $this->Form->input('is_manager');
 		echo $this->Form->input('notes');
@@ -57,8 +49,8 @@
 		<li><?php echo $this->Html->link(__('New Manager'), array('controller' => 'employees', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Meeting Attendances'), array('controller' => 'meeting_attendances', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Meeting Attendance'), array('controller' => 'meeting_attendances', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Employee Attendances'), array('controller' => 'employee_attendances', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Employee Attendance'), array('controller' => 'employee_attendances', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Meetings'), array('controller' => 'meetings', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Meeting'), array('controller' => 'meetings', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Schools'), array('controller' => 'schools', 'action' => 'index')); ?> </li>

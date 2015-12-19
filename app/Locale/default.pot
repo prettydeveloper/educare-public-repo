@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-03-20 12:51+0100\n"
+"POT-Creation-Date: 2015-12-19 23:33+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,24 +14,44 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/AttendancesController.php:35;70;101
+#: Controller/AttendancesController.php:35;71;103
 msgid "Invalid attendance"
 msgstr ""
 
-#: Controller/AttendancesController.php:49;74
+#: Controller/AttendancesController.php:50;76
 msgid "The attendance has been saved"
 msgstr ""
 
-#: Controller/AttendancesController.php:52;77
+#: Controller/AttendancesController.php:53;79
 msgid "The attendance could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/AttendancesController.php:104
+#: Controller/AttendancesController.php:106
 msgid "Attendance deleted"
 msgstr ""
 
-#: Controller/AttendancesController.php:107
+#: Controller/AttendancesController.php:109
 msgid "Attendance was not deleted"
+msgstr ""
+
+#: Controller/ContactsController.php:30;62;90
+msgid "Invalid contact"
+msgstr ""
+
+#: Controller/ContactsController.php:44;66
+msgid "The contact has been saved"
+msgstr ""
+
+#: Controller/ContactsController.php:47;69
+msgid "The contact could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ContactsController.php:93
+msgid "Contact deleted"
+msgstr ""
+
+#: Controller/ContactsController.php:96
+msgid "Contact was not deleted"
 msgstr ""
 
 #: Controller/CourseCodesController.php:30;62;90
@@ -74,6 +94,26 @@ msgstr ""
 msgid "Department was not deleted"
 msgstr ""
 
+#: Controller/EmployeeAttendancesController.php:30;66;98
+msgid "Invalid employee attendance"
+msgstr ""
+
+#: Controller/EmployeeAttendancesController.php:44;70
+msgid "The employee attendance has been saved"
+msgstr ""
+
+#: Controller/EmployeeAttendancesController.php:47;73
+msgid "The employee attendance could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EmployeeAttendancesController.php:101
+msgid "Employee attendance deleted"
+msgstr ""
+
+#: Controller/EmployeeAttendancesController.php:104
+msgid "Employee attendance was not deleted"
+msgstr ""
+
 #: Controller/EmployeeCategoriesController.php:30;62;90
 msgid "Invalid employee category"
 msgstr ""
@@ -94,23 +134,23 @@ msgstr ""
 msgid "Employee category was not deleted"
 msgstr ""
 
-#: Controller/EmployeesController.php:30;69;104
+#: Controller/EmployeesController.php:30;70;106
 msgid "Invalid employee"
 msgstr ""
 
-#: Controller/EmployeesController.php:44;73
+#: Controller/EmployeesController.php:45;75
 msgid "The employee has been saved"
 msgstr ""
 
-#: Controller/EmployeesController.php:47;76
+#: Controller/EmployeesController.php:48;78
 msgid "The employee could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/EmployeesController.php:107
+#: Controller/EmployeesController.php:109
 msgid "Employee deleted"
 msgstr ""
 
-#: Controller/EmployeesController.php:110
+#: Controller/EmployeesController.php:112
 msgid "Employee was not deleted"
 msgstr ""
 
@@ -254,44 +294,24 @@ msgstr ""
 msgid "Laboratory was not deleted"
 msgstr ""
 
-#: Controller/LaboratoryAttendancesController.php:30;65;96
+#: Controller/LaboratoryAttendancesController.php:30;66;98
 msgid "Invalid laboratory attendance"
 msgstr ""
 
-#: Controller/LaboratoryAttendancesController.php:44;69
+#: Controller/LaboratoryAttendancesController.php:45;71
 msgid "The laboratory attendance has been saved"
 msgstr ""
 
-#: Controller/LaboratoryAttendancesController.php:47;72
+#: Controller/LaboratoryAttendancesController.php:48;74
 msgid "The laboratory attendance could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/LaboratoryAttendancesController.php:99
+#: Controller/LaboratoryAttendancesController.php:101
 msgid "Laboratory attendance deleted"
 msgstr ""
 
-#: Controller/LaboratoryAttendancesController.php:102
+#: Controller/LaboratoryAttendancesController.php:104
 msgid "Laboratory attendance was not deleted"
-msgstr ""
-
-#: Controller/MeetingAttendancesController.php:30;65;96
-msgid "Invalid meeting attendance"
-msgstr ""
-
-#: Controller/MeetingAttendancesController.php:44;69
-msgid "The meeting attendance has been saved"
-msgstr ""
-
-#: Controller/MeetingAttendancesController.php:47;72
-msgid "The meeting attendance could not be saved. Please, try again."
-msgstr ""
-
-#: Controller/MeetingAttendancesController.php:99
-msgid "Meeting attendance deleted"
-msgstr ""
-
-#: Controller/MeetingAttendancesController.php:102
-msgid "Meeting attendance was not deleted"
 msgstr ""
 
 #: Controller/MeetingTypesController.php:30;62;90
@@ -332,6 +352,26 @@ msgstr ""
 
 #: Controller/MeetingsController.php:102
 msgid "Meeting was not deleted"
+msgstr ""
+
+#: Controller/ObservatorsController.php:30;65;96
+msgid "Invalid observator"
+msgstr ""
+
+#: Controller/ObservatorsController.php:44;69
+msgid "The observator has been saved"
+msgstr ""
+
+#: Controller/ObservatorsController.php:47;72
+msgid "The observator could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ObservatorsController.php:99
+msgid "Observator deleted"
+msgstr ""
+
+#: Controller/ObservatorsController.php:102
+msgid "Observator was not deleted"
 msgstr ""
 
 #: Controller/SchoolsController.php:30;70;99;129;161;189
@@ -480,10 +520,12 @@ msgstr ""
 #: View/CourseCodes/edit.ctp:11
 #: View/Departments/add.ctp:10
 #: View/Departments/edit.ctp:11
+#: View/EmployeeAttendances/add.ctp:21
+#: View/EmployeeAttendances/edit.ctp:22
 #: View/EmployeeCategories/add.ctp:10
 #: View/EmployeeCategories/edit.ctp:11
-#: View/Employees/add.ctp:43
-#: View/Employees/edit.ctp:44
+#: View/Employees/add.ctp:35
+#: View/Employees/edit.ctp:36
 #: View/EmployeesMeetings/add.ctp:10
 #: View/EmployeesMeetings/edit.ctp:11
 #: View/EmployeesSchools/add.ctp:10
@@ -502,12 +544,12 @@ msgstr ""
 #: View/Laboratories/edit.ctp:22
 #: View/LaboratoryAttendances/add.ctp:20
 #: View/LaboratoryAttendances/edit.ctp:21
-#: View/MeetingAttendances/add.ctp:20
-#: View/MeetingAttendances/edit.ctp:21
 #: View/MeetingTypes/add.ctp:10
 #: View/MeetingTypes/edit.ctp:11
 #: View/Meetings/add.ctp:16
 #: View/Meetings/edit.ctp:17
+#: View/Observators/add.ctp:13
+#: View/Observators/edit.ctp:14
 #: View/Schools/add.ctp:27
 #: View/Schools/edit.ctp:29
 #: View/StudentGrades/add.ctp:17
@@ -531,14 +573,18 @@ msgstr ""
 #: View/Departments/edit.ctp:14
 #: View/Departments/index.ctp:8;40
 #: View/Departments/view.ctp:22;73
+#: View/EmployeeAttendances/add.ctp:24
+#: View/EmployeeAttendances/edit.ctp:25
+#: View/EmployeeAttendances/index.ctp:21;72
+#: View/EmployeeAttendances/view.ctp:87
 #: View/EmployeeCategories/add.ctp:13
 #: View/EmployeeCategories/edit.ctp:14
 #: View/EmployeeCategories/index.ctp:8;40
 #: View/EmployeeCategories/view.ctp:22;73
-#: View/Employees/add.ctp:46
-#: View/Employees/edit.ctp:47
-#: View/Employees/index.ctp:41;114
-#: View/Employees/view.ctp:187;229;281;334
+#: View/Employees/add.ctp:38
+#: View/Employees/edit.ctp:39
+#: View/Employees/index.ctp:33;98
+#: View/Employees/view.ctp:147;190;243;296
 #: View/EmployeesMeetings/add.ctp:13
 #: View/EmployeesMeetings/edit.ctp:14
 #: View/EmployeesMeetings/index.ctp:8;44
@@ -575,10 +621,6 @@ msgstr ""
 #: View/LaboratoryAttendances/edit.ctp:24
 #: View/LaboratoryAttendances/index.ctp:20;68
 #: View/LaboratoryAttendances/view.ctp:82
-#: View/MeetingAttendances/add.ctp:23
-#: View/MeetingAttendances/edit.ctp:24
-#: View/MeetingAttendances/index.ctp:20;68
-#: View/MeetingAttendances/view.ctp:82
 #: View/MeetingTypes/add.ctp:13
 #: View/MeetingTypes/edit.ctp:14
 #: View/MeetingTypes/index.ctp:8;40
@@ -587,6 +629,10 @@ msgstr ""
 #: View/Meetings/edit.ctp:20
 #: View/Meetings/index.ctp:15;56
 #: View/Meetings/view.ctp:57;91;169
+#: View/Observators/add.ctp:16
+#: View/Observators/edit.ctp:17
+#: View/Observators/index.ctp:11;50
+#: View/Observators/view.ctp:37
 #: View/Schools/add.ctp:4
 #: View/Schools/edit.ctp:4
 #: View/Schools/index.ctp:4;23
@@ -732,12 +778,14 @@ msgstr ""
 #: View/Departments/edit.ctp:17
 #: View/Departments/index.ctp:19
 #: View/Departments/view.ctp:118
+#: View/EmployeeAttendances/edit.ctp:28
+#: View/EmployeeAttendances/index.ctp:51
 #: View/EmployeeCategories/edit.ctp:17
 #: View/EmployeeCategories/index.ctp:19
 #: View/EmployeeCategories/view.ctp:118
-#: View/Employees/edit.ctp:50
-#: View/Employees/index.ctp:93
-#: View/Employees/view.ctp:253;300;359
+#: View/Employees/edit.ctp:42
+#: View/Employees/index.ctp:77
+#: View/Employees/view.ctp:215;262;321
 #: View/EmployeesMeetings/edit.ctp:17
 #: View/EmployeesMeetings/index.ctp:23
 #: View/EmployeesSchools/edit.ctp:17
@@ -757,14 +805,14 @@ msgstr ""
 #: View/Laboratories/index.ctp:41
 #: View/LaboratoryAttendances/edit.ctp:27
 #: View/LaboratoryAttendances/index.ctp:47
-#: View/MeetingAttendances/edit.ctp:27
-#: View/MeetingAttendances/index.ctp:47
 #: View/MeetingTypes/edit.ctp:17
 #: View/MeetingTypes/index.ctp:19
 #: View/MeetingTypes/view.ctp:66
 #: View/Meetings/edit.ctp:23
 #: View/Meetings/index.ctp:35
 #: View/Meetings/view.ctp:115;214
+#: View/Observators/edit.ctp:20
+#: View/Observators/index.ctp:29
 #: View/Schools/edit.ctp:5
 #: View/Schools/index.ctp:39
 #: View/StudentGrades/edit.ctp:24
@@ -785,12 +833,15 @@ msgstr ""
 #: View/Departments/edit.ctp:17
 #: View/Departments/index.ctp:19
 #: View/Departments/view.ctp:25;118
+#: View/EmployeeAttendances/edit.ctp:28
+#: View/EmployeeAttendances/index.ctp:51
+#: View/EmployeeAttendances/view.ctp:90
 #: View/EmployeeCategories/edit.ctp:17
 #: View/EmployeeCategories/index.ctp:19
 #: View/EmployeeCategories/view.ctp:25;118
-#: View/Employees/edit.ctp:50
-#: View/Employees/index.ctp:93
-#: View/Employees/view.ctp:190;253;300;359
+#: View/Employees/edit.ctp:42
+#: View/Employees/index.ctp:77
+#: View/Employees/view.ctp:150;215;262;321
 #: View/EmployeesMeetings/edit.ctp:17
 #: View/EmployeesMeetings/index.ctp:23
 #: View/EmployeesMeetings/view.ctp:25
@@ -818,15 +869,15 @@ msgstr ""
 #: View/LaboratoryAttendances/edit.ctp:27
 #: View/LaboratoryAttendances/index.ctp:47
 #: View/LaboratoryAttendances/view.ctp:85
-#: View/MeetingAttendances/edit.ctp:27
-#: View/MeetingAttendances/index.ctp:47
-#: View/MeetingAttendances/view.ctp:85
 #: View/MeetingTypes/edit.ctp:17
 #: View/MeetingTypes/index.ctp:19
 #: View/MeetingTypes/view.ctp:25;66
 #: View/Meetings/edit.ctp:23
 #: View/Meetings/index.ctp:35
 #: View/Meetings/view.ctp:60;115;214
+#: View/Observators/edit.ctp:20
+#: View/Observators/index.ctp:29
+#: View/Observators/view.ctp:40
 #: View/Schools/edit.ctp:5
 #: View/Schools/index.ctp:39
 #: View/Schools/view.ctp:6
@@ -856,10 +907,11 @@ msgstr ""
 #: View/CourseCodes/view.ctp:68
 #: View/Departments/index.ctp:17
 #: View/Departments/view.ctp:116
+#: View/EmployeeAttendances/index.ctp:49
 #: View/EmployeeCategories/index.ctp:17
 #: View/EmployeeCategories/view.ctp:116
-#: View/Employees/index.ctp:91
-#: View/Employees/view.ctp:251;298;357
+#: View/Employees/index.ctp:75
+#: View/Employees/view.ctp:213;260;319
 #: View/EmployeesMeetings/index.ctp:21
 #: View/EmployeesSchools/index.ctp:21
 #: View/Events/index.ctp:43
@@ -870,11 +922,11 @@ msgstr ""
 #: View/Groups/view.ctp:61
 #: View/Laboratories/index.ctp:39
 #: View/LaboratoryAttendances/index.ctp:45
-#: View/MeetingAttendances/index.ctp:45
 #: View/MeetingTypes/index.ctp:17
 #: View/MeetingTypes/view.ctp:64
 #: View/Meetings/index.ctp:33
 #: View/Meetings/view.ctp:113;212
+#: View/Observators/index.ctp:27
 #: View/Schools/index.ctp:37
 #: View/StudentGrades/index.ctp:37
 #: View/Students/index.ctp:35
@@ -887,10 +939,11 @@ msgstr ""
 #: View/CourseCodes/view.ctp:69
 #: View/Departments/index.ctp:18
 #: View/Departments/view.ctp:117
+#: View/EmployeeAttendances/index.ctp:50
 #: View/EmployeeCategories/index.ctp:18
 #: View/EmployeeCategories/view.ctp:117
-#: View/Employees/index.ctp:92
-#: View/Employees/view.ctp:252;299;358
+#: View/Employees/index.ctp:76
+#: View/Employees/view.ctp:214;261;320
 #: View/EmployeesMeetings/index.ctp:22
 #: View/EmployeesSchools/index.ctp:22
 #: View/Events/index.ctp:44
@@ -901,11 +954,11 @@ msgstr ""
 #: View/Groups/view.ctp:62
 #: View/Laboratories/index.ctp:40
 #: View/LaboratoryAttendances/index.ctp:46
-#: View/MeetingAttendances/index.ctp:46
 #: View/MeetingTypes/index.ctp:18
 #: View/MeetingTypes/view.ctp:65
 #: View/Meetings/index.ctp:34
 #: View/Meetings/view.ctp:114;213
+#: View/Observators/index.ctp:28
 #: View/Schools/index.ctp:38
 #: View/StudentGrades/index.ctp:38
 #: View/Students/index.ctp:36
@@ -916,8 +969,9 @@ msgstr ""
 #: View/Attendances/index.ctp:55
 #: View/CourseCodes/index.ctp:27
 #: View/Departments/index.ctp:27
+#: View/EmployeeAttendances/index.ctp:59
 #: View/EmployeeCategories/index.ctp:27
-#: View/Employees/index.ctp:101
+#: View/Employees/index.ctp:85
 #: View/EmployeesMeetings/index.ctp:31
 #: View/EmployeesSchools/index.ctp:31
 #: View/Events/index.ctp:53
@@ -927,9 +981,9 @@ msgstr ""
 #: View/Groups/index.ctp:29
 #: View/Laboratories/index.ctp:49
 #: View/LaboratoryAttendances/index.ctp:55
-#: View/MeetingAttendances/index.ctp:55
 #: View/MeetingTypes/index.ctp:27
 #: View/Meetings/index.ctp:43
+#: View/Observators/index.ctp:37
 #: View/Schools/index.ctp:47
 #: View/StudentGrades/index.ctp:47
 #: View/Students/index.ctp:45
@@ -940,8 +994,9 @@ msgstr ""
 #: View/Attendances/index.ctp:61
 #: View/CourseCodes/index.ctp:33
 #: View/Departments/index.ctp:33
+#: View/EmployeeAttendances/index.ctp:65
 #: View/EmployeeCategories/index.ctp:33
-#: View/Employees/index.ctp:107
+#: View/Employees/index.ctp:91
 #: View/EmployeesMeetings/index.ctp:37
 #: View/EmployeesSchools/index.ctp:37
 #: View/Events/index.ctp:59
@@ -951,9 +1006,9 @@ msgstr ""
 #: View/Groups/index.ctp:35
 #: View/Laboratories/index.ctp:55
 #: View/LaboratoryAttendances/index.ctp:61
-#: View/MeetingAttendances/index.ctp:61
 #: View/MeetingTypes/index.ctp:33
 #: View/Meetings/index.ctp:49
+#: View/Observators/index.ctp:43
 #: View/Schools/index.ctp:53
 #: View/StudentGrades/index.ctp:53
 #: View/Students/index.ctp:51
@@ -964,8 +1019,9 @@ msgstr ""
 #: View/Attendances/index.ctp:63
 #: View/CourseCodes/index.ctp:35
 #: View/Departments/index.ctp:35
+#: View/EmployeeAttendances/index.ctp:67
 #: View/EmployeeCategories/index.ctp:35
-#: View/Employees/index.ctp:109
+#: View/Employees/index.ctp:93
 #: View/EmployeesMeetings/index.ctp:39
 #: View/EmployeesSchools/index.ctp:39
 #: View/Events/index.ctp:61
@@ -975,9 +1031,9 @@ msgstr ""
 #: View/Groups/index.ctp:37
 #: View/Laboratories/index.ctp:57
 #: View/LaboratoryAttendances/index.ctp:63
-#: View/MeetingAttendances/index.ctp:63
 #: View/MeetingTypes/index.ctp:35
 #: View/Meetings/index.ctp:51
+#: View/Observators/index.ctp:45
 #: View/Schools/index.ctp:55
 #: View/StudentGrades/index.ctp:55
 #: View/Students/index.ctp:53
@@ -1005,7 +1061,7 @@ msgstr ""
 #: View/Grades/view.ctp:18
 #: View/GradesLaboratories/view.ctp:9
 #: View/Laboratories/view.ctp:89
-#: View/LaboratoryAttendances/take.ctp:103;151
+#: View/LaboratoryAttendances/take.ctp:130;230
 #: View/Schools/view.ctp:95
 #: View/Students/view.ctp:34
 msgid "Grade"
@@ -1020,6 +1076,7 @@ msgid "Change school"
 msgstr ""
 
 #: View/Attendances/take.ctp:97
+#: View/LaboratoryAttendances/take.ctp:148
 msgid "Attendances of the day:"
 msgstr ""
 
@@ -1027,7 +1084,7 @@ msgstr ""
 #: View/Departments/view.ctp:41
 #: View/EmployeeCategories/view.ctp:41
 #: View/Employees/view.ctp:24
-#: View/LaboratoryAttendances/take.ctp:149
+#: View/LaboratoryAttendances/take.ctp:228
 #: View/Meetings/view.ctp:137
 #: View/Students/view.ctp:24
 msgid "First Name"
@@ -1037,7 +1094,7 @@ msgstr ""
 #: View/Departments/view.ctp:42
 #: View/EmployeeCategories/view.ctp:42
 #: View/Employees/view.ctp:29
-#: View/LaboratoryAttendances/take.ctp:150
+#: View/LaboratoryAttendances/take.ctp:229
 #: View/Meetings/view.ctp:138
 #: View/Students/view.ctp:29
 msgid "Last Name"
@@ -1045,30 +1102,30 @@ msgstr ""
 
 #: View/Attendances/take.ctp:116
 #: View/Attendances/view.ctp:24
-#: View/Employees/view.ctp:218
-#: View/LaboratoryAttendances/take.ctp:152
+#: View/EmployeeAttendances/view.ctp:29
+#: View/Employees/view.ctp:179
+#: View/LaboratoryAttendances/take.ctp:231
 #: View/LaboratoryAttendances/view.ctp:24
-#: View/MeetingAttendances/view.ctp:24
 #: View/Meetings/view.ctp:80
 msgid "Present"
 msgstr ""
 
 #: View/Attendances/take.ctp:117
 #: View/Attendances/view.ctp:29
-#: View/Employees/view.ctp:219
-#: View/LaboratoryAttendances/take.ctp:153
+#: View/EmployeeAttendances/view.ctp:34
+#: View/Employees/view.ctp:180
+#: View/LaboratoryAttendances/take.ctp:232
 #: View/LaboratoryAttendances/view.ctp:29
-#: View/MeetingAttendances/view.ctp:29
 #: View/Meetings/view.ctp:81
 msgid "Absent"
 msgstr ""
 
 #: View/Attendances/take.ctp:118
 #: View/Attendances/view.ctp:34
-#: View/Employees/view.ctp:220
-#: View/LaboratoryAttendances/take.ctp:154
+#: View/EmployeeAttendances/view.ctp:39
+#: View/Employees/view.ctp:181
+#: View/LaboratoryAttendances/take.ctp:233
 #: View/LaboratoryAttendances/view.ctp:34
-#: View/MeetingAttendances/view.ctp:34
 #: View/Meetings/view.ctp:82
 #: View/Students/view.ctp:135
 msgid "Late"
@@ -1076,23 +1133,23 @@ msgstr ""
 
 #: View/Attendances/take.ctp:119
 #: View/Attendances/view.ctp:39
-#: View/Employees/view.ctp:221
-#: View/LaboratoryAttendances/take.ctp:155
+#: View/EmployeeAttendances/view.ctp:44
+#: View/Employees/view.ctp:182
+#: View/LaboratoryAttendances/take.ctp:234
 #: View/LaboratoryAttendances/view.ctp:39
-#: View/MeetingAttendances/view.ctp:39
 #: View/Meetings/view.ctp:83
 #: View/Students/view.ctp:123;139
 msgid "Reason"
 msgstr ""
 
 #: View/Attendances/take.ctp:174
-#: View/LaboratoryAttendances/take.ctp:210
+#: View/LaboratoryAttendances/take.ctp:290
 msgid "There are no students yet in this grade"
 msgstr ""
 
 #: View/Attendances/take.ctp:176
 #: View/Grades/view.ctp:90
-#: View/LaboratoryAttendances/take.ctp:212
+#: View/LaboratoryAttendances/take.ctp:292
 #: View/Pages/start.ctp:18
 #: View/Students/add.ctp:42
 msgid "Add Student"
@@ -1105,8 +1162,9 @@ msgstr ""
 #: View/Attendances/view.ctp:4
 #: View/CourseCodes/view.ctp:4;37
 #: View/Departments/view.ctp:4;37
+#: View/EmployeeAttendances/view.ctp:4
 #: View/EmployeeCategories/view.ctp:4;37
-#: View/Employees/view.ctp:4;214;271;318
+#: View/Employees/view.ctp:4;174;233;280
 #: View/EmployeesMeetings/view.ctp:4
 #: View/EmployeesSchools/view.ctp:4
 #: View/Events/view.ctp:4
@@ -1114,9 +1172,9 @@ msgstr ""
 #: View/GradesLaboratories/view.ctp:4
 #: View/Groups/view.ctp:4;42
 #: View/LaboratoryAttendances/view.ctp:4
-#: View/MeetingAttendances/view.ctp:4
 #: View/MeetingTypes/view.ctp:4;37
 #: View/Meetings/view.ctp:4;76;133
+#: View/Observators/view.ctp:4
 #: View/Schools/view.ctp:18
 #: View/StudentGrades/view.ctp:4
 #: View/Students/view.ctp:19
@@ -1132,9 +1190,9 @@ msgid "Student"
 msgstr ""
 
 #: View/Attendances/view.ctp:14
-#: View/Employees/view.ctp:216
+#: View/EmployeeAttendances/view.ctp:14
+#: View/Employees/view.ctp:176
 #: View/LaboratoryAttendances/view.ctp:14
-#: View/MeetingAttendances/view.ctp:14
 #: View/Meetings/view.ctp:78
 msgid "Attendance Date"
 msgstr ""
@@ -1142,14 +1200,14 @@ msgstr ""
 #: View/Attendances/view.ctp:44
 #: View/CourseCodes/view.ctp:42
 #: View/Departments/view.ctp:64
+#: View/EmployeeAttendances/view.ctp:49
 #: View/EmployeeCategories/view.ctp:64
-#: View/Employees/view.ctp:139;222;274;327
+#: View/Employees/view.ctp:104;183;236;289
 #: View/Events/view.ctp:49
 #: View/Grades/view.ctp:30
 #: View/Groups/view.ctp:14;46
 #: View/Laboratories/view.ctp:54
 #: View/LaboratoryAttendances/view.ctp:44
-#: View/MeetingAttendances/view.ctp:44
 #: View/MeetingTypes/view.ctp:40
 #: View/Meetings/view.ctp:19;84;160
 #: View/Schools/view.ctp:63
@@ -1162,14 +1220,14 @@ msgstr ""
 #: View/Attendances/view.ctp:49
 #: View/CourseCodes/view.ctp:43
 #: View/Departments/view.ctp:65
+#: View/EmployeeAttendances/view.ctp:54
 #: View/EmployeeCategories/view.ctp:65
-#: View/Employees/view.ctp:144;223;275;328
+#: View/Employees/view.ctp:109;184;237;290
 #: View/Events/view.ctp:54
 #: View/Grades/view.ctp:35
 #: View/Groups/view.ctp:19;47
 #: View/Laboratories/view.ctp:59
 #: View/LaboratoryAttendances/view.ctp:49
-#: View/MeetingAttendances/view.ctp:49
 #: View/MeetingTypes/view.ctp:41
 #: View/Meetings/view.ctp:24;85;161
 #: View/Schools/view.ctp:68
@@ -1182,12 +1240,12 @@ msgstr ""
 #: View/Attendances/view.ctp:54
 #: View/CourseCodes/view.ctp:44
 #: View/Departments/view.ctp:66
+#: View/EmployeeAttendances/view.ctp:59
 #: View/EmployeeCategories/view.ctp:66
-#: View/Employees/view.ctp:149;224;276;329
+#: View/Employees/view.ctp:185;238;291
 #: View/Events/view.ctp:59
 #: View/Grades/view.ctp:40
 #: View/LaboratoryAttendances/view.ctp:54
-#: View/MeetingAttendances/view.ctp:54
 #: View/MeetingTypes/view.ctp:42
 #: View/Meetings/view.ctp:29;86;162
 #: View/StudentGrades/view.ctp:39
@@ -1198,13 +1256,13 @@ msgstr ""
 #: View/Attendances/view.ctp:59
 #: View/CourseCodes/view.ctp:45
 #: View/Departments/view.ctp:67
+#: View/EmployeeAttendances/view.ctp:64
 #: View/EmployeeCategories/view.ctp:67
-#: View/Employees/view.ctp:154;225;277;330
+#: View/Employees/view.ctp:114;186;239;292
 #: View/Events/view.ctp:64
 #: View/Grades/view.ctp:45
 #: View/Laboratories/view.ctp:64
 #: View/LaboratoryAttendances/view.ctp:59
-#: View/MeetingAttendances/view.ctp:59
 #: View/MeetingTypes/view.ctp:43
 #: View/Meetings/view.ctp:34;87;163
 #: View/Schools/view.ctp:73
@@ -1216,13 +1274,13 @@ msgstr ""
 #: View/Attendances/view.ctp:64
 #: View/CourseCodes/view.ctp:46
 #: View/Departments/view.ctp:68
+#: View/EmployeeAttendances/view.ctp:69
 #: View/EmployeeCategories/view.ctp:68
-#: View/Employees/view.ctp:159;226;278;331
+#: View/Employees/view.ctp:119;187;240;293
 #: View/Events/view.ctp:69
 #: View/Grades/view.ctp:50
 #: View/Laboratories/view.ctp:69
 #: View/LaboratoryAttendances/view.ctp:64
-#: View/MeetingAttendances/view.ctp:64
 #: View/MeetingTypes/view.ctp:44
 #: View/Meetings/view.ctp:39;88;164
 #: View/Schools/view.ctp:78
@@ -1234,12 +1292,12 @@ msgstr ""
 #: View/Attendances/view.ctp:69
 #: View/CourseCodes/view.ctp:47
 #: View/Departments/view.ctp:69
+#: View/EmployeeAttendances/view.ctp:74
 #: View/EmployeeCategories/view.ctp:69
-#: View/Employees/view.ctp:164;227;279;332
+#: View/Employees/view.ctp:188;241;294
 #: View/Events/view.ctp:74
 #: View/Grades/view.ctp:55
 #: View/LaboratoryAttendances/view.ctp:69
-#: View/MeetingAttendances/view.ctp:69
 #: View/MeetingTypes/view.ctp:45
 #: View/Meetings/view.ctp:44;89;165
 #: View/StudentGrades/view.ctp:54
@@ -1249,12 +1307,12 @@ msgstr ""
 
 #: View/Attendances/view.ctp:74
 #: View/CourseCodes/view.ctp:48
-#: View/Employees/view.ctp:228;280;333
+#: View/EmployeeAttendances/view.ctp:79
+#: View/Employees/view.ctp:189;242;295
 #: View/Events/view.ctp:79
 #: View/Grades/view.ctp:60
 #: View/Laboratories/view.ctp:74
 #: View/LaboratoryAttendances/view.ctp:74
-#: View/MeetingAttendances/view.ctp:74
 #: View/MeetingTypes/view.ctp:46
 #: View/Meetings/view.ctp:49;90
 #: View/Schools/view.ctp:83
@@ -1346,10 +1404,10 @@ msgstr ""
 #: View/Departments/add.ctp:16
 #: View/Departments/edit.ctp:18
 #: View/Departments/view.ctp:26
-#: View/Employees/add.ctp:52
-#: View/Employees/edit.ctp:54
-#: View/Employees/index.ctp:119
-#: View/Employees/view.ctp:195
+#: View/Employees/add.ctp:44
+#: View/Employees/edit.ctp:46
+#: View/Employees/index.ctp:103
+#: View/Employees/view.ctp:155
 msgid "List Departments"
 msgstr ""
 
@@ -1357,14 +1415,18 @@ msgstr ""
 #: View/Departments/edit.ctp:19
 #: View/Departments/index.ctp:43
 #: View/Departments/view.ctp:28
+#: View/EmployeeAttendances/add.ctp:28
+#: View/EmployeeAttendances/edit.ctp:30
+#: View/EmployeeAttendances/index.ctp:75
+#: View/EmployeeAttendances/view.ctp:93
 #: View/EmployeeCategories/add.ctp:17
 #: View/EmployeeCategories/edit.ctp:19
 #: View/EmployeeCategories/index.ctp:43
 #: View/EmployeeCategories/view.ctp:28
-#: View/Employees/add.ctp:49;54
-#: View/Employees/edit.ctp:51;56
-#: View/Employees/index.ctp:121
-#: View/Employees/view.ctp:191;197
+#: View/Employees/add.ctp:41;46
+#: View/Employees/edit.ctp:43;48
+#: View/Employees/index.ctp:105
+#: View/Employees/view.ctp:151;157
 #: View/EmployeesMeetings/add.ctp:17
 #: View/EmployeesMeetings/edit.ctp:19
 #: View/EmployeesMeetings/index.ctp:47
@@ -1375,10 +1437,6 @@ msgstr ""
 #: View/EmployeesSchools/view.ctp:30
 #: View/Laboratories/edit.ctp:30
 #: View/Laboratories/index.ctp:6
-#: View/MeetingAttendances/add.ctp:27
-#: View/MeetingAttendances/edit.ctp:29
-#: View/MeetingAttendances/index.ctp:71
-#: View/MeetingAttendances/view.ctp:88
 #: View/Meetings/add.ctp:27
 #: View/Meetings/edit.ctp:29
 #: View/Meetings/index.ctp:63
@@ -1390,12 +1448,16 @@ msgstr ""
 #: View/Departments/edit.ctp:20
 #: View/Departments/index.ctp:44
 #: View/Departments/view.ctp:29;127
+#: View/EmployeeAttendances/add.ctp:29
+#: View/EmployeeAttendances/edit.ctp:31
+#: View/EmployeeAttendances/index.ctp:76
+#: View/EmployeeAttendances/view.ctp:94
 #: View/EmployeeCategories/add.ctp:18
 #: View/EmployeeCategories/edit.ctp:20
 #: View/EmployeeCategories/index.ctp:44
 #: View/EmployeeCategories/view.ctp:29;127
-#: View/Employees/index.ctp:116
-#: View/Employees/view.ctp:192
+#: View/Employees/index.ctp:100
+#: View/Employees/view.ctp:152
 #: View/EmployeesMeetings/add.ctp:18
 #: View/EmployeesMeetings/edit.ctp:20
 #: View/EmployeesMeetings/index.ctp:48
@@ -1404,10 +1466,6 @@ msgstr ""
 #: View/EmployeesSchools/edit.ctp:22
 #: View/EmployeesSchools/index.ctp:50
 #: View/EmployeesSchools/view.ctp:31
-#: View/MeetingAttendances/add.ctp:28
-#: View/MeetingAttendances/edit.ctp:30
-#: View/MeetingAttendances/index.ctp:72
-#: View/MeetingAttendances/view.ctp:89
 #: View/Meetings/add.ctp:28
 #: View/Meetings/edit.ctp:30
 #: View/Meetings/index.ctp:64
@@ -1426,10 +1484,10 @@ msgstr ""
 
 #: View/Departments/index.ctp:42
 #: View/Departments/view.ctp:27
-#: View/Employees/add.ctp:53
-#: View/Employees/edit.ctp:55
-#: View/Employees/index.ctp:120
-#: View/Employees/view.ctp:196
+#: View/Employees/add.ctp:45
+#: View/Employees/edit.ctp:47
+#: View/Employees/index.ctp:104
+#: View/Employees/view.ctp:156
 msgid "New Department"
 msgstr ""
 
@@ -1440,20 +1498,22 @@ msgstr ""
 
 #: View/Departments/view.ctp:9
 #: View/EmployeeCategories/view.ctp:9
-#: View/Employees/view.ctp:319
+#: View/Employees/view.ctp:281
 #: View/Grades/view.ctp:73
 #: View/Groups/view.ctp:9
 #: View/Laboratories/view.ctp:17
 #: View/MeetingTypes/view.ctp:9
+#: View/Observators/view.ctp:24
 #: View/Schools/view.ctp:23
 msgid "Name"
 msgstr ""
 
 #: View/Departments/view.ctp:14;72
 #: View/EmployeeCategories/view.ctp:14;72
-#: View/Employees/view.ctp:179
+#: View/Employees/view.ctp:139
 #: View/MeetingTypes/view.ctp:14
 #: View/Meetings/view.ctp:168
+#: View/Observators/view.ctp:29
 msgid "Notes"
 msgstr ""
 
@@ -1524,7 +1584,7 @@ msgstr ""
 
 #: View/Departments/view.ctp:48
 #: View/EmployeeCategories/view.ctp:48
-#: View/Employees/view.ctp:59;321
+#: View/Employees/view.ctp:283
 #: View/Meetings/view.ctp:144
 #: View/Schools/view.ctp:33
 #: View/Students/view.ctp:44
@@ -1533,7 +1593,7 @@ msgstr ""
 
 #: View/Departments/view.ctp:49
 #: View/EmployeeCategories/view.ctp:49
-#: View/Employees/view.ctp:64;322
+#: View/Employees/view.ctp:284
 #: View/Meetings/view.ctp:145
 #: View/Schools/view.ctp:38
 #: View/Students/view.ctp:49
@@ -1542,7 +1602,7 @@ msgstr ""
 
 #: View/Departments/view.ctp:50
 #: View/EmployeeCategories/view.ctp:50
-#: View/Employees/view.ctp:69;323
+#: View/Employees/view.ctp:69;285
 #: View/Meetings/view.ctp:146
 #: View/Schools/view.ctp:43
 #: View/Students/view.ctp:54
@@ -1551,7 +1611,7 @@ msgstr ""
 
 #: View/Departments/view.ctp:51
 #: View/EmployeeCategories/view.ctp:51
-#: View/Employees/view.ctp:74;324
+#: View/Employees/view.ctp:74;286
 #: View/Meetings/view.ctp:147
 #: View/Schools/view.ctp:48
 #: View/Students/view.ctp:59
@@ -1560,7 +1620,7 @@ msgstr ""
 
 #: View/Departments/view.ctp:52
 #: View/EmployeeCategories/view.ctp:52
-#: View/Employees/view.ctp:79;325
+#: View/Employees/view.ctp:287
 #: View/Meetings/view.ctp:148
 #: View/Schools/view.ctp:53
 #: View/Students/view.ctp:64
@@ -1569,7 +1629,7 @@ msgstr ""
 
 #: View/Departments/view.ctp:53
 #: View/EmployeeCategories/view.ctp:53
-#: View/Employees/view.ctp:84;326
+#: View/Employees/view.ctp:288
 #: View/Meetings/view.ctp:149
 #: View/Schools/view.ctp:58
 #: View/Students/view.ctp:69
@@ -1578,7 +1638,6 @@ msgstr ""
 
 #: View/Departments/view.ctp:54
 #: View/EmployeeCategories/view.ctp:54
-#: View/Employees/view.ctp:89
 #: View/Meetings/view.ctp:150
 #: View/Students/view.ctp:74
 msgid "Phone Number 3"
@@ -1586,63 +1645,54 @@ msgstr ""
 
 #: View/Departments/view.ctp:55
 #: View/EmployeeCategories/view.ctp:55
-#: View/Employees/view.ctp:94
 #: View/Meetings/view.ctp:151
 msgid "Qualification"
 msgstr ""
 
 #: View/Departments/view.ctp:56
 #: View/EmployeeCategories/view.ctp:56
-#: View/Employees/view.ctp:99
 #: View/Meetings/view.ctp:152
 msgid "Experience"
 msgstr ""
 
 #: View/Departments/view.ctp:57
 #: View/EmployeeCategories/view.ctp:57
-#: View/Employees/view.ctp:104
 #: View/Meetings/view.ctp:153
 msgid "Education"
 msgstr ""
 
 #: View/Departments/view.ctp:58
 #: View/EmployeeCategories/view.ctp:58
-#: View/Employees/view.ctp:109
 #: View/Meetings/view.ctp:154
 msgid "Resume"
 msgstr ""
 
 #: View/Departments/view.ctp:59
 #: View/EmployeeCategories/view.ctp:59
-#: View/Employees/view.ctp:114
 #: View/Meetings/view.ctp:155
 msgid "Link"
 msgstr ""
 
 #: View/Departments/view.ctp:60
 #: View/EmployeeCategories/view.ctp:60
-#: View/Employees/view.ctp:119
 #: View/Meetings/view.ctp:156
 msgid "Resume File Name"
 msgstr ""
 
 #: View/Departments/view.ctp:61
 #: View/EmployeeCategories/view.ctp:61
-#: View/Employees/view.ctp:124
 #: View/Meetings/view.ctp:157
 msgid "Resume Content Type"
 msgstr ""
 
 #: View/Departments/view.ctp:62
 #: View/EmployeeCategories/view.ctp:62
-#: View/Employees/view.ctp:129
 #: View/Meetings/view.ctp:158
 msgid "Resume Data"
 msgstr ""
 
 #: View/Departments/view.ctp:63
 #: View/EmployeeCategories/view.ctp:63
-#: View/Employees/view.ctp:134
 #: View/Meetings/view.ctp:159
 msgid "Resume File Size"
 msgstr ""
@@ -1655,7 +1705,7 @@ msgstr ""
 
 #: View/Departments/view.ctp:71
 #: View/EmployeeCategories/view.ctp:71
-#: View/Employees/view.ctp:174
+#: View/Employees/view.ctp:134
 #: View/Meetings/view.ctp:167
 msgid "Is Manager"
 msgstr ""
@@ -1688,6 +1738,162 @@ msgstr ""
 msgid "Administration"
 msgstr ""
 
+#: View/EmployeeAttendances/add.ctp:4
+msgid "Add Employee Attendance"
+msgstr ""
+
+#: View/EmployeeAttendances/add.ctp:27
+#: View/EmployeeAttendances/edit.ctp:29
+#: View/EmployeeAttendances/view.ctp:91
+#: View/Employees/add.ctp:50
+#: View/Employees/edit.ctp:52
+#: View/Employees/index.ctp:109
+#: View/Employees/view.ctp:161
+msgid "List Employee Attendances"
+msgstr ""
+
+#: View/EmployeeAttendances/add.ctp:30
+#: View/EmployeeAttendances/edit.ctp:32
+#: View/EmployeeAttendances/index.ctp:77
+#: View/EmployeeAttendances/view.ctp:95
+#: View/Employees/add.ctp:52
+#: View/Employees/edit.ctp:54
+#: View/Employees/index.ctp:111
+#: View/Employees/view.ctp:163
+#: View/EmployeesMeetings/add.ctp:19
+#: View/EmployeesMeetings/edit.ctp:21
+#: View/EmployeesMeetings/index.ctp:49
+#: View/EmployeesMeetings/view.ctp:30
+#: View/MeetingTypes/add.ctp:17
+#: View/MeetingTypes/edit.ctp:19
+#: View/MeetingTypes/index.ctp:43
+#: View/MeetingTypes/view.ctp:28
+#: View/Meetings/add.ctp:22
+#: View/Meetings/edit.ctp:24
+#: View/Meetings/view.ctp:61
+#: View/Observators/add.ctp:22
+#: View/Observators/edit.ctp:24
+#: View/Observators/index.ctp:55
+#: View/Observators/view.ctp:45
+msgid "List Meetings"
+msgstr ""
+
+#: View/EmployeeAttendances/add.ctp:31
+#: View/EmployeeAttendances/edit.ctp:33
+#: View/EmployeeAttendances/index.ctp:78
+#: View/EmployeeAttendances/view.ctp:96
+#: View/Employees/add.ctp:53
+#: View/Employees/edit.ctp:55
+#: View/Employees/index.ctp:112
+#: View/Employees/view.ctp:164;271
+#: View/EmployeesMeetings/add.ctp:20
+#: View/EmployeesMeetings/edit.ctp:22
+#: View/EmployeesMeetings/index.ctp:50
+#: View/EmployeesMeetings/view.ctp:31
+#: View/MeetingTypes/add.ctp:18
+#: View/MeetingTypes/edit.ctp:20
+#: View/MeetingTypes/index.ctp:44
+#: View/MeetingTypes/view.ctp:29;75
+#: View/Meetings/index.ctp:58
+#: View/Meetings/view.ctp:62
+#: View/Observators/add.ctp:23
+#: View/Observators/edit.ctp:25
+#: View/Observators/index.ctp:56
+#: View/Observators/view.ctp:46
+msgid "New Meeting"
+msgstr ""
+
+#: View/EmployeeAttendances/add.ctp:32
+#: View/EmployeeAttendances/edit.ctp:34
+#: View/EmployeeAttendances/index.ctp:79
+#: View/EmployeeAttendances/view.ctp:97
+#: View/GradesLaboratories/add.ctp:19
+#: View/GradesLaboratories/edit.ctp:21
+#: View/GradesLaboratories/index.ctp:49
+#: View/GradesLaboratories/view.ctp:30
+#: View/Laboratories/add.ctp:5
+#: View/Laboratories/edit.ctp:29
+#: View/Laboratories/view.ctp:7
+#: View/LaboratoryAttendances/add.ctp:29
+#: View/LaboratoryAttendances/edit.ctp:31
+#: View/LaboratoryAttendances/index.ctp:73
+#: View/LaboratoryAttendances/view.ctp:90
+#: View/Observators/add.ctp:20
+#: View/Observators/edit.ctp:22
+#: View/Observators/index.ctp:53
+#: View/Observators/view.ctp:43
+msgid "List Laboratories"
+msgstr ""
+
+#: View/EmployeeAttendances/add.ctp:33
+#: View/EmployeeAttendances/edit.ctp:35
+#: View/EmployeeAttendances/index.ctp:80
+#: View/EmployeeAttendances/view.ctp:98
+#: View/GradesLaboratories/add.ctp:20
+#: View/GradesLaboratories/edit.ctp:22
+#: View/GradesLaboratories/index.ctp:50
+#: View/GradesLaboratories/view.ctp:31
+#: View/Laboratories/index.ctp:5
+#: View/Laboratories/view.ctp:8
+#: View/LaboratoryAttendances/add.ctp:30
+#: View/LaboratoryAttendances/edit.ctp:32
+#: View/LaboratoryAttendances/index.ctp:74
+#: View/LaboratoryAttendances/view.ctp:91
+#: View/Observators/add.ctp:21
+#: View/Observators/edit.ctp:23
+#: View/Observators/index.ctp:54
+#: View/Observators/view.ctp:44
+msgid "New Laboratory"
+msgstr ""
+
+#: View/EmployeeAttendances/edit.ctp:4
+#: View/EmployeeAttendances/view.ctp:89
+msgid "Edit Employee Attendance"
+msgstr ""
+
+#: View/EmployeeAttendances/index.ctp:2
+msgid "Employee Attendances"
+msgstr ""
+
+#: View/EmployeeAttendances/index.ctp:74
+#: View/EmployeeAttendances/view.ctp:92
+#: View/Employees/add.ctp:51
+#: View/Employees/edit.ctp:53
+#: View/Employees/index.ctp:110
+#: View/Employees/view.ctp:162;224
+msgid "New Employee Attendance"
+msgstr ""
+
+#: View/EmployeeAttendances/view.ctp:2
+msgid "Employee Attendance"
+msgstr ""
+
+#: View/EmployeeAttendances/view.ctp:9
+#: View/Employees/view.ctp:2
+#: View/EmployeesMeetings/view.ctp:9
+#: View/EmployeesSchools/view.ctp:9
+msgid "Employee"
+msgstr ""
+
+#: View/EmployeeAttendances/view.ctp:19
+#: View/EmployeesMeetings/view.ctp:14
+#: View/Meetings/view.ctp:2
+#: View/Observators/view.ctp:19
+msgid "Meeting"
+msgstr ""
+
+#: View/EmployeeAttendances/view.ctp:24
+#: View/GradesLaboratories/view.ctp:14
+#: View/Laboratories/view.ctp:15
+#: View/LaboratoryAttendances/view.ctp:19
+#: View/Observators/view.ctp:14
+msgid "Laboratory"
+msgstr ""
+
+#: View/EmployeeAttendances/view.ctp:90
+msgid "Delete Employee Attendance"
+msgstr ""
+
 #: View/EmployeeCategories/add.ctp:4
 msgid "Add Employee Category"
 msgstr ""
@@ -1695,10 +1901,10 @@ msgstr ""
 #: View/EmployeeCategories/add.ctp:16
 #: View/EmployeeCategories/edit.ctp:18
 #: View/EmployeeCategories/view.ctp:26
-#: View/Employees/add.ctp:50
-#: View/Employees/edit.ctp:52
-#: View/Employees/index.ctp:117
-#: View/Employees/view.ctp:193
+#: View/Employees/add.ctp:42
+#: View/Employees/edit.ctp:44
+#: View/Employees/index.ctp:101
+#: View/Employees/view.ctp:153
 msgid "List Employee Categories"
 msgstr ""
 
@@ -1713,10 +1919,10 @@ msgstr ""
 
 #: View/EmployeeCategories/index.ctp:42
 #: View/EmployeeCategories/view.ctp:27
-#: View/Employees/add.ctp:51
-#: View/Employees/edit.ctp:53
-#: View/Employees/index.ctp:118
-#: View/Employees/view.ctp:194
+#: View/Employees/add.ctp:43
+#: View/Employees/edit.ctp:45
+#: View/Employees/index.ctp:102
+#: View/Employees/view.ctp:154
 msgid "New Employee Category"
 msgstr ""
 
@@ -1733,17 +1939,17 @@ msgstr ""
 msgid "Add Employee"
 msgstr ""
 
-#: View/Employees/add.ctp:55
-#: View/Employees/edit.ctp:57
-#: View/Employees/index.ctp:122
-#: View/Employees/view.ctp:198
+#: View/Employees/add.ctp:47
+#: View/Employees/edit.ctp:49
+#: View/Employees/index.ctp:106
+#: View/Employees/view.ctp:158
 msgid "New Manager"
 msgstr ""
 
-#: View/Employees/add.ctp:56
-#: View/Employees/edit.ctp:58
-#: View/Employees/index.ctp:123
-#: View/Employees/view.ctp:199
+#: View/Employees/add.ctp:48
+#: View/Employees/edit.ctp:50
+#: View/Employees/index.ctp:107
+#: View/Employees/view.ctp:159
 #: View/Groups/add.ctp:16
 #: View/Groups/edit.ctp:18
 #: View/Groups/index.ctp:45
@@ -1754,10 +1960,10 @@ msgstr ""
 msgid "List Users"
 msgstr ""
 
-#: View/Employees/add.ctp:57
-#: View/Employees/edit.ctp:59
-#: View/Employees/index.ctp:124
-#: View/Employees/view.ctp:200
+#: View/Employees/add.ctp:49
+#: View/Employees/edit.ctp:51
+#: View/Employees/index.ctp:108
+#: View/Employees/view.ctp:160
 #: View/Groups/add.ctp:17
 #: View/Groups/edit.ctp:19
 #: View/Groups/index.ctp:46
@@ -1767,80 +1973,10 @@ msgstr ""
 msgid "New User"
 msgstr ""
 
-#: View/Employees/add.ctp:58
-#: View/Employees/edit.ctp:60
-#: View/Employees/index.ctp:125
-#: View/Employees/view.ctp:201
-#: View/MeetingAttendances/add.ctp:26
-#: View/MeetingAttendances/edit.ctp:28
-#: View/MeetingAttendances/view.ctp:86
-#: View/Meetings/add.ctp:25
-#: View/Meetings/edit.ctp:27
-#: View/Meetings/index.ctp:61
-#: View/Meetings/view.ctp:65
-msgid "List Meeting Attendances"
-msgstr ""
-
-#: View/Employees/add.ctp:59
-#: View/Employees/edit.ctp:61
-#: View/Employees/index.ctp:126
-#: View/Employees/view.ctp:202;262
-#: View/MeetingAttendances/index.ctp:70
-#: View/MeetingAttendances/view.ctp:87
-#: View/Meetings/add.ctp:26
-#: View/Meetings/edit.ctp:28
-#: View/Meetings/index.ctp:62
-#: View/Meetings/view.ctp:66;124
-msgid "New Meeting Attendance"
-msgstr ""
-
-#: View/Employees/add.ctp:60
-#: View/Employees/edit.ctp:62
-#: View/Employees/index.ctp:127
-#: View/Employees/view.ctp:203
-#: View/EmployeesMeetings/add.ctp:19
-#: View/EmployeesMeetings/edit.ctp:21
-#: View/EmployeesMeetings/index.ctp:49
-#: View/EmployeesMeetings/view.ctp:30
-#: View/MeetingAttendances/add.ctp:29
-#: View/MeetingAttendances/edit.ctp:31
-#: View/MeetingAttendances/index.ctp:73
-#: View/MeetingAttendances/view.ctp:90
-#: View/MeetingTypes/add.ctp:17
-#: View/MeetingTypes/edit.ctp:19
-#: View/MeetingTypes/index.ctp:43
-#: View/MeetingTypes/view.ctp:28
-#: View/Meetings/add.ctp:22
-#: View/Meetings/edit.ctp:24
-#: View/Meetings/view.ctp:61
-msgid "List Meetings"
-msgstr ""
-
-#: View/Employees/add.ctp:61
-#: View/Employees/edit.ctp:63
-#: View/Employees/index.ctp:128
-#: View/Employees/view.ctp:204;309
-#: View/EmployeesMeetings/add.ctp:20
-#: View/EmployeesMeetings/edit.ctp:22
-#: View/EmployeesMeetings/index.ctp:50
-#: View/EmployeesMeetings/view.ctp:31
-#: View/MeetingAttendances/add.ctp:30
-#: View/MeetingAttendances/edit.ctp:32
-#: View/MeetingAttendances/index.ctp:74
-#: View/MeetingAttendances/view.ctp:91
-#: View/MeetingTypes/add.ctp:18
-#: View/MeetingTypes/edit.ctp:20
-#: View/MeetingTypes/index.ctp:44
-#: View/MeetingTypes/view.ctp:29;75
-#: View/Meetings/index.ctp:58
-#: View/Meetings/view.ctp:62
-msgid "New Meeting"
-msgstr ""
-
-#: View/Employees/add.ctp:62
-#: View/Employees/edit.ctp:64
-#: View/Employees/index.ctp:129
-#: View/Employees/view.ctp:205
+#: View/Employees/add.ctp:54
+#: View/Employees/edit.ctp:56
+#: View/Employees/index.ctp:113
+#: View/Employees/view.ctp:165
 #: View/EmployeesSchools/add.ctp:17
 #: View/EmployeesSchools/edit.ctp:19
 #: View/EmployeesSchools/index.ctp:47
@@ -1855,10 +1991,10 @@ msgstr ""
 msgid "List Schools"
 msgstr ""
 
-#: View/Employees/add.ctp:63
-#: View/Employees/edit.ctp:65
-#: View/Employees/index.ctp:130
-#: View/Employees/view.ctp:206;368
+#: View/Employees/add.ctp:55
+#: View/Employees/edit.ctp:57
+#: View/Employees/index.ctp:114
+#: View/Employees/view.ctp:166;330
 #: View/EmployeesSchools/add.ctp:18
 #: View/EmployeesSchools/edit.ctp:20
 #: View/EmployeesSchools/index.ctp:48
@@ -1873,7 +2009,7 @@ msgid "New School"
 msgstr ""
 
 #: View/Employees/edit.ctp:4
-#: View/Employees/view.ctp:189
+#: View/Employees/view.ctp:149
 msgid "Edit Employee"
 msgstr ""
 
@@ -1882,62 +2018,89 @@ msgstr ""
 msgid "Employees"
 msgstr ""
 
-#: View/Employees/view.ctp:2
-#: View/EmployeesMeetings/view.ctp:9
-#: View/EmployeesSchools/view.ctp:9
-#: View/MeetingAttendances/view.ctp:9
-msgid "Employee"
-msgstr ""
-
 #: View/Employees/view.ctp:19
 msgid "Manager"
 msgstr ""
 
-#: View/Employees/view.ctp:169
+#: View/Employees/view.ctp:59
+msgid "Address Line1"
+msgstr ""
+
+#: View/Employees/view.ctp:64
+msgid "Address Line2"
+msgstr ""
+
+#: View/Employees/view.ctp:79
+msgid "Country Id"
+msgstr ""
+
+#: View/Employees/view.ctp:84
+msgid "Zip Code"
+msgstr ""
+
+#: View/Employees/view.ctp:89
+msgid "Mobile Phone"
+msgstr ""
+
+#: View/Employees/view.ctp:94
+msgid "Home Phone"
+msgstr ""
+
+#: View/Employees/view.ctp:99
+msgid "Email"
+msgstr ""
+
+#: View/Employees/view.ctp:124
+msgid "Deleted"
+msgstr ""
+
+#: View/Employees/view.ctp:129
 #: View/Users/view.ctp:2
 msgid "User"
 msgstr ""
 
-#: View/Employees/view.ctp:190
+#: View/Employees/view.ctp:150
 msgid "Delete Employee"
 msgstr ""
 
-#: View/Employees/view.ctp:210
-#: View/Meetings/view.ctp:72
-msgid "Related Meeting Attendances"
+#: View/Employees/view.ctp:170
+msgid "Related Employee Attendances"
 msgstr ""
 
-#: View/Employees/view.ctp:215
+#: View/Employees/view.ctp:175
 #: View/Meetings/view.ctp:77
 msgid "Employee Id"
 msgstr ""
 
-#: View/Employees/view.ctp:217
-#: View/Meetings/view.ctp:79
-msgid "Meeting Id"
+#: View/Employees/view.ctp:177
+msgid "Laboratory Id"
 msgstr ""
 
-#: View/Employees/view.ctp:267
+#: View/Employees/view.ctp:178
+msgid "Grade Id"
+msgstr ""
+
+#: View/Employees/view.ctp:229
 #: View/MeetingTypes/view.ctp:33
 msgid "Related Meetings"
 msgstr ""
 
-#: View/Employees/view.ctp:272
+#: View/Employees/view.ctp:234
 #: View/MeetingTypes/view.ctp:38
 #: View/Meetings/view.ctp:9
 msgid "Meeting Date"
 msgstr ""
 
-#: View/Employees/view.ctp:273
+#: View/Employees/view.ctp:235
 #: View/MeetingTypes/view.ctp:39
 msgid "Meeting Type Id"
 msgstr ""
 
-#: View/Employees/view.ctp:314
+#: View/Employees/view.ctp:276
 msgid "Related Schools"
 msgstr ""
 
-#: View/Employees/view.ctp:320
+#: View/Employees/view.ctp:282
 #: View/Schools/view.ctp:28
 msgid "School Code"
 msgstr ""
@@ -1968,12 +2131,6 @@ msgstr ""
 
 #: View/EmployeesMeetings/view.ctp:2
 msgid "Employees Meeting"
-msgstr ""
-
-#: View/EmployeesMeetings/view.ctp:14
-#: View/MeetingAttendances/view.ctp:19
-#: View/Meetings/view.ctp:2
-msgid "Meeting"
 msgstr ""
 
 #: View/EmployeesMeetings/view.ctp:25
@@ -2148,33 +2305,6 @@ msgstr ""
 msgid "List Grades Laboratories"
 msgstr ""
 
-#: View/GradesLaboratories/add.ctp:19
-#: View/GradesLaboratories/edit.ctp:21
-#: View/GradesLaboratories/index.ctp:49
-#: View/GradesLaboratories/view.ctp:30
-#: View/Laboratories/add.ctp:5
-#: View/Laboratories/edit.ctp:29
-#: View/Laboratories/view.ctp:7
-#: View/LaboratoryAttendances/add.ctp:29
-#: View/LaboratoryAttendances/edit.ctp:31
-#: View/LaboratoryAttendances/index.ctp:73
-#: View/LaboratoryAttendances/view.ctp:90
-msgid "List Laboratories"
-msgstr ""
-
-#: View/GradesLaboratories/add.ctp:20
-#: View/GradesLaboratories/edit.ctp:22
-#: View/GradesLaboratories/index.ctp:50
-#: View/GradesLaboratories/view.ctp:31
-#: View/Laboratories/index.ctp:5
-#: View/Laboratories/view.ctp:8
-#: View/LaboratoryAttendances/add.ctp:30
-#: View/LaboratoryAttendances/edit.ctp:32
-#: View/LaboratoryAttendances/index.ctp:74
-#: View/LaboratoryAttendances/view.ctp:91
-msgid "New Laboratory"
-msgstr ""
-
 #: View/GradesLaboratories/edit.ctp:4
 #: View/GradesLaboratories/view.ctp:24
 msgid "Edit Grades Laboratory"
@@ -2191,12 +2321,6 @@ msgstr ""
 
 #: View/GradesLaboratories/view.ctp:2
 msgid "Grades Laboratory"
-msgstr ""
-
-#: View/GradesLaboratories/view.ctp:14
-#: View/Laboratories/view.ctp:15
-#: View/LaboratoryAttendances/view.ctp:19
-msgid "Laboratory"
 msgstr ""
 
 #: View/GradesLaboratories/view.ctp:25
@@ -2305,6 +2429,7 @@ msgid "Delete Laboratory"
 msgstr ""
 
 #: View/Laboratories/view.ctp:39
+#: View/Observators/view.ctp:2
 msgid "Observator"
 msgstr ""
 
@@ -2341,24 +2466,28 @@ msgstr ""
 msgid "Laboratory Attendances"
 msgstr ""
 
-#: View/LaboratoryAttendances/take.ctp:97;104;111
+#: View/LaboratoryAttendances/take.ctp:122;131;140
 msgid "Change"
 msgstr ""
 
-#: View/LaboratoryAttendances/take.ctp:121
+#: View/LaboratoryAttendances/take.ctp:177
 msgid "Eudcator:"
 msgstr ""
 
-#: View/LaboratoryAttendances/take.ctp:125
+#: View/LaboratoryAttendances/take.ctp:183;202
+msgid "present"
+msgstr ""
+
+#: View/LaboratoryAttendances/take.ctp:189;208
+msgid "absent"
+msgstr ""
+
+#: View/LaboratoryAttendances/take.ctp:196
 msgid "Expert:"
 msgstr ""
 
-#: View/LaboratoryAttendances/take.ctp:129
+#: View/LaboratoryAttendances/take.ctp:215
 msgid "Observator:"
-msgstr ""
-
-#: View/LaboratoryAttendances/take.ctp:133
-msgid "Laboratory attendances of the day:"
 msgstr ""
 
 #: View/LaboratoryAttendances/view.ctp:2
@@ -2369,25 +2498,8 @@ msgstr ""
 msgid "Delete Laboratory Attendance"
 msgstr ""
 
-#: View/MeetingAttendances/add.ctp:4
-msgid "Add Meeting Attendance"
-msgstr ""
-
-#: View/MeetingAttendances/edit.ctp:4
-#: View/MeetingAttendances/view.ctp:84
-msgid "Edit Meeting Attendance"
-msgstr ""
-
-#: View/MeetingAttendances/index.ctp:2
-msgid "Meeting Attendances"
-msgstr ""
-
-#: View/MeetingAttendances/view.ctp:2
-msgid "Meeting Attendance"
-msgstr ""
-
-#: View/MeetingAttendances/view.ctp:85
-msgid "Delete Meeting Attendance"
+#: View/Layouts/default.ctp:12
+msgid "EduCare"
 msgstr ""
 
 #: View/MeetingTypes/add.ctp:4
@@ -2435,6 +2547,20 @@ msgstr ""
 msgid "Add Meeting"
 msgstr ""
 
+#: View/Meetings/add.ctp:25
+#: View/Meetings/edit.ctp:27
+#: View/Meetings/index.ctp:61
+#: View/Meetings/view.ctp:65
+msgid "List Meeting Attendances"
+msgstr ""
+
+#: View/Meetings/add.ctp:26
+#: View/Meetings/edit.ctp:28
+#: View/Meetings/index.ctp:62
+#: View/Meetings/view.ctp:66;124
+msgid "New Meeting Attendance"
+msgstr ""
+
 #: View/Meetings/edit.ctp:4
 #: View/Meetings/view.ctp:59
 msgid "Edit Meeting"
@@ -2447,6 +2573,46 @@ msgstr ""
 
 #: View/Meetings/view.ctp:60
 msgid "Delete Meeting"
+msgstr ""
+
+#: View/Meetings/view.ctp:72
+msgid "Related Meeting Attendances"
+msgstr ""
+
+#: View/Meetings/view.ctp:79
+msgid "Meeting Id"
+msgstr ""
+
+#: View/Observators/add.ctp:4
+msgid "Add Observator"
+msgstr ""
+
+#: View/Observators/add.ctp:19
+#: View/Observators/edit.ctp:21
+#: View/Observators/view.ctp:41
+msgid "List Observators"
+msgstr ""
+
+#: View/Observators/edit.ctp:4
+#: View/Observators/view.ctp:39
+msgid "Edit Observator"
+msgstr ""
+
+#: View/Observators/index.ctp:2
+msgid "Observators"
+msgstr ""
+
+#: View/Observators/index.ctp:52
+#: View/Observators/view.ctp:42
+msgid "New Observator"
+msgstr ""
+
+#: View/Observators/view.ctp:9
+msgid "Observation Date"
+msgstr ""
+
+#: View/Observators/view.ctp:40
+msgid "Delete Observator"
 msgstr ""
 
 #: View/Pages/admin.ctp:2
@@ -2568,29 +2734,32 @@ msgstr ""
 
 #: Model/Attendance.php:validation for field student_id;validation for field grade_id
 #: Model/CourseCode.php:validation for field code
+#: Model/EmployeeAttendance.php:validation for field employee_id
 #: Model/EmployeesMeeting.php:validation for field employee_id;validation for field meeting_id
 #: Model/EmployeesSchool.php:validation for field employee_id;validation for field school_id
 #: Model/GradesLaboratory.php:validation for field grade_id;validation for field laboratory_id
 #: Model/LaboratoryAttendance.php:validation for field student_id;validation for field laboratory_id
 #: Model/Meeting.php:validation for field meeting_type_id
-#: Model/MeetingAttendance.php:validation for field employee_id;validation for field meeting_id
 #: Model/StudentGrade.php:validation for field student_id
 #: Model/User.php:validation for field group_id
 msgid "numeric"
 msgstr ""
 
 #: Model/Attendance.php:validation for field attendance_date
+#: Model/EmployeeAttendance.php:validation for field attendance_date
 #: Model/LaboratoryAttendance.php:validation for field attendance_date
-#: Model/MeetingAttendance.php:validation for field attendance_date
+#: Model/Observator.php:validation for field observation_date
 msgid "date"
 msgstr ""
 
 #: Model/CourseCode.php:validation for field value
 #: Model/Department.php:validation for field name
+#: Model/Employee.php:validation for field first_name;validation for field last_name
 #: Model/EmployeeCategory.php:validation for field name
 #: Model/Group.php:validation for field name
 #: Model/Laboratory.php:validation for field name;validation for field description
 #: Model/MeetingType.php:validation for field name
+#: Model/Observator.php:validation for field name
 #: Model/School.php:validation for field name
 #: Model/User.php:validation for field username;validation for field password
 msgid "notempty"

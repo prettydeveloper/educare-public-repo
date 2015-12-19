@@ -18,7 +18,7 @@
 		</dd>
 		<dt><?php echo __('Manager'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($employee['Manager']['id'], array('controller' => 'employees', 'action' => 'view', $employee['Manager']['id'])); ?>
+			<?php echo $this->Html->link($employee['Manager']['last_name'], array('controller' => 'employees', 'action' => 'view', $employee['Manager']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('First Name'); ?></dt>
@@ -56,14 +56,14 @@
 			<?php echo h($employee['Employee']['date_of_birth']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Address'); ?></dt>
+		<dt><?php echo __('Address Line1'); ?></dt>
 		<dd>
-			<?php echo h($employee['Employee']['address']); ?>
+			<?php echo h($employee['Employee']['address_line1']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Zipcode'); ?></dt>
+		<dt><?php echo __('Address Line2'); ?></dt>
 		<dd>
-			<?php echo h($employee['Employee']['zipcode']); ?>
+			<?php echo h($employee['Employee']['address_line2']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('City'); ?></dt>
@@ -76,64 +76,29 @@
 			<?php echo h($employee['Employee']['state']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Phone Number 1'); ?></dt>
+		<dt><?php echo __('Country Id'); ?></dt>
 		<dd>
-			<?php echo h($employee['Employee']['phone_number_1']); ?>
+			<?php echo h($employee['Employee']['country_id']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Phone Number 2'); ?></dt>
+		<dt><?php echo __('Zip Code'); ?></dt>
 		<dd>
-			<?php echo h($employee['Employee']['phone_number_2']); ?>
+			<?php echo h($employee['Employee']['zip_code']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Phone Number 3'); ?></dt>
+		<dt><?php echo __('Mobile Phone'); ?></dt>
 		<dd>
-			<?php echo h($employee['Employee']['phone_number_3']); ?>
+			<?php echo h($employee['Employee']['mobile_phone']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Qualification'); ?></dt>
+		<dt><?php echo __('Home Phone'); ?></dt>
 		<dd>
-			<?php echo h($employee['Employee']['qualification']); ?>
+			<?php echo h($employee['Employee']['home_phone']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Experience'); ?></dt>
+		<dt><?php echo __('Email'); ?></dt>
 		<dd>
-			<?php echo h($employee['Employee']['experience']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Education'); ?></dt>
-		<dd>
-			<?php echo h($employee['Employee']['education']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Resume'); ?></dt>
-		<dd>
-			<?php echo h($employee['Employee']['resume']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Link'); ?></dt>
-		<dd>
-			<?php echo h($employee['Employee']['link']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Resume File Name'); ?></dt>
-		<dd>
-			<?php echo h($employee['Employee']['resume_file_name']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Resume Content Type'); ?></dt>
-		<dd>
-			<?php echo h($employee['Employee']['resume_content_type']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Resume Data'); ?></dt>
-		<dd>
-			<?php echo h($employee['Employee']['resume_data']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Resume File Size'); ?></dt>
-		<dd>
-			<?php echo h($employee['Employee']['resume_file_size']); ?>
+			<?php echo h($employee['Employee']['email']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Created'); ?></dt>
@@ -146,11 +111,6 @@
 			<?php echo h($employee['Employee']['modified']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Trashed'); ?></dt>
-		<dd>
-			<?php echo h($employee['Employee']['trashed']); ?>
-			&nbsp;
-		</dd>
 		<dt><?php echo __('Created By'); ?></dt>
 		<dd>
 			<?php echo h($employee['Employee']['created_by']); ?>
@@ -161,14 +121,14 @@
 			<?php echo h($employee['Employee']['modified_by']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Trashed By'); ?></dt>
+		<dt><?php echo __('Deleted'); ?></dt>
 		<dd>
-			<?php echo h($employee['Employee']['trashed_by']); ?>
+			<?php echo h($employee['Employee']['deleted']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('User'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($employee['User']['id'], array('controller' => 'users', 'action' => 'view', $employee['User']['id'])); ?>
+			<?php echo $this->Html->link($employee['User']['username'], array('controller' => 'users', 'action' => 'view', $employee['User']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Is Manager'); ?></dt>
@@ -198,8 +158,8 @@
 		<li><?php echo $this->Html->link(__('New Manager'), array('controller' => 'employees', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Meeting Attendances'), array('controller' => 'meeting_attendances', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Meeting Attendance'), array('controller' => 'meeting_attendances', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Employee Attendances'), array('controller' => 'employee_attendances', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Employee Attendance'), array('controller' => 'employee_attendances', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Meetings'), array('controller' => 'meetings', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Meeting'), array('controller' => 'meetings', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Schools'), array('controller' => 'schools', 'action' => 'index')); ?> </li>
@@ -207,14 +167,15 @@
 	</ul>
 </div>
 <div class="related">
-	<h3><?php echo __('Related Meeting Attendances'); ?></h3>
-	<?php if (!empty($employee['MeetingAttendance'])): ?>
+	<h3><?php echo __('Related Employee Attendances'); ?></h3>
+	<?php if (!empty($employee['EmployeeAttendance'])): ?>
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>
 		<th><?php echo __('Id'); ?></th>
 		<th><?php echo __('Employee Id'); ?></th>
 		<th><?php echo __('Attendance Date'); ?></th>
-		<th><?php echo __('Meeting Id'); ?></th>
+		<th><?php echo __('Laboratory Id'); ?></th>
+		<th><?php echo __('Grade Id'); ?></th>
 		<th><?php echo __('Present'); ?></th>
 		<th><?php echo __('Absent'); ?></th>
 		<th><?php echo __('Late'); ?></th>
@@ -230,27 +191,28 @@
 	</tr>
 	<?php
 		$i = 0;
-		foreach ($employee['MeetingAttendance'] as $meetingAttendance): ?>
+		foreach ($employee['EmployeeAttendance'] as $employeeAttendance): ?>
 		<tr>
-			<td><?php echo $meetingAttendance['id']; ?></td>
-			<td><?php echo $meetingAttendance['employee_id']; ?></td>
-			<td><?php echo $meetingAttendance['attendance_date']; ?></td>
-			<td><?php echo $meetingAttendance['meeting_id']; ?></td>
-			<td><?php echo $meetingAttendance['present']; ?></td>
-			<td><?php echo $meetingAttendance['absent']; ?></td>
-			<td><?php echo $meetingAttendance['late']; ?></td>
-			<td><?php echo $meetingAttendance['reason']; ?></td>
-			<td><?php echo $meetingAttendance['created']; ?></td>
-			<td><?php echo $meetingAttendance['modified']; ?></td>
-			<td><?php echo $meetingAttendance['trashed']; ?></td>
-			<td><?php echo $meetingAttendance['created_by']; ?></td>
-			<td><?php echo $meetingAttendance['modified_by']; ?></td>
-			<td><?php echo $meetingAttendance['trashed_by']; ?></td>
-			<td><?php echo $meetingAttendance['note']; ?></td>
+			<td><?php echo $employeeAttendance['id']; ?></td>
+			<td><?php echo $employeeAttendance['employee_id']; ?></td>
+			<td><?php echo $employeeAttendance['attendance_date']; ?></td>
+			<td><?php echo $employeeAttendance['laboratory_id']; ?></td>
+			<td><?php echo $employeeAttendance['grade_id']; ?></td>
+			<td><?php echo $employeeAttendance['present']; ?></td>
+			<td><?php echo $employeeAttendance['absent']; ?></td>
+			<td><?php echo $employeeAttendance['late']; ?></td>
+			<td><?php echo $employeeAttendance['reason']; ?></td>
+			<td><?php echo $employeeAttendance['created']; ?></td>
+			<td><?php echo $employeeAttendance['modified']; ?></td>
+			<td><?php echo $employeeAttendance['trashed']; ?></td>
+			<td><?php echo $employeeAttendance['created_by']; ?></td>
+			<td><?php echo $employeeAttendance['modified_by']; ?></td>
+			<td><?php echo $employeeAttendance['trashed_by']; ?></td>
+			<td><?php echo $employeeAttendance['note']; ?></td>
 			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'meeting_attendances', 'action' => 'view', $meetingAttendance['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'meeting_attendances', 'action' => 'edit', $meetingAttendance['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'meeting_attendances', 'action' => 'delete', $meetingAttendance['id']), null, __('Are you sure you want to delete # %s?', $meetingAttendance['id'])); ?>
+				<?php echo $this->Html->link(__('View'), array('controller' => 'employee_attendances', 'action' => 'view', $employeeAttendance['id'])); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'employee_attendances', 'action' => 'edit', $employeeAttendance['id'])); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'employee_attendances', 'action' => 'delete', $employeeAttendance['id']), null, __('Are you sure you want to delete # %s?', $employeeAttendance['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>
@@ -259,7 +221,7 @@
 
 	<div class="actions">
 		<ul>
-			<li><?php echo $this->Html->link(__('New Meeting Attendance'), array('controller' => 'meeting_attendances', 'action' => 'add')); ?> </li>
+			<li><?php echo $this->Html->link(__('New Employee Attendance'), array('controller' => 'employee_attendances', 'action' => 'add')); ?> </li>
 		</ul>
 	</div>
 </div>

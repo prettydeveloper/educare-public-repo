@@ -146,7 +146,7 @@ CREATE TABLE `educare`.`employees` (
 	`id` int(11) NOT NULL AUTO_INCREMENT,
 	`employee_category_id` int(11) DEFAULT NULL,
 	`department_id` int(11) DEFAULT NULL,
-	`employee_id` int(11) DEFAULT NULL,
+	`manager_id` int(11) DEFAULT NULL,
 	`first_name` varchar(127) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
 	`last_name` varchar(127) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
 	`tax_code` varchar(16) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
