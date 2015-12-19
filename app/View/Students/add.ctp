@@ -2,11 +2,12 @@
     $(document).ready(function() {
         // enabling datepicker
         $('.datepicker').datepicker({ format:'dd-mm-yyyy', language:'it' });
+        updateGrades();
     });
 
     function updateGrades(){
     	var school_id = $('#StudentSchoolId').val();
-    	var path=<?php echo $this->webroot ?>;
+    	var path='<?php echo $this->webroot ?>';
     	$.ajax({
     		url: path+'Students/update_grades/'+school_id,
     		dataType: 'json'
@@ -19,7 +20,6 @@
     			$('#StudentGradeId').append(option);
     		});
     	});
-
     }
 
 </script>

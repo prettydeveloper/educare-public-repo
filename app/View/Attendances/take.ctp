@@ -60,7 +60,7 @@
         var date = $('#attendance_date').val();
         var grade_id = <?php echo $grade['Grade']['id']?>;
         //alert('attendances/take/'+grade_id+'/'+date);
-        var path=<?php echo $this->webroot ?>;
+        var path='<?php echo $this->webroot ?>';
         if(date)
         window.location.href = path+'attendances/take/'+grade_id+'/'+date;
     }

@@ -49,22 +49,6 @@ class School extends AppModel {
 		)
 	);
 
-	/**
- * hasOne associations
- *
- * @var array
- */
-	public $hasOne = array(
-		'Contact' => array(
-			'className' => 'Contact',
-			'foreignKey' => 'contact_id',
-			'dependent' => false,
-			'conditions' => '',
-			'fields' => ''
-		)
-	);
-
-
 /**
  * hasAndBelongsToMany associations
  *

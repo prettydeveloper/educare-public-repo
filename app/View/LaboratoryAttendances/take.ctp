@@ -82,7 +82,7 @@
         var grade_id = <?php echo $grade['Grade']['id']?>;
         var laboratory_id = <?php echo $laboratory['Laboratory']['id']?>;
         //alert('attendances/take/'+grade_id+'/'+date);
-        var path=<?php echo $this->webroot ?>;
+        var path='<?php echo $this->webroot ?>';
         if(date)
         window.location.href = path+'laboratoryAttendances/take/'+grade_id+'/'+laboratory_id+'/'+date;
     }

@@ -69,6 +69,27 @@ class AppSchema extends CakeSchema {
 		),
 		'tableParameters' => array('charset' => 'latin1', 'collate' => 'latin1_swedish_ci', 'engine' => 'InnoDB')
 	);
+	public $contacts = array(
+		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'key' => 'primary'),
+		'name' => array('type' => 'string', 'null' => false, 'default' => null, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'address' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 127, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'city' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 63, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'state' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 63, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'zip' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 6, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'phone' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 14, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'e_mail' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 63, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'modified' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'trashed' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'created_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
+		'modified_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
+		'trashed_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
+		'note' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 511, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'indexes' => array(
+			'PRIMARY' => array('column' => 'id', 'unique' => 1)
+		),
+		'tableParameters' => array('charset' => 'latin1', 'collate' => 'latin1_swedish_ci', 'engine' => 'InnoDB')
+	);
 	public $course_codes = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 4, 'key' => 'primary'),
 		'code' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 4),
@@ -87,9 +108,65 @@ class AppSchema extends CakeSchema {
 		),
 		'tableParameters' => array('charset' => 'utf8', 'collate' => 'utf8_general_ci', 'engine' => 'InnoDB')
 	);
+	public $employee_attendances = array(
+		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'key' => 'primary'),
+		'employee_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
+		'attendance_date' => array('type' => 'date', 'null' => false, 'default' => null),
+		'laboratory_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
+		'grade_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
+		'present' => array('type' => 'boolean', 'null' => true, 'default' => null),
+		'absent' => array('type' => 'boolean', 'null' => true, 'default' => null),
+		'late' => array('type' => 'boolean', 'null' => true, 'default' => null),
+		'reason' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 512, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'modified' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'trashed' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'created_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
+		'modified_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
+		'trashed_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
+		'note' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 512, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'indexes' => array(
+			'PRIMARY' => array('column' => 'id', 'unique' => 1)
+		),
+		'tableParameters' => array('charset' => 'latin1', 'collate' => 'latin1_swedish_ci', 'engine' => 'InnoDB')
+	);
 	public $employee_categories = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'name' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 127, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'notes' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'indexes' => array(
+			'PRIMARY' => array('column' => 'id', 'unique' => 1)
+		),
+		'tableParameters' => array('charset' => 'utf8', 'collate' => 'utf8_general_ci', 'engine' => 'InnoDB')
+	);
+	public $employees = array(
+		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
+		'employee_category_id' => array('type' => 'integer', 'null' => true, 'default' => null),
+		'department_id' => array('type' => 'integer', 'null' => true, 'default' => null),
+		'employee_id' => array('type' => 'integer', 'null' => true, 'default' => null),
+		'first_name' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 127, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'last_name' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 127, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'tax_code' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 16, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'vat_code' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 16, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'job_title' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 127, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'status' => array('type' => 'boolean', 'null' => true, 'default' => null),
+		'date_of_birth' => array('type' => 'date', 'null' => true, 'default' => null),
+		'address_line1' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 127, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'address_line2' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 127, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'city' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 127, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'state' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 63, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'country_id' => array('type' => 'integer', 'null' => true, 'default' => null),
+		'zip_code' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 11, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'mobile_phone' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 63, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'home_phone' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 63, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'email' => array('type' => 'string', 'null' => false, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'modified' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'created_by' => array('type' => 'integer', 'null' => true, 'default' => null),
+		'modified_by' => array('type' => 'integer', 'null' => true, 'default' => null),
+		'deleted' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'user_id' => array('type' => 'integer', 'null' => true, 'default' => null),
+		'is_manager' => array('type' => 'boolean', 'null' => true, 'default' => '0'),
 		'notes' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'indexes' => array(
 			'PRIMARY' => array('column' => 'id', 'unique' => 1)
@@ -138,9 +215,9 @@ class AppSchema extends CakeSchema {
 	);
 	public $grades = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'key' => 'primary'),
-		'school_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
+		'school_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'key' => 'index'),
 		'grade_number' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 2),
-		'grade_code' => array('type' => 'string', 'null' => false, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'grade_code' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 2, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'course_code_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 2),
 		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
 		'modified' => array('type' => 'datetime', 'null' => true, 'default' => null),
@@ -150,7 +227,8 @@ class AppSchema extends CakeSchema {
 		'trashed_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
 		'note' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 512, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'indexes' => array(
-			'PRIMARY' => array('column' => 'id', 'unique' => 1)
+			'PRIMARY' => array('column' => 'id', 'unique' => 1),
+			'school_id' => array('column' => 'school_id', 'unique' => 0)
 		),
 		'tableParameters' => array('charset' => 'latin1', 'collate' => 'latin1_swedish_ci', 'engine' => 'InnoDB')
 	);
@@ -175,8 +253,8 @@ class AppSchema extends CakeSchema {
 	);
 	public $laboratories = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'key' => 'primary'),
-		'name' => array('type' => 'string', 'null' => false, 'length' => 127, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
-		'description' => array('type' => 'string', 'null' => false, 'length' => 254, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'name' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 127, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'description' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 254, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'employee_1_id' => array('type' => 'integer', 'null' => true, 'default' => null),
 		'employee_2_id' => array('type' => 'integer', 'null' => true, 'default' => null),
 		'observator' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 127, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
@@ -199,27 +277,6 @@ class AppSchema extends CakeSchema {
 		'student_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
 		'attendance_date' => array('type' => 'date', 'null' => false, 'default' => null),
 		'laboratory_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
-		'present' => array('type' => 'boolean', 'null' => true, 'default' => null),
-		'absent' => array('type' => 'boolean', 'null' => true, 'default' => null),
-		'late' => array('type' => 'boolean', 'null' => true, 'default' => null),
-		'reason' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 512, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
-		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
-		'modified' => array('type' => 'datetime', 'null' => true, 'default' => null),
-		'trashed' => array('type' => 'datetime', 'null' => true, 'default' => null),
-		'created_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
-		'modified_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
-		'trashed_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
-		'note' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 512, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
-		'indexes' => array(
-			'PRIMARY' => array('column' => 'id', 'unique' => 1)
-		),
-		'tableParameters' => array('charset' => 'latin1', 'collate' => 'latin1_swedish_ci', 'engine' => 'InnoDB')
-	);
-	public $meeting_attendances = array(
-		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'key' => 'primary'),
-		'employee_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
-		'attendance_date' => array('type' => 'date', 'null' => false, 'default' => null),
-		'meeting_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
 		'present' => array('type' => 'boolean', 'null' => true, 'default' => null),
 		'absent' => array('type' => 'boolean', 'null' => true, 'default' => null),
 		'late' => array('type' => 'boolean', 'null' => true, 'default' => null),
@@ -261,6 +318,21 @@ class AppSchema extends CakeSchema {
 		),
 		'tableParameters' => array('charset' => 'latin1', 'collate' => 'latin1_swedish_ci', 'engine' => 'InnoDB')
 	);
+	public $observators = array(
+		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
+		'name' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 127, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'observation_date' => array('type' => 'date', 'null' => true, 'default' => null),
+		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'modified' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'created_by' => array('type' => 'integer', 'null' => true, 'default' => null),
+		'modified_by' => array('type' => 'integer', 'null' => true, 'default' => null),
+		'deleted' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'notes' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'indexes' => array(
+			'PRIMARY' => array('column' => 'id', 'unique' => 1)
+		),
+		'tableParameters' => array('charset' => 'utf8', 'collate' => 'utf8_general_ci', 'engine' => 'InnoDB')
+	);
 	public $schools = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'key' => 'primary'),
 		'name' => array('type' => 'string', 'null' => false, 'default' => null, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
@@ -269,7 +341,6 @@ class AppSchema extends CakeSchema {
 		'zipcode' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'city' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 127, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'state' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
-		'email' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'phone_number_1' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 15, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'phone_number_2' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 15, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
