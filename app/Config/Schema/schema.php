@@ -213,6 +213,15 @@ class AppSchema extends CakeSchema {
 		),
 		'tableParameters' => array('charset' => 'latin1', 'collate' => 'latin1_swedish_ci', 'engine' => 'InnoDB')
 	);
+	public $grade_codes = array(
+		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 4, 'key' => 'primary'),
+		'code' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 4),
+		'value' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 20, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'indexes' => array(
+			'PRIMARY' => array('column' => 'id', 'unique' => 1)
+		),
+		'tableParameters' => array('charset' => 'latin1', 'collate' => 'latin1_swedish_ci', 'engine' => 'InnoDB')
+	);
 	public $grades = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'key' => 'primary'),
 		'school_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'key' => 'index'),
@@ -277,6 +286,27 @@ class AppSchema extends CakeSchema {
 		'student_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
 		'attendance_date' => array('type' => 'date', 'null' => false, 'default' => null),
 		'laboratory_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
+		'present' => array('type' => 'boolean', 'null' => true, 'default' => null),
+		'absent' => array('type' => 'boolean', 'null' => true, 'default' => null),
+		'late' => array('type' => 'boolean', 'null' => true, 'default' => null),
+		'reason' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 512, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'modified' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'trashed' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'created_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
+		'modified_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
+		'trashed_by' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 10),
+		'note' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 512, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'indexes' => array(
+			'PRIMARY' => array('column' => 'id', 'unique' => 1)
+		),
+		'tableParameters' => array('charset' => 'latin1', 'collate' => 'latin1_swedish_ci', 'engine' => 'InnoDB')
+	);
+	public $meeting_attendances = array(
+		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'key' => 'primary'),
+		'employee_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
+		'attendance_date' => array('type' => 'date', 'null' => false, 'default' => null),
+		'meeting_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10),
 		'present' => array('type' => 'boolean', 'null' => true, 'default' => null),
 		'absent' => array('type' => 'boolean', 'null' => true, 'default' => null),
 		'late' => array('type' => 'boolean', 'null' => true, 'default' => null),
